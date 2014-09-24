@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Bots and Ops are opped, users are voiced.
+echo "/msg ChanServ set $1 VERBOSE ON"
+echo "/msg ChanServ template $1 founder !+*F"
+echo "/msg ChanServ template $1 successor !+*S"
+echo "/msg ChanServ template $1 sop !+*"
+echo "/msg ChanServ template $1 op !+vVoirtAO"
+echo "/msg ChanServ template $1 oper !+voirtA"
+echo "/msg ChanServ template $1 bot !+Oirt"
+echo "/msg ChanServ template $1 user !+ViA"
+echo "/msg ChanServ template $1 alert +A"
+echo "/msg ChanServ template $1 ban -*+b"
+echo "/msg ChanServ flags $1 *!*@* alert"
