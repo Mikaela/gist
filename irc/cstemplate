@@ -1,13 +1,43 @@
 #!/usr/bin/env bash
-# Bots and Ops are opped, users are voiced.
+# This script generates commands which can be copy-pasted to Atheme's
+# ChanServ to set templates which can later be set with flags.
+
+# With these templates, bots and ops are opped and (trusted) users are
+# voiced. I am not fully sure where I took the word "users", but it's good
+# enough.
+
+# Allows everyone to see ACL changes.
 echo "/msg ChanServ set $1 VERBOSE ON"
+
+# Channel founder who can do anything they want.
 echo "/msg ChanServ template $1 founder !+*F"
+
+# Successor will get all flags in the end and if they cannot be trusted
+# with them now, they really shouldn't be successor.
 echo "/msg ChanServ template $1 successor !+*S"
+
+# Super op, be able to do everything with services
 echo "/msg ChanServ template $1 sop !+*"
+
+# Normal op, be able to invite, invite, kick, kickban, unban, change topic
 echo "/msg ChanServ template $1 op !+vVoirtAO"
+
+# Network operator whom we want to have a little access so they can help
+# with channel issues in case our own ops are away.
+# Usually given to $OPER or staffer hostmask.
 echo "/msg ChanServ template $1 oper !+voirtA"
+
+# Bot which doesn't need to be able to do so much.
 echo "/msg ChanServ template $1 bot !+Oirt"
+
+# User who is just allowed to voice themselves and get into the channel
+# unless they are banned.
 echo "/msg ChanServ template $1 user !+ViA"
+
+# Lesser version of user, usually given to $REGISTERED or *!*@*. Can view
+# the access list to see whom to contact in emergency and use MemoServ
+# SENDOPS commands. Requires user to be registered even if *!*@* has +A.
 echo "/msg ChanServ template $1 alert +A"
+
+# Permanent ban. Removes all flags and sets autokick.
 echo "/msg ChanServ template $1 ban -*+b"
-echo "/msg ChanServ flags $1 *!*@* alert"
