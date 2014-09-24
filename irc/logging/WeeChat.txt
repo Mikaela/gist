@@ -1,0 +1,4 @@
+/set logger.file.auto_log on
+/set logger.file.flush_delay 0
+/set logger.file.mask $plugin/$name/%Y-%m-%d.weechatlog
+/set logger.file.name_lower_case on

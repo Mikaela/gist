@@ -1,0 +1,2 @@
+/znc unloadmod --type=global log
+/znc loadmod --type=global log -sanitize $USER/$NETWORK/$WINDOW/%Y-%m-%d.log
