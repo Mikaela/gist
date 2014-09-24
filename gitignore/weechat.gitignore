@@ -1,0 +1,8 @@
+*fifo*
+*.db
+*.weechatlog
+*.gz
+*.dat
+*.swp
+*.upgrade
+*.db-journal
