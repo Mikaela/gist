@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd /usr/local/MultiBit-*
+(java -jar /usr/local/MultiBit-*/multibit-exe.jar $1&)
