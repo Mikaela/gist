@@ -17,7 +17,7 @@ echo "/msg ChanServ template $1 founder !+*F"
 echo "/msg ChanServ template $1 successor !+*S"
 
 # Super op, be able to do everything with services
-echo "/msg ChanServ template $1 sop !+*"
+echo "/msg ChanServ template $1 sop !+*-q"
 
 # Normal op, be able to invite, invite, kick, kickban, unban, change topic
 echo "/msg ChanServ template $1 op !+vVoirtAO"
