@@ -22,6 +22,9 @@ echo "/msg ChanServ template $1 sop !+*"
 # Normal op, be able to invite, invite, kick, kickban, unban, change topic
 echo "/msg ChanServ template $1 op !+vVoirtAO"
 
+# Half op, be able to do everything else than kick ops
+echo "/msg ChanServ template $1 hop !+vVhirtAH"
+
 # Network operator whom we want to have a little access so they can help
 # with channel issues in case our own ops are away.
 # Usually given to $OPER or staffer hostmask.
@@ -29,6 +32,9 @@ echo "/msg ChanServ template $1 oper !+voirtA"
 
 # Bot which doesn't need to be able to do so much.
 echo "/msg ChanServ template $1 bot !+Oirt"
+
+# Half op bot which doesn't need to be able to do even that much
+echo "/msg ChanServ template $1 hbot !+Hirt"
 
 # User who is just allowed to voice themselves and get into the channel
 # unless they are banned.
