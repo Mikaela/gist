@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd /usr/local/bin
-curl 755 https://gist.githubusercontent.com/Mkaysi/a6d3c4b035259a2f7c6c/raw/multibit
+curl -LO https://github.com/Mkaysi/gist/raw/master/cryptocurrency/start/multibit
 chmod +x multibit
-curl -LO https://gist.githubusercontent.com/Mkaysi/a6d3c4b035259a2f7c6c/raw/multidoge
+curl -LO https://github.com/Mkaysi/gist/raw/master/cryptocurrency/start/multidoge
 chmod 755 multidoge
 cd
