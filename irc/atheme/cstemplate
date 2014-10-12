@@ -6,9 +6,26 @@
 # voiced. I am not fully sure where I took the word "users", but it's good
 # enough.
 
+## ChanServ settings
+# Tell ChanServ to be on channel. Not needed for larger channels
+echo "/msg ChanServ set $1 GUARD ON"
+
+# Disables ChanServ MLOCK
+echo "/msg ChanServ set $1 MLOCK"
+
+# Allow channel information to be seen
+echo "/msg ChanServ set $1 PRIVATE OFF"
+
+# Allow only identified users to be opped
+echo "/msg ChanServ set $1 SECURE ON"
+
+# Allow only users with +t flag to change topic
+echo "/msg ChanServ set $1 TOPICLOCK ON"
+
 # Allows everyone to see ACL changes.
 echo "/msg ChanServ set $1 VERBOSE ON"
 
+## ChanServ templates
 # Channel founder who can do anything they want.
 echo "/msg ChanServ template $1 founder !+*F"
 
