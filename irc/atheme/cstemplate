@@ -60,7 +60,7 @@ echo "/cs template $1 user !+ViA"
 # Lesser version of user, usually given to $REGISTERED or *!*@*. Can view
 # the access list to see whom to contact in emergency and use MemoServ
 # SENDOPS commands. Requires user to be registered even if *!*@* has +A.
-echo "/cs template $1 alert +A"
+echo "/cs template $1 alert !+A"
 
 # Permanent ban. Removes all flags and sets autokick.
-echo "/cs template $1 ban -*+b"
+echo "/cs template $1 ban !-*+b"
