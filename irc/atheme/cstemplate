@@ -16,6 +16,9 @@ echo "/cs set $1 MLOCK"
 # Allow channel information to be seen
 echo "/cs set $1 PRIVATE OFF"
 
+# Sync flags when they are changed
+echo "/cs set $1 NOSYNC OFF"
+
 # Allow only identified users to be opped
 echo "/cs set $1 SECURE ON"
 
