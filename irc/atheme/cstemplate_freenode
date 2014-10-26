@@ -33,38 +33,37 @@ echo "/cs set $1 VERBOSE ON"
 
 ## ChanServ templates
 # Channel founder who can do anything they want.
-echo "/cs template $1 founder !+*F-OVH"
+echo "/cs template $1 founder !-aqOVH+*F"
 
 # Successor will get all flags in the end and if they cannot be trusted
 # with them now, they really shouldn't be successor.
-echo "/cs template $1 successor !+*S-OVH"
+echo "/cs template $1 successor !-aqOVH+*S"
 
 # Super op, be able to do everything with services
-echo "/cs template $1 sop !+*-qOVH"
+echo "/cs template $1 sop !-aqOVH+*"
 
 # Normal op, be able to invite, invite, kick, kickban, unban, change topic
-echo "/cs template $1 op !+voirtAo"
+# give this also to $OPER or network operator host
+# start by disabling oper as it causes conflict otherwise
+echo "/cs template $1 oper -*"
+echo "/cs template $1 op !-*+voirtAo"
+
 
 # Half op, be able to do everything else than kick other halfops & higher
-echo "/cs template $1 hop !+virtAh"
-
-# Network operator whom we want to have a little access so they can help
-# with channel issues in case our own ops are away.
-# Usually given to $OPER or staffer hostmask.
-echo "/cs template $1 oper !+voirtA"
+echo "/cs template $1 hop !-*+virtAh"
 
 # Bot which doesn't need to be able to do so much.
-echo "/cs template $1 bot !+Ooirt"
+echo "/cs template $1 bot !-*+Ooirt"
 
 # Half op bot which doesn't need to be able to do even that much
-echo "/cs template $1 hbot !+Hhirt"
+echo "/cs template $1 hbot !-*+Hhirt"
 
 # User who is just allowed to voice themselves and get into the channel
 # unless they are banned.
 # This probably doesn't exist with freenode way of thinking, but as it's in
 # cstemplate, I will leave it here so it's possible to move to this if
 # someone really wants to do that.
-echo "/cs template $1 user !+iA"
+echo "/cs template $1 user !-*+iA"
 
 # Permanent ban. Removes all flags and sets autokick.
 echo "/cs template $1 ban !-*+b"
