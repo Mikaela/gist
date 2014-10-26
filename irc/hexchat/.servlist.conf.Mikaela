@@ -1,0 +1,184 @@
+v=2.11.0
+
+N=direct-athemenet
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.atheme.org/6697
+
+N=direct-chatlounge
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.chatlounge.net/6697
+
+N=direct-chatspike
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.chatspike.net/6697
+
+N=direct-efnet
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.efnet.org/6697
+
+N=direct-entropynet
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.entropynet.net/6697
+
+N=direct-freenode
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=chat.freenode.net/6697
+
+N=direct-hackint
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.hackint.eu/6697
+
+N=direct-interlinked
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.interlinked.me/6697
+
+N=direct-ircnet
+E=UTF-8 (Unicode)
+F=19
+D=0
+S=irc.cs.tut.fi
+
+N=direct-nerv
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.nerv.fi/6697
+
+N=direct-oftc
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.oftc.net/6697
+
+N=direct-piratenet
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.pirateirc.net/6697
+
+N=direct-quakenet
+L=10
+E=UTF-8 (Unicode)
+F=19
+D=0
+S=irc.quakenet.org/6667
+
+N=znc-athemenet
+P=Mikaela/athemenet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-chatlounge
+P=Mikaela/chatlounge:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-chatspike
+P=Mikaela/chatspike:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-efnet
+P=Mikaela/efnet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-entropynet
+P=Mikaela/entropynet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-freenode
+U=user
+P=Mikaela/default:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-hackint
+P=Mikaela/hackint:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-interlinked
+P=Mikaela/interlinked:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-ircnet
+P=Mikaela/ircnet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-nerv
+P=Mikaela/nerv:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-oftc
+P=Mikaela/oftc:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-piratenet
+P=Mikaela/piratenet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-quakenet
+P=Mikaela/quakenet:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
