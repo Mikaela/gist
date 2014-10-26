@@ -43,7 +43,7 @@ echo "/cs template $1 sop !+*-q"
 echo "/cs template $1 op !+vVoirtAO"
 
 # Half op, be able to do everything else than kick other halfops & higher
-echo "/cs template $1 hop !+vVirtAH"
+echo "/cs template $1 hop !+vVirtAHh"
 
 # Network operator whom we want to have a little access so they can help
 # with channel issues in case our own ops are away.
