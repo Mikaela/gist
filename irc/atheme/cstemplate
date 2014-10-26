@@ -37,10 +37,10 @@ echo "/cs template $1 founder !+*F"
 echo "/cs template $1 successor !+*S"
 
 # Super op, be able to do everything with services
-echo "/cs template $1 sop !+*-q"
+echo "/cs template $1 sop !-q+*"
 
 # Normal op, be able to invite, invite, kick, kickban, unban, change topic
-echo "/cs template $1 op !+vVoirtAO"
+echo "/cs template $1 op !+vVoirtAOHh"
 
 # Half op, be able to do everything else than kick other halfops & higher
 echo "/cs template $1 hop !+vVirtAHh"
@@ -48,10 +48,10 @@ echo "/cs template $1 hop !+vVirtAHh"
 # Network operator whom we want to have a little access so they can help
 # with channel issues in case our own ops are away.
 # Usually given to $OPER or staffer hostmask.
-echo "/cs template $1 oper !+voirtA"
+echo "/cs template $1 oper !+voirtAh"
 
 # Bot which doesn't need to be able to do so much.
-echo "/cs template $1 bot !+Ooirt"
+echo "/cs template $1 bot !+OoirtHh"
 
 # Half op bot which doesn't need to be able to do even that much
 echo "/cs template $1 hbot !+Hhirt"
