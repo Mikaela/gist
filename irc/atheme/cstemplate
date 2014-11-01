@@ -13,8 +13,8 @@ echo "/cs set $1 GUARD ON"
 # Disables ChanServ MLOCK
 echo "/cs set $1 MLOCK"
 
-# Allow channel information to be seen
-echo "/cs set $1 PRIVATE OFF"
+# Hide channel information from people who don't have +A
+echo "/cs set $1 PRIVATE ON"
 
 # Sync flags when they are changed
 echo "/cs set $1 NOSYNC OFF"
