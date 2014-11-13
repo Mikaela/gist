@@ -42,6 +42,13 @@ F=23
 D=0
 S=chat.freenode.net/6697
 
+N=direct-freenode-testnet
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=testnet.freenode.net/9003
+
 N=direct-hackint
 L=10
 E=UTF-8 (Unicode)
@@ -91,92 +98,98 @@ D=0
 S=irc.quakenet.org/6667
 
 N=znc-athemenet
-P=Mikaela/athemenet:
+P=Mikaela@IDENTIFIER/athemenet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-chatlounge
-P=Mikaela/chatlounge:
+P=Mikaela@IDENTIFIER/chatlounge:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-chatspike
-P=Mikaela/chatspike:
+P=Mikaela@IDENTIFIER/chatspike:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-efnet
-P=Mikaela/efnet:
+P=Mikaela@IDENTIFIER/efnet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-entropynet
-P=Mikaela/entropynet:
+P=Mikaela@IDENTIFIER/entropynet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-freenode
-U=user
-P=Mikaela/freenode:
+P=Mikaela@IDENTIFIER/freenode:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc-freenodetestnet
+P=Mikaela@IDENTIFIER/freenodetestnet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-hackint
-P=Mikaela/hackint:
+P=Mikaela@IDENTIFIER/hackint:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-interlinked
-P=Mikaela/interlinked:
+P=Mikaela@IDENTIFIER/interlinked:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-ircnet
-P=Mikaela/ircnet:
+P=Mikaela@IDENTIFIER/ircnet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-nerv
-P=Mikaela/nerv:
+P=Mikaela@IDENTIFIER/nerv:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-oftc
-P=Mikaela/oftc:
+P=Mikaela@IDENTIFIER/oftc:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-piratenet
-P=Mikaela/piratenet:
+P=Mikaela@IDENTIFIER/piratenet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-quakenet
-P=Mikaela/quakenet:
+P=Mikaela@IDENTIFIER/quakenet:
 E=UTF-8 (Unicode)
 F=53
 D=0
