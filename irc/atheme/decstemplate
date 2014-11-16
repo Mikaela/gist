@@ -1,0 +1,12 @@
+# Remove cstemplate and return to network level
+echo "/cs template $1 founder -*"
+echo "/cs template $1 successor -*"
+echo "/cs template $1 sop -*"
+echo "/cs template $1 op -*"
+echo "/cs template $1 hop -*"
+echo "/cs template $1 oper -*"
+echo "/cs template $1 bot -*"
+echo "/cs template $1 hbot -*"
+echo "/cs template $1 user -*"
+echo "/cs template $1 ban -*"
+echo "/cs template $1 alert -*"
