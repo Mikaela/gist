@@ -46,16 +46,16 @@ echo "/cs template $1 sop !-aqOVH+*"
 # give this also to $OPER or network operator host
 # start by disabling oper as it causes conflict otherwise
 echo "/cs template $1 oper -*"
-echo "/cs template $1 op !-*+voirtAoe"
+echo "/cs template $1 op !-*+voirtAoeh"
+
+# Auto-op same as above, but gets auto-opped
+echo "/cs template $1 aop !-*+OHvoirtAoe"
 
 # Half op, be able to do everything else than kick other halfops & higher
 echo "/cs template $1 hop !-*+virtAhe"
 
-# Bot which doesn't need to be able to do so much.
-echo "/cs template $1 bot !-*+Ooirte"
-
-# Half op bot which doesn't need to be able to do even that much
-echo "/cs template $1 hbot !-*+Hhirte"
+# Above, but also auto-hop
+echo "/cs template $1 ahop !-*+virtAeHh"
 
 # Permanent ban. Removes all flags and sets autokick.
 echo "/cs template $1 ban !-*+b"
