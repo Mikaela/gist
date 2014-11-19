@@ -33,29 +33,23 @@ echo "/cs set $1 VERBOSE ON"
 
 ## ChanServ templates
 # Channel founder who can do anything they want.
-echo "/cs template $1 founder !-aqOVH+*F"
+echo "/cs template $1 founder !-OV+*F"
 
 # Successor will get all flags in the end and if they cannot be trusted
 # with them now, they really shouldn't be successor.
-echo "/cs template $1 successor !-aqOVH+*S"
+echo "/cs template $1 successor !-OV+*S"
 
 # Super op, be able to do everything with services
-echo "/cs template $1 sop !-aqOVH+*"
+echo "/cs template $1 sop !-OV+*"
 
 # Normal op, be able to invite, invite, kick, kickban, unban, change topic
 # give this also to $OPER or network operator host
 # start by disabling oper as it causes conflict otherwise
 echo "/cs template $1 oper -*"
-echo "/cs template $1 op !-*+voirtAoeh"
+echo "/cs template $1 op !-*+voirtAoe"
 
 # Auto-op same as above, but gets auto-opped
-echo "/cs template $1 aop !-*+OHvoirtAoe"
-
-# Half op, be able to do everything else than kick other halfops & higher
-echo "/cs template $1 hop !-*+virtAhe"
-
-# Above, but also auto-hop
-echo "/cs template $1 ahop !-*+virtAeHh"
+echo "/cs template $1 aop !-*+OvoirtAoe"
 
 # Permanent ban. Removes all flags and sets autokick.
 echo "/cs template $1 ban !-*+b"
