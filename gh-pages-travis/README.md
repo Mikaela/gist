@@ -5,7 +5,7 @@ goes wrong if you copy-paste this.
 
 ```
 rm .nojekyll
-curl -LO https://github.com/Mkaysi/gist/raw/master/gh-pages-travis/.travis.yml
-curl -LO https://github.com/Mkaysi/gist/raw/master/gh-pages-travis/Gemfile
-curl -LO https://github.com/Mkaysi/gist/raw/master/gh-pages-travis/_config.yml
+curl -LO https://github.com/Mikaela/gist/raw/master/gh-pages-travis/.travis.yml
+curl -LO https://github.com/Mikaela/gist/raw/master/gh-pages-travis/Gemfile
+curl -LO https://github.com/Mikaela/gist/raw/master/gh-pages-travis/_config.yml
 ```
