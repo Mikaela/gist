@@ -3,6 +3,7 @@ FINGER %realname%
 IDENT %ident%
 NICK %nick%
 REALNAME %realname%
+RUDE NOT!
 SOURCE https://github.com/znc/znc/
 TIME %time%
 UPTIME %uptime%
