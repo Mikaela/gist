@@ -48,7 +48,7 @@ echo "/cs template $1 hop !+vVhHirtAe-asq"
 # Network operator whom we want to have a little access so they can help
 # with channel issues in case our own ops are away.
 # Usually given to $OPER or staffer hostmask.
-echo "/cs template $1 oper !+*-RfOVaqs"
+echo "/cs template $1 oper !+*-RfOVaqsH"
 
 # User who is just allowed to voice themselves and get into the channel
 # unless they are banned.
