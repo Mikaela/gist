@@ -1,52 +1,11 @@
 v=2.11.0
 
-N=chatspike
-L=10
+N=znc-athemenet
+P=Mikaela@IDENTIFIER/athemenet:
 E=UTF-8 (Unicode)
-F=55
+F=53
 D=0
-S=irc.chatspike.net/6697
-
-N=entropynet
-L=10
-E=UTF-8 (Unicode)
-F=55
-D=0
-S=irc.entropynet.net/6697
-
-N=freenode
-L=10
-E=UTF-8 (Unicode)
-F=23
-D=0
-S=chat.freenode.net/6697
-
-N=ircnet
-E=UTF-8 (Unicode)
-F=19
-D=0
-S=irc.cs.tut.fi
-
-N=nerv
-L=10
-E=UTF-8 (Unicode)
-F=55
-D=0
-S=irc.nerv.fi/6697
-
-N=oftc
-L=10
-E=UTF-8 (Unicode)
-F=23
-D=0
-S=irc.oftc.net/6697
-
-N=pirateirc
-L=10
-E=UTF-8 (Unicode)
-F=23
-D=0
-S=irc.pirateirc.net/6697
+S=lakka.kapsi.fi/62293
 
 N=znc-bitlbee
 P=Mikaela@IDENTIFIER/bitlbee:
@@ -62,13 +21,6 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-entropynet
-P=Mikaela@IDENTIFIER/entropynet:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
 N=znc-freenode
 P=Mikaela@IDENTIFIER/freenode:
 E=UTF-8 (Unicode)
@@ -76,31 +28,53 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-ircnet
-P=Mikaela@IDENTIFIER/ircnet:
+N=znc-pirateirc
+P=Mikaela@IDENTIFIER/pirateirc:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-nerv
-P=Mikaela@IDENTIFIER/nerv:
+
+N=znc-queertech
+P=Mikaela@IDENTIFIER/queertech:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-oftc
-P=Mikaela@IDENTIFIER/oftc:
+N=athemenet
+L=10
 E=UTF-8 (Unicode)
-F=53
+F=55
 D=0
-S=lakka.kapsi.fi/62293
+S=irc.atheme.org/6697
 
-N=znc-piratenet
-P=Mikaela@IDENTIFIER/piratenet:
+N=chatspike
+L=10
 E=UTF-8 (Unicode)
-F=53
+F=55
 D=0
-S=lakka.kapsi.fi/62293
+S=irc.chatspike.net/6697
+
+N=freenode
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=chat.freenode.net/6697
+
+N=pirateirc
+L=10
+E=UTF-8 (Unicode)
+F=23
+D=0
+S=irc.pirateirc.net/6697
+
+N=queertech
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.queertech.systems/6697
 
