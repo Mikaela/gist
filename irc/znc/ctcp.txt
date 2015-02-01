@@ -1,4 +1,6 @@
 AVATAR http://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
+CLIENTINFO AVATAR CLIENTINFO FINGER IDENT NICK REALNAME SOURCE TIME UPTIME USER USERINFO VERSION
+FINGER ZNC %VERSION%
 IDENT %ident%
 NICK %nick%
 REALNAME %realname%
@@ -6,4 +8,5 @@ SOURCE https://github.com/znc/znc/
 TIME %time%
 UPTIME %uptime%
 USER %user%
+USERINFO %USER% (%REALNAME%)
 VERSION ZNC - %version%
