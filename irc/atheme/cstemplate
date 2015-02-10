@@ -56,3 +56,6 @@ echo "/cs template $1 user !+ViA"
 
 # Permanent ban. Removes all flags and sets autokick.
 echo "/cs template $1 ban !-*+b"
+
+# Access, can only get in to (RESTRICTED) channel
+echo "/cs template $1 access !-*+i"
