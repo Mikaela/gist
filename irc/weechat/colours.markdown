@@ -7,3 +7,10 @@ This is one that I stole from someone at \#weechat, but I am not sure whom.
 ```
 
 This is one that I am constructing by myself based on `weechat -c`.
+
+```
+/set weechat.color.chat_nick_colors "001,002,005,007,009,010,013"
+```
+
+This is one that doesn't have similar looking
+colours if I ever write this.
