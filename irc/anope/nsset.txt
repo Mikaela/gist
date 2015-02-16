@@ -1,0 +1,13 @@
+/ns set autoop on
+/ns set chanstats on
+/ns set hide email off
+/ns set hide status off
+/ns set hide usermask off
+/ns set hide quit off
+/ns set keepmodes on
+/ns set kill quick
+/ns set language en_US
+/ns set message off
+/ns set private off
+/ns set secure on
+/ns set url https://mikaela.info/
