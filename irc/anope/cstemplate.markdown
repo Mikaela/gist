@@ -15,6 +15,33 @@ XOP
 * VOP = voice
     * ACCESS_LIST, AUTOVOICE, FANTASIA, NOKICK, VOICEME
 
+Higher privilege also includes the lower ones.
+
 And these words mean?
 ---------------------
 
+* ACCESS_CHANGE
+* ACCESS_LIST
+* AKICK
+* AUTOHALFOP
+* AUTOOP
+* AUTOPROTECT
+* AUTOVOICE
+* BADWORDS
+* BAN
+* FANTASIA
+* GETKEY
+* GREET
+* HALFOP
+* HALFOPME
+* INVITE
+* KICK
+* MEMO
+* NOKICK
+* OP
+* OPME
+* PROTECTME
+* SAY
+* TOPIC
+* UNBAN
+* VOICE
