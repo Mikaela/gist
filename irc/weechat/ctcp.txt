@@ -3,5 +3,6 @@
 /set irc.ctcp.finger WeeChat $versiongit
 /set irc.ctcp.source https://github.com/weechat/weechat/
 /set irc.ctcp.time $time
+/set irc.look.ctcp_time_format %Y-%m-%dT%H:%M:%S%z
 /set irc.ctcp.userinfo $username ($realname)
 /set irc.ctcp.version WeeChat $versiongit
