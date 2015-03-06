@@ -1,8 +1,7 @@
-/set irc.ctcp.avatar http://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
-/set irc.ctcp.clientinfo AVATAR GENDER ROMANTIC SEXUALITY $clientinfo
+/set irc.ctcp.avatar https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
+/set irc.ctcp.clientinfo AVATAR GENDER SEXUALITY $clientinfo
 /set irc.ctcp.finger WeeChat $versiongit
 /set irc.ctcp.gender ♀
-/set irc.ctcp.romantic demi
 /set irc.ctcp.sexuality 🂱
 /set irc.ctcp.source https://github.com/weechat/weechat/
 /set irc.ctcp.time $time

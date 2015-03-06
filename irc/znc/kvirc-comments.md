@@ -1,4 +1,5 @@
 * Avatar: Gravatar for my email. **https:// doesn't work** with KVIRC.
+    * but I am breaking it anyway
 * Nickcolor **must be numeric IRC colour**. Values: `00-15`?
 
 Alternative way to specify AVATAR without the kvirc module:

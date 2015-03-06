@@ -1,3 +1,3 @@
-< *kvirc> Avatar: http://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
+< *kvirc> Avatar: https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
 < *kvirc> Gender: female
 < *kvirc> Nickcolor: 06
