@@ -1,7 +1,3 @@
-/ns set property GPG 0x0C207F07B2F32B67
-/ns set property PGP 0x0C207F07B2F32B67
-/ns set property url https://mikaela.info/
-/ns set property xmpp mikaela@kapsi.fi
 /ns set emailmemos on
 /ns set enforce on
 /ns set enforcetime 1
