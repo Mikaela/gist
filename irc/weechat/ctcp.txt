@@ -1,10 +1,10 @@
-/set irc.ctcp.avatar https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
-/set irc.ctcp.clientinfo AVATAR GENDER SEXUALITY $clientinfo
+/set irc.ctcp.avatar ""
+/set irc.ctcp.clientinfo $clientinfo
 /set irc.ctcp.finger WeeChat $versiongit
-/set irc.ctcp.gender ♀
-/set irc.ctcp.sexuality 🂱
+/set irc.ctcp.gender ""
+/set irc.ctcp.sexuality ""
 /set irc.ctcp.source https://github.com/weechat/weechat/
 /set irc.ctcp.time $time
 /set irc.look.ctcp_time_format %Y-%m-%dT%H:%M:%S%z
-/set irc.ctcp.userinfo $username ($realname)
+/set irc.ctcp.userinfo "`/whois $nick $nick`?"
 /set irc.ctcp.version WeeChat $versiongit
