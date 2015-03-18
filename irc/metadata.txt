@@ -4,8 +4,10 @@ by ZNC or WeeChat or both. <http://git.io/pYTC>
 AVATAR https://gravatar.com/avatar/2bd4ed22d7f59d1a83f5a4253d74f814.jpg
 EMAIL mikaela+ircmetadata@mikaela.info
 GENDER ♀
+HOME Kotka, Finland
 PGP 0x0C207F07B2F32B67
 PRONOUNS she/her/hers
 SEXUALITY 🂱
+TIMEZONE Europe/Helsinki
 URL https://mikaela.info/
 XMPP mikaela@kapsi.fi
