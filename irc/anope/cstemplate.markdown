@@ -1,3 +1,5 @@
+**UNMAINTAINED, PLEASE READ https://mikaela.info/english/2015/03/12/stay-away-from-anope.html**
+
 This is unlike the Atheme cstemplate as Anope doesn't have similar template
 system, but these are the pre-defined ones on irc.anope.org
 
@@ -16,32 +18,3 @@ XOP
     * ACCESS_LIST, AUTOVOICE, FANTASIA, NOKICK, VOICEME
 
 Higher privilege also includes the lower ones.
-
-And these words mean?
----------------------
-
-* ACCESS_CHANGE
-* ACCESS_LIST
-* AKICK
-* AUTOHALFOP
-* AUTOOP
-* AUTOPROTECT
-* AUTOVOICE
-* BADWORDS
-* BAN
-* FANTASIA
-* GETKEY
-* GREET
-* HALFOP
-* HALFOPME
-* INVITE
-* KICK
-* MEMO
-* NOKICK
-* OP
-* OPME
-* PROTECTME
-* SAY
-* TOPIC
-* UNBAN
-* VOICE
