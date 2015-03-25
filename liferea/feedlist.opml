@@ -5,32 +5,15 @@
   </head>
   <body>
     <outline title="Suomeksi" text="Suomeksi" description="Suomeksi" type="folder">
-      <outline title="Jollasuomi" text="Jollasuomi" description="Jollasuomi" type="rss" xmlUrl="http://jollasuomi.fi/feed/" htmlUrl="http://jollasuomi.fi"/>
-      <outline title="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" text="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" description="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/seksuaalivahemmistot" htmlUrl="http://www.hs.fi/aihe/seksuaalivahemmistot?ref=rss"/>
-      <outline title="Uusi sy&#xF6;te" text="Uusi sy&#xF6;te" description="Uusi sy&#xF6;te" type="rss" xmlUrl="http://www.puoltaja.fi/feed" htmlUrl="http://www.puoltaja.fi"/>
-      <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/asiakastiedotteet/" htmlUrl="http://elisa.fi"/>
-      <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/rekrytointitiedotteet/" htmlUrl="http://elisa.fi"/>
-      <outline title="Kyberturvallisuuskeskus Haavoittuvuudet" text="Kyberturvallisuuskeskus Haavoittuvuudet" description="Kyberturvallisuuskeskus Haavoittuvuudet" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss/haavoittuvuudet.xml" htmlUrl="https://www.viestintavirasto.fi/tietoturva.html"/>
-      <outline title="Kyberturvallisuuskeskus Tietoturva nyt!" text="Kyberturvallisuuskeskus Tietoturva nyt!" description="Kyberturvallisuuskeskus Tietoturva nyt!" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss/tietoturvanyt.xml" htmlUrl="https://www.viestintavirasto.fi/tietoturva.html"/>
-      <outline title="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" text="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" description="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" type="rss" xmlUrl="http://yle.fi/uutiset/rss/uutiset.rss?osasto=kymenlaakso" htmlUrl="http://yle.fi/uutiset/"/>
-      <outline title="HessunKahvila &#xBB; HessunKahvila" text="HessunKahvila &#xBB; HessunKahvila" description="HessunKahvila &#xBB; HessunKahvila" type="rss" xmlUrl="http://podcast.hessujarvinen.com/feed/" htmlUrl="http://podcast.hessujarvinen.com"/>
-      <outline title="Sukupuolet - HS.fi" text="Sukupuolet - HS.fi" description="Sukupuolet - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/sukupuolet" htmlUrl="http://www.hs.fi/aihe/sukupuolet?ref=rss"/>
-      <outline title="PodKaista" text="PodKaista" description="PodKaista" type="rss" xmlUrl="http://feeds.feedburner.com/Podkaista" htmlUrl="http://podcastit.tv/podkaista"/>
-      <outline title="AfterDawn" text="AfterDawn" description="AfterDawn" type="rss" xmlUrl="http://feeds.afterdawn.com/afterdawn_uutiset" htmlUrl="http://fin.afterdawn.com/"/>
-      <outline title="- Suomeksi" text="- Suomeksi" description="- Suomeksi" type="rss" xmlUrl="http://mikaela.info/blog/feed.fi.xml" htmlUrl="https://mikaela.info"/>
-      <outline title="Sade Kondelin eduskuntaan 2015" text="Sade Kondelin eduskuntaan 2015" description="Sade Kondelin eduskuntaan 2015" type="rss" xmlUrl="http://sadekondelin.fi/blogi/feed/" htmlUrl="http://sadekondelin.fi/blogi"/>
-      <outline title="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" text="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" description="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" type="atom" xmlUrl="http://www.kapsi.fi/tiedotteet/atom.xml" htmlUrl="http://www.kapsi.fi"/>
-      <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/lehdistotiedotteet/alueelliset/" htmlUrl="http://elisa.fi"/>
-      <outline title="Amnesty &#xBB; Languages &#xBB; Suomi" text="Amnesty &#xBB; Languages &#xBB; Suomi" description="Amnesty &#xBB; Languages &#xBB; Suomi" type="rss" xmlUrl="https://www.amnesty.fi/feed" htmlUrl="https://www.amnesty.fi"/>
-      <outline title="Normit nurin" text="Normit nurin" description="Normit nurin" type="rss" xmlUrl="http://normit.fi/feed/" htmlUrl="http://normit.fi"/>
-      <outline title="Iskelma" text="Iskelma" description="Iskelma" type="rss" xmlUrl="http://www.iskelma.fi/rss/atom_kaikki.php" htmlUrl="http://www.iskelma.fi/"/>
-      <outline title="Transsukupuolisuus - HS.fi" text="Transsukupuolisuus - HS.fi" description="Transsukupuolisuus - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/transsukupuolisuus" htmlUrl="http://www.hs.fi/aihe/transsukupuolisuus?ref=rss"/>
-      <outline title="RSS - Uutiset" text="RSS - Uutiset" description="RSS - Uutiset" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss.uutiset.xml" htmlUrl="http://www.ficora.fi"/>
-      <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/hairiojamuutostiedotteet/" htmlUrl="http://elisa.fi"/>
       <outline title="Foorumit" text="Foorumit" description="Foorumit" type="folder">
         <outline title="Foorumi.linux.fi - Tuoreimmat viestiketjut" text="Foorumi.linux.fi - Tuoreimmat viestiketjut" description="Foorumi.linux.fi - Tuoreimmat viestiketjut" type="rss" xmlUrl="http://foorumi.linux.fi/latest.rss" htmlUrl="http://foorumi.linux.fi/latest"/>
       </outline>
       <outline title="Uutiset" text="Uutiset" description="Uutiset" type="folder">
+        <outline title="Sukupuolet - HS.fi" text="Sukupuolet - HS.fi" description="Sukupuolet - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/sukupuolet" htmlUrl="http://www.hs.fi/aihe/sukupuolet?ref=rss"/>
+        <outline title="AfterDawn" text="AfterDawn" description="AfterDawn" type="rss" xmlUrl="http://feeds.afterdawn.com/afterdawn_uutiset" htmlUrl="http://fin.afterdawn.com/"/>
+        <outline title="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" text="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" description="Seksuaaliv&#xE4;hemmist&#xF6;t - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/seksuaalivahemmistot" htmlUrl="http://www.hs.fi/aihe/seksuaalivahemmistot?ref=rss"/>
+        <outline title="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" text="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" description="Yle Uutiset |&#xA0;Kymenlaakso | Tuoreimmat uutiset" type="rss" xmlUrl="http://yle.fi/uutiset/rss/uutiset.rss?osasto=kymenlaakso" htmlUrl="http://yle.fi/uutiset/"/>
+        <outline title="Transsukupuolisuus - HS.fi" text="Transsukupuolisuus - HS.fi" description="Transsukupuolisuus - HS.fi" type="rss" xmlUrl="http://www.hs.fi/aihe/rss/transsukupuolisuus" htmlUrl="http://www.hs.fi/aihe/transsukupuolisuus?ref=rss"/>
         <outline title="MTV.fi - Uutiset" text="MTV.fi - Uutiset" description="MTV.fi - Uutiset" type="rss" xmlUrl="http://www.mtv.fi/api/feed/rss/uutiset_uusimmat" htmlUrl="http://www.mtv.fi/"/>
         <outline title="Kymen Sanomat online" text="Kymen Sanomat online" description="Kymen Sanomat online" type="rss" xmlUrl="http://www.kymensanomat.fi/rss/uutiset.xml" htmlUrl="http://www.kymensanomat.fi/rss/uutiset.xml"/>
         <outline title="YLE" text="YLE" description="YLE" type="folder">
@@ -40,14 +23,39 @@
         </outline>
       </outline>
       <outline title="Podcastit" text="Podcastit" description="Podcastit" type="folder">
+        <outline title="HessunKahvila &#xBB; HessunKahvila" text="HessunKahvila &#xBB; HessunKahvila" description="HessunKahvila &#xBB; HessunKahvila" type="rss" xmlUrl="http://podcast.hessujarvinen.com/feed/" htmlUrl="http://podcast.hessujarvinen.com"/>
+        <outline title="PodKaista" text="PodKaista" description="PodKaista" type="rss" xmlUrl="http://feeds.feedburner.com/Podkaista" htmlUrl="http://podcastit.tv/podkaista"/>
         <outline title="LinuCast - OGG" text="LinuCast - OGG" description="LinuCast - OGG" type="rss" xmlUrl="http://feeds.feedburner.com/linucastogg" htmlUrl="http://linucast.podcastit.tv/"/>
         <outline title="PuhujainKulma" text="PuhujainKulma" description="PuhujainKulma" type="rss" xmlUrl="http://feeds.feedburner.com/PuhujainKulma" htmlUrl="http://www.puhujainkulma.com"/>
       </outline>
       <outline title="Blogit" text="Blogit" description="Blogit" type="folder">
+        <outline title="Sade Kondelin eduskuntaan 2015" text="Sade Kondelin eduskuntaan 2015" description="Sade Kondelin eduskuntaan 2015" type="rss" xmlUrl="http://sadekondelin.fi/blogi/feed/" htmlUrl="http://sadekondelin.fi/blogi"/>
+        <outline title="- Suomeksi" text="- Suomeksi" description="- Suomeksi" type="rss" xmlUrl="http://mikaela.info/blog/feed.fi.xml" htmlUrl="https://mikaela.info"/>
         <outline title="Kapsi BLOG" text="Kapsi BLOG" description="Kapsi BLOG" type="rss" xmlUrl="http://blog.kapsi.fi/feed/" htmlUrl="http://blog.kapsi.fi"/>
       </outline>
       <outline title="?" text="?" description="?" type="folder">
+        <outline title="Uusi sy&#xF6;te" text="Uusi sy&#xF6;te" description="Uusi sy&#xF6;te" type="rss" xmlUrl="http://www.puoltaja.fi/feed" htmlUrl="http://www.puoltaja.fi"/>
+        <outline title="Iskelma" text="Iskelma" description="Iskelma" type="rss" xmlUrl="http://www.iskelma.fi/rss/atom_kaikki.php" htmlUrl="http://www.iskelma.fi/"/>
+        <outline title="Amnesty &#xBB; Languages &#xBB; Suomi" text="Amnesty &#xBB; Languages &#xBB; Suomi" description="Amnesty &#xBB; Languages &#xBB; Suomi" type="rss" xmlUrl="https://www.amnesty.fi/feed" htmlUrl="https://www.amnesty.fi"/>
+        <outline title="Normit nurin" text="Normit nurin" description="Normit nurin" type="rss" xmlUrl="http://normit.fi/feed/" htmlUrl="http://normit.fi"/>
         <outline title="Fifi - Kaikki" text="Fifi - Kaikki" description="Fifi - Kaikki" type="rss" xmlUrl="http://fifi.voima.fi/rss/kaikki.xml" htmlUrl="http://fifi.voima.fi/"/>
+      </outline>
+      <outline title="Elisa" text="Elisa" description="Elisa" type="folder">
+        <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/lehdistotiedotteet/alueelliset/" htmlUrl="http://elisa.fi"/>
+        <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/rekrytointitiedotteet/" htmlUrl="http://elisa.fi"/>
+        <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/asiakastiedotteet/" htmlUrl="http://elisa.fi"/>
+        <outline title="Elisa news feed" text="Elisa news feed" description="Elisa news feed" type="rss" xmlUrl="http://www.elisa.fi/rss/hairiojamuutostiedotteet/" htmlUrl="http://elisa.fi"/>
+      </outline>
+      <outline title="Viestint&#xE4;virasto" text="Viestint&#xE4;virasto" description="Viestint&#xE4;virasto" type="folder">
+        <outline title="Kyberturvallisuuskeskus Haavoittuvuudet" text="Kyberturvallisuuskeskus Haavoittuvuudet" description="Kyberturvallisuuskeskus Haavoittuvuudet" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss/haavoittuvuudet.xml" htmlUrl="https://www.viestintavirasto.fi/tietoturva.html"/>
+        <outline title="Kyberturvallisuuskeskus Tietoturva nyt!" text="Kyberturvallisuuskeskus Tietoturva nyt!" description="Kyberturvallisuuskeskus Tietoturva nyt!" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss/tietoturvanyt.xml" htmlUrl="https://www.viestintavirasto.fi/tietoturva.html"/>
+        <outline title="RSS - Uutiset" text="RSS - Uutiset" description="RSS - Uutiset" type="rss" xmlUrl="https://www.viestintavirasto.fi/rss.uutiset.xml" htmlUrl="http://www.ficora.fi"/>
+      </outline>
+      <outline title="Jolla" text="Jolla" description="Jolla" type="folder">
+        <outline title="Jollasuomi" text="Jollasuomi" description="Jollasuomi" type="rss" xmlUrl="http://jollasuomi.fi/feed/" htmlUrl="http://jollasuomi.fi"/>
+      </outline>
+      <outline title="Tiedotteet" text="Tiedotteet" description="Tiedotteet" type="folder">
+        <outline title="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" text="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" description="Kapsi Internet-k&#xE4;ytt&#xE4;j&#xE4;t ry" type="atom" xmlUrl="http://www.kapsi.fi/tiedotteet/atom.xml" htmlUrl="http://www.kapsi.fi"/>
       </outline>
     </outline>
     <outline title="In English" text="In English" description="In English" type="folder">
