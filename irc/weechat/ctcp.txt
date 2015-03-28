@@ -1,8 +1,5 @@
-/unset irc.ctcp.avatar
 /set irc.ctcp.clientinfo $clientinfo
 /set irc.ctcp.finger WeeChat $versiongit
-/unset irc.ctcp.gender
-/unset irc.ctcp.sexuality
 /set irc.ctcp.source https://github.com/weechat/weechat/
 /set irc.ctcp.time $time
 /set irc.look.ctcp_time_format %Y-%m-%dT%H:%M:%S%z
