@@ -7,4 +7,4 @@
 /set irc.ctcp.time $time
 /set irc.look.ctcp_time_format %Y-%m-%dT%H:%M:%S%z
 /set irc.ctcp.userinfo "`/whois $nick $nick`?"
-/set irc.ctcp.version WeeChat $versiongit
+/set irc.ctcp.version Purple IRC

@@ -3,3 +3,4 @@ FINGER ZNC %VERSION%
 SOURCE https://github.com/znc/znc/
 TIME %time%
 USERINFO `/whois %nick% %nick%`?
+VERSION Purple IRC
