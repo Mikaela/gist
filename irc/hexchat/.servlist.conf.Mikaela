@@ -46,56 +46,56 @@ D=0
 S=irc.sorcery.net/6697
 
 N=znc-bitlbee
-P=Mikaela@IDENTIFIER/bitlbee:
+P=Mikaela@hexchat/bitlbee:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-chatspike
-P=Mikaela@IDENTIFIER/chatspike:
+P=Mikaela@hexchat/chatspike:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-dereferenced
-P=Mikaela@IDENTIFIER/dereferenced:
+P=Mikaela@hexchat/dereferenced:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-freenode
-P=Mikaela@IDENTIFIER/freenode:
+P=Mikaela@hexchat/freenode:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-ircnet
-P=Mikaela@IDENTIFIER/ircnet:
+P=Mikaela@hexchat/ircnet:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-pirateirc
-P=Mikaela@IDENTIFIER/pirateirc:
+P=Mikaela@hexchat/pirateirc:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc-sorcery
-P=Mikaela@IDENTIFIER/sorcery:
+P=Mikaela@hexchat/sorcery:
 E=UTF-8 (Unicode)
 F=53
 D=0
 S=lakka.kapsi.fi/62293
 
 N=znc2-ircnet
-P=Mikaela@IDENTIFIER/ircnet:
+P=Mikaela@hexchat/ircnet:
 E=UTF-8 (Unicode)
 F=53
 D=0
