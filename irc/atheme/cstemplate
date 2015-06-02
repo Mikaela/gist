@@ -15,11 +15,11 @@ echo "/cs set $1 GUARD ON"
 # different meaning there and won't be set.
 # * n — no external messages, you must be on the channel to message it.
 # * t — you must be hop or higher to change topic
-# * g — anyone can /invite
+# !* g — anyone can /invite
 #     * InspIRCd: +g blocks messages matching the given glob mask - if
 #       empty not set, I think
 # * C — block CTCPs to channel
-# * A — InspIRCd: anyone can /invite
+# !* A — InspIRCd: anyone can /invite
 #    * Charybdis: Admin-only, but this MLOCK does nothing to me, so I am
 #    * ignoring it.
 # * T — InspIRCd: blocks notices from users who aren't at least HOP
@@ -31,7 +31,10 @@ echo "/cs set $1 GUARD ON"
 # (only identified, SSL users can join)
 # InspIRCd: +M blocks messages from unidentified users.
 # To remove MLOCK "/cs set #channel MLOCK"
-echo "/cs set $1 MLOCK +ntgCAT-ilk"
+# THIS DOES NOT SET MODES MARKED WITH ! AS THAT CAN BE DANGEROUS DEPENDING
+# ON NETWORK! mlock +A on Charybdis with specific module prevents you from
+# joining teh channel
+echo "/cs set $1 MLOCK +ntCT-ilk"
 
 # Hide channel information from people who don't have +A
 echo "/cs set $1 PRIVATE ON"
