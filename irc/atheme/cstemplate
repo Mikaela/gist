@@ -10,8 +10,28 @@
 # Tell ChanServ to be on channel. Not needed for larger channels
 echo "/cs set $1 GUARD ON"
 
-# Disables ChanServ MLOCK
-echo "/cs set $1 MLOCK"
+# Adjusts ChanServ MLOCK
+# This list should work with Charybdis and mostly with InspIRCd, g has
+# different meaning there and won't be set.
+# * n — no external messages, you must be on the channel to message it.
+# * t — you must be hop or higher to change topic
+# * g — anyone can /invite
+#     * InspIRCd: +g blocks messages matching the given glob mask - if
+#       empty not set, I think
+# * C — block CTCPs to channel
+# * A — InspIRCd: anyone can /invite
+#    * Charybdis: Admin-only, but this MLOCK does nothing to me, so I am
+#    * ignoring it.
+# * T — InspIRCd: blocks notices from users who aren't at least HOP
+#
+# * i — invite-only
+# * l — limit maximum number of people on the channel
+# * k — key/password for joining the channel
+# Other nice modes (not set by this script): Charybdis +rS / InspIRCd: +Rz
+# (only identified, SSL users can join)
+# InspIRCd: +M blocks messages from unidentified users.
+# To remove MLOCK "/cs set #channel MLOCK"
+echo "/cs set $1 MLOCK +ntgCAT-ilk"
 
 # Hide channel information from people who don't have +A
 echo "/cs set $1 PRIVATE ON"
