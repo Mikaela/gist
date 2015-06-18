@@ -1,4 +1,5 @@
 /znc *controlpanel addctcp $me CLIENTINFO CLIENTINFO FINGER SOURCE TIME USERINFO VERSION
+/znc *controlpanel addctcp $me DCC
 /znc *controlpanel addctcp $me FINGER ZNC %VERSION%
 /znc *controlpanel addctcp $me PING PONG
 /znc *controlpanel addctcp $me SOURCE https://github.com/znc/znc/
