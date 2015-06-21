@@ -1,8 +1,8 @@
 /znc *controlpanel addctcp $me CLIENTINFO CLIENTINFO FINGER SOURCE TIME USERINFO VERSION
 /znc *controlpanel addctcp $me DCC
-/znc *controlpanel addctcp $me FINGER ZNC %VERSION%
+/znc *controlpanel addctcp $me FINGER Purple IRC
 /znc *controlpanel addctcp $me PING
-/znc *controlpanel addctcp $me SOURCE https://github.com/znc/znc/
+/znc *controlpanel addctcp $me SOURCE https://mikaela.info/ ? :P
 /znc *controlpanel addctcp $me TIME %time%
 /znc *controlpanel addctcp $me USERINFO `/whois %nick% %nick%`?
 /znc *controlpanel addctcp $me VERSION Purple IRC
