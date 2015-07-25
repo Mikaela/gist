@@ -33,7 +33,7 @@ echo "/cs set $1 GUARD ON"
 # To remove MLOCK "/cs set #channel MLOCK"
 # THIS DOES NOT SET MODES MARKED WITH ! AS THAT CAN BE DANGEROUS DEPENDING
 # ON NETWORK! mlock +A on Charybdis with specific module prevents you from
-# joining teh channel
+# joining the channel
 echo "/cs set $1 MLOCK +ntCT-ilk"
 
 # Hide channel information from people who don't have +A
