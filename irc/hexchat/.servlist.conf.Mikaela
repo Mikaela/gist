@@ -21,16 +21,6 @@ F=23
 D=0
 S=chat.freenode.net/6697
 
-N=ircnet
-L=10
-E=UTF-8 (Unicode)
-F=51
-D=2
-S=irc.elisa.fi/6667
-S=irc.nebula.fi/6667
-S=irc.cs.tut.fi/6667
-S=irc.cs.hut.fi/6667
-
 N=pirateirc
 L=10
 E=UTF-8 (Unicode)
@@ -94,8 +84,8 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc2-ircnet
-P=Mikaela@hexchat/ircnet:
+N=znc2
+P=Mikaela@hexchat/:
 E=UTF-8 (Unicode)
 F=53
 D=0
