@@ -7,6 +7,9 @@
 # enough.
 
 ## ChanServ settings
+# Allows everyone to see ACL changes.
+echo "/cs set $1 VERBOSE ON"
+
 # Tell ChanServ to be on channel. Not needed for larger channels
 echo "/cs set $1 GUARD ON"
 
@@ -47,9 +50,6 @@ echo "/cs set $1 SECURE ON"
 
 # Allow only users with +t flag to change topic
 echo "/cs set $1 TOPICLOCK ON"
-
-# Allows everyone to see ACL changes.
-echo "/cs set $1 VERBOSE ON"
 
 ## ChanServ templates
 # Channel founder who can do anything they want.
