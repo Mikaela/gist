@@ -2,4 +2,5 @@
 /ns set enforce on
 /ns set enforcetime 1
 /ns set hidemail off
+/ns set nomemo on
 /ns set private off
