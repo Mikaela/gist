@@ -21,19 +21,19 @@ F=23
 D=0
 S=chat.freenode.net/6697
 
+N=oftc
+L=10
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.oftc.net/6697
+
 N=pirateirc
 L=10
 E=UTF-8 (Unicode)
 F=23
 D=0
 S=irc.pirateirc.net/6697
-
-N=sorcery
-L=10
-E=UTF-8 (Unicode)
-F=55
-D=0
-S=irc.sorcery.net/6697
 
 N=znc-bitlbee
 P=Mikaela@hexchat/bitlbee:
@@ -63,8 +63,8 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-ircnet
-P=Mikaela@hexchat/ircnet:
+N=znc-oftc
+P=Mikaela@hexchat/oftc:
 E=UTF-8 (Unicode)
 F=53
 D=0
@@ -77,16 +77,16 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc-sorcery
-P=Mikaela@hexchat/sorcery:
+N=znc2-freenode
+P=Mikaela@hexchat/freenode:
 E=UTF-8 (Unicode)
 F=53
 D=0
-S=lakka.kapsi.fi/62293
+S=vardiera.mikaela.info/1234
 
-N=znc2
-P=Mikaela@hexchat/:
+N=znc2-pirateirc
+P=Mikaela@hexchat/freenode:
 E=UTF-8 (Unicode)
 F=53
 D=0
-S=verdarik.mikaela.info/1234
+S=vardiera.mikaela.info/1234
