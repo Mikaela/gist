@@ -35,6 +35,48 @@ F=23
 D=0
 S=irc.pirateirc.net/6697
 
+N=znc1-bitlbee
+P=Mikaela@hexchat/bitlbee:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-chatspike
+P=Mikaela@hexchat/chatspike:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-dereferenced
+P=Mikaela@hexchat/dereferenced:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-freenode
+P=Mikaela@hexchat/freenode:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-oftc
+P=Mikaela@hexchat/oftc:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-pirateirc
+P=Mikaela@hexchat/pirateirc:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
 N=znc2-freenode
 P=Mikaela@hexchat/freenode:
 E=UTF-8 (Unicode)
@@ -48,46 +90,4 @@ E=UTF-8 (Unicode)
 F=53
 D=0
 S=vardiera.mikaela.info/1234
-
-N=znc-bitlbee
-P=Mikaela@hexchat/bitlbee:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
-N=znc-chatspike
-P=Mikaela@hexchat/chatspike:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
-N=znc-dereferenced
-P=Mikaela@hexchat/dereferenced:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
-N=znc-freenode
-P=Mikaela@hexchat/freenode:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
-N=znc-oftc
-P=Mikaela@hexchat/oftc:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
-N=znc-pirateirc
-P=Mikaela@hexchat/pirateirc:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
 
