@@ -4,3 +4,5 @@
 /ns set hidemail off
 /ns set nomemo on
 /ns set private off
+/ns set property url https://mikaela.info/
+/ns set property telegram https://telegram.me/ciblia

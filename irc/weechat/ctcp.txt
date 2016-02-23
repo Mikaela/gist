@@ -1,9 +1,9 @@
-/set irc.ctcp.clientinfo $clientinfo
+/set irc.ctcp.clientinfo ""
 /set irc.ctcp.dcc ""
-/set irc.ctcp.finger Purple IRC
+/set irc.ctcp.finger ""
 /set irc.ctcp.ping ""
-/set irc.ctcp.source https://mikaela.info/ ? :P
+/set irc.ctcp.source ""
 /set irc.ctcp.time $time
 /set irc.look.ctcp_time_format %Y-%m-%dT%H:%M:%S%z
 /set irc.ctcp.userinfo "`/whois $nick $nick`?"
-/set irc.ctcp.version Purple IRC
+/set irc.ctcp.version ""
