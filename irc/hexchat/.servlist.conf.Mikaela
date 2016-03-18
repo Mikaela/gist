@@ -1,4 +1,4 @@
-v=2.10.2
+v=2.12.0
 
 N=chatspike
 L=10
@@ -7,19 +7,18 @@ F=55
 D=0
 S=irc.chatspike.net/6697
 
-N=dereferenced
-L=10
-E=UTF-8 (Unicode)
-F=51
-D=0
-S=irc.dereferenced.org/6667
-
 N=freenode
 L=10
 E=UTF-8 (Unicode)
 F=23
 D=0
 S=chat.freenode.net/6697
+
+N=linuxchix
+E=UTF-8 (Unicode)
+F=55
+D=0
+S=irc.linuxchix.org/6697
 
 N=oftc
 L=10
@@ -49,13 +48,6 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
-N=znc1-dereferenced
-P=Mikaela@hexchat/dereferenced:
-E=UTF-8 (Unicode)
-F=53
-D=0
-S=lakka.kapsi.fi/62293
-
 N=znc1-freenode
 P=Mikaela@hexchat/freenode:
 E=UTF-8 (Unicode)
@@ -63,8 +55,29 @@ F=53
 D=0
 S=lakka.kapsi.fi/62293
 
+N=znc1-helnodeslack
+P=Mikaela@hexchat/helnodeslack:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-linuxchix
+P=Mikaela@hexchat/linuxchix:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
 N=znc1-oftc
 P=Mikaela@hexchat/oftc:
+E=UTF-8 (Unicode)
+F=53
+D=0
+S=lakka.kapsi.fi/62293
+
+N=znc1-piraatitslack
+P=Mikaela@hexchat/piraatitslack:
 E=UTF-8 (Unicode)
 F=53
 D=0
