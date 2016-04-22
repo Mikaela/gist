@@ -13,3 +13,4 @@
 /ns set property TimeZone Europe/Helsinki
 /ns set property URL https://mikaela.info/
 /ns set property XMPP ciblia@joindiaspora.com
+/ns set property XMPP2 mikaela@kapsi.fi
