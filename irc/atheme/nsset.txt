@@ -1,8 +1,15 @@
 /ns set emailmemos on
 /ns set enforce on
 /ns set enforcetime 1
-/ns set hidemail off
+/ns set hidemail on
 /ns set nomemo on
-/ns set private off
-/ns set property url https://mikaela.info/
-/ns set property telegram https://telegram.me/ciblia
+/ns set private on
+(/ns set property Channel ##Mikaela)
+/ns set property Diaspora ciblia@joindiaspora.com
+/ns set property PGP 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
+/ns set property Pronouns she/her/hers
+/ns set property SocialMediaAndReferralLinks https://mikaela.info/some
+/ns set property Telegram https://telegram.me/Kissaela
+/ns set property TimeZone Europe/Helsinki
+/ns set property URL https://mikaela.info/
+/ns set property XMPP ciblia@joindiaspora.com
