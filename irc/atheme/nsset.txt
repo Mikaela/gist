@@ -10,6 +10,7 @@
 /ns set property Pronouns she/her/hers
 /ns set property SocialMediaAndReferralLinks https://mikaela.info/some
 /ns set property Telegram https://telegram.me/Kissaela
+/ns set property TelegramReadBeforePMing https://mikaela.info/english/2016/04/26/telegram-privatemessaging-people.html
 /ns set property TelegramSupergroup https://telegram.me/joinchat/Cc6XLD5gkdODzM4UdNdrvw
 /ns set property TimeZone Europe/Helsinki
 /ns set property URL https://mikaela.info/
