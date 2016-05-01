@@ -6,6 +6,7 @@
 /ns set private on
 (/ns set property Channel ##Mikaela)
 /ns set property Diaspora ciblia@joindiaspora.com
+/ns set property DigitalOcean https://www.digitalocean.com/?refcode=ed2a94e7eb56
 /ns set property PGP 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
 /ns set property Pronouns she/her/hers
 /ns set property SocialMediaAndReferralLinks https://mikaela.info/some
