@@ -9,6 +9,7 @@
 /ns set property DigitalOcean https://www.digitalocean.com/?refcode=ed2a94e7eb56
 /ns set property PGP 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
 /ns set property Pronouns she/her/hers
+/ns set property PublicKeys https://mikaela.info/keys
 /ns set property SocialMediaAndReferralLinks https://mikaela.info/some
 /ns set property Telegram https://telegram.me/Kissaela
 /ns set property TelegramReadBeforePMing https://mikaela.info/english/2016/04/26/telegram-privatemessaging-people.html
