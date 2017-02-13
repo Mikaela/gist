@@ -113,3 +113,8 @@ echo "/cs flags $1 *!*@* +A"
 # /msg GroupServ flags !piraatti-opit JokuOperaattori +cmvA
 # making VaraPuheenjohtaja have access to edit access
 # /msg GroupServ flags !piraatti-opit VaraPuheenjohtaja +cmvAfs
+
+# Issue: Flags are set after nosyc is enabled.
+# Ugly solution: SYNC manually afterwards. Don't run this assuming the
+# channel already has ops outside of ChanServ/GroupServ.
+echo "/cs sync $1"
