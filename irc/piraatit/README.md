@@ -15,4 +15,8 @@ Notes:
   to be started manually as I don't have root on Kapsi and they don't have
   systemd or user services at the time of writing and without lithing that
   would require logging in once after every reboot for it to start doing
-  anything.
+  anything
+* discord-irc assumes that you have cloned the git repo and installed using
+  npm there.
+    * offtopic, but remember to enable Discord developer mode in settings
+      for being able to right click channel name to copy ID.

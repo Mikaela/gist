@@ -1,0 +1,33 @@
+[
+	{
+		"nickname": "D6",
+		"server": "fi.pirateirc.net",
+		"discordToken": "CENSORED",
+		"autoSendCommands": [
+			["NICKSERV", "IDENTIFY D6 CENSORED"],
+			["NICKSERV", "REGGAIN D6 CENSORED"],
+			["MODE", "D6", "-i"]
+		],
+		"channelMapping": {
+			"374659905983873025": "#piraattinuoret",
+			"374867585868496897": "#pinu_hallitus",
+			"375207988459470849": "#test",
+			"381011785962225664": "#aaltopiraatit"
+			},
+		"ircOptions": {
+			"userName": "D6",
+			"realName": "Admin: Mikaela#6940",
+			"password": "CENSORED",
+			"port": "6697",
+			"secure": "true",
+			"sasl": "true",
+			"stripColors": "true"
+		},
+		"format": {
+			"ircText": "<{$displayUsername}> {$text}",
+			"discord": "<`{$author}`> {$withMentions}"
+			},
+		"ircNickColor": false,
+		"commandCharacters": ["!", "_"]
+	}
+]
