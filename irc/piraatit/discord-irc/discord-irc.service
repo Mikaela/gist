@@ -1,0 +1,12 @@
+[Unit]
+Description=discord-irc
+#After=network-online.target
+
+[Service]
+ExecStart=/home/discord-irc/start
+Restart=on-failure
+User=discord-irc
+
+[Install]
+WantedBy=default.target
+
