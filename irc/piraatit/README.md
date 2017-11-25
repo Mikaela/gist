@@ -8,3 +8,11 @@ I won't promise to keep this up-to-date, but I think it might be better
 than nothing.
 
 ***READ ALSO https://wiki.piraattipuolue.fi/K%C3%A4ytt%C3%A4j%C3%A4:Mikaela !***
+
+Notes:
+
+* teleirc.service is not used by the PirateIRC instance that I run. It has
+  to be started manually as I don't have root on Kapsi and they don't have
+  systemd or user services at the time of writing and without lithing that
+  would require logging in once after every reboot for it to start doing
+  anything.
