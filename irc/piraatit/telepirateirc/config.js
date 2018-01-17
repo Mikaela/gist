@@ -155,6 +155,16 @@ config.channels = [
     {
         ircChan: '#syotteet',
         tgGroup: 'Syötteet'
+    },
+
+    {
+        ircChan: '#sivusto',
+        tgGroup: 'PIR - Sivusto'
+    },
+
+    {
+        ircChan: '#globalPirates',
+        tgGroup: 'Global Pirates'
     }
 
     //{
@@ -182,7 +192,7 @@ config.channels = [
 // documentation
 config.ircOptions = {
     userName: 'Euforia',
-    realName: 'Admin: Mikaela @M1kaela',
+    realName: 'Telegram.org Relay ~ @M1kaela',
     port: 6697,
     localAddress: null,
     debug: false,
