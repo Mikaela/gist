@@ -1,0 +1,11 @@
+Limnoria/        - Limnoria's git repo, tracking the latest tag.
+		   https://github.com/ProgVal/Limnoria
+Supybot-plugins/ - Directories symlinked into Limnoria/plugins/*
+		   https://github.com/ProgVal/Supybot-plugins
+		   Mainly LinkRelay is wanted from here.
+
+Upkeep: in both directories "pip3 install -r requirements.txt --user --upgrade"
+Afterwards in Limnoria/ "python3 setup.py install --user --upgrade"
+
+Euforia/ - ]o['s configs. NOTHING SHOULD BE TOUCHED THERE!
+PROTIP: `tail -f Euforia/logs/messages.log`

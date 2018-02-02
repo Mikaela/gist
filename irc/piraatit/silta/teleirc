@@ -1,0 +1,6 @@
+teleirc/ - https://github.com/FruitieX/TeleIRC/ . Mainly used for going in and
+	   "npm install". It's tracking develop branch as it's lazy with tagging
+	   See /root/README.mikaela for systemd!
+telepirateirc/ - files of PirateIRC, only config.js should be touched and maybe
+		 files/ be cleaned sometimes.
+telefreenode/  - files of TeleIRC at freenode, mainly used by SailfishOS.

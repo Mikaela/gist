@@ -1,0 +1,21 @@
+## Bots
+
+/home/...
+
+teleirc - TeleIRCs for PirateIRC & freenode. T4
+limnoria2 - Python2 version of Limnoria, mainly Kunsido on PirateIRC2
+            (meetingology/meeting bot)
+limnoria3 - ]o[ Python3 version of Limnoria.
+discordirc - Discord-IRC (D6) at PirateIRC.
+
+Systemd units:
+telepirateirc.service - TeleIRC of PirateIRC, -vvv logging
+limnoria3.service     - ]o[ at freenode, PirateIRC, IRCnet and Euforia at
+                        piraatit.slack.com
+discordpirateirc.service - Discord IRC at PirateIRC (D6)
+telefreenode.service - TBD
+limnoria.service - TBD
+
+Automatic restart at cron as ugly hack for things being broken: 
+telepirateirc discordpirateirc
+Also see "crontab -l"

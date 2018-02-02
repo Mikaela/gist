@@ -1,0 +1,3 @@
+discord-irc/ - the git repo, tracking the latest tag
+discordpirateirc.start - startup script to save from headache
+discordpirateirc.json - the config file
