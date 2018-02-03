@@ -31,7 +31,7 @@ config.mediaConversions = {
 
 // Add some randomness to url when relaying media
 // Use 0 to disable
-config.mediaRandomLength = 0;
+config.mediaRandomLength = 10;
 
 // Age in seconds after which a Telegram message is not relayed, this prevents
 // spamming the IRC channel if your bot was offline for a long time

@@ -12,11 +12,12 @@
 			"374659905983873025": "#piraattinuoret",
 			"374867585868496897": "#pinu_hallitus",
 			"375207988459470849": "#test",
-			"381011785962225664": "#aaltopiraatit"
+			"381011785962225664": "#aaltopiraatit",
+			"389413571831791626": "#hepihalko"
 			},
 		"ircOptions": {
 			"userName": "D6",
-			"realName": "Admin: Mikaela#6940",
+			"realName": "Discord.gg Relay ~ Mikaela#6940",
 			"password": "CENSORED",
 			"port": "6697",
 			"secure": "true",
@@ -27,7 +28,6 @@
 			"ircText": "<{$displayUsername}> {$text}",
 			"discord": "<`{$author}`> {$withMentions}"
 			},
-		"ircNickColor": false,
-		"commandCharacters": ["!", "_"]
+		"ircNickColor": false
 	}
 ]

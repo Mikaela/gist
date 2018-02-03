@@ -40,14 +40,13 @@ config.nameFormat = '%username%';
 config.usernameFallbackFormat = '%firstName% %lastName%';
 
 config.ircNick = 'T4';
-config.ircServer = 'au.pirateirc.net';
+config.ircServer = 'fi.pirateirc.net';
 
 // array of commands to send to IRC server as soon as we're connected,
 // example: config.ircPerformCmds = [
 //     'PRIVMSG Q@CServe.quakenet.org :AUTH <username> <password>'
 // ]
 
-// config.ircPerformCmds = ['NICKSERV identify Euforia CENSORED']
 config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+gRQ', 'CHANSERV invite #messi', 'JOIN #messi'];
 //config.ircPerformCmds = [];
 
@@ -165,6 +164,11 @@ config.channels = [
     {
         ircChan: '#globalPirates',
         tgGroup: 'Global Pirates'
+    },
+
+    {
+        ircChan: '#antikupla',
+        tgGroup: 'Antikupla'
     }
 
     //{
