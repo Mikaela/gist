@@ -1,12 +1,16 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin5
+
 # TeleIRC sometimes stops working by itself, so I am restarting it twice a
 # day automatically as it seems to be enough for it to fix issues.
-0 8 * * * systemctl restart telepirateirc --quiet
-0 20 * * * systemctl restart telepirateirc --quiet
+0 8 * * * perl -le 'sleep rand 900' && systemctl restart telepirateirc --quiet
+0 8 * * * perl -le 'sleep rand 900' && systemctl restart telefreenode --quiet
+0 20 * * * perl -le 'sleep rand 900' && systemctl restart telepirateirc --quiet
+0 20 * * * perl -le 'sleep rand 900' && systemctl restart telefreenode --quiet
 
 # Discord-IRC is a lot more unreliable than TeleIRC, but it seems to work
 # enough well (=no one notices if it's broken) in case it's restarted four
 # times a day.
-0 1 * * * systemctl restart discordpirateirc --quiet
-0 8 * * * systemctl restart discordpirateirc --quiet
-0 13 * * * systemctl restart discordpirateirc --quiet
-0 20 * * * systemctl restart discordpirateirc --quiet
+0 1 * * * perl -le 'sleep rand 900' && systemctl restart discordpirateirc --quiet
+0 8 * * * perl -le 'sleep rand 900' && systemctl restart discordpirateirc --quiet
+0 13 * * * perl -le 'sleep rand 900' && systemctl restart discordpirateirc --quiet
+0 20 * * * perl -le 'sleep rand 900' && systemctl restart discordpirateirc --quiet
