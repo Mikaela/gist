@@ -8,7 +8,7 @@ declare -a arr=("#aaltopiraatit" "#akateemisetpiraatit" "#aktiivit" "#antikupla"
 
 for i in "${arr[@]}"
 do
-   echo "/msg ChanServ set $i ENTRYMSG Lähettämällä viestin kanavalle suostut nimimerkkisi ja viestisi Telegrammiin ja Discordiin lähettämiseksi. Se tieto on https://telegram.org/privacy ja https://discordapp.com/privacy alaista sieltäen liittyvät datan tallennuskäytännöt."
+   echo "/msg ChanServ set $i ENTRYMSG Lähettämällä viestin kanavalle suostut nimimerkkisi ja viestisi julkaisemiseen, sekä Telegrammiin ja Discordiin lähettämiseksi. Se tieto on https://telegram.org/privacy ja https://discordapp.com/privacy alaista sieltäen liittyvät datan tallennuskäytännöt."
 done
 
 # English speaking channels
@@ -16,5 +16,5 @@ declare -a arr=("#ppfi" "#ypfi")
 
 for i in "${arr[@]}"
 do
-   echo "/msg ChanServ set $i ENTRYMSG By sending messages to this channel you consent to your nick and message being transmitted to Telegram and Discord. That information is subject to https://telegram.org/privacy and https://discordapp.com/privacy including relevant data retention policies."
+   echo "/msg ChanServ set $i ENTRYMSG By sending messages to this channel you consent to your nick and message being published and transmitted to Telegram and Discord. That information is subject to https://telegram.org/privacy and https://discordapp.com/privacy including relevant data retention policies."
 done
