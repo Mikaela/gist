@@ -20,3 +20,15 @@ long time after making that list).
 
 <s>This is one that doesn't have similar looking colours if I ever write
 this.</s> djb2 solves this issue and I don't see need of writing this.
+
+## Making colors look good with solarized terminals
+
+This is copied from @tracphil's gist which you can find at https://gist.github.com/tracphil/0a6d897f6598abb6a14e on 2018-10-11T09:36+0000.
+
+```
+/set weechat.color.chat_nick_colors "red,lightred,162,167,204,green,lightgreen,035,042,047,084,120,154,148,yellow,brown,165,191,222,208,cyan,045,051,087,117,123,159,lightmagenta,128,171,176,213,111,148"
+/set weechat.bar.status.color_bg 0
+/set weechat.bar.title.color_bg 0
+/set buffers.color.current_bg 10
+/set buffers.color.hotlist_message_fg 7
+```
