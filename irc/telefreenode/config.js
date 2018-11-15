@@ -152,7 +152,7 @@ config.channels = [
     },
 
     {
-        ircChan: 'T4',
+        ircChan: '*',
         tgGroup: 'SPAM-TELEIRC-PRIVAT',
 	tgGroupReadOnly: true
     }
