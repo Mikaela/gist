@@ -5,24 +5,59 @@
 		"discordToken": "CENSORED",
 		"autoSendCommands": [
 			["NICKSERV", "IDENTIFY D6 CENSORED"],
-			["NICKSERV", "REGGAIN D6 CENSORED"],
+			["NICKSERV", "REGAIN D6 CENSORED"],
 			["MODE", "D6", "-i"]
 		],
+		"webhooks": {
+
+			},
 		"channelMapping": {
 			"374659905983873025": "#piraattinuoret",
 			"374867585868496897": "#pinu_hallitus",
 			"375207988459470849": "#test",
 			"381011785962225664": "#aaltopiraatit",
-			"389413571831791626": "#hepihalko"
+			"389413571831791626": "#hepihalko",
+			"412240406902865920": "#helsinki",
+			"412254021521506305": "#mediaseuranta",
+			"412254070150135808": "#toiminta",
+			"412258283546476555": "#piraatit",
+			"412258307647078401": "#ppfi",
+			"412293076917288970": "#messi",
+			"412511326766759936": "#keski-suomi",
+			"431034872333598720": "#uusimaa",
+			"413041315270492160": "#likakaivo",
+			"413247653015715840": "#verkkopalvelut",
+			"414400615591051274": "#sivusto",
+			"416285084912451595": "#grafiikka",
+			"417031598685552640": "#akateemisetpiraatit",
+			"424514192113008650": "#hallituskokous",
+			"426034481095376926": "#sateenkaaripiraatit",
+			"426703063970086912": "#antikupla",
+			"426703083574394881": "#syotteet",
+			"432465953293336579": "#puoluetoimisto",
+			"444816560150937610": "#pirkanmaa",
+			"449854986919084032": "#piraattivpn",
+			"451295033488965652": "#hame",
+			"422390844612411402": "#suomiareena",
+			"482982233649446926": "#satakunta",
+			"504190490086998026": "#viestinta_markkinointi HGvg7fvJ",
+			"511566906843463680": "#oulu",
+			"511566931837321216": "#kaakko",
+			"511801896478965772": "#varsinais-suomi",
+			"511825011951140865": "#savo-karjala",
+			"511826019464904704": "#vaasa",
+			"511827216397631490": "#lappi"
 			},
 		"ircOptions": {
 			"userName": "D6",
-			"realName": "Discord.gg Relay ~ Mikaela#6940",
+			"realName": "mailto:pikaviestimet+DiscordRele@piraattipuolue.fi",
 			"password": "CENSORED",
 			"port": "6697",
 			"secure": "true",
 			"sasl": "true",
-			"stripColors": "true"
+			"stripColors": "true",
+			"debug": "false",
+			"encoding": null
 		},
 		"format": {
 			"ircText": "<{$displayUsername}> {$text}",
