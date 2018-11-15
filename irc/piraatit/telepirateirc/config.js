@@ -21,7 +21,7 @@ config.showMedia = true;
 config.httpPort = 61825;
 
 // HTTP server location, URLs are generated from this
-config.httpLocation = 'http://hilla.kapsi.fi' + ':' + config.httpPort;
+config.httpLocation = 'http://silta.piraatit.fi' + ':' + config.httpPort;
 //config.httpLocation = 'https://t4.mikaela.info';
 
 //////////////////
@@ -37,17 +37,19 @@ config.httpLocation = 'http://hilla.kapsi.fi' + ':' + config.httpPort;
 config.nameFormat = '%username%';
 
 // fallback format string for %username% if sender lacks username
-config.usernameFallbackFormat = '%firstName% %lastName%';
+config.usernameFallbackFormat = '%firstName% (MISSING @USERNAME! telegram.org/faq#usernames-and-t-me)';
 
 config.ircNick = 'T4';
-config.ircServer = 'fi.pirateirc.net';
+//config.ircServer = 'fi.pirateirc.net';
+// Yggdrasil
+config.ircServer = '201:677d:1809:c5eb:202a:d39:e598:305';
 
 // array of commands to send to IRC server as soon as we're connected,
 // example: config.ircPerformCmds = [
 //     'PRIVMSG Q@CServe.quakenet.org :AUTH <username> <password>'
 // ]
 
-config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+gRQ', 'CHANSERV invite #messi', 'JOIN #messi'];
+config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+RQ', 'CHANSERV invite #messi', 'JOIN #messi'];
 //config.ircPerformCmds = [];
 
 config.channels = [
@@ -64,27 +66,32 @@ config.channels = [
 
     {
         ircChan: '#mediaseuranta',
-        tgGroup: 'PIR - Mediaseuranta'
+        tgGroup: 'PPFI - Mediaseuranta'
     },
 
     {
         ircChan: '#helsinki',
-        tgGroup: 'PIR - Helsinki'
+        tgGroup: 'PPFI - Helsinki'
     },
 
     {
         ircChan: '#uusimaa',
-        tgGroup: 'PIR - Uusimaa'
+        tgGroup: 'PPFI - Uusimaa'
     },
 
     {
         ircChan: '#toiminta',
-        tgGroup: 'PIR - Toiminta'
+        tgGroup: 'PPFI - Toiminta'
+    },
+
+    {
+        ircChan: '#puoluetoimisto',
+        tgGroup: 'PPFI - Puoluetoimisto'
     },
 
     {
         ircChan: '#verkkopalvelut',
-        tgGroup: 'PIR - Verkkopalvelut'
+        tgGroup: 'PPFI - Verkkopalvelut'
     },
 
     {
@@ -93,13 +100,8 @@ config.channels = [
     },
 
     {
-        ircChan: '#piraattipuolue',
-        tgGroup: 'PIR - Yleiskeskustelu (EI EDUSTA PUOLUEEN LINJAA!)'
-    },
-
-    {
         ircChan: '#keski-suomi',
-        tgGroup: 'PIR - Keski-Suomi'
+        tgGroup: 'PPFI - Keski-Suomi'
     },
 
     {
@@ -108,22 +110,22 @@ config.channels = [
     },
 
     {
-        ircChan: '#test',
-        tgGroup: 'TEST'
+        ircChan: '#suomiareena',
+        tgGroup: 'PPFI - Suomiareena'
     },
 
     {
         ircChan: '#Mikaela',
         ircChanReadOnly: true,
         ircChanOverrideReadOnly: true,
-        tgGroup: 'Mikaela - supergroup',
+        tgGroup: '##Mikaela',
         tgGroupReadOnly: true,
         tgGroupOverrideReadOnly: true,
     },
 
     {
         ircChan: '#aaltopiraatit',
-        tgGroup: 'PIR - Aaltopiraatit'
+        tgGroup: 'PPFI - Aaltopiraatit'
     },
 
     {
@@ -133,22 +135,17 @@ config.channels = [
 
     {
         ircChan: '#grafiikka',
-        tgGroup: 'PIR - Grafiikka'
+        tgGroup: 'PPFI - Grafiikka'
     },
 
     {
         ircChan: '#messi',
-        tgGroup: 'PIR - Messi'
+        tgGroup: 'PPFI - Messi'
     },
 
     {
         ircChan: '#varsinais-suomi',
-        tgGroup: 'PIR - Varsinais-Suomi'
-    },
-
-    {
-        ircChan: '#hepihalko',
-        tgGroup: 'PIR - Helsingin Hallituskokoukset'
+        tgGroup: 'PPFI - Varsinais-Suomi'
     },
 
     {
@@ -158,7 +155,7 @@ config.channels = [
 
     {
         ircChan: '#sivusto',
-        tgGroup: 'PIR - Sivusto'
+        tgGroup: 'PPFI - Sivusto'
     },
 
     {
@@ -169,6 +166,56 @@ config.channels = [
     {
         ircChan: '#antikupla',
         tgGroup: 'Antikupla'
+    },
+
+    {
+        ircChan: '#hame',
+	tgGroup: 'PPFI - Häme'
+    },
+
+    {
+        ircChan: '#akateemisetpiraatit',
+        tgGroup: 'Akateemiset Piraatit'
+    },
+
+    {
+	ircChan: '#hallituskokous',
+	tgGroup: 'PIR - Hallituksen kokoukset'
+    },
+
+    {
+	ircChan: 'T4',
+	tgGroup: 'SPAM-TELEIRC-PRIVAT',
+        tgGroupReadOnly: true
+    },
+
+    {
+        ircChan: '*',
+        tgGroup: 'SPAM-TELEIRC-PRIVAT',
+        tgGroupReadOnly: true
+    },
+
+    {
+	ircChan: '#opers',
+	tgGroup: 'PirateIRC Telegram Opers/Staff',
+	tgGroupReadOnly: true,
+        tgGroupOverrideReadOnly: true
+    },
+
+    {
+        ircChan: '#satakunta',
+        tgGroup: 'PIR - Satakunta'
+    },
+
+    {
+        ircChan: '#viestinta_markkinointi',
+	chanPwd: 'CENSORED',
+	tgGroup: 'PPFI - Viestintä ja Markkinointi'
+    },
+
+    {
+	ircChan: '#TechPirates',
+	tgGroup: 'Tech Pirates'
     }
 
     //{
@@ -195,8 +242,8 @@ config.channels = [
 // see https://node-irc.readthedocs.org/en/latest/API.html#client for
 // documentation
 config.ircOptions = {
-    userName: 'Euforia',
-    realName: 'Telegram.org Relay ~ @M1kaela',
+    userName: 'Telegram',
+    realName: 'mailto:pikaviestimet+PircTGRelay@piraattipuolue.fi',
     port: 6697,
     localAddress: null,
     debug: false,
@@ -206,8 +253,11 @@ config.ircOptions = {
     channels: [], // auto generated, do not touch
     secure: true,
     // TRUE JOS EPÄKELPO!
-    selfSigned: false,
-    certExpired: false,
+    // Yggdrasil
+    //selfSigned: false,
+    //certExpired: false,
+    selfSigned: true,
+    certExpired: true,
     floodProtection: true,
     floodProtectionDelay: 1000,
     sasl: true,
@@ -230,8 +280,8 @@ var regex = '^ *(?:' + config.ircNick + '[:,]?|!) +(.*\\S.*)$';
 config.hlRegexp = new RegExp(regex, 'i');
 
 // automatically added by config upgrade:
-config.logLevel = "info";
-config.mediaRandomLength = 0;
+config.logLevel = "error";
+config.mediaRandomLength = 10;
 config.maxMsgAge = 60;
 config.allowCommands = true;
 config.nickcolor = false;
@@ -251,3 +301,4 @@ config.mediaConversions = {
     'webp': 'png'
 };
 config.emphasizeAction = true;
+config.relayEdited = true;
