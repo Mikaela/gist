@@ -8,7 +8,7 @@ module.exports = config;
 // verbosity of console output
 // possible options from most to least verbose:
 // silly, debug, verbose, info, warn, error
-config.logLevel = 'info';
+config.logLevel = 'error';
 
 // paste the bot API token you got from BotFather here:
 config.tgToken = 'CENSORED';
@@ -41,8 +41,8 @@ config.maxMsgAge = 60;
 config.httpPort = 9090;
 
 // HTTP server location, URLs are generated from this
-config.httpLocation = 'https://teleirc.mikaela.info';
-//+ ':' + config.httpPort;
+config.httpLocation = 'http://149.202.119.142' + ':' + config.httpPort;
+//config.httpLocation = 'https://teleirc.mikaela.info';
 
 // Upload sent photos to Imgur, links to Imgur uploads are
 // forwared to IRC
@@ -83,7 +83,7 @@ config.soloUse = false;
 config.nameFormat = '%username%';
 
 // fallback format string for %username% if sender lacks username
-config.usernameFallbackFormat = '%firstName% %lastName%';
+config.usernameFallbackFormat = '%firstName% (MISSING @USERNAME! telegram.org/faq#usernames-and-t-me)';
 
 // Replace newline characters in Telegram messages with this string before
 // relaying them to IRC, prevents flood from long messages.
@@ -98,14 +98,14 @@ config.ircServer = 'chat.freenode.net';
 // example: config.ircPerformCmds = [
 //     'PRIVMSG Q@CServe.quakenet.org :AUTH <username> <password>'
 // ]
-config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+gRQ'];
+config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+RQ'];
 
 config.channels = [
     // example of a barebones IRC channel:
     // '#channel1' will be bridged to a Telegram group called 'Tg_Group_1'
     {
         ircChan: '##Mikaela',
-        tgGroup: 'Mikaela - supergroup'
+        tgGroup: '##Mikaela'
     },
 
     {
@@ -113,10 +113,11 @@ config.channels = [
         tgGroup: 'NemoMobile'
     },
 
-    {
-        ircChan: '#akunapu',
-        tgGroup: 'akunapu'
-    },
+    //{
+    //    ircChan: '#akunapu',
+//        tgGroup: 'akunapu'
+//	tgGroup: 'Akun apu ja #akubuntu'
+//    },
 
     {
         ircChan: '#mer-meeting',
@@ -131,12 +132,29 @@ config.channels = [
 
     {
         ircChan: '#sailfishos-porters',
-        tgGroup: '#sailfishos-porters'
+        tgGroup: 'Sailfish OS Porters'
     },
 
     {
         ircChan: '#sailfish-hackclub-hki',
         tgGroup: 'Sailfish Hackclub Helsinki'
+    },
+
+    {
+	ircChan: '##castellano',
+	tgGroup: '##castellano'
+    },
+
+    {
+        ircChan: 'T4',
+        tgGroup: 'SPAM-TELEIRC-PRIVAT',
+	tgGroupReadOnly: true
+    },
+
+    {
+        ircChan: 'T4',
+        tgGroup: 'SPAM-TELEIRC-PRIVAT',
+	tgGroupReadOnly: true
     }
 
 ]
@@ -165,7 +183,7 @@ config.channels = [
 // documentation
 config.ircOptions = {
     userName: 'T4',
-    realName: 'Telegram.org Relay ~ @M1kaela',
+    realName: 'mailto:pikaviestimet+FreTGRelay@piraattipuolue.fi',
     port: 6697,
     localAddress: null,
     showErrors: true,
@@ -200,3 +218,4 @@ config.emphasizeAction = true;
 
 // automatically added by config upgrade:
 config.replySnippetLength = 46;
+config.relayEdited = true;
