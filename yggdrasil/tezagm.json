@@ -1,0 +1,14 @@
+{ "name": "y.tezagm.mikaela.info",
+"type": "RaspberryPiB+",
+"location": "Kouvola, Finland",
+"peering": "public",
+"speed": {
+    "note": "Part-time connection, fast on opened days",
+    "promised open": "100 Mbps / 100 Mbps",
+    "promised closed": "0,2 Mbps / 10 Mbps"
+},
+"contact": {
+"name": "Mikaela Suomalainen",
+"xmpp": "mikaela@blesmrt.net",
+"public keys": "https://mikaela.info/keys/"}
+}

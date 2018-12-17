@@ -1,0 +1,9 @@
+{ "name": "y.roubaix-fr.pirateirc.net",
+"type": "server",
+"location": "OVH, Roubaix, France",
+"peering": "Please contact us, if you are a Pirate Party activist and a PirateIRC user",
+"IRC port": "6697, TLS required",
+"contact": {
+"email": "pikaviestimet+RoubaixFRYggdrasil@piraattipuolue.fi",
+"channel": "#opers,#verkkopalvelut"}
+}

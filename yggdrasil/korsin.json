@@ -1,0 +1,10 @@
+{ "name": "y.korsin.do.mikaela.info",
+"type": "server",
+"location": "DigitalOcean, Frankfurt, Germany",
+"digitalocean reflink": "https://m.do.co/c/ed2a94e7eb56",
+"peering": "public",
+"contact": {
+"name": "Mikaela Suomalainen",
+"xmpp": "mikaela@blesmrt.net",
+"public keys": "https://mikaela.info/keys/"}
+}
