@@ -5,5 +5,5 @@
 "IRC port": "6697, TLS required",
 "contact": {
 "email": "pikaviestimet+RoubaixFRYggdrasil@piraattipuolue.fi",
-"channel": "#opers,#verkkopalvelut"}
+"channel": "ircs://y.irc.pirateirc.net:6697/#opers,#verkkopalvelut"}
 }
