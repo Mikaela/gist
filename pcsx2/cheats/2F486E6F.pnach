@@ -4,17 +4,23 @@ comment=Cheat Codes
 // These are converted from https://gamefaqs.gamespot.com/boards/914659-ratchet-and-clank-going-commando/53542873
 // using OmniConvert.
 
-// Enable Code
+// Enable Code - I think I read somewhere that this isn't necessary on PCSX2
 // F01261FC 001261FF
-patch=1,EE,F01261FC,extended,001261FF
+//patch=1,EE,F01261FC,extended,001261FF
 
 // Moonjump (because the nanotech boost on Dobbo is annoying)
-patch=1,EE,200FFF00,extended,3C020014
-patch=1,EE,200FFF04,extended,8442821C
-patch=1,EE,200FFF08,extended,2401BFFF
-patch=1,EE,200FFF0C,extended,14410004
-patch=1,EE,200FFF18,extended,3C013E00
-patch=1,EE,200FFF1C,extended,AC419F98
-patch=1,EE,200FFF14,extended,3C020019
-patch=1,EE,200FFF24,extended,03E00008
-patch=1,EE,2011AF98,extended,0803FFC0
+//patch=1,EE,200FFF00,extended,3C020014
+//patch=1,EE,200FFF04,extended,8442821C
+//patch=1,EE,200FFF08,extended,2401BFFF
+//patch=1,EE,200FFF0C,extended,14410004
+//patch=1,EE,200FFF18,extended,3C013E00
+//patch=1,EE,200FFF1C,extended,AC419F98
+//patch=1,EE,200FFF14,extended,3C020019
+//patch=1,EE,200FFF24,extended,03E00008
+//patch=1,EE,2011AF98,extended,0803FFC0
+
+// Max raritanium
+//patch=1,EE,201A7A84,extended,00900000
+
+// Max bolts
+//patch=1,EE,201A7A80,extended,00900000
