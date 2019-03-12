@@ -1,0 +1,42 @@
+gametitle=Ratchet Gladiator
+comment=Cheat Codes
+
+// These are converted from http://uk.codejunkies.com/search/codes/Ratchet-Gladiator_Action-Replay-MAX_13633744-13___.aspx
+// using OmniConvert.
+
+
+// All cheats
+//patch=1,EE,40171C28,extended,00080001
+//patch=1,EE,FFFFFFFF,extended,00000000
+//patch=1,EE,10171C48,extended,0000FFFF
+//patch=1,EE,00171C4A,extended,000000FF
+
+// Max bolts
+//patch=1,EE,20171BC0,extended,05F05FF0
+
+// Max dread points
+//patch=1,EE,20171BCC,extended,05F00000
+
+// Infinite Health (Vehicles)
+//patch=1,EE,200FFFF0,extended,3C0142C8
+//patch=1,EE,200FFFF4,extended,AE2102E8
+//patch=1,EE,200FFF40,extended,3C03001F
+//patch=1,EE,200FFF44,extended,8C63EBEC
+//patch=1,EE,200FFF48,extended,10030008
+//patch=1,EE,200FFF50,extended,2463CA04
+//patch=1,EE,200FFF54,extended,3C010010
+//patch=1,EE,200FFF58,extended,8C24FFF0
+//patch=1,EE,200FFF5C,extended,AC640008
+//patch=1,EE,200FFF60,extended,8C24FFF4
+//patch=1,EE,200FFF64,extended,AC640010
+//patch=1,EE,200FFF70,extended,03E00008
+//patch=1,EE,2012715C,extended,0803FFD0
+
+// Infinite health Ratchet
+//patch=1,EE,200FFF00,extended,3C02001F
+//patch=1,EE,200FFF0C,extended,8C42EBF0
+//patch=1,EE,200FFF10,extended,10020007
+//patch=1,EE,200FFF28,extended,3C0142C8
+//patch=1,EE,200FFF2C,extended,AC41FE34
+//patch=1,EE,200FFF30,extended,03E00008
+//patch=1,EE,20126F18,extended,0803FFC0
