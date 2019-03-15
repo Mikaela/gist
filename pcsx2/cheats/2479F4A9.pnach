@@ -1,0 +1,22 @@
+gametitle=Jak II: Renegade
+comment=Cheat Codes
+
+// These are copied from https://forums.pcsx2.net/Thread-Need-help-regarding-Jak-II-Renegades-PAL-codes?page=2
+// my converts resulted different codes and didn't work
+
+//Max Gems (KeyToTruth12) - works, 900 skull gems
+patch=1,EE,20116FD0,extended,3C032062
+patch=1,EE,20116FD4,extended,3C024461
+patch=1,EE,20116FDC,extended,AC623014
+
+//Max Orbs (Vasquez93?)
+//patch=1,EE,0C88F008,extended,20530787
+//patch=1,EE,0C88F00C,extended,20542B86
+//patch=1,EE,0C88F010,extended,B074F7C5
+// http://uk.codejunkies.com/search/codes/Jak-II_Action-Replay-MAX_13632674-13___.aspx
+// Max orbs within secrets menu, they can still be collected and L3 shows the not-cheated amount
+patch=1,EE,20116FE0,extended,3C032062
+patch=1,EE,20116FE4,extended,3C024461
+patch=1,EE,20116FE8,extended,AC623020
+
+// Invisible health results to black screen, PCSX2 doesn't like it.
