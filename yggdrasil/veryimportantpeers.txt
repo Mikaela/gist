@@ -1,0 +1,14 @@
+# tezagm tor - https://github.com/yggdrasil-network/public-peers/blob/master/other/tor.md
+#"socks://127.0.0.1:9050/xvkw4rj7wzy7t75kkanr54zftudlbtpjbavxcsri5irkavclynaw3xqd.onion:1234"
+# only on local network
+"tcp://tezagm.local:47471"
+
+# relpda (requires public key)
+"tcp://[2001:41d0:a:37e5::2f53:2233]:14403"
+"tcp://137.74.57.96:14403"
+
+# Piraattipuolue - requires keys
+# silta
+"tcp://149.202.119.142:48620"
+# roubaix
+"tcp://178.33.193.154:44559"
