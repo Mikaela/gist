@@ -1,0 +1,20 @@
+gametitle=Kingdom Hearts
+comment=Cheat Codes
+
+// These are converted from http://uk.codejunkies.com/search/codes/cheat_codes.aspx?selp=13&game=&gameID=13631705
+// using OmniConvert.
+
+//Infinite Munny
+patch=1,EE,204086DC,extended,0001869F
+
+//Sora infinite HP (didn't work)
+//patch=1,EE,003F22C5,extended,00000096
+
+//Sora Ultima Weapon
+patch=1,EE,003F27BD,extended,00000001
+
+//Goofy Save The King
+patch=1,EE,003F27DB,extended,00000001
+
+//Donald Save The Queen
+patch=1,EE,003F27CB,extended,00000001
