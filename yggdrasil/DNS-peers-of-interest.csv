@@ -5,3 +5,5 @@ Entry,Country,Source,Owner,DNSSEC?
 """tcp://ukr1.y.sota.sh:8080""",Ukraine,public,Rostyslav Sotnychenko,signedDelegation
 """tcp://cloudberry.fr1.servers.devices.cwinfo.net:64982""",France,public,cwinfo,unsigned
 """tcp://fr2.servers.devices.cwinfo.net:62506""",France,public,cwinfo,unsigned
+"""tcp://de1.servers.devices.cwinfo.net:39593""",German,public,cwinfo,unsigned
+"""tcp://pl1.servers.devices.cwinfo.net:37145""",Poland,public,cwinfo,unsigned
