@@ -1,0 +1,9 @@
+# relpda (requires public key)
+"tcp://ds.relpda.mikaela.info:14403"
+
+# Piraattipuolue - requires keys
+# silta
+"tcp://silta.piraatit.fi:48620"
+# roubaix-fr.pirateirc.net (my domain has SSHFP and won't redirect to
+# round-robin during issues)
+"tcp://roubaix-fr.mikaela.info:44559"
