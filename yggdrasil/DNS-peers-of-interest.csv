@@ -1,0 +1,7 @@
+Entry,Country,Source,Owner,DNSSEC?
+"""tcp://fi1.servers.devices.cwinfo.net:60384""",Finland,public,cwinfo,unsigned
+"""tcp://yggdrasil.fz.is:12080""",Finland,public,sin,unsigned
+"""tcp://ams1.y.sota.sh:8080""",Netherlands,public,Alex Kotov,signedDelegation
+"""tcp://ukr1.y.sota.sh:8080""",Ukraine,public,Rostyslav Sotnychenko,signedDelegation
+"""tcp://cloudberry.fr1.servers.devices.cwinfo.net:64982""",France,public,cwinfo,unsigned
+"""tcp://fr2.servers.devices.cwinfo.net:62506""",France,public,cwinfo,unsigned
