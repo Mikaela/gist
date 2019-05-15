@@ -1,7 +1,12 @@
+9060? torrc-client `SocksPort 9060 OnionTrafficOnly`
+
 # tezagm tor - https://github.com/yggdrasil-network/public-peers/blob/master/other/tor.md
-#"socks://127.0.0.1:9050/xvkw4rj7wzy7t75kkanr54zftudlbtpjbavxcsri5irkavclynaw3xqd.onion:1234"
+#"socks://127.0.0.1:9060/xvkw4rj7wzy7t75kkanr54zftudlbtpjbavxcsri5irkavclynaw3xqd.onion:1234"
 # only on local network
 "tcp://tezagm.local:47471"
+
+# y.jolly-roger.hel.piraatit.internal
+"socks://127.0.0.1:9060/x7dqdmjb7y5ykj4kgirwzj62wrrd3t5dv57oy7oyidnf7cpthd4k7ryd.onion:5222"
 
 # relpda (requires public key)
 "tcp://[2001:41d0:a:37e5::2f53:2233]:14403"
