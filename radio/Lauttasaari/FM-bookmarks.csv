@@ -1,2 +1,10 @@
-Bookmark,Frequency,Name
-1,,"YLE Radio Suomi"
+Bookmark,Frequency,Name,Location,Note
+1,94.00,Yle Radio Suomi,"Espoo, Finland",
+2,97.50,Yle Mondo,"Espoo, Finland",
+3,101.10,Yle Radio Vega,"Espoo, Finland",
+4,92.90,Radio Classic,"Jokela, Finland",
+5,103.70,Yle Puhe,"Espoo, Finland",
+6,91.90,YleX,"Espoo, Finland",
+7,87.90,Yle Radio 1,"Espoo, Finland",
+8,104.10,Vikerraadio,"Tallinna, Estonia",Found via http://www.radiomap.eu/fi/helsinki
+9,98.10,Radio Suomipop,"Espoo, Finland",
