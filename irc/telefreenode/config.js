@@ -26,7 +26,7 @@ config.showMedia = true;
 // To be able to convert from WebP, install imagemagick and the dwebp tool
 // (e.g. sudo apt install imagemagick webp)
 config.mediaConversions = {
-    'webp': 'png'
+    //'webp': 'png'
 };
 
 // Add some randomness to url when relaying media
@@ -41,8 +41,9 @@ config.maxMsgAge = 60;
 config.httpPort = 9090;
 
 // HTTP server location, URLs are generated from this
-config.httpLocation = 'http://149.202.119.142' + ':' + config.httpPort;
-//config.httpLocation = 'https://teleirc.mikaela.info';
+//config.httpLocation = 'http://149.202.119.142' + ':' + config.httpPort;
+//config.httpLocation = 'https://3das7vpgt73yxclb6agz4sz2a2bt7bqqfjucjhhbb5jnndxcd4o4lfid.onion';
+config.httpLocation = 'https://af42kgggd3mfqvgy.tor2web.io';
 
 // Upload sent photos to Imgur, links to Imgur uploads are
 // forwared to IRC
@@ -92,13 +93,15 @@ config.usernameFallbackFormat = '%firstName% (MISSING @USERNAME! telegram.org/fa
 config.replaceNewlines = ' … ';
 
 config.ircNick = 'T4';
-config.ircServer = 'chat.freenode.net';
+//config.ircServer = 'chat.freenode.net';
+config.ircServer = '127.0.0.1';
 
 // array of commands to send to IRC server as soon as we're connected,
 // example: config.ircPerformCmds = [
 //     'PRIVMSG Q@CServe.quakenet.org :AUTH <username> <password>'
 // ]
-config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+RQ'];
+//config.ircPerformCmds = ['NICKSERV identify T4 CENSORED', 'NICKSERV regain T4', 'mode T4 -i+RQ'];
+config.ircPerformCmds = ['ZNC *perform execute'];
 
 config.channels = [
     // example of a barebones IRC channel:
@@ -184,22 +187,23 @@ config.channels = [
 config.ircOptions = {
     userName: 'T4',
     realName: 'mailto:pikaviestimet+FreTGRelay@piraattipuolue.fi',
-    port: 6697,
+    port: 5621,
     localAddress: null,
     showErrors: true,
     autoRejoin: true,
     autoConnect: true,
     channels: [], // auto generated, do not touch
-    secure: true,
+    secure: false,
     selfSigned: false,
     certExpired: false,
     floodProtection: true,
     floodProtectionDelay: 1000,
-    sasl: true,
+    sasl: false,
     stripColors: true,
     channelPrefixes: '&#!',
     messageSplit: 512,
     encoding: '',
+    //password: 'CENSORED'
     password: 'CENSORED'
 };
 
