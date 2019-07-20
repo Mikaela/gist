@@ -1,7 +1,7 @@
-Name,Port,To Backup,Access Control,Explanation
-ZNC,14401,’/home/znc/.znc/,account required,https://znc.in/ My bouncer
-IPFS?,14402,TODO,no,https://ipfs.io/ I think the port may be configured in IPFS node that I am not running due to being so heavy currently
-Yggdrasil,14403,'/etc/yggdrasil.conf,requires authorizing publickey,"https://yggdrasil-network.github.io/ meshnet/mixnet, public”VPN”"
-Syncplay,14404,not worth it,preshared password,https://syncplay.pl server for synhronizing playback of media files (not the media files themselves)
-Syncthing,14405,kind of does it by itself,shared file,https://syncthing.net/ node for syncing directories across some machines
-Mumble server,14406,TODO,preshared password,"https://mumble.info/ server, VoIP app originally for gamers"
+Name,Host,Port,To Backup,Access Control,Explanation
+ZNC,ds.relpda.mikaela.info,14401,/home/znc/.znc/,account required,https://znc.in/ My bouncer
+IPFS?,ds.relpda.mikaela.info,14402,TODO,no,https://ipfs.io/ I think the port may be configured in IPFS node that I am not running due to being so heavy currently
+Yggdrasil,ds.relpda.mikaela.info,14403,/etc/yggdrasil.conf,requires authorizing publickey,"https://yggdrasil-network.github.io/ meshnet/mixnet, public”VPN”. All services listed here are available at y.relpda.mikaela.info"
+Syncplay,ds.relpda.mikaela.info,14404,not worth it,preshared password,https://syncplay.pl server for synhronizing playback of media files (not the media files themselves)
+Syncthing,ds.relpda.mikaela.info,14405,kind of does it by itself,shared file,https://syncthing.net/ node for syncing directories across some machines
+Mumble server,ds.relpda.mikaela.info,14406,TODO,preshared password,"https://mumble.info/ server, VoIP app originally for gamers"
