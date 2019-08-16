@@ -1,5 +1,6 @@
 Name,Host,Port,To Backup,Access Control,Explanation
 ZNC,ds.relpda.mikaela.info,14401,/home/znc/.znc/,account required,https://znc.in/ My bouncer
+Bitbot,ds.relpda.mikaela.info,14402,~bitbot/bitbot/bot.conf ~bitbot/bitbot/databases/bot.db ,API key required,https://github.com/jesopo/bitbot - my git webhook spam
 Yggdrasil,ds.relpda.mikaela.info,14403,/etc/yggdrasil.conf,requires authorizing publickey,"https://yggdrasil-network.github.io/ meshnet/mixnet, public”VPN”. All services listed here are available at y.relpda.mikaela.info"
 Syncplay,ds.relpda.mikaela.info,14404,"not worth it, maybe syncplay-server.service salt & ssl/ dir",preshared password,https://syncplay.pl server for synhronizing playback of media files (not the media files themselves)
 Syncthing,ds.relpda.mikaela.info,14405,kind of does it by itself,shared file,https://syncthing.net/ node for syncing directories across some machines
