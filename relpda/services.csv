@@ -5,3 +5,4 @@ Yggdrasil,ds.relpda.mikaela.info,14403,/etc/yggdrasil.conf,requires authorizing 
 Syncplay,ds.relpda.mikaela.info,14404,"not worth it, maybe syncplay-server.service salt & ssl/ dir",preshared password,https://syncplay.pl server for synhronizing playback of media files (not the media files themselves)
 Syncthing,ds.relpda.mikaela.info,14405,kind of does it by itself,shared file,https://syncthing.net/ node for syncing directories across some machines
 Mumble server,ds.relpda.mikaela.info,14406,/etc/mumble-server.ini /var/lib/mumble-server/mumble-server.sqlite /var/lib/mumble-server/ssl/,preshared password,"https://mumble.info/ server, VoIP app originally for gamers"
+I2Pd,ds.relpda.mikaela.info,14407,/etc/i2pd/ if anything gets put there,N/A,"https://i2pd.website/ - a darknet similar to Tor, but without exits to clearnet"
