@@ -1,0 +1,23 @@
+comment=Harry Potter and the Prisoner of Azkaban [SLES 52440]
+
+// This file originates from https://forums.pcsx2.net/Thread-Fixing-unplayable-games?pid=585955#pid585955
+// originally 51e019bc.pnach, but I have the Nordic version where this also
+// seems to work on
+//
+//prafull's experimental patch (05/05/2018)
+//requires EE timing hack
+//tested without speed hacks, some of them may cause problems
+//Enable large framebuffer and Frame buffer conversion in gsdx
+
+patch=1,EE,0016cf8c,word,00000000
+
+patch=1,EE,0013cd64,word,00000000
+
+patch=1,EE,0013c1a8,word,00000000
+
+patch=1,EE,0013c1cc,word,00000000
+
+patch=1,EE,80000000,word,00000000
+
+patch=1,EE,0013df84,word,00000000
+patch=1,EE,0013cd3c,word,00000000
