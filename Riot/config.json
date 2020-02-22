@@ -1,22 +1,28 @@
 {
-    "features": {
-        "feature_pinning": "labs",
-        "feature_custom_status": "labs",
-        "feature_custom_tags": "labs",
-        "feature_state_counters": "labs",
-        "feature_many_integration_managers": "labs",
-        "feature_mjolnir": "labs",
-        "feature_dm_verification": "labs",
-        "feature_cross_signing": "enable",
-        "feature_invite_only_padlocks": "enable",
-        "feature_event_indexing": "disable",
-        "feature_bridge_state": "labs",
-        "feature_presence_in_room_list": "labs"
-    },
-    "enable_presence_by_hs_url": {
-        "https://matrix.org": false,
-        "https://matrix-client.matrix.org": false,
-        "https://privacytools.io": false,
-        "https://chat.privacytools.io": false
+  "default_server_config": {
+    "m.homeserver": {
+      "base_url": "https://matrix-client.matrix.org",
+      "server_name": "chat.privacytools.io"
     }
+  },
+  "features": {
+    "feature_pinning": "labs",
+    "feature_custom_status": "labs",
+    "feature_custom_tags": "labs",
+    "feature_state_counters": "labs",
+    "feature_many_integration_managers": "labs",
+    "feature_mjolnir": "labs",
+    "feature_dm_verification": "labs",
+    "feature_cross_signing": "enable",
+    "feature_invite_only_padlocks": "enable",
+    "feature_event_indexing": "disable",
+    "feature_bridge_state": "labs",
+    "feature_presence_in_room_list": "labs"
+  },
+  "enable_presence_by_hs_url": {
+    "https://matrix.org": false,
+    "https://matrix-client.matrix.org": false,
+    "https://privacytools.io": false,
+    "https://chat.privacytools.io": false
+  }
 }
