@@ -1,0 +1,14 @@
+comment=Kingdom Hearts Re: Chains of Memories
+
+// Source: Grave at https://forums.pcsx2.net/Thread-Post-your-PCSX2-cheats-patches-here?pid=141957#pid141957
+
+//Inf HP
+patch=1,EE,20224D48,extended,00000000
+
+//Max CP
+patch=1,EE,2060D2A4,extended,0000????
+(last four slots are based what you put in)
+
+//INF CP (Alows u to put 99 of any card in)
+patch=1,EE,202B5AA0,extended,AE201AEC
+patch=1,EE,201B5B5C,extended,00000000
