@@ -1,0 +1,13 @@
+gametitle=Kingdom Hearts 2 Final Mix
+
+// https://forums.pcsx2.net/Thread-Kingdom-hearts-2-Final-mix--12560?pid=96037#pid96037
+
+//Free Drive
+patch=1,EE,201a1b58,extended,00000000
+patch=1,EE,201a1b64,extended,00000000
+
+//Infinite HP
+patch=1,EE,200FE000,extended,8C820004
+patch=1,EE,200FE004,extended,0806891E
+patch=1,EE,200FE008,extended,AC820000
+patch=1,EE,20166CD8,extended,0C03F800
