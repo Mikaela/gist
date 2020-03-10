@@ -1,4 +1,11 @@
 {
+  "integrations_ui_url": "https://dimension.aragon.sh/riot",
+  "integrations_rest_url": "https://dimension.aragon.sh/api/v1/scalar",
+  "integrations_widgets_urls": [
+    "https://dimension.aragon.sh/widgets"
+  ],
+  "integrations_jitsi_widget_url": "https://dimension.aragon.sh/widgets/jitsi",
+  "showLabsSettings": true,
   "default_server_config": {
     "m.homeserver": {
       "base_url": "https://matrix-client.matrix.org",
@@ -6,18 +13,17 @@
     }
   },
   "features": {
-    "feature_pinning": "labs",
-    "feature_custom_status": "labs",
-    "feature_custom_tags": "labs",
+    "feature_pinning": "enable",
+    "feature_custom_tags": "enable",
     "feature_state_counters": "labs",
-    "feature_many_integration_managers": "labs",
+    "feature_many_integration_managers": "enable",
     "feature_mjolnir": "labs",
     "feature_dm_verification": "labs",
     "feature_cross_signing": "enable",
     "feature_invite_only_padlocks": "enable",
-    "feature_event_indexing": "disable",
-    "feature_bridge_state": "labs",
-    "feature_presence_in_room_list": "labs"
+    "feature_event_indexing": "labs",
+    "feature_bridge_state": "enable",
+    "feature_presence_in_room_list": "enable"
   },
   "enable_presence_by_hs_url": {
     "https://matrix.org": false,
