@@ -11,3 +11,26 @@ patch=1,EE,200FE000,extended,8C820004
 patch=1,EE,200FE004,extended,0806891E
 patch=1,EE,200FE008,extended,AC820000
 patch=1,EE,20166CD8,extended,0C03F800
+
+// https://kh-vids.net/threads/kingdom-hearts-ii-final-mix-codes.117695/
+
+// Drive Forms Level up to 9 After One Hit - not working
+//patch=1,EE,201D5F84,extended,3C0F0009
+//patch=1,EE,201D5F88,extended,240F0009
+
+// Drive without party members 
+patch=1,EE,201C9A80,extended,0000102D
+// Party don't disappear when driving
+patch=1,EE,201C99A0,extended,0000102D
+
+//Infinite Jump (Glitchy when using Drive Forms) (Credit to Skiller for porting)
+//patch=1,EE,20191c70,extended,00000000
+
+//Infinite Jump for ALL Characters (MAX)
+//patch=1,EE,01C6C93E,extended,000000FF
+
+// No MP Charge
+patch=1,EE,201A1D78,extended,10000006
+
+//Quick Level Up (All Characters)
+patch=1,EE,2032F210,extended,0098967F
