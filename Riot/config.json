@@ -30,5 +30,8 @@
     "https://matrix-client.matrix.org": false,
     "https://privacytools.io": false,
     "https://chat.privacytools.io": false
-  }
+  },
+      "jitsi": {
+        "preferredDomain": "jitsi.piraattipuolue.fi"
+    }
 }
