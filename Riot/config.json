@@ -1,3 +1,4 @@
+
 {
   "integrations_ui_url": "https://dimension.aragon.sh/riot",
   "integrations_rest_url": "https://dimension.aragon.sh/api/v1/scalar",
@@ -13,6 +14,9 @@
     }
   },
   "features": {
+    "feature_new_spinner": "labs",
+    "feature_custom_status": "labs",
+    "feature_custom_themes": "labs"
     "feature_pinning": "enable",
     "feature_custom_tags": "enable",
     "feature_state_counters": "labs",
