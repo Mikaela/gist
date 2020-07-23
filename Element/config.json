@@ -35,7 +35,12 @@
     "https://matrix-client.matrix.org": false,
     "https://mozilla.modular.im": false,
     "https://privacytools.io": false,
-    "https://chat.privacytools.io": false
+    "https://chat.privacytools.io": false,
+    "https://kapsi.fi": false,
+    "https://matrix.kapsi.fi": false,
+    "https://hacklab.fi": false,
+    "https://matrix.hacklab.fi": false,
+    "*": false
   },
       "jitsi": {
         "preferredDomain": "jitsi.piraattipuolue.fi"
