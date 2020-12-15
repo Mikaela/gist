@@ -1,0 +1,9 @@
+{ "name": "y.etro.mikaela.info",
+"type": "server",
+"location": "Hetzner, Tuusula, Finland",
+"peering": "Ask me? I don't know yet",
+"contact": {
+"name": "Mikaela Suomalainen",
+"xmpp": "mikaela@blesmrt.net",
+"public keys": "https://mikaela.info/keys/"}
+}
