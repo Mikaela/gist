@@ -1,11 +1,5 @@
 
 {
-  "integrations_ui_url": "https://dimension.aragon.sh/riot",
-  "integrations_rest_url": "https://dimension.aragon.sh/api/v1/scalar",
-  "integrations_widgets_urls": [
-    "https://dimension.aragon.sh/widgets"
-  ],
-  "integrations_jitsi_widget_url": "https://dimension.aragon.sh/widgets/jitsi",
   "showLabsSettings": true,
   "default_server_config": {
     "m.homeserver": {
@@ -29,18 +23,6 @@
     "feature_bridge_state": "enable",
     "feature_presence_in_room_list": "enable",
     "feature_ftue_notifications": "enable"
-  },
-  "enable_presence_by_hs_url": {
-    "https://matrix.org": false,
-    "https://matrix-client.matrix.org": false,
-    "https://mozilla.modular.im": false,
-    "https://privacytools.io": false,
-    "https://chat.privacytools.io": false,
-    "https://kapsi.fi": false,
-    "https://matrix.kapsi.fi": false,
-    "https://hacklab.fi": false,
-    "https://matrix.hacklab.fi": false,
-    "*": false
   },
       "jitsi": {
         "preferredDomain": "jitsi.piraattipuolue.fi"
