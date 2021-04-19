@@ -1,4 +1,9 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 [[Ylimääräinen kokous 2021|ylimaarainenkokous2021]] - 
+
+VALMIS, EI SAA ENÄÄ MUOKATA
 
 Electronic Frontier Finland - Effi ry:n ylimääräinen kokous
 ================================
@@ -64,3 +69,17 @@ Electronic Frontier Finland - Effi ry:n ylimääräinen kokous
 ## 6. Kokouksen päättäminen
 
 * Puheenjohtaja päätti kokouksen kello 18:15.
+
+
+Olemme tarkastaneet pöytäkirjan ja todenneet sen vastaavan kokouksen kulkua.
+
+
+Jan Ruusuvuori  
+Mikaela Suomalainen
+-----BEGIN PGP SIGNATURE-----
+
+iIsEARYIADMWIQRp/0Vahp+QMaaR4PGZOS9iuuMHIwUCYH2jzxUcbWlrYWVsYUBt
+aWthZWxhLmluZm8ACgkQmTkvYrrjByPs7gEA5S/tcMVL6vxjkZKb8zEsDCtaHqfk
+wDNeOrMaKLQa238BAOUSadP9WwxSC8lOH7Ml2Y2Qf/0LXNc6HrSJL+UtKX4I
+=ANmk
+-----END PGP SIGNATURE-----
