@@ -1,5 +1,8 @@
 [general]
-RemoteNickFormat="{NOPINGNICK}/{LABEL}: "
+# @ makes MXIDs look better, Telegram needs it separately,
+# probably just confuses networks without RELAYMSG and at least Kiwi pings
+# on @nick
+RemoteNickFormat="@{NOPINGNICK}/{LABEL}: "
 IgnoreFailureOnStart=true
 MessageSplit=true
 MediaDownloadPath="/var/www/html/matterbridge"
@@ -96,7 +99,7 @@ MediaConvertWebPToPNG=false
 # Convert .tgs.webp (animated stickers) to webp
 #MediaConvertTgs="webp"
 # https://github.com/telegramdesktop/tdesktop/issues/6959 + Matrix homeservers become clickable links polluting links
-RemoteNickFormat="<code>{NICK}/{LABEL}</code>: "
+RemoteNickFormat="<code>@{NICK}/{LABEL}</code>: "
 MessageFormat="HTMLNick"
 
 [xmpp.example]
