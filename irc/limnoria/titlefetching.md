@@ -13,8 +13,9 @@ config supybot.protocols.http.peekSize 1048576
 
 * enables the plugin (shipped with Limnoria)
 * enables titlefetching for all links on line, not just the first one
-* disables showing domain (small protection against multiple titlesnarfers
-  entering loop)
+* disables showing domain (small protection against multiple titlesfetcherrs
+  entering a loop or simply not annoying users with clientside link previews
+  (Matrix/Telegram bridges/relays included))
 * disables showing redirect target -||-
 * sets user-agent to "Limnoria UrlPreviewBot" instead of ['Mozilla/5.0 (compatible; utils.web python module)' from 2005](https://github.com/ProgVal/Limnoria/blame/2990fcd302afdc6a3b741594017c3959fd5da2fd/src/utils/web.py#L120)
   * I have heard that it's bad to pretend to be something you aren't and
