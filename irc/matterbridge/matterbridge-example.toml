@@ -6,13 +6,13 @@ MediaDownloadPath="/var/www/html/matterbridge"
 MediaServerDownload="https://etro.mikaela.info/matterbridge"
 MediaDownloadSize=20000000
 MediaDownloadBlacklist=[".html$",".htm$"]
-replacemessages=[ ["@room","@rööm"], ["@online","@önline"], ["@channel", "@chännel"], ["@everyone", "@everyöne"], ["@here", "@hěrě"] ]
+replacemessages=[ ["@room","@rööm"], ["@online","@önline"] ]
 EditSuffix=" ✏️"
 UseLocalAvatar=["irc"]
 
-[irc.etro]
+[irc.localergo]
 Nick="T4"
-NickServNick="T4@etro"
+NickServNick="T4@local"
 NickServPassword=""
 Server="localhost:6667"
 UseTLS=false
@@ -48,6 +48,65 @@ Label="LiberaChat"
 Charset="utf8"
 RunCommands=["MODE T4 -iw+gQR"]
 
+[matrix.matrixexample]
+Server="https://matrix.example.org"
+Login="username"
+Password="password"
+# Otherwise collision risk with UseUserName=true
+NoHomeServerSuffix=false
+Label="m"
+# Use Matrix ID instead of display name to avoid messages getting lost due
+# to Ergo and Matterbridge disagreeing on invalid characters (e.g. LGBT* flag)
+# https://github.com/ergochat/ergo/issues/1441
+UseUserName=true
+# Send everything as is, don't "cleverly" convert into HTML/Markdown which
+# would break #channels (-> markdown h1 tag), mathematical equatons etc.
+# The IRC equivalent would be `StripMarkdown`, but I consider it as
+# more harmful than good
+HTMLDisable=true
+
+[mattermost.mattermostexample]
+Server="mattermost.example.org:443"
+Team="awesometeam"
+Token="abcdef123456"
+PrefixMessagesWithNick=true
+Label="Mm"
+# mattermost.example.org is presumably behind a remote proxy that
+# suppresses non standards headers and thus breaks usual version check?
+# https://github.com/42wim/matterbridge/wiki/Settings#skipversioncheck
+SkipVersionCheck=true
+
+[discord.discordexample]
+Token="nope"
+Server="123456789"
+# When these are True, pinging from other platforms breaks
+UseUsername=false
+UseDiscriminator=false
+Label="D"
+# Discord has webhooks so trailing space isn't required. Looks same as Ergo except has avatar
+RemoteNickFormat="{NICK}/{LABEL}"
+# Allow mentioning users and roles, not everyone etc.
+AllowMention=["user","role"]
+
+[telegram.telegrambot]
+Token="nopenopenope"
+Label="T"
+QuoteLengthLimit=60
+MediaConvertWebPToPNG=false
+# Convert .tgs.webp (animated stickers) to webp
+#MediaConvertTgs="webp"
+# https://github.com/telegramdesktop/tdesktop/issues/6959 + Matrix homeservers become clickable links polluting links
+RemoteNickFormat="<code>{NICK}/{LABEL}</code>: "
+MessageFormat="HTMLNick"
+
+[xmpp.example]
+Server="example.net:5222"
+Jid="matterbridge@example.net"
+Password="nonono"
+Muc="conference.example.net"
+Nick="M"
+Label="xmpp"
+
 [[gateway]]
 name="redactedchanone"
 enable=false
@@ -60,6 +119,7 @@ enable=false
     account="irc.liberachat"
     channel="#redactedchanone"
 
+[[gateway]]
 name="secretchan"
 enable=true
 
@@ -72,5 +132,43 @@ enable=true
     channel="##secretchan+"
 
     [[gateway.inout]]
-    account="irc.etro"
+    account="irc.localergo"
     channel="#secretchan+"
+
+[[gateway]]
+name="test"
+enable="true"
+
+    [[gateway.inout]]
+    account="irc.localergo"
+    channel="#test"
+
+    [[gateway.inout]]
+    account="irc.liberachat"
+    channel="#test"
+
+    [[gateway.inout]]
+    account="irc.freenode"
+    channel="#test"
+
+    [[gateway.inout]]
+    account="discord.discordexample"
+    channel="ID:121212123124618"
+    [gateway.inout.options]
+    WebhookURL="https://discordapp.com/api/webhooks/..."
+
+    [[gateway.inout]]
+    account="telegram.telegrambot"
+    channel="-1001199999999"
+
+    [[gateway.inout]]
+    account="mattermost.mattermostexample"
+    channel="test"
+
+    [[gateway.inout]]
+    account="matrix.matrixexample"
+    channel="#whatever-local-alias:example.org"
+
+    [[gateway.inout]]
+    account="xmpp.example"
+    channel="test"
