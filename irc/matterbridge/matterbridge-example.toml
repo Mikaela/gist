@@ -1,0 +1,76 @@
+[general]
+RemoteNickFormat="{NOPINGNICK}/{LABEL}: "
+IgnoreFailureOnStart=true
+MessageSplit=true
+MediaDownloadPath="/var/www/html/matterbridge"
+MediaServerDownload="https://etro.mikaela.info/matterbridge"
+MediaDownloadSize=20000000
+MediaDownloadBlacklist=[".html$",".htm$"]
+replacemessages=[ ["@room","@rööm"], ["@online","@önline"], ["@channel", "@chännel"], ["@everyone", "@everyöne"], ["@here", "@hěrě"] ]
+EditSuffix=" ✏️"
+UseLocalAvatar=["irc"]
+
+[irc.etro]
+Nick="T4"
+NickServNick="T4@etro"
+NickServPassword=""
+Server="localhost:6667"
+UseTLS=false
+UseSASL=true
+Label="IRC@Etro"
+Charset="utf8"
+IgnoreNicks="HistServ"
+RunCommands=["OPER T4 MI-ne-DIRAS-do-AL-vin", "MODE T4 -iw+BET"]
+UseRelayMsg=true
+RemoteNickFormat="{NICK}/{LABEL}"
+
+[irc.freenode]
+Nick="T4"
+NickServNick="T4"
+NickServPassword=""
+Server="chat.ipv6.freenode.net:6697"
+UseTLS=true
+UseSASL=true
+SkipTLSVerify=false
+Label="freenode"
+Charset="utf8"
+RunCommands=["MODE T4 -iw+gQR"]
+
+[irc.liberachat]
+Nick="T4"
+NickServNick="T4"
+NickServPassword=""
+Server="irc.libera.chat:6697"
+UseTLS=true
+UseSASL=true
+SkipTLSVerify=false
+Label="LiberaChat"
+Charset="utf8"
+RunCommands=["MODE T4 -iw+gQR"]
+
+[[gateway]]
+name="redactedchanone"
+enable=false
+
+    [[gateway.inout]]
+    account="irc.freenode"
+    channel="#redactedchanone"
+
+    [[gateway.inout]]
+    account="irc.liberachat"
+    channel="#redactedchanone"
+
+name="secretchan"
+enable=true
+
+    [[gateway.inout]]
+    account="irc.freenode"
+    channel="##secretchan+"
+
+    [[gateway.inout]]
+    account="irc.liberachat"
+    channel="##secretchan+"
+
+    [[gateway.inout]]
+    account="irc.etro"
+    channel="#secretchan+"
