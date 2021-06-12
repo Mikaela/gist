@@ -36,3 +36,13 @@ config channel #CHAN plugins.web.titleSnarfer True
     every channel on network or `config` (or omitted entirely) for
     everywhere (channel takes priority over network which *probably takes*
     priority over global)
+
+## Excluding domains from titlefetching
+
+```
+config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com)/
+```
+
+* regexp to block t.me, matrix.to & facebook.com, which are the first useless
+examples I have encountered recently. I just stole the regexp from
+[canonical Limnoria](https://github.com/ProgVal/Limnoria/wiki/Canonical-%23limnoria-doc)
