@@ -4,56 +4,57 @@ This is a list of Matterbridge gateways that I am maintaining or those of
 them that people are likely to ask after (there are a couple where everyone
 knows everyone and more people aren't likely to appear).
 
-## definitions
+## Definitions
 
-In format label (shown as source of the message), proper name and address
+In format label (shown as source of the message), proper name and address.
+IRC labels begin with IRC for easier ignoring by bots.
 
-* ergo - ergochat - ircs://irc.ergo.chat:6697
-* etro - IRC@Etro - ircs://etro.mikaela.info:6697
-* lc - liberachat - ircs://irc.libera.chat:6697
-* lca - libertacasa - ircs://irc.liberta.casa:6697
-* \[m\] - matrix - https://matrix.org
-* nn - nixnet - ircs://irc.nixnet.services:6697
-* pirc - pirateirc - ircs://roubaix-fr.pirateirc.net:6697
-* pircdev - pirateirc testnet - ircs://irc2.piraattipuolue.fi:6697
-* tg - telegram - https://telegram.org
-* twitch - twitch - https://twitch.tv
-* xmpp - xmpp - https://xmpp.org
+* ircErgo - ErgoChat - ircs://irc.ircErgo.chat:6697
+* ircEtro - IRC@Etro - ircs://ircEtro.mikaela.info:6697
+* ircLc - LiberaChat - ircs://irc.libera.chat:6697
+* ircLca - LibertaCasa - ircs://irc.liberta.casa:6697
+* `[m]` - Matrix - https://matrix.org
+* ircNn - NixNet - ircs://irc.nixnet.services:6697
+* ircPirate - PirateIRC - ircs://roubaix-fr.pirateirc.net:6697
+* ircPirateTest - PirateIRC Testnet - ircs://irc2.piraattipuolue.fi:6697
+* Tg - Telegram - https://telegram.org
+* Twitch - Twitch - https://twitch.tv
+* XMPP - XMPP - https://xmpp.org
 
-## gateways
+## Gateways
 
-omits the ones which are obvious to everyone or requesters
+Sorted in order of popularity or likeliness to be asked about.
 
-### mikaela.info
+### Mikaela.info
 
-* ergo
-* etro
-* lca
-* \[m\]
-* nn
-* pirc
-* pircdev
-* tg
-* twitch
-* xmpp
+* ircErgo
+* ircEtro
+* ircLca
+* `[m]`
+* ircNn
+* ircPirate
+* ircPirateTest
+* Tg
+* Twitch
+* XMPP
 
 ### Tanukis
 
-* etro
-* lca
-* \[m\]
-* pirc
-* pircdev
-* tg
-* xmpp
+* ircEtro
+* ircLca
+* `[m]`
+* ircPirate
+* ircPirateTest
+* Tg
+* XMPP
 
-### abgilpqt
+### ABGILPQT
 
-* etro
-* lc
-* \[m\]
+* ircEtro
+* ircLc
+* `[m]`
 
-### test
+### Test
 
 Handled by different instance, please see its csv's
 
