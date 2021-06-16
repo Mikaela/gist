@@ -1,20 +1,24 @@
-# matterbridgings I am maintaining
+# Matterbridging list
 
-***2021-06-13: I am simultaneously typing this, listening to voting counts and Jitsi Meet, so this is poor quality and will be a lot more clear in future version to be made.***
-
-or the ones that may have questions to people
+This is a list of Matterbridge gateways that I am maintaining or those of
+them that people are likely to ask after (there are a couple where everyone
+knows everyone and more people aren't likely to appear).
 
 ## definitions
 
-* liberachat - ircs://irc.libera.chat:6697
-* pirateirc - ircs://roubaix-fr.pirateirc.net:6697
-* pircdev - ircs://irc2.piraattipuolue.fi:6697
-* nixnet - ircs://irc.nixnet.services:6697
-* etro - ircs://etro.mikaela.info:6697
-* libertacasa - ircs://irc.liberta.casa:6697
-* ergochat - ircs://irc.ergo.chat:6697
-* matrix - https://matrix.org
-* telegram - https://telegram.org
+In format label (shown as source of the message), proper name and address
+
+* ergo - ergochat - ircs://irc.ergo.chat:6697
+* etro - IRC@Etro - ircs://etro.mikaela.info:6697
+* lc - liberachat - ircs://irc.libera.chat:6697
+* lca - libertacasa - ircs://irc.liberta.casa:6697
+* \[m\] - matrix - https://matrix.org
+* nn - nixnet - ircs://irc.nixnet.services:6697
+* pirc - pirateirc - ircs://roubaix-fr.pirateirc.net:6697
+* pircdev - pirateirc testnet - ircs://irc2.piraattipuolue.fi:6697
+* tg - telegram - https://telegram.org
+* twitch - twitch - https://twitch.tv
+* xmpp - xmpp - https://xmpp.org
 
 ## gateways
 
@@ -22,34 +26,36 @@ omits the ones which are obvious to everyone or requesters
 
 ### mikaela.info
 
-* pirateirc
-* pircdev
-* nixnet
+* ergo
 * etro
-* libertacasa
-* ergochat
-* matrix
-* telegram
+* lca
+* \[m\]
+* nn
+* pirc
+* pircdev
+* tg
+* twitch
+* xmpp
 
 ### Tanukis
 
-* pirateirc
-* pircdev
 * etro
-* libertacasa
-* ergochat
-* matrix
-* telegram
+* lca
+* \[m\]
+* pirc
+* pircdev
+* tg
+* xmpp
 
 ### abgilpqt
 
-* liberachat
-* matrix
 * etro
+* lc
+* \[m\]
 
-## test
+### test
 
-please refer to
+Handled by different instance, please see its csv's
 
 * https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet/src/branch/master/kanavat.csv
-* https://gitea.blesmrt.net/mikaela/public-ppfi-im/src/branch/master/kanavat.csv
+* mirror https://gitea.blesmrt.net/mikaela/public-ppfi-im/src/branch/master/kanavat.csv
