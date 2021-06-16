@@ -21,3 +21,11 @@ config channel #CHAN supybot.plugins.RSS.notice False
 ```
 
 * RSS announces as NOTICEs
+
+### Reverting
+
+```
+config reset channel #CHAN supybot.reply.error.withNotice
+config reset channel #CHAN supybot.reply.withNotice
+config reset channel #CHAN supybot.plugins.RSS.notice False
+```

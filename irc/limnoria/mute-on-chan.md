@@ -37,3 +37,13 @@ config channel #CHAN supybot.reply.inPrivate True
 
 In order to answer all commands in private instead of the channel, while
 that may not be so desirable either especially in presense of relays.
+
+## Reverting
+
+config reset channel #CHAN supybot.reply.whenAddressedBy.chars
+config reset channel #CHAN supybot.reply.whenAddressedBy.nick
+config reset channel #CHAN supybot.reply.whenAddressedBy.nick.atEnd
+config reset channel #CHAN supybot.reply.whenAddressedBy.nicks
+config reset channel #CHAN supybot.reply.whenAddressedBy.strings
+config reset channel #CHAN supybot.reply.whenNotAddressed
+config reset channel #CHAN supybot.reply.inPrivate
