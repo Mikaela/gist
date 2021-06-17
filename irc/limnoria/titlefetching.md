@@ -40,9 +40,9 @@ config channel #CHAN plugins.web.titleSnarfer True
 ## Excluding domains from titlefetching
 
 ```
-config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com)/
+config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com|instagram.com)/
 ```
 
-* regexp to block t.me, matrix.to & facebook.com, which are the first useless
-examples I have encountered recently. I just stole the regexp from
-[canonical Limnoria](https://github.com/ProgVal/Limnoria/wiki/Canonical-%23limnoria-doc)
+* regexp to block the listed domains, which are the first useless
+  examples I have encountered recently. I just stole the regexp from
+  [canonical Limnoria](https://github.com/ProgVal/Limnoria/wiki/Canonical-%23limnoria-doc)
