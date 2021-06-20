@@ -50,13 +50,13 @@ D=0
 S=roubaix-fr.pirateirc.net/6697
 C=OPER %n %p
 
-N=Oragono Testnet
+N=Ergo Testnet
 U=Mikaela@HEXCHAT
 L=10
 E=UTF-8 (Unicode)
 F=92
 D=0
-S=testnet.oragono.io/6697
+S=testnet.ergo.chat/6697
 
 N=PartidoPirataAR
 U=Mikaela@HEXCHAT
