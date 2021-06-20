@@ -1,0 +1,76 @@
+v=2.14.3
+
+N=Asak
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=chat.actionsack.com/6697
+
+N=ErgoChat
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=92
+D=0
+S=irc.ergo.chat/6697
+
+N=IRC@Etro
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=etro.mikaela.info/6697
+C=OPER %n %p
+
+N=LibertaCasa
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=irc.liberta.casa/6697
+
+N=NixNet
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=irc.nixnet.services/6697
+
+N=Old PirateIRC
+U=MikaelaSuomalainen
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=roubaix-fr.pirateirc.net/6697
+C=OPER %n %p
+
+N=Oragono Testnet
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=92
+D=0
+S=testnet.oragono.io/6697
+
+N=PartidoPirataAR
+U=Mikaela@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=92
+D=0
+S=partidopirata.com.ar/6697
+
+N=PirateIRC2
+U=MikaelaSuomalainen@HEXCHAT
+L=10
+E=UTF-8 (Unicode)
+F=93
+D=0
+S=irc2.piraattipuolue.fi/6697
+C=OPER %n %p
