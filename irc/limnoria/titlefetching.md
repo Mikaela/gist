@@ -46,3 +46,14 @@ config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com|inst
 * regexp to block the listed domains, which are the first useless
   examples I have encountered recently. I just stole the regexp from
   [canonical Limnoria](https://github.com/ProgVal/Limnoria/wiki/Canonical-%23limnoria-doc)
+
+## Titlesnarfing ignored users
+
+While I personally don't like to do this, it's possible by
+
+```
+config channel #CHAN plugins.web.checkignored False
+```
+
+I may have the bot on multiple sides of relay or the user may be ignored due
+to abuse so this may result into spam.
