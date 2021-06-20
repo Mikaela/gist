@@ -57,6 +57,8 @@ Login="username"
 Password="password"
 # Otherwise collision risk with UseUserName=true
 NoHomeServerSuffix=false
+# The Matrix logo "[m]" easens hitting up Discord maximum length so it's
+# better to only have a single char label with the full MXID
 Label="m"
 # Use Matrix ID instead of display name to avoid messages getting lost due
 # to Ergo and Matterbridge disagreeing on invalid characters (e.g. LGBT* flag)
