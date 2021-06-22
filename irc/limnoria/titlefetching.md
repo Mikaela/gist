@@ -40,7 +40,7 @@ config channel #CHAN plugins.web.titleSnarfer True
 ## Excluding domains from titlefetching
 
 ```
-config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com|instagram.com)/
+config supybot.plugins.Web.nonSnarfingRegexp m/(t.me|matrix.to|facebook.com|instagram.com|imgur.com)/
 ```
 
 * regexp to block the listed domains, which are the first useless
