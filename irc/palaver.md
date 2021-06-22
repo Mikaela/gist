@@ -8,4 +8,4 @@ Upstream: https://palaverapp.com/guides/commands/set.html
   * makes prefixes visible
 * `/set ui.nick_prefix <`
 * `/set ui.nick_suffix >`
-* `/set ui.browser TODO`
+* `/set ui.browser system_default`
