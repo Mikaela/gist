@@ -40,6 +40,7 @@ Sorted in order of popularity or likeliness to be asked about.
 
 ### Tanukis
 
+* ircErgo
 * ircEtro
 * ircLca
 * `[m]`
@@ -48,7 +49,7 @@ Sorted in order of popularity or likeliness to be asked about.
 * Tg
 * XMPP
 
-### ABGILPQT
+### ABGILPQT+
 
 * ircEtro
 * ircLc
