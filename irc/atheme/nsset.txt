@@ -2,18 +2,18 @@
 /ns set enforce on
 /ns set enforcetime 1
 /ns set hidemail on
-/ns set nomemo on
-/ns set private on
-(/ns set property Channel ##Mikaela)
-/ns set property Diaspora ciblia@joindiaspora.com
-/ns set property DigitalOcean https://www.digitalocean.com/?refcode=ed2a94e7eb56
-/ns set property Flattr https://flattr.com/submit/auto?fid=7j1ne6&url=https%3A%2F%2Fmikaela.info%2Firc
-/ns set property Matrix @Ciblia:matrix.org
-/ns set property PGP 2910 4A46 C561 5BF9 78A0  83F2 0C20 7F07 B2F3 2B67
-/ns set property Pronouns she/her/hers
-/ns set property PublicKeys https://mikaela.info/keys
-/ns set property SocialMediaAndReferralLinks https://mikaela.info/some
+/ns set nomemo off
+/ns set private off
+/ns set property Channel https://mikaela.info/discuss
+/ns set property Feneas https://portal.feneas.org/users/about
+/ns set property IdentityProof https://mikaela.info/txt/irc.txt
+/ns set property LessPrivilegedAccount Mikaela-
+/ns set property PGP 69FF 455A 869F 9031 A691  E0F1 9939 2F62 BAE3 0723
+/ns set property PronominitSuomeksi hän/se (jota puhekielessä kumminkin käytetään)
+/ns set property Pronouns ŝi/ŝin/ŝia
+/ns set property PronounsFallback sxi/sxin/sxia
+/ns set property PronounsFallbackTraditional shi/shin/shia
+/ns set property PronounsPreferred feminine, anything else than he/it
 /ns set property TimeZone Europe/Helsinki
 /ns set property URL https://mikaela.info/
-/ns set property XMPP ciblia@joindiaspora.com
-/ns set property XMPP2 mikaela@kapsi.fi
+/ns set property Usage Primary NickServ account
