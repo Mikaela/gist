@@ -5,7 +5,7 @@
 * Nickname length: `/set text_max_indent 640`
   * so huge nicknames (especially with RELAYMSG) won't overlap timestamps
   * source: https://hexchat.readthedocs.io/en/latest/faq.html#why-does-the-timestamp-overlap-some-nicknames
-* Auto-reconnect: `/set net_ping_timeout 60`
+* Auto-reconnect: `/set net_ping_timeout 90`
   * https://hexchat.readthedocs.io/en/latest/faq.html#how-do-i-auto-reconnect-after-my-computer-wakes-up-from-being-in-sleep-hibernate-mode
 
 ## Settings changes
