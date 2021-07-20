@@ -5,9 +5,16 @@
 /ns set nomemo off
 /ns set private off
 /ns set property Channel https://mikaela.info/discuss
+/ns set property Fediverse @mikaela@social.snopyta.org
+/ns set property FediversePolitics @MikaelaPPFI@mastodon.pirateparty.be
 /ns set property Feneas https://portal.feneas.org/users/about
+/ns set property FursonaSpecies savannah cat / lion / dragon / vampireish -hybrid?
+/ns set property PrimaryAccount Mikaela
 /ns set property IdentityProof https://mikaela.info/txt/irc.txt
+/ns set property LastFM Ciblia
 /ns set property LessPrivilegedAccount Mikaela-
+/ns set property LibreFM Mikaela
+/ns set property Minisign RWQJBHYE4Q+4w7U4uvfOJHiqLYujzkyQpnWA2B3r29W3gFk4pw0+nwNX
 /ns set property PGP 69FF 455A 869F 9031 A691  E0F1 9939 2F62 BAE3 0723
 /ns set property PronominitSuomeksi hän/se (jota puhekielessä kumminkin käytetään)
 /ns set property Pronouns ŝi/ŝin/ŝia
@@ -17,3 +24,4 @@
 /ns set property TimeZone Europe/Helsinki
 /ns set property URL https://mikaela.info/
 /ns set property Usage Primary NickServ account
+/ns set property Usage Less privileged NickServ account for less trusted/3rdparty services
