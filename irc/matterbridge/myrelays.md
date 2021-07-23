@@ -15,8 +15,9 @@ IRC labels begin with IRC for easier ignoring by bots.
 * ircLca - LibertaCasa - ircs://irc.liberta.casa:6697
 * `[m]` - Matrix - https://matrix.org
 * ircNn - NixNet - ircs://irc.nixnet.services:6697
-* ircPirate - PirateIRC - ircs://roubaix-fr.pirateirc.net:6697
-* ircPirateTest - PirateIRC Testnet - ircs://irc2.piraattipuolue.fi:6697
+* <s>ircPirate - PirateIRC - ircs://roubaix-fr.pirateirc.net:6697</s>
+* <s>ircPirateTest - PirateIRC Testnet - ircs://irc2.piraattipuolue.fi:6697</s>
+  * The two PirateIRC's are waiting for IRCd migration and merger into one.
 * Tg - Telegram - https://telegram.org
 * Twitch - Twitch - https://twitch.tv
 * XMPP - XMPP - https://xmpp.org
@@ -32,8 +33,8 @@ Sorted in order of popularity or likeliness to be asked about.
 * ircLca
 * `[m]`
 * ircNn
-* ircPirate
-* ircPirateTest
+* <s>ircPirate</s>
+* <s>ircPirateTest</s>
 * Tg
 * Twitch
 * XMPP
@@ -44,8 +45,8 @@ Sorted in order of popularity or likeliness to be asked about.
 * ircEtro
 * ircLca
 * `[m]`
-* ircPirate
-* ircPirateTest
+* <s>ircPirate</s>
+* <s>ircPirateTest</s>
 * Tg
 * XMPP
 
