@@ -8,7 +8,7 @@
 /ns set property Fediverse @mikaela@social.snopyta.org
 /ns set property FediversePolitics @MikaelaPPFI@mastodon.pirateparty.be
 /ns set property Feneas https://portal.feneas.org/users/about
-/ns set property FursonaSpecies savannah cat / lion / dragon / vampireish -hybrid?
+/ns set property FursonaSpecies Dragonic feline (savannah cat / lion?) shapeshifter with vampiric traits
 /ns set property PrimaryAccount Mikaela
 /ns set property IdentityProof https://mikaela.info/txt/irc.txt
 /ns set property LastFM Ciblia
