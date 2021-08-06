@@ -11,6 +11,7 @@ MediaDownloadSize=20000000
 MediaDownloadBlacklist=[".html$",".htm$"]
 replacemessages=[ ["@room","@rööm"], ["@online","@önline"] ]
 EditSuffix=" ✏️"
+MessageClipped="…"
 UseLocalAvatar=["irc"]
 
 [irc.localergo]
@@ -103,6 +104,7 @@ MediaConvertWebPToPNG=false
 # https://github.com/telegramdesktop/tdesktop/issues/6959 + Matrix homeservers become clickable links polluting links
 RemoteNickFormat="<code>@{NICK}/{LABEL}</code>: "
 MessageFormat="HTMLNick"
+DisableWebPagePreview=true
 
 [xmpp.example]
 Server="example.net:5222"
