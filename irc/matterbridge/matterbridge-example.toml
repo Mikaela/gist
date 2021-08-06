@@ -1,7 +1,8 @@
 [general]
 # @ makes MXIDs look better, Telegram needs it separately,
 # probably just confuses networks without RELAYMSG and at least Kiwi pings
-# on @nick
+# on @nick. Labels can be shorter than protocol names (more descriptive in
+# case of IRC and are ircCamelCase for benefit of IRC bots)
 RemoteNickFormat="@{NOPINGNICK}/{LABEL}: "
 IgnoreFailureOnStart=true
 MessageSplit=true
@@ -21,7 +22,7 @@ NickServPassword=""
 Server="localhost:6667"
 UseTLS=false
 UseSASL=true
-Label="IRC@Etro"
+Label="ircEtro"
 Charset="utf8"
 IgnoreNicks="HistServ"
 RunCommands=["OPER T4 MI-ne-DIRAS-do-AL-vin", "MODE T4 -iw+BET"]
@@ -36,7 +37,7 @@ Server="chat.ipv6.freenode.net:6697"
 UseTLS=true
 UseSASL=true
 SkipTLSVerify=false
-Label="freenode"
+Label="ircFn"
 Charset="utf8"
 RunCommands=["MODE T4 -iw+gQR"]
 
@@ -48,7 +49,7 @@ Server="irc.libera.chat:6697"
 UseTLS=true
 UseSASL=true
 SkipTLSVerify=false
-Label="LiberaChat"
+Label="ircLc"
 Charset="utf8"
 RunCommands=["MODE T4 -iw+gQR"]
 
