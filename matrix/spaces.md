@@ -7,7 +7,7 @@ formal method of finding them later in development.
 * [The Apothecary](matrix:roomid/zYPetrOdqxxQYoWCTb:the-apothecary.club?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
   * I just love the atmosphere of the community and the moderators are doing
     a great job keeping it safe and friendly
-* [Fantasycookie](matrix:roomid/!FlVUGgSwRvZMIkXPLd:artemislena.eu?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
+* [Fantasycookie](matrix:roomid/FlVUGgSwRvZMIkXPLd:artemislena.eu?action=join&via=artemislena.eu&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
   * Artemislena.eu or *Fantasycookie* are just some of the people I am copying with my space and room
     (another being [Sheo's random talks](https://shivering-isles.com/matrix?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
     where there is no space yet to my knowledge), good ideas just are made to be copied ;)
@@ -30,6 +30,6 @@ formal method of finding them later in development.
   * *Mikaela.info*, my own space, it may not yet host interesting or random
     discussions that much, but sometimes I find it motivating to see that
     I am doing things when I see git forge/commit activity.
-* [PrivacyTools.io](matrix:roomid/XvLsfIFskBFvyfBuel:pixie.town?action=join&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
+* [PrivacyTools.io](matrix:roomid/XvLsfIFskBFvyfBuel:pixie.town?action=join&via=pixie.town&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
   * *PrivacyTools.io*, encryption against mass surveillance. I am not entirely
     sure about the officialness of this space
