@@ -1,7 +1,7 @@
 # HexChat configs
 
-* Timestamp format: `[%Y-%j %H.%M.%S]`
-  * Example: `2021-173 19.40.50`
+* Timestamp format: `[%Y-%j %H.%M.%S]` or `[%G-W%V-%u %H:%M:%S]`
+  * Example: `2021-173 19.40.50` or `2021-W34-5 13:44:50`
 * Nickname length: `/set text_max_indent 640`
   * so huge nicknames (especially with RELAYMSG) won't overlap timestamps
   * source: https://hexchat.readthedocs.io/en/latest/faq.html#why-does-the-timestamp-overlap-some-nicknames
