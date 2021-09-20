@@ -8,18 +8,13 @@
     }
   },
   "features": {
-    "feature_new_spinner": "labs",
     "feature_custom_status": "labs",
     "feature_custom_themes": "labs",
     "feature_pinning": "enable",
     "feature_custom_tags": "enable",
     "feature_state_counters": "labs",
-    "feature_many_integration_managers": "enable",
     "feature_mjolnir": "labs",
     "feature_dm_verification": "labs",
-    "feature_cross_signing": "enable",
-    "feature_invite_only_padlocks": "enable",
-    "feature_event_indexing": "labs",
     "feature_bridge_state": "enable",
     "feature_presence_in_room_list": "enable",
     "feature_ftue_notifications": "enable"
