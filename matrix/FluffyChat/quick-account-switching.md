@@ -34,6 +34,7 @@ on `https://matrix-client.matrix.org` (the address was found from https://matrix
   below the account switcher. Quick account switching can only be done within the same bundle.
   * additionally bundles should be created by long touching the account on the bar and selecting "add to bundle".
     `/devtools` is needed only for priority/sorting and prefix
+  * if there is no bundle, bundle named after the mxid is implied and quick-switching is unavailable.
 * priority: defines the order of accounts on the account bar.
 * prefix: what will need to be typed to the input bar in FluffyChat for quick account switching. Case-insensitive.
 
