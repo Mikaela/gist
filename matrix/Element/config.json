@@ -8,16 +8,23 @@
     }
   },
   "features": {
-    "feature_custom_status": "labs",
-    "feature_custom_themes": "labs",
-    "feature_pinning": "enable",
-    "feature_custom_tags": "enable",
-    "feature_state_counters": "labs",
-    "feature_mjolnir": "labs",
-    "feature_dm_verification": "labs",
-    "feature_bridge_state": "enable",
-    "feature_presence_in_room_list": "enable",
-    "feature_ftue_notifications": "enable"
+	"feature_report_to_moderators": "enable",
+	"feature_custom_status": "enable",
+	"feature_presence_in_room_list": "enable",
+	"feature_dehydration": "enable",
+	"feature_new_layout_switcher": "enable",
+	"feature_thread": "enable",
+	"feature_spaces": "enable",
+	"feature_hidden_read_receipts": "labs",
+	"feature_custom_themes": "labs",
+	"feature_pinning": "enable",
+	"feature_custom_tags": "enable",
+	"feature_state_counters": "labs",
+	"feature_mjolnir": "labs",
+	"feature_dm_verification": "labs",
+	"feature_bridge_state": "enable",
+	"feature_presence_in_room_list": "enable",
+	"feature_ftue_notifications": "enable"
   },
       "jitsi": {
         "preferredDomain": "jitsi.effi.org"
