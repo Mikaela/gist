@@ -27,6 +27,10 @@ General notes:
 * 0.4.1 has a bug where using automatic server discovery through well-known
   causes all accounts to get logged out. Use server name instead, e.g. `https://matrix-client.matrix.org` (discovered from https://matrix.org/.well-known/matrix/client)
 * Quick account switching will only work within a bundle, which by default is implied to be the MXID, so by default it's disabled
+* Note the avatar next to the input bar showing which account you are using. It can also be used for switching accounts.
+  * Tapping it to change account will also change who will send an image or a voice message.
+* Long tapping a message and editing a message send as another account will
+  auto-set the indicator as your roleplay character.
 
 Big thank you to FluffyChat contributors who made this feature and Sorunome
 for initially explaining how to do this so I could attempt to make a more clearer
