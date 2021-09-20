@@ -1,7 +1,7 @@
 # Quick account switching in FluffyChat
 
 FluffyChat 0.41.0 brings support for using multiple accounts and has an early
-implementation of quickly switching accounts via input bar, which will get
+implementation of quickly switching accounts via input bar (useful for roleplaying :wink:), which will get
 better in a future release, but for now, for impatient people, it can
 be used by enabling a prefix with Element's (Web/Desktop) `/devtools` by editing
 the account state which can also be used for sorting accounts.
