@@ -19,8 +19,8 @@ brackets `{}` are added automatically):
 {
     "bundles": [
       {
-        "name": "Ciblia",
-        "priority": 0
+        "name": "Personal",
+        "priority": 123
       }
     ],
     "prefix": "C"
@@ -30,9 +30,12 @@ brackets `{}` are added automatically):
 *This one is what I set as `@Ciblia:matrix.org` which is logged in as `Ciblia`
 on `https://matrix-client.matrix.org` (the address was found from https://matrix.org/.well-known/matrix/client)*
 
-* name: I think it's a local name that will be used in the future for differentiating accounts in FluffyChat, but I am unsure as of time of typing*
-* priority: I have no idea what this is either :sweat_smile:
-* prefix: what will need to be typed to the input bar in FluffyChat for quick account switching
+* name: name of the account bundle (kind of tab bar, which can separate personal account from work accounts)
+  below the account switcher. Quick account switching can only be done within the same bundle.
+  * additionally bundles should be created by long touching the account on the bar and selecting "add to bundle".
+    `/devtools` is needed only for priority/sorting and prefix
+* priority: defines the order of accounts on the account bar.
+* prefix: what will need to be typed to the input bar in FluffyChat for quick account switching. Case-insensitive.
 
 6. Start/restart FluffyChat
 7. Type "C message" and the account will be swithed to `@Ciblia:matrix.org`.
@@ -42,4 +45,4 @@ on `https://matrix-client.matrix.org` (the address was found from https://matrix
 
 Big thank you to FluffyChat contributors who made this feature and Sorunome
 for initially explaining how to do this so I could attempt to make a more clearer
-note on how to do it.
+note on how to do it and later corrected me on this file.
