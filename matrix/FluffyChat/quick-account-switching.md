@@ -8,8 +8,8 @@ the account state which can also be used for sorting accounts.
 
 1. Open FluffyChat
 2. Long touch your account name and select "Add to bundle". Name the new
-   bundle whatever you want, it will be visible below the account switcher
-   and groups accounts.
+   bundle whatever you want as long as it's the same across your quick-switching accounts,
+   it will be visible below the account switcher and groups accounts (e.g. between personal and work)
 3. Open Element Web
 4. In any chatbox enter `/devtools` and enter
 5. Select "Explore Account Data"
