@@ -3,47 +3,51 @@
 FluffyChat 0.41.0 brings support for using multiple accounts and has an early
 implementation of quickly switching accounts via input bar, which will get
 better in a future release, but for now, for impatient people, it can
-be used by enabling it with Element's (Web/Desktop) `/devtools` by sending
-a custom account state event.
+be used by enabling a prefix with Element's (Web/Desktop) `/devtools` by editing
+the account state which can also be used for sorting accounts.
 
-1. Open Element Web with an account where to set quick switching prefix.
-2. In any chatbox enter `/devtools` and enter
-3. Select "Send account data"
-4. Enter the type as `im.fluffychat.account_bundles` (***WARNING: in case it's
-   typoed the typoed event cannot be removed without being an server administrator with
-   database access.***
-5. Send the following JSON, adjusting where needed (note: the opening and closing
-brackets `{}` are added automatically):
+1. Open FluffyChat
+2. Long touch your account name and select "Add to bundle". Name the new
+   bundle whatever you want, it will be visible below the account switcher
+   and groups accounts.
+3. Open Element Web
+4. In any chatbox enter `/devtools` and enter
+5. Select "Account data" (warning: I use it in Finnish and may mistranslate
+   en -> fi -> en)
+6. Search for and select `im.fluffychat.account_bundles`
+7. Above the `"bundles": [` line, add `"prefix": "M",` where `M` is your
+   prefix to quickly switch to this account.
+8. Optionally if you wish to sort your account, add a `,` to the line where
+   your bundle is named and to the next line: `"priority": 0`
+9. Start/restart FluffyChat
+10. Type `M message` and the account automatically switches from another account
+    to the one youy just configured.
 
-```json
-{
-    "bundles": [
-      {
-        "name": "Personal",
-        "priority": 123
-      }
-    ],
-    "prefix": "C"
-}
-```
+General notes:
 
-*This one is what I set as `@Ciblia:matrix.org` which is logged in as `Ciblia`
-on `https://matrix-client.matrix.org` (the address was found from https://matrix.org/.well-known/matrix/client)*
-
-* name: name of the account bundle (kind of tab bar, which can separate personal account from work accounts)
-  below the account switcher. Quick account switching can only be done within the same bundle.
-  * additionally bundles should be created by long touching the account on the bar and selecting "add to bundle".
-    `/devtools` is needed only for priority/sorting and prefix
-  * if there is no bundle, bundle named after the mxid is implied and quick-switching is unavailable.
-* priority: defines the order of accounts on the account bar.
-* prefix: what will need to be typed to the input bar in FluffyChat for quick account switching. Case-insensitive.
-
-6. Start/restart FluffyChat
-7. Type "C message" and the account will be swithed to `@Ciblia:matrix.org`.
-  * If C is needed to be said in the room without switching sending account,
-    start the message with space e.g. ` C message` and the account switching
-    won't happen.
+* 0.4.1 has a bug where using automatic server discovery through well-known
+  causes all accounts to get logged out. Use server name instead, e.g. `https://matrix-client.matrix.org` (discovered from https://matrix.org/.well-known/matrix/client)
+* Quick account switching will only work within a bundle, which by default is implied to be the MXID, so by default it's disabled
 
 Big thank you to FluffyChat contributors who made this feature and Sorunome
 for initially explaining how to do this so I could attempt to make a more clearer
-note on how to do it and later corrected me on this file.
+note on how to do it and later corrected me a lot on this file.
+
+## Appendix: example `im.fluffychat.account_bundles` account event
+
+```json
+{
+  "type": "im.fluffychat.account_bundles",
+  "content": {
+    "prefix": "M",
+    "bundles": [
+      {
+        "name": "Meow",
+        "priority": 0
+      }
+    ]
+  }
+}
+```
+
+on account `mikaela` on `https://matrix.feneas.org` (aka `@mikaela:feneas.org`)
