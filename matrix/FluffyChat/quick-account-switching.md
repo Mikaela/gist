@@ -12,16 +12,15 @@ the account state which can also be used for sorting accounts.
    and groups accounts.
 3. Open Element Web
 4. In any chatbox enter `/devtools` and enter
-5. Select "Account data" (warning: I use it in Finnish and may mistranslate
-   en -> fi -> en)
+5. Select "Explore Account Data"
 6. Search for and select `im.fluffychat.account_bundles`
-7. Above the `"bundles": [` line, add `"prefix": "M",` where `M` is your
+7. Above (or below, doesn't matter) the `"bundles": [` line, add `"prefix": "M",` where `M` is your
    prefix to quickly switch to this account.
 8. Optionally if you wish to sort your account, add a `,` to the line where
    your bundle is named and to the next line: `"priority": 0`
 9. Start/restart FluffyChat
 10. Type `M message` and the account automatically switches from another account
-    to the one youy just configured.
+    to the one you just configured.
 
 General notes:
 
