@@ -30,6 +30,6 @@ formal method of finding them later in development.
   * *Mikaela.info*, my own space, it may not yet host interesting or random
     discussions that much, but sometimes I find it motivating to see that
     I am doing things when I see git forge/commit activity.
-* [PrivacyTools.io](matrix:roomid/XvLsfIFskBFvyfBuel:pixie.town?action=join&via=pixie.town&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
-  * *PrivacyTools.io*, encryption against mass surveillance. I am not entirely
+* [PrivacyGuides.org](matrix:roomid/XvLsfIFskBFvyfBuel:pixie.town?action=join&via=pixie.town&via=feneas.org&via=sorunome.de&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
+  * *PrivacyGuides.org*, encryption against mass surveillance. I am not entirely
     sure about the officialness of this space
