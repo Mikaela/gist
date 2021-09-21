@@ -6,6 +6,12 @@ better in a future release, but for now, for impatient people, it can
 be used by enabling a prefix with Element's (Web/Desktop) `/devtools` by editing
 the account state which can also be used for sorting accounts.
 
+These steps are repeated for every account into which quick switching is
+desired, the ones below add prefix "M" for "mikaela:feneas.org", but to
+switch that either using the GUI is necessarily or performing the steps as
+another account (e.g. for setting "C" for "Ciblia:matrix.org"). The switching happens
+once space is pressed after the prefix char.
+
 1. Open FluffyChat
 2. Long touch your account name and select "Add to bundle". Name the new
    bundle whatever you want as long as it's the same across your quick-switching accounts,
@@ -16,6 +22,8 @@ the account state which can also be used for sorting accounts.
 6. Search for and select `im.fluffychat.account_bundles`
 7. Above (or below, doesn't matter) the `"bundles": [` line, add `"prefix": "M",` where `M` is your
    prefix to quickly switch to this account.
+  * If this is confusing, see the example of finalized event in the bottom
+    of this file.
 8. Optionally if you wish to sort your account, add a `,` to the line where
    your bundle is named and to the next line: `"priority": 0`
 9. Start/restart FluffyChat
