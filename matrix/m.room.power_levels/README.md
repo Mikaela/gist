@@ -10,7 +10,8 @@ The main point I do this for is users `users`
       "@Ciblia:matrix.org": 100,
       "@mikaela:pirateriot.net": 100,
       "@leon:the-apothecary.club": 100,
-      "@mikaela:liberta.casa": 100
+      "@mikaela:liberta.casa": 100,
+      "@mikaela.suomalainen:matrix.org": 100
     }
 },
 ```
