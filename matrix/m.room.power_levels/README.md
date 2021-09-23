@@ -6,12 +6,14 @@ The main point I do this for is users `users`
 {
     "users": {
       "@mikaela:feneas.org": 100,
-      "@mikaela-matterbridge:feneas.org": 100,
       "@Ciblia:matrix.org": 100,
+      "@aminda:matrix.org": 100,
       "@mikaela:pirateriot.net": 100,
-      "@leon:the-apothecary.club": 100,
       "@mikaela:liberta.casa": 100,
-      "@mikaela.suomalainen:matrix.org": 100
+      "@mikaela.suomalainen:matrix.org": 100,
+      "@mikaela:tchncs.de": 100,
+      "@mikaela-matterbridge:feneas.org": 100,
+      "@leon:the-apothecary.club": 100
     }
 },
 ```
