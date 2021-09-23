@@ -62,4 +62,22 @@ note on how to do it and later corrected me a lot on this file.
 }
 ```
 
-on account `mikaela` on `https://matrix.feneas.org` (aka `@mikaela:feneas.org`)
+on account `@mikaela:feneas.org`
+
+```json
+{
+	"prefix": "P",
+	"priority": 5,
+	"bundles": [
+		{
+			"name": "💼",
+			"priority": 5
+		},
+		{
+			"name": "😺"
+		}
+	]
+}
+```
+
+on account `@mikaela.suomalainen:matrix.org`
