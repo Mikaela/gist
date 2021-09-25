@@ -9,7 +9,7 @@
 /ns set property Fediverse @mikaela@social.snopyta.org
 /ns set property FediversePolitics @MikaelaPPFI@mastodon.pirateparty.be
 /ns set property Feneas
-/ns set property FursonaSpecies Shapeshifter, mostly with feline and vampiric traits
+/ns set property FursonaSpecies Shapeshifter, mostly with dragonic, feline and vampiric traits
 /ns set property PrimaryAccount
 /ns set property IdentityProof https://mikaela.info/txt/irc.txt
 /ns set property LastFM Ciblia
