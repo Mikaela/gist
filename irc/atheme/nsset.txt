@@ -7,8 +7,8 @@
 /ns set property Channel https://mikaela.info/discuss
 /ns set property Fediverse @mikaela@social.snopyta.org
 /ns set property FediversePolitics @MikaelaPPFI@mastodon.pirateparty.be
-/ns set property Feneas https://portal.feneas.org/users/about
-/ns set property FursonaSpecies Dragonic feline (savannah cat / lion?) shapeshifter with vampiric traits
+/ns set property Feneas
+/ns set property FursonaSpecies Shapeshifter, mostly with feline and vampiric traits
 /ns set property PrimaryAccount Mikaela
 /ns set property IdentityProof https://mikaela.info/txt/irc.txt
 /ns set property LastFM Ciblia
@@ -17,10 +17,11 @@
 /ns set property Minisign RWQJBHYE4Q+4w7U4uvfOJHiqLYujzkyQpnWA2B3r29W3gFk4pw0+nwNX
 /ns set property PGP 69FF 455A 869F 9031 A691  E0F1 9939 2F62 BAE3 0723
 /ns set property PronominitSuomeksi hän/se (jota puhekielessä kumminkin käytetään)
-/ns set property Pronouns ŝi/ŝin/ŝia
-/ns set property PronounsFallback sxi/sxin/sxia
-/ns set property PronounsFallbackTraditional shi/shin/shia
-/ns set property PronounsPreferred feminine, anything else than he/it
+/ns set property Pronouns she/they
+/ns set property PronounsFallback
+/ns set property PronounsFallbackTraditional
+/ns set property PronounsPreferred
+/ns set property SpiritAnimals A savannah cat, a black cat and a lion
 /ns set property TimeZone Europe/Helsinki
 /ns set property URL https://mikaela.info/
 /ns set property Usage Primary NickServ account
