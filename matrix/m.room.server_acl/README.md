@@ -5,6 +5,10 @@ adjusting this.
 
 * https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls
 
+Note: when sending the custom event via `/devtools` for the first time, click
+the `Event` so it says `State Event` and asks for `State key` in addition to `type`,
+which can/is left empty as usual.
+
 ```json
 {
 	"allow": [
