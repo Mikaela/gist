@@ -1,8 +1,11 @@
-Riot config.json
+Element config.json
 
-Copied from https://riot.im/develop/config.json, but modified.
+Initially copied from https://develop.element.io/config.json, but modified.
 
-Place to `/home/mikaela/.var/app/im.riot.Riot/config/Riot/config.json`
-or `/home/mikaela/.var/app/im.riot.Riot/config/Riot-PROFILENAMEHERE/config.json`
+Placement:
 
-Labs features: https://github.com/vector-im/riot-web/blob/develop/docs/labs.md
+Flatpak: `~/.var/app/im.riot.Riot/config/Riot/config.json`
+  * or `~/.var/app/im.riot.Riot/config/Element-PROFILENAMEHERE/config.json`
+* Windows: `%APPDATA%\Element\config.json`
+
+Labs features: https://github.com/vector-im/element-web/blob/develop/docs/labs.md
