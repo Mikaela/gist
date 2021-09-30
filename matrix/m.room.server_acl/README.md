@@ -10,6 +10,7 @@ adjusting this.
 	"allow": [
 		"*"
 	],
+	"allow_ip_literals": false,
 	"deny": [
 		"glowers.club",
 		"*.glowers.club",
