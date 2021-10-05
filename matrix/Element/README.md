@@ -6,6 +6,8 @@ Placement:
 
 Flatpak: `~/.var/app/im.riot.Riot/config/Riot/config.json`
   * or `~/.var/app/im.riot.Riot/config/Element-PROFILENAMEHERE/config.json`
+* Linux: `~/.config/Element/config.json` or `~/.config/Element-PROFILENAMEHERE/config.json`
+  * failing that it appears to read `~/.config/Riot/*` should that exist.
 * Windows: `%APPDATA%\Element\config.json`
 
 Labs features: https://github.com/vector-im/element-web/blob/develop/docs/labs.md
