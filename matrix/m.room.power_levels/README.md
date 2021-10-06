@@ -34,7 +34,7 @@ break things:
       "m.room.encryption": 100,
       "m.room.tombstone": 100,
       "m.room.canonical_alias": 100,
-      "m.room.power_levels": 100,
+      "m.room.power_levels": 49,
       "m.room.topic": 100,
       "m.room.retention": 100
     },
@@ -47,3 +47,7 @@ break things:
   },
 }
 ```
+
+* If `m.room.power_levels` event is 49, moderators (PL50) are able to raise
+  other users to moderators while sharing equal power they won't be able to
+  demote.
