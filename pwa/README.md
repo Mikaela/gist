@@ -1,7 +1,8 @@
 # Potentially useful progressive web apps
 
 Method for distinguishing PWAs from normal websites: adding them to
-iOS homescreen and seeing which open as "their own apps".
+iOS homescreen and seeing which open as "their own apps" *or* having
+Microsoft Edge suggest "installing" them without manually "installing" them.
 
 * https://fluffychat.im/web/ - Matrix client
 * https://glowing-bear.org/ - WeeChat Relay (protocol) client
