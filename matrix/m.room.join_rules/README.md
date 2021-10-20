@@ -20,7 +20,7 @@ Requires room version <del>8</del> 9. Offers only Spaces in room settings
 {
 	"allow": [
 		{
-			"room_id": "!oHIvaRnuEEIDavQVRJ:matrix.org",
+			"room_id": "!LSWnevuzcRXZZKhqso:privacytools.io",
 			"type": "m.room_membership"
 		}
 	],
@@ -47,3 +47,8 @@ Requires room version <del>8</del> 9. Offers only Spaces in room settings
 ```
 
 It can be presumed that multiple spaces is simply copying that more.
+
+## Note to self
+
+* `!LSWnevuzcRXZZKhqso:privacytools.io` - Tanukis
+* `!psumPMeAfzgAeQpXMG:feneas.org` - Mikaela.info (space)
