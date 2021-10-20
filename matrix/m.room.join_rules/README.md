@@ -50,5 +50,5 @@ It can be presumed that multiple spaces is simply copying that more.
 
 ## Note to self
 
-* `!LSWnevuzcRXZZKhqso:privacytools.io` - Tanukis
-* `!psumPMeAfzgAeQpXMG:feneas.org` - Mikaela.info (space)
+* `!LSWnevuzcRXZZKhqso:privacytools.io` - Tanukis - room version 5
+* `!psumPMeAfzgAeQpXMG:feneas.org` - Mikaela.info (space) - room version 6
