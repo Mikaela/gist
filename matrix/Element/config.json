@@ -11,6 +11,8 @@
 	"feature_report_to_moderators": "enable",
 	"feature_custom_status": "enable",
 	"feature_presence_in_room_list": "enable",
+	"feature_roomlist_preview_reactions_all": "enable",
+	"feature_roomlist_preview_reactions_dms": "enable",
 	"feature_dehydration": "enable",
 	"feature_dnd": "enable",
 	"feature_new_layout_switcher": "enable",
@@ -25,7 +27,8 @@
 	"feature_dm_verification": "labs",
 	"feature_bridge_state": "enable",
 	"feature_presence_in_room_list": "enable",
-	"feature_ftue_notifications": "enable"
+	"feature_ftue_notifications": "enable",
+	"feature_polls": "enable"
   },
       "jitsi": {
         "preferredDomain": "jitsi.effi.org"
