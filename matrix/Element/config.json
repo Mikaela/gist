@@ -12,6 +12,7 @@
 	"feature_custom_status": "enable",
 	"feature_presence_in_room_list": "enable",
 	"feature_dehydration": "enable",
+	"feature_dnd": "enable",
 	"feature_new_layout_switcher": "enable",
 	"feature_thread": "enable",
 	"feature_spaces": "enable",
