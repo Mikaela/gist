@@ -9,8 +9,8 @@ knows everyone and more people aren't likely to appear).
 In format label (shown as source of the message), proper name and address.
 IRC labels begin with IRC for easier ignoring by bots.
 
-* ircErgo - ErgoChat - ircs://irc.ircErgo.chat:6697
-* ircEtro - IRC@Etro - ircs://ircEtro.mikaela.info:6697
+* ircErgo - ErgoChat - ircs://irc.ergo.chat:6697
+* ircEtro - IRC@Etro - ircs://etro.mikaela.info:6697
 * ircLc - LiberaChat - ircs://irc.libera.chat:6697
 * ircLca - LibertaCasa - ircs://irc.liberta.casa:6697
 * `[m]` - Matrix - https://matrix.org
@@ -40,7 +40,7 @@ Sorted in order of popularity or likeliness to be asked about.
 * Twitch
 * XMPP
 
-### Tanukis
+### Tanukis (or "Pillow Fortress")
 
 * ircErgo
 * ircEtro
@@ -64,3 +64,15 @@ Handled by different instance, please see its csv's
 
 * https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet/src/branch/master/kanavat.csv
 * mirror https://gitea.blesmrt.net/mikaela/public-ppfi-im/src/branch/master/kanavat.csv
+
+### Antikupla
+
+TBD
+
+### Syötteet
+
+TBD
+
+### cz-feed
+
+TBD
