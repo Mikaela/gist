@@ -1,3 +1,7 @@
+***This file is a `.txt` as Gitea doesn't currently render Matrix URIs which
+kind of breaks the point of this file; https://github.com/go-gitea/gitea/issues/16721
+If this gets fixed without me noticing, please report to https://gitea.blesmrt.net/mikaela/gist/issues/14 ***
+
 Matrix Spaces don't currently have much discovery options and
 aren't supported on iOS at all, so this file has a couple of Spaces I like
 so I can either refer people here or copy them by hand. This list is going
