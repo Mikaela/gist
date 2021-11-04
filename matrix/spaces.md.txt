@@ -26,7 +26,7 @@ formal method of finding them later in development.
 * [Wireless Mesh Networks](matrix:roomid/svrCeIqXkGxedfDFVT:matrix.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
   * Wireless *Mesh* Networks, I haven't been so active with them, but I love
     the idea of them and happened to notice the link while typing this
-* [Mikaela.info](matrix:roomid/psumPMeAfzgAeQpXMG:feneas.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org), [rss.mikaela.info](matrix:roomid/GQwnvKVejjIpWXNVdT:matrix.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org), [restricted.mikaela.info](matrix:roomid/!sQsbxJHtMDfNIBtMyR:matrix.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
+* [Mikaela.info](matrix:roomid/psumPMeAfzgAeQpXMG:feneas.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org), [rss.mikaela.info](matrix:roomid/GQwnvKVejjIpWXNVdT:matrix.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org), [restricted.mikaela.info](matrix:roomid/sQsbxJHtMDfNIBtMyR:matrix.org?action=join&via=feneas.org&via=the-apothecary.club&via=pirateriot.net&via=matrix.org)
   * *Mikaela.info*, my own space, it may not yet host interesting or random
     discussions that much, but sometimes I find it motivating to see that
     I am doing things when I see git forge/commit activity.
