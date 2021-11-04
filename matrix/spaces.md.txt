@@ -2,6 +2,10 @@
 kind of breaks the point of this file; https://github.com/go-gitea/gitea/issues/16721
 If this gets fixed without me noticing, please report to https://gitea.blesmrt.net/mikaela/gist/issues/14 ***
 
+If you are having issues with the links, please see issue tracker of your client, e.g.:
+
+> [Element Web](https://github.com/vector-im/element-web/issues/16875), [Element Android](https://github.com/vector-im/element-android/issues/3268) and [Element iOS](https://github.com/vector-im/element-ios/issues/4297)
+
 Matrix Spaces don't currently have much discovery options and
 aren't supported on iOS at all, so this file has a couple of Spaces I like
 so I can either refer people here or copy them by hand. This list is going
