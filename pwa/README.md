@@ -4,6 +4,11 @@ Method for distinguishing PWAs from normal websites: adding them to
 iOS homescreen and seeing which open as "their own apps" *or* having
 Chromium suggest "installing" them without manually "installing" them.
 
+## Events
+
+* Mobilizon - all instances of the federated event & group site function as
+  PWAs.
+
 ## Food
 
 * https://menu.unicafe.fi/ - menu for UniCafes
