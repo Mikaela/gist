@@ -2,13 +2,24 @@
 
 Method for distinguishing PWAs from normal websites: adding them to
 iOS homescreen and seeing which open as "their own apps" *or* having
-Microsoft Edge suggest "installing" them without manually "installing" them.
+Chromium suggest "installing" them without manually "installing" them.
+
+## Food
+
+* https://menu.unicafe.fi/ - menu for UniCafes
+
+## Instant messaging
 
 * https://fluffychat.im/web/ - Matrix client
 * https://glowing-bear.org/ - WeeChat Relay (protocol) client
+
+## Music
+
 * https://music.youtube.com/ - YouTube Music (Player)
+
+## Travel
+
 * https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site)
-* https://menu.unicafe.fi/ - menu for UniCafes
 
 ## Not PWAs but still possibly useful for homescreens
 
