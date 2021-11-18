@@ -24,7 +24,8 @@ Chromium suggest "installing" them without manually "installing" them.
 
 ## Travel
 
-* https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site)
+* https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site),
+  which is also a neighbourhood in Helsinki, Finland.
 
 ## Not PWAs but still possibly useful for homescreens
 
