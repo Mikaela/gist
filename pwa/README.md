@@ -18,6 +18,10 @@ Chromium suggest "installing" them without manually "installing" them.
 * https://fluffychat.im/web/ - Matrix client
 * https://glowing-bear.org/ - WeeChat Relay (protocol) client
 
+## Localization
+
+* https://hosted.weblate.org/ - Translation platform popular amongst FOSS projects
+
 ## Music
 
 * https://music.youtube.com/ - YouTube Music (Player)
