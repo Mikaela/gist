@@ -55,8 +55,10 @@ RunCommands=["MODE T4 -iw+gQR"]
 
 [matrix.matrixexample]
 Server="https://matrix.example.org"
-Login="username"
-Password="password"
+MxID="@yournick.matterbridge:example.org"
+# Above the clear cache & reload button. DON'T LOG OUT or it will be invalid.
+# If leaked, login and remove the session from "Infosec & Privacy"
+Token="MEOW-MEOW_CHOCO-CHOW"
 # Otherwise collision risk with UseUserName=true
 NoHomeServerSuffix=false
 # The Matrix logo "[m]" easens hitting up Discord maximum length so it's
