@@ -12,6 +12,8 @@ The main point I do this for is users `users`
       "@mikaela:liberta.casa": 100,
       "@mikaela.suomalainen:matrix.org": 100,
       "@mikaela:tchncs.de": 100,
+      "@aminda:tedomum.net": 100,
+      "@mikaela.matterbridge:tedomum.net": 100,
       "@mikaela.matterbridge:converser.eu": 100,
       "@mikaela-matterbridge:feneas.org": 100,
       "@leon:the-apothecary.club": 100
