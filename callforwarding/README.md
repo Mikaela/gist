@@ -6,24 +6,24 @@
  specific.*
 
 1. Open dialer
-2. Enter command. 358 is Finnish international format, remove leading 0 from
-   phone number's local format. (040… → 3584…)
+2. Enter command. +358 is Finnish international format, remove leading 0 from
+   phone number's local format. (040… → +3584…)
 3. Call there
 
 ## Commands
 
 * `##002#` - Remove all call forwards
-* `**61*358…**30#` - forward if call is not answered in 30 seconds
+* `**61*+358…**30#` - forward if call is not answered in 30 seconds
   * 30 may be replaced with multiples of 5 between 5 and 30.
-* `**62*358…#` - forward if phone is not connected to network.
-* `**67*358…#` - forward if phone is on another call.
+* `**62*+358…#` - forward if phone is not connected to network.
+* `**67*+358…#` - forward if phone is on another call.
 
 Copy-paste template for text editor:
 
 ```
-**61*358…**30#
-**62*358…#
-**67*358…#
+**61*+358…**30#
+**62*+358…#
+**67*+358…#
 ```
 
 ## GUI
