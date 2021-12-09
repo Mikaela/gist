@@ -1,0 +1,238 @@
+2021-W49-4 18:10:35 +0200 <@jaywink> It is 10 past... so without further.... @room  meeting will start
+2021-W49-4 18:10:41 +0200 <@jaywink> === MEETING STARTS ===
+2021-W49-4 18:10:46 +0200 <@jaywink> Welcome to the Feneas Annual General Meeting of winter 2021.
+2021-W49-4 18:10:51 +0200 <@jaywink> If you are a feneas member, please indicate your username here before voting. You can do this by writing "Membership: <username>". Example for myself:
+2021-W49-4 18:10:57 +0200 <@jaywink> Membership: jaywink
+2021-W49-4 18:11:08 +0200 <ThomasMCarlsson[> Membership: beige
+2021-W49-4 18:11:15 +0200 <@Aminda-> Membership: Mikaela (I think)
+2021-W49-4 18:11:20 +0200 <@jaywink> If you do not remember your username, please dm me now with your email. In unclear cases we might need to verify your membership via email.
+2021-W49-4 18:11:45 +0200 <@jaywink> Some reminders:
+2021-W49-4 18:11:49 +0200 <@jaywink> * this meeting will be held chat only.
+2021-W49-4 18:11:53 +0200 <@jaywink> * the chat log in this room will be exported and uploaded as meeting minutes.
+2021-W49-4 18:11:55 +0200 <fluhr[m]> Membership: bfluhr
+2021-W49-4 18:11:56 +0200 <@jaywink> * anyone is allowed to "speak" during the meeting, though please try to keep chatter to the particular subject.
+2021-W49-4 18:11:59 +0200 <@jaywink> * only members are allowed a vote when voting happens. please indicate your feneas username before voting as above. votes from non-members will not be counted.
+2021-W49-4 18:12:17 +0200 <@jaywink> A reminder about the agenda:
+2021-W49-4 18:12:20 +0200 <@jaywink> * The chairman, secretary, two examiners of the minutes and if needed two ballot counters shall be chosen.
+2021-W49-4 18:12:24 +0200 <@jaywink> * The legality and quorum of the meeting are stated.
+2021-W49-4 18:12:26 +0200 <@jaywink> * The working order of the meeting is accepted.
+2021-W49-4 18:12:30 +0200 <@jaywink> * Dismantling of the association
+2021-W49-4 18:12:33 +0200 <@jaywink> * The future of Feneas services
+2021-W49-4 18:12:36 +0200 <@jaywink> * Other free discussion and decision items put on the table
+2021-W49-4 18:12:38 +0200 <@Aminda-> (Bitwarden says mikaela so I am sure enough)
+2021-W49-4 18:13:03 +0200 <@jaywink> How to vote:
+2021-W49-4 18:13:03 +0200 <Gregor[m]> Membership: gsantner
+2021-W49-4 18:13:04 +0200 <@jaywink> * once "VOTE: topic" comes up, each member can add their vote as follows:
+2021-W49-4 18:13:10 +0200 <@jaywink>   * +1 to support the proposal 
+2021-W49-4 18:13:14 +0200 <@jaywink>   * -1 to object to the proposal.
+2021-W49-4 18:13:19 +0200 <@jaywink>   * 0 (or no vote) for neutral
+
+2021-W49-4 18:13:23 +0200 <@jaywink> * each vote will take five minutes to allow everyone to see the message and vote.
+2021-W49-4 18:13:26 +0200 <@jaywink> * once "VOTE ENDS: topic" comes up, the vote has ended.
+2021-W49-4 18:13:33 +0200 <@jaywink> * ballot counters should count the votes and post the results.
+2021-W49-4 18:13:36 +0200 <@jaywink> * if both ballot counters reach the same result, the result is confirmed with "VOTE PASSED / VOTE DIDN'T PASS: topic" by the chair.
+2021-W49-4 18:13:49 +0200 <@jaywink> Questions? :)
+2021-W49-4 18:14:44 +0200  * @jaywink counts 5 members identified themselves. If more come up, please just join in at any time before the voting.
+2021-W49-4 18:15:03 +0200 <@jaywink> TOPIC: The chairman, secretary, two examiners of the minutes and if needed two ballot counters shall be chosen.
+2021-W49-4 18:15:12 +0200 <@jaywink> I'm happy to chair, unless someone wants to take chair instead.
+2021-W49-4 18:15:26 +0200 <@jaywink> I think we can go without secretary, given minutes are in this chat.
+2021-W49-4 18:15:33 +0200 <@jaywink> Who will be examiners of minutes, we need two people? The role of these people is to verify the extracted chat log minutes after the meeting. The minutes will be stored in the Feneas association git repository for future exports where needed to other storage.
+2021-W49-4 18:15:44 +0200 <ThomasMCarlsson[> Happy to volunteer
+2021-W49-4 18:16:33 +0200 <@jaywink> Anyone else? 😁
+2021-W49-4 18:16:59 +0200 <@Aminda-> I guess I could
+2021-W49-4 18:17:28 +0200 <@jaywink> Who will be ballot counters, we need two people? The role is to verify the votes from members who identified at the beginning of the meeting.
+2021-W49-4 18:17:54 +0200 <@jaywink> (due to number of people I guess it's ok for meeting minutes examiners and ballot counters to be the same?)
+2021-W49-4 18:17:58 +0200 <@Aminda-> I propose using the same people as ballot counters as minutes examiners
+2021-W49-4 18:18:01 +0200 <ThomasMCarlsson[> Happy to volunteer for this as well, I can count to 5 😄
+2021-W49-4 18:18:24 +0200 <@jaywink> Unless objections, Thomas M. Carlsson and Mikaela "Aminda" 🇫🇮 will also count ballots.
+2021-W49-4 18:19:04 +0200 <@jaywink> TOPIC: The legality and quorum of the meeting are stated.
+2021-W49-4 18:19:08 +0200 <@jaywink> The meeting was called with invitations sent over two weeks prior, as per rules of the association. The association rules do not state minimum count of members present. Unless someone objects, the meeting is determined legal.
+2021-W49-4 18:20:50 +0200  * @jaywink pauses for a minute to check a thing
+2021-W49-4 18:22:21 +0200 <@jaywink> TOPIC: The working order of the meeting is accepted.
+2021-W49-4 18:22:26 +0200 <@jaywink> Are there objections to the working order of the meeting?
+2021-W49-4 18:24:23 +0200 <elmussol[m]> [OT] Inverter repaired, we have electricity!
+2021-W49-4 18:24:46 +0200 <@Aminda-> (please note that reactions will not carry to IRC and may not appear in log export either, so I hope we won't be counting them)
+2021-W49-4 18:25:17 +0200 <@jaywink> reactions should not be used for voting and don't count as objections or approvals for anything
+2021-W49-4 18:25:35 +0200 <@jaywink> the logs export will be done matrix side and will include reactions, though if someone wants to do an export on irc side too, that is fine
+2021-W49-4 18:25:46 +0200 <ThomasMCarlsson[> elmussol[m]: Could we confirm really quickly if you are a member? 🙏
+2021-W49-4 18:25:49 +0200 <@Aminda-> additionally as far as I can tell, I am the only IRC user in addition to my bot and not even talking from there to avoid confusion
+2021-W49-4 18:27:41 +0200 <@jaywink> elmussol: please identify yourself as `Membership: <username>` should you want to participate in the following votes
+2021-W49-4 18:27:55 +0200 <@jaywink> TOPIC: Dismantling of the association
+2021-W49-4 18:28:08 +0200 <@jaywink> As indicated in the invitation, the founding members of the association (me and @zauberstuhl:feneas.org) have not been able to focus on the association for a long time already.
+2021-W49-4 18:28:14 +0200 <@jaywink> There is a lack of commitment currently from persons who have been putting time and effort into the association. This means services run poorly and the association has not been fulfilling the mission it has set itself in the rules of the association.
+2021-W49-4 18:28:26 +0200 <@jaywink> It is the recommendation of the current founding members that the association be dissolved, should no new committee present itself to take full responsibility of the association. At the moment it is not known to the committee that such individuals would be available.
+2021-W49-4 18:28:32 +0200 <@jaywink> There is some time should discussion need to happen before voting on this. To clarify the vote:
+2021-W49-4 18:28:38 +0200 <@jaywink> * to dissolve the association, the vote must pass twice
+2021-W49-4 18:28:39 +0200 <@jaywink> * first in this meeting
+2021-W49-4 18:28:44 +0200 <@jaywink> * then in another meeting that is held before 30 days pass (though no earlier than 14 days to send invitations).
+2021-W49-4 18:28:48 +0200 <@jaywink> * both votes must pass by 3/4 majority of members present in the meetings
+2021-W49-4 18:28:58 +0200 <@jaywink> Should this vote to not dissolve the association pass, a new committee must be chosen in the following meeting which will be called up within 30 days of this meeting.
+2021-W49-4 18:29:04 +0200 <@jaywink> If a new committee does not step up but the association is not dissolved, it is likely we will at least need to shut down services as the current committee cannot commit to maintaining the services.
+2021-W49-4 18:30:07 +0200 <@jaywink> Do we have discussion at this point? Lets give 10 minutes for that to happen, more if discussion comes up. I would limit discussion to a max 30 minutes unless objections.
+
+2021-W49-4 18:30:32 +0200 <ThomasMCarlsson[> Admittedly this now looks like a long shot given only five people showed up to the AGM, but I can't help but think that if we saw that a viable new executive committee could be formed to keep Feneas going for another year, then perhaps some people would be happy to vote to keep Feneas running. Would it make sense to check if there are any other volunteers besides myself willing to step up to form a new executive committee?
+2021-W49-4 18:30:55 +0200 <ThomasMCarlsson[> s/people/members/;
+2021-W49-4 18:32:42 +0200 <ThomasMCarlsson[> For clarity, whatever my role would then end up being I would see my primary areas of contribution being:... (full message at https://libera.ems.host/_matrix/media/r0/download/libera.chat/318dfd3cbafbc498b7110fe22d4f7f6548f56891)
+2021-W49-4 18:32:44 +0200 <@jaywink> Makes sense. Do we have such people here? As indicated earlier, the most I can do is stay on as some kind of adviser (on the before) + help with some sysadmin
+2021-W49-4 18:34:55 +0200 <@jaywink> A practical note: even if this vote passes to dissolve the association, there will be another vote needed (as written before).
+2021-W49-4 18:34:55 +0200 <elmussol[m]> Membership: elmussol
+2021-W49-4 18:36:21 +0200 <Gregor[m]> I doubt 1-2 actually step up, but there is the said grace period of 14-30 days regarding the second mandatory (effective) vote
+2021-W49-4 18:37:41 +0200 <fluhr[m]> Can we vote in favour of continuoing the Feneas nevertheless?
+2021-W49-4 18:38:03 +0200 <@Aminda-> we need a committee in order to continue
+2021-W49-4 18:38:03 +0200  * elmussol[m] reading backlog. A moment please.
+2021-W49-4 18:39:36 +0200 <ThomasMCarlsson[> fluhr[m]: You could, but legally the association could not continue existing without a valid executive committee.
+2021-W49-4 18:39:53 +0200 <fluhr[m]> I see, thanks
+2021-W49-4 18:40:13 +0200 <@jaywink> The current committee (or at least me or Lukas (who is not present)) have indicated not wanting to continue on committee. So, we kind of need people to step up if not now, then by the next meeting or shortly after.
+2021-W49-4 18:40:42 +0200 <Noclip[m]> How many people are needed for the committee?
+2021-W49-4 18:40:46 +0200 <@jaywink> I think an association can exist for a while in limbo (it has already done that for a while, to be honest), but it's not a long term solution. Best to form a new association.2021-W49-4 18:41:03 +0200 <@Aminda-> if I recall correctly the minimum is 3
+2021-W49-4 18:41:04 +0200 <@jaywink> Noclip[m]: Good question :P /me hunts unless someone else has an answer
+2021-W49-4 18:41:12 +0200 <@Aminda-> while more is better
+2021-W49-4 18:41:23 +0200 <@Aminda-> oh, I have https://www.prh.fi/en/yhdistysrekisteri/act.html open
+2021-W49-4 18:41:24 +0200 -- Notice(R-66Y): Title: PRH - Associations Act
+2021-W49-4 18:41:33 +0200 <elmussol[m]> My 2c. I was really hoping that I would be able to contribute this year to Feneas' functioning but have been without internet &/or electricity since the end of May, so it has been as much as I can do to keep elsmussols infra together.
+2021-W49-4 18:41:55 +0200 <@jaywink> of course new interested people can also indicate their interest, they will jsut need to join the association when joining the committee
+2021-W49-4 18:42:17 +0200 <elmussol[m]> I hope we have turned the corner, so I should have ore time and energy to contribute.
+2021-W49-4 18:42:20 +0200 <ThomasMCarlsson[> IMHO, if the situation is that we cannot form an executive committee among currently present members, it would make sense to vote to disband Feneas at this stage. That would hopefully spark some interest in existing members to consider if they would be willing to step up before the next meeting. 
+2021-W49-4 18:42:47 +0200 <Noclip[m]> And feneas currently has 2 committee members, jaywink and zauberstuhl? Did it ever have more?
+2021-W49-4 18:42:49 +0200 <@Aminda-> section 35 of the previous link begins
+2021-W49-4 18:42:49 +0200 <@Aminda-> > An association shall have an executive committee which shall consist of no less than three members.
+2021-W49-4 18:43:26 +0200 <elmussol[m]> So I am registering interest.
+2021-W49-4 18:43:38 +0200 <@jaywink> Noclip[m]: The current committee is:... (full message at https://libera.ems.host/_matrix/media/r0/download/libera.chat/c8b660a2cc50e48714d1073f84835a9eb0e7272d)
+2021-W49-4 18:43:45 +0200 <elmussol[m]> s/ore/more/
+2021-W49-4 18:44:00 +0200 <@jaywink> ThomasMCarlsson[: I agree to this statement.
+2021-W49-4 18:45:03 +0200 <@Aminda-> note from IRC: the current committee got snipped
+2021-W49-4 18:45:12 +0200 <@Mikaela> 2021-W49-4 18:43:38 +0200 <@jaywink> Noclip[m]: The current committee is:... (full message at https://libera.ems.host/_matrix/media/r0/download/libera.chat/c8b660a2cc50e48714d1073f84835a9eb0e7272d)
+2021-W49-4 18:45:21 +0200 <@jaywink> Interested persons can always for a room or other means of grouping to discuss plans and solidify their interest. I would happily not vote for dissolving in the second vote if a committee steps up :)
+2021-W49-4 18:45:23 +0200 <@Aminda-> (it was wondered before how do long messages look to IRC)
+2021-W49-4 18:46:12 +0200 <elmussol[m]> It seems we only two now interested though: me and Thomas M. Carlsson ?
+2021-W49-4 18:46:59 +0200 <ThomasMCarlsson[> Would it make sense to everyone that we would just vote to dissolve for now, and then reach out to existing members (perhaps there is a mailing list?) to see if a viable executive committee of people willing to donate time to keep things going could be formed by the next meeting?
+2021-W49-4 18:47:03 +0200 <@jaywink> In any case, selecting a new committee is not up to this meeting as it's not in the agenda. It needs to be in the next agenda should the vote for dissolving not be passed.
+
+2021-W49-4 18:47:45 +0200 <Noclip[m]> jaywink: All of the current committee members want to quit or just some of them?
+2021-W49-4 18:48:29 +0200 <@Aminda-> I think that currently the most of activity around Feneas rooms has been happening in the offtopic #feneas-chat:feneas.org should someone present not be there
+2021-W49-4 18:49:02 +0200 <elmussol[m]> Clarification: we could therefore pass dissolving now, get a new committee together in the next 30 days and reverse the decision at the next meeting? Is that right?
+2021-W49-4 18:49:20 +0200 <ThomasMCarlsson[> elmussol[m]: This is my understanding, yes.
+2021-W49-4 18:49:24 +0200 <@jaywink> Noclip[m]: Only me, lukas and Mikaela have been active committee members. I can only speak for myself, and Lukas has said he is not continuing, but I can't vouch for this opinion.
+2021-W49-4 18:49:39 +0200 <@jaywink> elmussol[m]: Yep
+2021-W49-4 18:50:34 +0200 <elmussol[m]> That would give us most options it seems.
+2021-W49-4 18:51:09 +0200 <ThomasMCarlsson[> elmussol[m]: And more importantly force inactive people to take a stand. 
+2021-W49-4 18:52:29 +0200 <Noclip[m]> jaywink: So if Mikaela decides to continue then the new committee would be ready (3/3)?
+2021-W49-4 18:52:50 +0200 <@Aminda-> I am recovering from a recent burnout and due to not being up to my tasks in other associations or email either, I don't view myself able to participate a potential next committee
+2021-W49-4 18:53:24 +0200 <@jaywink> Any new committee members should be committed to putting in hours of work per week to the association, otherwise it's not going to go very much better.
+2021-W49-4 18:53:29 +0200 <@jaywink> Any objections to starting the vote?
+2021-W49-4 18:53:49 +0200 <Noclip[m]> Ok then it's still 2/3.
+2021-W49-4 18:54:30 +0200 <elmussol[m]> jaywink: No.
+2021-W49-4 18:54:39 +0200 <ThomasMCarlsson[> Personally I really don't want anyone here to volunteer for the executive committee unless they feel that they can genuinely donate a bit of time to help Feneas. I don't think myself and elmussol can run Feneas between the two of us.
+2021-W49-4 18:56:00 +0200  * elmussol[m] would agree with that, but we would have some time to motivate others. See if Sean Tilley  would still like to be active for ex. I suspect this meeting is in his work time.
+2021-W49-4 18:56:32 +0200 <ThomasMCarlsson[> > * <@elmussol:elsmussols.net> would agree with that, but we would have some time to motivate others. See if Sean Tilley  would still like to be active for ex. I suspect this meeting is in his work time.
+2021-W49-4 18:56:32 +0200 <ThomasMCarlsson[> Sure, we will have 2-4 weeks to be precise 🙂
+2021-W49-4 18:57:28 +0200 <@jaywink> **VOTE: Dissolve the association Feneas (Federated Networks Association)**
+2021-W49-4 18:57:29 +0200 <@jaywink> Please vote now. Five minutes (until 17:03 UTC) are for voting to happen. NOTE! This is vote 1/2, two votes must pass for this decision to have effect. The next vote will be in earliest 14 days, latest 30 days.
+2021-W49-4 18:57:38 +0200 <@jaywink> +1
+2021-W49-4 18:57:44 +0200 <ThomasMCarlsson[> +1
+2021-W49-4 18:57:59 +0200 <Gregor[m]> I think off ~200? feneas members only 5 showing up says a lot how big the interest is, and how much people want to put their time in it. (plus ~14days of time before this meeting)
+2021-W49-4 18:57:59 +0200 <@Aminda-> +1
+2021-W49-4 18:57:59 +0200 <Gregor[m]> +1
+2021-W49-4 18:58:00 +0200 <fluhr[m]> +1
+2021-W49-4 18:58:26 +0200 <elmussol[m]> +1
+2021-W49-4 18:59:00 +0200 <ThomasMCarlsson[> Per my tally there were 6 eligible voters, of which 6 voted YES
+2021-W49-4 18:59:14 +0200 <@jaywink> (I think that is all current members present, so ballot counters can probably confirm the votes)
+2021-W49-4 19:00:04 +0200 <elmussol[m]> With the caveat that I would really like us to continue and those equally motivated put some effort into the coming month to recruiting.
+2021-W49-4 19:00:37 +0200 <ThomasMCarlsson[> Agreed. It saddens me to vote in favour at this point in time.
+2021-W49-4 19:01:02 +0200 <Noclip[m]> I count 6 votes (out of 6 members) for dissolving feneas.
+2021-W49-4 19:01:10 +0200 <@Aminda-> I am also seeing 6 eligible voters and 6 members
+2021-W49-4 19:01:19 +0200 <elmussol[m]> A question for those intending to step down. Are you stepping away completely or just from day-to-day responsibility?
+2021-W49-4 19:01:38 +0200 <@jaywink> Gregor[m]: Current member count seems to be 64
+2021-W49-4 19:01:53 +0200 <@Aminda-> wait, who is 6th
+2021-W49-4 19:02:13 +0200 <ThomasMCarlsson[> <jaywink> "Makes sense. Do we have such..." <- This is what Jaywink stated earlier
+
+2021-W49-4 19:02:16 +0200 <Gregor[m]> s/I think off ~200? feneas members only 5 showing up says a lot how big the interest is, and how much people want to put their time in it. (plus ~14days of time before this meeting)/Off 64 feneas members only 6 showing up says a lot how big the interest is, and how much people want to put their time in it. (plus ~14days of time before this meeting)/
+2021-W49-4 19:02:33 +0200 <Noclip[m]> Aminda-: jaywink?
+2021-W49-4 19:02:49 +0200 <ThomasMCarlsson[> Aminda-: elmussol joined late
+2021-W49-4 19:02:54 +0200 <@Aminda-> where is fluhr's membership line?
+2021-W49-4 19:03:06 +0200 <ThomasMCarlsson[> Or rejoined I should say
+2021-W49-4 19:03:15 +0200 <@jaywink> <fluhr[m]> "Membership: bfluhr" <- .
+2021-W49-4 19:03:20 +0200 <ThomasMCarlsson[> <fluhr[m]> "Membership: bfluhr" <- Here
+2021-W49-4 19:03:28 +0200 <Noclip[m]> <fluhr[m]> "Membership: bfluhr" <- Here
+2021-W49-4 19:03:29 +0200 <@Aminda-> thanks, everything is ok then
+2021-W49-4 19:03:37 +0200 <@jaywink> VOTE PASSED: Dissolve the association Feneas (Federated Networks Association)
+2021-W49-4 19:03:45 +0200 <@Aminda-> I started copy-pasting memberships late to text editor to count properly that there aren't extra ones
+2021-W49-4 19:03:50 +0200 <@jaywink> (well 1/2 of the votes)
+2021-W49-4 19:04:32 +0200 <@jaywink> I suggest heavily for any people who are interested to form an association to get together asap to discuss details :) Happy to relay messages to members should one need to go out
+2021-W49-4 19:04:42 +0200 <@Aminda-> elmussol[m]: I am open to staying as LiberaChat group contact and Matrix/IRC moderator should the next committee wish to have me in that position outside of the committee 
+2021-W49-4 19:04:43 +0200 <@jaywink> (via email to members list)
+2021-W49-4 19:05:01 +0200 <@jaywink> TOPIC: The future of Feneas services
+2021-W49-4 19:05:04 +0200 <@jaywink> Current financial status:
+2021-W49-4 19:05:07 +0200 <@jaywink> * approximate cost per month of services ~€150
+2021-W49-4 19:05:10 +0200 <@jaywink> * money in the bank: €450
+2021-W49-4 19:05:12 +0200 <@jaywink> * services have been paid for until end of november
+2021-W49-4 19:05:17 +0200 <@jaywink> This means if the association is not disbanded, a new committee must start raising funds to ensure services can be paid for after end of february (or slightly later if some services are turned off immediately).
+2021-W49-4 19:05:57 +0200 <@Aminda-> jaywink: November 2022?
+2021-W49-4 19:06:15 +0200 <@jaywink> oh no, november 2021
+2021-W49-4 19:06:28 +0200 <@jaywink> If the association is disbanded, all services will be shut down and data destroyed at the end of February 2022, unless members put forward proposals for new owners for a service or services.
+2021-W49-4 19:06:36 +0200 <@jaywink> A plan on possible data migration and work to move the services should also be put forward. Each proposal must be subjected to a vote in meeting and must pass with a simple majority.
+2021-W49-4 19:06:41 +0200 <@jaywink> This can happen either in this meeting for proposals that already exist or the next meeting for proposals that do not exist. If the members reject dissolving the association in this meeting, the topic moves to a future committee.
+2021-W49-4 19:06:55 +0200 <@Aminda-> do you mean that the services aren't currently paid or are mistranslating December from another language?
+2021-W49-4 19:06:59 +0200 <elmussol[m]> Makes sense.
+2021-W49-4 19:07:34 +0200 <@jaywink> Aminda-: No hetzner charges for used time, not before, so the invoice that was last paid was up until end of november
+2021-W49-4 19:07:40 +0200 <@jaywink> and hetzner is the biggest cost.
+2021-W49-4 19:07:46 +0200 <@Aminda-> oh, I see
+2021-W49-4 19:08:25 +0200 <@jaywink> There are no things to vote about in this topic unless someone has some proposals to throw up in the air.
+2021-W49-4 19:09:48 +0200 <@Aminda-> Is there possibility of mass-messaging everyone on feneas.org homeserver on the current situation and let them know that https://ems.element.io/tools/matrix-migration exists?
+2021-W49-4 19:09:50 +0200 -- Notice(R-66Y): Title: Migrate your existing Matrix account | Element Matrix Services
+2021-W49-4 19:10:41 +0200 <@jaywink> Aminda-: Sure, though probably doesn't make sense until we know what happens to the homeserver? Which will be much clearer within 30 days
+2021-W49-4 19:10:49 +0200 <ThomasMCarlsson[> Just one question for clarity - do we have users with data on the servers who are not current Feneas members?
+2021-W49-4 19:10:51 +0200 <Gregor[m]> I really tried to use most feneas (social) services and to be honest most of them dont't work most of the time or are too slow for normal use.
+2021-W49-4 19:10:51 +0200 <Gregor[m]> I propose to shut most services down with a notice beforehand. And otherwise ask if somebody outside feneas is willing to take over one or other service. (like WeDistribute)
+2021-W49-4 19:11:16 +0200 <@jaywink> ThomasMCarlsson[: Yes, feneas Matrix used to have open registrations. Also the git server still has.
+2021-W49-4 19:13:05 +0200 <ThomasMCarlsson[> jaywink: Understood. If it looks like the services are going to be shut down it would make sense to warn the users as early as possible.
+2021-W49-4 19:13:34 +0200 --> heluecht[m] (@heluecht:feneas.org) (~heluechtf@2001:470:69fc:105::1359) has joined #feneas-meetings
+2021-W49-4 19:13:35 +0200 <heluecht[m]> <jaywink> "It is 10 past... so without..." <- Sorry, I'm still at work and can't participate.
+2021-W49-4 19:14:15 +0200 <@jaywink> > <@gsantner:tchncs.de> I really tried to use most feneas (social) services and to be honest most of them dont't work most of the time or are too slow for normal use.
+
+021-W49-4 19:14:15 +0200 <@jaywink> > I propose to shut most services down with a notice beforehand. And otherwise ask if somebody outside feneas is willing to take over one or other service. (like WeDistribute)
+2021-W49-4 19:14:15 +0200 <@jaywink> Did you mean this as a proposal to be voted upon or just as a discussion item? If to be voted upon, can you make it super extra clear on what is being proposed, so member present can make their opinion? Otherwise I would suggest it be taken up in the next meeting, which independent of the dissolution vote needs to answer the question: "do services shut down end of february or does something else happen".
+2021-W49-4 19:14:34 +0200 <Gregor[m]> discussion 
+2021-W49-4 19:14:48 +0200 <Noclip[m]> ThomasMCarlsson[: Me for example but I've only been using the Matrix instance.
+2021-W49-4 19:15:14 +0200 <@jaywink> I would say from a cost and maintenance perspective the Matrix instance is the most difficult one.
+2021-W49-4 19:16:11 +0200 <ThomasMCarlsson[> Gregor[m]: I agree that if we end up keeping the association going it makes sense to form an action plan for fixing any broken/underperforming services (and/or consider if some can no longer be viably supported)
+2021-W49-4 19:16:21 +0200 <@jaywink> Unfortunately due to us running an open telegram bridge for a long time and users having joined all the possible big matrix network rooms, the database size is rather massive (almost a TB) and would require lots of cleanup to bring to manageable state.
+2021-W49-4 19:16:38 +0200 <@jaywink> Cleanup which is more costly in time than anything else.
+2021-W49-4 19:17:41 +0200 <elmussol[m]> But doable.
+2021-W49-4 19:17:53 +0200 <@Aminda-> Feneas would not be the first provider to shut down Matrix server due to it being heavy and difficult to maintain, and as I understand there is currently no migration path to lighter homeserver implementations that all have their own issues
+2021-W49-4 19:18:10 +0200 <@Aminda-> Ref: https://disroot.org/en/blog/matrix-closure
+2021-W49-4 19:18:11 +0200 -- Notice(R-66Y): Title: Matrix Closure | Disroot
+2021-W49-4 19:18:32 +0200 <ThomasMCarlsson[> Aminda-: Can this issue be mitigated by throwing more HW at it?
+2021-W49-4 19:18:43 +0200 <Noclip[m]> jaywink: This database is not held in RAM, is it?
+2021-W49-4 19:19:19 +0200 <@Aminda-> ThomasMCarlsson[: This would bring the issue of needing more money, and I am personally unsure whether throwing endlessly more HW at Matrix is helpful, but I am known to be a critic on Matrix
+2021-W49-4 19:19:38 +0200 <@jaywink> The Feneas matrix homeserver isn't heavy as such, I think it runs on like 4-6GB and isn't particularly optimized. It's more heavy on disk space.
+2021-W49-4 19:20:01 +0200 <@jaywink> ThomasMCarlsson[: Disk space at least, yes 😁
+2021-W49-4 19:20:11 +0200 <@Aminda-> I think Matrix would be an easy service to shut down as users could be adviced to use the migrator and give their accounts on other homeservers power level 100 as technically all rooms are hosted on all homeservers that have users in them
+2021-W49-4 19:20:14 +0200 <Noclip[m]> Aminda-: Iirc disroot decided to keep the matrix server running for existing users.
+2021-W49-4 19:20:50 +0200 <@jaywink> A part of the issue is we have never had limits what users can do. If the homeserver continues to operate, my recommendation would be to make it impossible to join rooms which are crazy large just to idle in them.
+2021-W49-4 19:21:08 +0200 <@Aminda-> Noclip[m]: They since shut it down entirely and later brought up a single user Dendrite to recover access to their room as they were a victim of state reset
+2021-W49-4 19:21:24 +0200 <Noclip[m]> jaywink: Is server disk space expensive?
+2021-W49-4 19:21:48 +0200 <@jaywink> I can dig up the latest invoice
+2021-W49-4 19:22:26 +0200 <Gregor[m]> what you can always do is, disable registrations on all services.
+2021-W49-4 19:22:26 +0200 <Gregor[m]> like do that as soon as possible, for unknown timeframe.
+2021-W49-4 19:22:27 +0200 <Gregor[m]> and after that, think off existing users.
+2021-W49-4 19:22:50 +0200 <@Aminda-> I think that has already been done
+2021-W49-4 19:23:16 +0200 <ThomasMCarlsson[> I suggest though that we work through one issue at a time - if we can form a viable executive committee then one of the first tasks of it should be to figure out how to sort out the existing services (and here I can see a few different options worth discussing in more detail)
+2021-W49-4 19:23:38 +0200 <@jaywink> Noclip[m]: Looks like currently our postgres disk is 1.2TB (the actual db is about a TB), the cost is ~45€ before VAT which is 24% on top
+2021-W49-4 19:23:56 +0200 <@jaywink> ThomasMCarlsson[: This makes sense to me.
+2021-W49-4 19:24:55 +0200  * @jaywink wonders if it's ok to throw the invoice here 🤔 Possibly if someone wants I can dm it
+2021-W49-4 19:25:30 +0200 <@jaywink> And also can give other details to interested people who might be interested in discussing the committee for example.
+2021-W49-4 19:25:36 +0200 <@Aminda-> Does it have any personal details? It would be unremovable though
+2021-W49-4 19:25:49 +0200 <@jaywink> My address 😁
+2021-W49-4 19:26:20 +0200 <@Aminda-> I guess that is already public due to the association registry
+2021-W49-4 19:26:57 +0200  * @jaywink is worried about phishing attempts due to invoice containing user account numbers and server id's and such, so maybe pm for those interested
+2021-W49-4 19:27:51 +0200 <ThomasMCarlsson[> jaywink: I think based on what you have stated about the financial situation and membership tally it is clear enough for me - frankly not as bad as I feared.
+2021-W49-4 19:29:03 +0200 <@jaywink> I'd suggest we wrap this topic up and continue separately async where I can help with details and proposals for future meeting can be made, unless someone has more discussion to bring up here.
+
+2021-W49-4 19:30:23 +0200 <@jaywink> ie anything else from anyone before we wrap up? :P
+2021-W49-4 19:34:09 +0200 <ThomasMCarlsson[> Nothing from me. I will look to sync up with elmussol (and anyone else who might be interested to discuss options for forming a viable executive committee) offline - and hopefully we can ping you as well jaywink if we have some questions 
+2021-W49-4 19:34:25 +0200 <@jaywink> Sure, feel free to invite me to a room if you want
+2021-W49-4 19:35:45 +0200 <elmussol[m]> Nothing more from me.
+2021-W49-4 19:35:55 +0200  * @jaywink sees read markers go past the topic since a bit and no one is writing so...
+2021-W49-4 19:35:58 +0200 <@jaywink> ==== MEETING ENDS =====
+
