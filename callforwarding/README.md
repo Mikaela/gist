@@ -26,6 +26,15 @@ Copy-paste template for text editor:
 **67*+358…#
 ```
 
+## Status check
+
+* `*#002#` - Supposedly status for all forwards. Will respond with everything
+  has failed.
+* `*#61#` - Status for forward while not answered. Doesn't show the amount of seconds as
+  that would likely make life too easy?
+* `*#62#` - Status for forward when not connected to network.
+* `*#67#` - Status for when being in other calls.
+
 ## GUI
 
 * Apple: has no proper GUI for the cases above, only on/off toggle on forwarding
