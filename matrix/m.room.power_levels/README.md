@@ -13,6 +13,7 @@ The main point I do this for is users `users`
       "@mikaela.suomalainen:matrix.org": 100,
       "@mikaela:tchncs.de": 100,
       "@aminda:tedomum.net": 100,
+      "@aminda:pikaviestin.fi": 100,
       "@mikaela.matterbridge:tedomum.net": 100,
       "@mikaela.matterbridge:converser.eu": 100,
       "@mikaela-matterbridge:feneas.org": 100,
