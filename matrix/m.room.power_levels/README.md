@@ -5,7 +5,6 @@ The main point I do this for is users `users`
 ```json
 {
     "users": {
-      "@mikaela:feneas.org": 100,
       "@Ciblia:matrix.org": 100,
       "@aminda:matrix.org": 100,
       "@mikaela:pirateriot.net": 100,
@@ -16,7 +15,6 @@ The main point I do this for is users `users`
       "@aminda:pikaviestin.fi": 100,
       "@mikaela.matterbridge:tedomum.net": 100,
       "@mikaela.matterbridge:converser.eu": 100,
-      "@mikaela-matterbridge:feneas.org": 100,
       "@leon:the-apothecary.club": 100
     }
 },
