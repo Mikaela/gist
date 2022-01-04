@@ -1,0 +1,275 @@
+2022-W01-2 18:10:14 +0200 <@jaywink> Right, 10 past almost, lets kick off the official parts
+2022-W01-2 18:10:32 +0200 <@jaywink> === MEETING STARTS ===
+2022-W01-2 18:10:32 +0200 <@jaywink> Welcome to the Feneas Annual General Meeting of January 2022.
+2022-W01-2 18:10:33 +0200 <@jaywink> If you are a feneas member, please indicate your username here before voting. You can do this by writing "Membership: <username>". Example for 
+2022-W01-2 18:10:45 +0200 <@jaywink> s//myself:/
+2022-W01-2 18:10:45 +0200 <@jaywink> Membership: jaywink
+2022-W01-2 18:10:47 +0200 <ThomasMCarlsson[> Membership: beige
+2022-W01-2 18:11:04 +0200 <Gregor[m]> Membership: gsantner
+2022-W01-2 18:11:12 +0200 <@jaywink> If you do not remember your username, please dm me now with your email. In unclear cases we might need to verify your membership via email.
+2022-W01-2 18:11:30 +0200 <@Aminda-> Membership: mikaela
+2022-W01-2 18:11:41 +0200 <Shados[m]> Membership: shados
+2022-W01-2 18:12:06 +0200 <JaeLoPresti[m]> Membership: jae
+2022-W01-2 18:12:39 +0200 <Hank[m]12> Membership: hankg
+2022-W01-2 18:12:43 +0200 --> tuomas (@tuomas:feneas.org) (~tuomasfen@2001:470:69fc:105::c8b8) has joined #feneas-meetings
+2022-W01-2 18:13:07 +0200 <@jaywink> Some reminders:
+2022-W01-2 18:13:07 +0200 <@jaywink> * this meeting will be held chat only.
+
+2022-W01-2 18:13:15 +0200 <@jaywink> * the chat log in this room will be exported and uploaded as meeting minutes.
+2022-W01-2 18:13:16 +0200 <@jaywink> * anyone is allowed to "speak" during the meeting, though please try to keep chatter to the particular subject.
+2022-W01-2 18:13:16 +0200 <@jaywink> * only members are allowed a vote when voting happens. please indicate your feneas username before voting as above. votes from non-members will not be counted.
+2022-W01-2 18:13:25 +0200 <@jaywink> A reminder about the agenda:
+2022-W01-2 18:13:27 +0200 <@jaywink> * Opening of the meeting.
+2022-W01-2 18:13:29 +0200 <@jaywink> * The chairman, secretary, two examiners of the minutes and if needed two ballot counters shall be chosen.
+2022-W01-2 18:13:38 +0200 <@jaywink> * The legality and quorum of the meeting are stated.
+2022-W01-2 18:13:38 +0200 <@jaywink> * The working order of the meeting is accepted.
+
+2022-W01-2 18:13:38 +0200 <@jaywink> * Dismantling of the association (second vote)
+2022-W01-2 18:13:57 +0200 <@jaywink> * The future of Feneas services
+2022-W01-2 18:13:57 +0200 <@jaywink>   * Only in case of dismantling vote passing
+2022-W01-2 18:13:57 +0200 <@jaywink> * Choosing of a new committee
+2022-W01-2 18:13:57 +0200 <@jaywink>   * Only in case of dismantling vote not passing
+2022-W01-2 18:13:58 +0200 <@jaywink> * Other free discussion and decision items put on the table
+2022-W01-2 18:14:11 +0200 <@jaywink> How to vote:... (full message at https://libera.ems.host/_matrix/media/r0/download/libera.chat/72ed3b8fdcf8a194fd25cfdfc927ba5e822ff145)
+2022-W01-2 18:14:11 +0200 <@jaywink> * each vote will take five minutes to allow everyone to see the message and vote.
+2022-W01-2 18:14:28 +0200 <@jaywink> * once "VOTE ENDS: topic" comes up, the vote has ended.
+2022-W01-2 18:14:28 +0200 <@jaywink> * ballot counters should count the votes and post the results.
+2022-W01-2 18:14:28 +0200 <@jaywink> * if both ballot counters reach the same result, the result is confirmed with "VOTE PASSED / VOTE DIDN'T PASS: topic" by the chair.
+2022-W01-2 18:14:28 +0200 <@jaywink> Questions? :)
+2022-W01-2 18:14:53 +0200 <tuomas> Membership: tuomas
+2022-W01-2 18:15:47 +0200 <@jaywink> * jaywink counts 8 members identified themselves. If more come up, please just join in at any time before the voting.
+2022-W01-2 18:16:06 +0200 --> Noclip[m] (@noclip:feneas.org) (~noclipfen@2001:470:69fc:105::1f8) has joined #feneas-meetings
+2022-W01-2 18:16:06 +0200 <Noclip[m]> Small reminder from the last meeting: Don't use reactions for voting.
+2022-W01-2 18:16:44 +0200 <@jaywink> yep those wont count
+2022-W01-2 18:17:17 +0200 <@jaywink> TOPIC: The chairman, secretary, two examiners of the minutes and if needed two ballot counters shall be chosen.
+2022-W01-2 18:17:24 +0200 <@jaywink> I'm happy to chair, unless someone wants to take chair instead.
+2022-W01-2 18:17:29 +0200 <@jaywink> I think we can go without secretary, given minutes are in this chat.
+2022-W01-2 18:17:47 +0200 <@jaywink> Who will be examiners of minutes, we need two people? The role of these people is to verify the extracted chat log minutes after the meeting. The minutes will be stored in the Feneas association git repository for future exports where needed to other storage.
+2022-W01-2 18:19:24 +0200 <@jaywink> The ballot counters and minutes examiners can probably be the same due to number of people
+2022-W01-2 18:19:29 +0200 <@jaywink> But, two needed :)
+2022-W01-2 18:19:55 +0200 <ThomasMCarlsson[> I am happy to volunteer as an examiner of minutes.
+2022-W01-2 18:20:04 +0200 <@jaywink> thanks!
+2022-W01-2 18:20:38 +0200 <JaeLoPresti[m]> I can be up to this task if nobody else wants to.
+2022-W01-2 18:21:01 +0200 <@jaywink> Great 👍️ Anyone for ballot counting?
+2022-W01-2 18:21:26 +0200 <ThomasMCarlsson[> Happy to volunteer for ballot counting as well.
+2022-W01-2 18:21:39 +0200 <@jaywink> Jae Lo Presti: would you be able to as well?
+2022-W01-2 18:22:21 +0200 <JaeLoPresti[m]> Sure (just counting the messages saying `+1` `-1` `0` right?)
+2022-W01-2 18:22:28 +0200 <ThomasMCarlsson[> Luckily we only need to count to 8 worst case 🙂
+2022-W01-2 18:22:28 +0200 <ThomasMCarlsson[> Correct
+2022-W01-2 18:22:46 +0200 <JaeLoPresti[m]> I think I am able to count up to that :)
+2022-W01-2 18:22:59 +0200  * @jaywink notes Thomas M. Carlsson and Jae Lo Presti for minutes examiners and counters of ballots
+2022-W01-2 18:23:10 +0200 <@jaywink> TOPIC: The legality and quorum of the meeting are stated.
+
+2022-W01-2 18:23:10 +0200 <@jaywink> The meeting was called with invitations sent over two weeks prior, as per rules of the association. The association rules do not state minimum count of members present. Unless someone objects, the meeting is determined legal.
+2022-W01-2 18:25:24 +0200 <@jaywink> TOPIC: The working order of the meeting is accepted.
+2022-W01-2 18:25:29 +0200 <@jaywink> Are there objections to the working order of the meeting?
+2022-W01-2 18:25:41 +0200 <@jaywink> Voting rules were above and as a reminder, no reactions will be counted.
+2022-W01-2 18:27:25 +0200 <ThomasMCarlsson[> No objections.
+2022-W01-2 18:27:38 +0200 <JaeLoPresti[m]> None here.
+2022-W01-2 18:27:48 +0200 <Hank[m]12> No objection
+2022-W01-2 18:28:04 +0200 <@jaywink> TOPIC: Dismantling of the association
+2022-W01-2 18:28:10 +0200 <zauberstuhl[m]> nope
+2022-W01-2 18:28:10 +0200 <@jaywink> During the 9th December 2021 AGM the present members voted to start the process of dissolving the
+2022-W01-2 18:28:48 +0200 <@jaywink>  * During the 9th December 2021 AGM the present members voted to start the process of dissolving the association. You can find the meeting logs here:
+2022-W01-2 18:28:48 +0200 <@jaywink> https://git.feneas.org/feneas/association/-/merge_requests/39
+2022-W01-2 18:28:49 +0200 -- Notice(R-66Y): Title: Add meeting minutes for AGM 2021-12-09 (!39) · Merge requests · Feneas / association · GitLab
+2022-W01-2 18:29:09 +0200 <@jaywink> Dissolving the association requires two passing votes of 3/4 majority of members present in the meeting. The votes must be at least 14 days apart but no more than 30 days apart. The first vote passed with six out of six members voting for dissolving the association.
+2022-W01-2 18:29:09 +0200 <@jaywink> It's important to note that there is discussion ongoing by several members on whether a new committee could be formed to continue the association. As indicated in the meeting notes, this vote was passed to ensure the association can be brought to an end should this new committee not come to exist.
+2022-W01-2 18:29:25 +0200 <@jaywink> Oops forgot to clean for copy paste sorry :D
+2022-W01-2 18:29:52 +0200 <@jaywink> If the second vote does not get 3/4 majority to dissolve the association, a new committee must be chosen.
+2022-W01-2 18:29:57 +0200 <@jaywink> After this it is up to the new committee to start raising funds and figuring out what to do with the various services.
+
+2022-W01-2 18:30:12 +0200 <@jaywink> If the second vote gets 3/4 majority to dissolve the association, the association Federated Networks Association ry will be dissolved without further voting. It is up to the current committee then to bring to an end both the legal structure and the services running.
+2022-W01-2 18:30:28 +0200 <@jaywink> Do we have discussion at this point? Lets give 10 minutes for that to happen, more if discussion comes up. I would limit discussion to a max 30 minutes unless objections.
+2022-W01-2 18:30:46 +0200 <@jaywink> Also please read the previous meeting notes if you havent
+2022-W01-2 18:30:55 +0200 <Hank[m]12> So voting "no" on dissolution means remaining members have a responsibility to pick up the reins 
+2022-W01-2 18:31:29 +0200 <@jaywink> zauberstuhl: welcome \o/ Please write `Membership: <your feneas username here>" to identify yourself for the logs
+2022-W01-2 18:32:33 +0200 <@jaywink> Hank[m]12: Well, that is tricky. Basically the current committee will have a difficult task. None of the current committee have indicated they wish to continue, so we will be left with trying to choose a new committee, and if that fails things will go into a bit of a limbo
+2022-W01-2 18:32:38 +0200 <@jaywink> But yes, responsibility lies with the current committee
+2022-W01-2 18:32:40 +0200 <ThomasMCarlsson[> A quick update from me if I may. 
+2022-W01-2 18:32:40 +0200 <Noclip[m]> zauberstuhl: I think you didn't list yourself as member during the meeting so far. No sure if this is needed in your case however.
+2022-W01-2 18:32:43 +0200 <ThomasMCarlsson[> In response to the previous AGM (where we voted unanimously to dissolve the association) I and a few other Feneas members carried out a last-ditch effort to determine if we could build a new viable executive committee team to keep Feneas going for another 12 months. 
+2022-W01-2 18:33:01 +0200 <ThomasMCarlsson[> Sadly, although there was some interest among a few people, we were unable to come up with a plan which would have covered all the day-to-day functions required to keep the association running (we had a shortfall of ca 10 hours per month of volunteer time).
+2022-W01-2 18:33:07 +0200 <ThomasMCarlsson[> As such I feel that a vote to confirm the dissolution of the association is the only rational choice in today's meeting. 
+2022-W01-2 18:34:31 +0200 <zauberstuhl[m]> Membership: zauberstuhl
+2022-W01-2 18:34:31 +0200 <Shados[m]> FWIW, I could commit to 6 hours a month of volunteer time
+2022-W01-2 18:37:12 +0200 <zauberstuhl[m]> Even now I am handling my kids while writing. Unfortunately dissolving/leaving the committee is my only option.
+2022-W01-2 18:39:00 +0200 <tuomas> Gotta say that I wouldn't like see the association being dismantled, because the cause is very important, but I just can't personally commit as much as it would take... Can we come up with other ways to move the federation topics forward in the future if there is no official association?
+2022-W01-2 18:40:19 +0200 <@jaywink> Personally I have the feeling dissolving is the right choice to do. There has been a lack of interest from the members community in getting involved and the discussions during the last month or so have not changed that I'm afraid, in my opinion. I'm happy there was an effort to try and choose a new committee, but I also don't want to pressure anyone to think that they should volunteer. Having a legal association ends up being quite a bit
+2022-W01-2 18:40:23 +0200 <@jaywink> of pain to handle.
+2022-W01-2 18:41:55 +0200 <Hank[m]12> That minimum level is also just to "keep the lights on" not doing things towards the goals of the organization.
+
+2022-W01-2 18:42:04 +0200 <@jaywink> I definitely agree the cause is very important, but I think we failed to build enough of something that is worth keeping imho. We did manage to get various services running but even those are tbh in a bit of a state of lack of maintenance. An enthusiastic committee and a larger group of volunteers would be needed IMHO to fulfill what we set out to achieve.
+2022-W01-2 18:45:29 +0200 <Gregor[m]> suggestion: Pre-vote with reactions on this message. If it gets at least 3/4 we can already talk about how to go on (instead of talking about pros/cons of things probably not getting taken over)
+2022-W01-2 18:45:48 +0200 <Gregor[m]>  * suggestion: Pre-vote with reactions on this message. If it gets at least 3/4 we can already talk about how to go on (instead of talking about pros/cons of things probably not getting taken over)
+2022-W01-2 18:45:48 +0200 <Gregor[m]> + dissolve / -not
+2022-W01-2 18:45:54 +0200 <Gregor[m]>  * suggestion: Pre-vote with reactions on this message. If it gets at least 3/4 we can already talk about how to go on (instead of talking about pros/cons of things probably not getting taken over)
+2022-W01-2 18:45:55 +0200 <Gregor[m]> - dissolve / -not
+2022-W01-2 18:46:12 +0200 <Gregor[m]>  * suggestion: Pre-vote with reactions on this message. If it gets at least 3/4 we can already talk about how to go on (instead of talking about pros/cons of things probably not getting taken over)
+2022-W01-2 18:46:12 +0200 <Gregor[m]> plus dissolve / minus not
+2022-W01-2 18:46:13 +0200 <@Aminda-> reeactions aren't bridged or exported over text so I oppose that suggestion
+2022-W01-2 18:48:01 +0200 <tuomas> Maybe an official association is just too heavy for this kind of thing then and dismantling it i the right choice then. However, it would be cool if we could come up with some continuing plans for the cause anyway, e.g. form some channels etc. Just to be able to coordinate and discuss federation topics even without the Feneas.
+2022-W01-2 18:48:01 +0200 <Gregor[m]> it does not matter. what counts is the proper vote with voting rights.
+2022-W01-2 18:48:08 +0200 <Gregor[m]> (btw reactions have been used the whole time)
+2022-W01-2 18:48:22 +0200 <Noclip[m]> Aminda-: I think that was part of the idea.
+2022-W01-2 18:48:53 +0200 <Gregor[m]> correct.
+2022-W01-2 18:49:47 +0200 <ThomasMCarlsson[> I would also add that it's natural and well-meaning of people to consider whether or not they could offer some help here and now, but we're frankly out of time to come up with a plan to save Feneas. 
+2022-W01-2 18:49:55 +0200 <ThomasMCarlsson[> The time to figure out if we could keep the association going was 4 weeks ago, or even a week ago. Knowing if we can viably keep an organisation like this going for 12 months involves planning and onboarding. Sadly that ship has sailed.
+2022-W01-2 18:51:15 +0200 <JaeLoPresti[m]> I can give time to Feneas, it's not a problem, I am also involved in TeDomum that kinda does the same thing. Sadly, I feel like I am too outside and late for that.2022-W01-2 18:51:58 +0200 <Hank[m]12> The other thing to consider is that level of effort is not necessarily even or at discretion. There were some intense times for jaywink and zauberstuhl when the infrastructure had problems and they worked a lot to fix it.
+2022-W01-2 18:52:35 +0200 <@jaywink> Yeah a lot of the effort might be around resurrecting burned down services. Time spent on that is impossible to budget for.
+2022-W01-2 18:52:58 +0200 <@jaywink> Not talking about regular maintenance. If a new committee steps up, they'll need to handle the occasional fire coming up.
+2022-W01-2 18:52:59 +0200 <Hank[m]12> and impossible to defer because personal or professional life is too busy
+
+2022-W01-2 18:54:43 +0200 <@jaywink> If the dissolving doesn't happen, the next topic would be choosing a new committee. I'm having a hard time imagining anyone who feels strongly about Feneas continuing not paying attention to either invite emails, announcements about agm in this room or meeting notes being added. So hopefully anyone really interested in Feneas has some knowledge of the issue we face. Thus, I assume all those people would be here by now and would have
+2022-W01-2 18:54:43 +0200 <@jaywink> identified themselves. 
+2022-W01-2 18:54:43 +0200 <@jaywink> It's not a large amount of people, especially those willing to take legal responsibility by being on the committee. Of course it never was a large amount of people to begin with, mostly me and Lukas handling things. But we've already proven this recipe doesn't work to build a healthy association.
+2022-W01-2 18:56:17 +0200 <Hank[m]12> It seems to me the organization lacks critical mass so unless the new committee members have ideas for how to reverse that and infuse it with new volunteer hours and money it will just be deferring the inevitable for another year.
+2022-W01-2 18:57:43 +0200 <@jaywink> Five more minutes for any late opinions before voting? I don't want to rush this, but there is probably little new that can be brought to the table at this point.
+2022-W01-2 18:58:31 +0200 <Noclip[m]> <jaywink> "I definitely agree the cause..." <- Does this mean the main achievements of Feneas were the services it hosted?
+2022-W01-2 19:00:51 +0200 <@jaywink> As a recap:
+2022-W01-2 19:00:52 +0200 <@jaywink> * if you vote +1 to dissolve the association: the decision is final. The current committee will send out notifications to members and make some general announcement. The associaton will be legally dissolved as soon as it is possible (after ramping down or moving services to new owners etc, so a few months likely)
+2022-W01-2 19:00:52 +0200 <@jaywink> * if you vote -1 to dissolve the association you don't need to give opinions or options on how the new committee is structured, but that would be very welcome. Without a new committee the association wont be continuing in any functional way except on paper.
+2022-W01-2 19:00:52 +0200 <@jaywink> 3/4 votes are required to dissolve, so currently that means 6 out of the 9 identified members.
+2022-W01-2 19:01:28 +0200 <@jaywink> > if you vote +1 to dissolve the association: the decision is final.
+2022-W01-2 19:01:28 +0200 <@jaywink> if you vote +1 to dissolve the association *and it passes*: the decision is final.
+2022-W01-2 19:01:28 +0200 <zauberstuhl[m]> Well bringing feneas folks together and celebrating like we did it Brussels is no longer possible thanks to covid. now its just services
+2022-W01-2 19:03:47 +0200 <@jaywink> <Noclip[m]> "Does this mean the main achievem..." <- I guess one could say mainly yes. Also giving a roof for a few existing teams (fediverse.party, wedistribute). We wanted to involve feneas in many other things as per the mission statement, but the fact that this never happened was probably a lot due to the fact that the two main culrpits (me and lukas) are sysadmins and like running services :)
+2022-W01-2 19:04:58 +0200 <zauberstuhl[m]> i dont believe it. he called me a sysadmin
+2022-W01-2 19:05:15 +0200 <@jaywink> > 3/4 votes are required to dissolve, so currently that means 6 out of the 9 identified members.
+2022-W01-2 19:05:15 +0200 <@jaywink> My math sucks :D Noting for the minutes, 3/4 out of 9 is actually 6.75 votes, which I guess we'll need to round up? So unless someone has better math, I think that means 7 out of 9 votes
+2022-W01-2 19:05:34 +0200 <JaeLoPresti[m]> zauberstuhl[m]: It's not that negative is it? xD
+2022-W01-2 19:05:55 +0200 <Hank[m]12> zauberstuhl[m]: I would have said DevOps Engineer ;)
+2022-W01-2 19:06:38 +0200 <@jaywink> any questions on the vote, given this is a rather important vote?
+2022-W01-2 19:06:42 +0200 <Hank[m]12> none here
+2022-W01-2 19:07:00 +0200 <Shados[m]> Nope
+2022-W01-2 19:07:18 +0200 <ThomasMCarlsson[> > <@jaywink:federator.dev> > 3/4 votes are required to dissolve, so currently that means 6 out of the 9 identified members.
+2022-W01-2 19:07:18 +0200 <ThomasMCarlsson[> > 
+
+2022-W01-2 19:07:18 +0200 <ThomasMCarlsson[> > My math sucks :D Noting for the minutes, 3/4 out of 9 is actually 6.75 votes, which I guess we'll need to round up? So unless someone has better math, I think that means 7 out of 9 votes
+2022-W01-2 19:07:18 +0200 <ThomasMCarlsson[> 3/4 majority would be 7 out of 9 as per my potentially suspicious mathematical skills 🙂
+2022-W01-2 19:07:49 +0200 <JaeLoPresti[m]> Let's round up to 10 to be sure
+2022-W01-2 19:08:34 +0200 <@jaywink> VOTE: Dissolve the association Feneas (Federated Networks Association)
+2022-W01-2 19:08:53 +0200 <@jaywink> Please vote now. Five minutes (until 17:13 UTC) are for voting to happen (or until everyone has voted). NOTE! This is vote 2/2. This vote if passed will be final.
+2022-W01-2 19:08:59 +0200 <ThomasMCarlsson[> +1
+2022-W01-2 19:09:01 +0200 <@jaywink> +1
+2022-W01-2 19:09:09 +0200 <Hank[m]12> +1
+2022-W01-2 19:09:09 +0200 <Gregor[m]> +1
+2022-W01-2 19:09:09 +0200 <@Aminda-> +1
+2022-W01-2 19:09:17 +0200 <tuomas> +1
+2022-W01-2 19:09:17 +0200 <Shados[m]> +1
+2022-W01-2 19:09:18 +0200 <zauberstuhl[m]> +1
+2022-W01-2 19:09:33 +0200 <JaeLoPresti[m]> 0
+2022-W01-2 19:10:09 +0200 <@jaywink> ballot counters? I believe this is 9 votes
+2022-W01-2 19:10:34 +0200 <JaeLoPresti[m]> Confirmed. 9 vote; 8 favorable; 0 against; 1 blank
+2022-W01-2 19:10:46 +0200 <Noclip[m]> I see 9 votes: 8 times +1 and 1 time 0
+2022-W01-2 19:10:51 +0200 <JaeLoPresti[m]> s/vote/votes/
+2022-W01-2 19:10:53 +0200 <zauberstuhl[m]> :(
+2022-W01-2 19:11:08 +0200 <ThomasMCarlsson[> For the record, for the 9 eligible voters present I am counting 8 Yes and 1 Neutral. Vote passes.
+2022-W01-2 19:11:08 +0200 <Noclip[m]> (But I'm not a ballot counter.)
+2022-W01-2 19:11:31 +0200 <@jaywink> VOTE PASSED: Dissolve the association Feneas (Federated Networks Association)
+2022-W01-2 19:11:51 +0200 <@jaywink> While sad, I think this is the right choice
+2022-W01-2 19:12:09 +0200 <@jaywink> More (personal) words later in a post
+2022-W01-2 19:12:13 +0200 <@jaywink> TOPIC: The future of Feneas services
+2022-W01-2 19:12:21 +0200 <@jaywink> Current financial status:
+2022-W01-2 19:12:23 +0200 <@jaywink> * approximate cost per month of services ~€150
+2022-W01-2 19:12:24 +0200 <@jaywink> * money in the bank: €450
+2022-W01-2 19:12:37 +0200 <@jaywink> * services have been paid for until end of November
+2022-W01-2 19:12:37 +0200 <ThomasMCarlsson[> Indeed, I am very sorry that this was the outcome, and would like to take the opportunity to thank all the volunteers and in particular Jason and Lukas for keeping things going over the past few years. 
+2022-W01-2 19:12:45 +0200 <@jaywink> This means, the services can be powered at their current state until end of february approximately
+2022-W01-2 19:12:55 +0200 <Hank[m]12> Agree with all the sentiments above.
+2022-W01-2 19:13:18 +0200 <@jaywink> The current committee hasn't received any queries about people wanting to adopt any of the services, should the association be dissolved
+2022-W01-2 19:13:38 +0200 <schmittlauchhehi> Also from me, as a non-member, thanks for the work of everyone involved.
+2022-W01-2 19:13:51 +0200 <@jaywink> Personally I would at least reach out to Sean to adopt wedistribute back and lostinlight etc to re-own fediverse.party
+
+2022-W01-2 19:14:53 +0200 <@jaywink> But otherwise unless someone steps up or gives concrete plans on where to host the current services, they need to be closed down as the association is ramped down and data destroyed.
+2022-W01-2 19:14:56 +0200 <@jaywink> Note: concrete plans involve work on re-hosting the services at their new owners
+2022-W01-2 19:15:15 +0200 <ThomasMCarlsson[> jaywink: This sounds like a good idea 👍️
+2022-W01-2 19:15:20 +0200 <Hank[m]12> I assume the feneas.org domain will be retired regardless?
+2022-W01-2 19:15:42 +0200 <JaeLoPresti[m]> If the services are to be closed, an instance of this is Framasoft that at some point, decided to stop some services and did this page https://alt.framasoft.org/en/
+2022-W01-2 19:15:42 +0200 <schmittlauchhehi> regarding the domain I'd suggest to keep it registered for an additional year at last, to avoid name squatting.
+2022-W01-2 19:15:42 +0200 -- Notice(R-66Y): Title: Alternatives to
+2022-W01-2 19:16:04 +0200 <@Aminda-> `Registry Expiry Date: 2022-06-01T08:09:50Z`
+2022-W01-2 19:17:04 +0200 <@jaywink> Yes I agree the domain should be registered for some time after, which means renewing it. I would be happy to for example take the domain in my own name should the members allow this to happen and renew it for a year or two.
+2022-W01-2 19:17:09 +0200 <@jaywink> And host some kind of page on it
+2022-W01-2 19:17:18 +0200 <zauberstuhl[m]> me too
+2022-W01-2 19:17:50 +0200 <Hank[m]12> I'm fine with that
+2022-W01-2 19:18:33 +0200 <@jaywink> I'll create a proposal to vote on, so it goes into the minutes as official
+2022-W01-2 19:19:12 +0200 <ThomasMCarlsson[> Bringing up some feedback from people not present, @bkil had the following suggestions in the Feneas chat room the other week: 
+2022-W01-2 19:19:12 +0200 <ThomasMCarlsson[> "By the way, in case dissolution would be the course of action taken, could the association perhaps relicence any and all content and assets so far produced under a copyleft license so that others might mirror them or base upon them?"
+2022-W01-2 19:20:03 +0200 <@jaywink> VOTE: Let the current committee transfer the domain feneas.org ownership to Jason Robinson or Lukas Matt for safe keeping
+2022-W01-2 19:20:22 +0200 <Hank[m]12> +1
+2022-W01-2 19:20:22 +0200 <@jaywink> +1
+2022-W01-2 19:20:22 +0200 <Gregor[m]> +1
+2022-W01-2 19:20:22 +0200 <ThomasMCarlsson[> +1
+2022-W01-2 19:20:22 +0200 <@Aminda-> +1
+2022-W01-2 19:20:22 +0200 <JaeLoPresti[m]> +1
+2022-W01-2 19:20:22 +0200 <tuomas> +1
+2022-W01-2 19:20:35 +0200 <Shados[m]> +1
+2022-W01-2 19:21:48 +0200 <ThomasMCarlsson[> I must actually point out that if I understand the association rules correctly, jaywink and Lukas should not be voting on this motion. 
+2022-W01-2 19:22:30 +0200 <@jaywink> > <@beige:feneas.org> Bringing up some feedback from people not present, @bkil had the following suggestions in the Feneas chat room the other week: 
+2022-W01-2 19:22:30 +0200 <@jaywink> > "By the way, in case dissolution would be the course of action taken, could the association perhaps relicence any and all content and assets so far produced under a copyleft license so that others might mirror them or base upon them?"
+
+2022-W01-2 19:22:31 +0200 <@jaywink> That's a good point. We'll need to look at what has been created, maybe the whole association repositories could be mirrored somewhere, say gitlab.com or some other place - it's a rather simple operation to do and would keep things available.
+2022-W01-2 19:22:31 +0200 <@jaywink> I'm not sure about changing any licenses though.
+2022-W01-2 19:22:40 +0200 <@jaywink> ThomasMCarlsson[: Good point. Ballot counters please discount our votes.
+2022-W01-2 19:23:04 +0200 <ThomasMCarlsson[> For the 7 eligible voters present I am counting 7 Yes. One vote disqualified per association rules. Vote passes.
+2022-W01-2 19:23:12 +0200 <JaeLoPresti[m]> One vote missing so far.
+2022-W01-2 19:28:49 +0200 -- irc: disconnected from server
+2022-W01-2 19:29:10 +0200 --> Aminda [Mikaela] (Mikaela Aminda H. M. <suomalainen@mikaela.info>) (~sid12355@Feneas/Mikaela) has joined #feneas-meetings
+2022-W01-2 19:29:10 +0200 -- Topic for #feneas-meetings is "Next meeting: Tuesday 4th January 2022, 4pm UTC"
+2022-W01-2 19:29:10 +0200 -- Topic set by jaywink (~jaywink@2001:470:69fc:105::770) on 2021-W51-1 23:57:19 EET
+2022-W01-2 19:29:10 +0200 -- Channel #feneas-meetings: 19 nicks (3 ops, 0 voices, 16 normals)
+2022-W01-2 19:29:13 +0200 -- URL for #feneas-meetings: https://feneas.org/
+2022-W01-2 19:29:13 +0200 -- Mode #feneas-meetings [+o Aminda] by ChanServ
+2022-W01-2 19:29:15 +0200 -- Mode #feneas-meetings [+o Aminda] by R-66Y
+2022-W01-2 19:29:27 +0200 <@jaywink> Can we agree on a date the main services (matrix + gitlab) can be ramped down? Especially given we have potential sponsors, possibly we could say two months to give people time to migrate? So mid-March maybe?
+2022-W01-2 19:29:42 +0200 -- Channel created on 2021-W21-4 09:16:13 EEST
+2022-W01-2 19:29:56 +0200 <ThomasMCarlsson[> Hank[m]12: Ditto FWIW.
+2022-W01-2 19:29:57 +0200 <@jaywink> I'm fine with end of Feb too if a full month is good enough
+2022-W01-2 19:30:59 +0200 <Gregor[m]> Suggest max 2 months. Longer period means = "do it later" = "do it never".. when shorter more likely that one starts migrations plans soon
+2022-W01-2 19:32:06 +0200 <@jaywink> If I get a message out to all users within a week (this week + weekend is a bit bad), then end of February would be 1,5 months. We could always extend for a few weeks if people have difficulty migrating out.
+2022-W01-2 19:32:48 +0200 <@jaywink> Any other items to discuss re services?
+2022-W01-2 19:33:36 +0200 <@jaywink> Regarding data, any data the members don't approve to move on to a new entity should be destroyed, which includes all service data, backups and media.
+2022-W01-2 19:34:19 +0200 <@jaywink> This would not include the public gitlab repositories, which should IMHO be mirrored
+2022-W01-2 19:35:04 +0200 <Noclip[m]> jaywink: Are they already mirrored?
+2022-W01-2 19:35:28 +0200 <@jaywink> Noclip[m]: Probably some yes, but not officially by Feneas (except maybe a few on github afaicr)
+2022-W01-2 19:36:10 +0200  * @jaywink needs to do a proper service inventory within a few weeks
+2022-W01-2 19:36:53 +0200 <@Aminda-> on mirrorring I would like to comment that Gitea and GitLab make it a lot easier than GitHub (which doesn't have the feature formally)
+2022-W01-2 19:37:03 +0200 <@jaywink> In terms of funds, I think we should avoid any funds being left in the bank account at the end - but it's hard so we need to decide where to push them. Can we agree on donating them to some suitable organization?
+2022-W01-2 19:37:12 +0200 <@jaywink> it's likely to be at most tens of euros :)
+2022-W01-2 19:37:26 +0200 <Gregor[m]> eff?
+2022-W01-2 19:37:27 +0200 <Noclip[m]> jaywink: With _members_ your are referring to the association members?
+2022-W01-2 19:37:42 +0200 <@jaywink> Noclip[m]: Yes, members who can vote in these AGM's
+2022-W01-2 19:38:02 +0200 <@Aminda-> How about Framasoft?
+2022-W01-2 19:40:05 +0200 <@Aminda-> I think EFF is more focused on privacy than Federation, while Framasoft is behind multiple federated projects/services such as Mobilizon and PeerTube
+
+2022-W01-2 19:42:03 +0200 <JaeLoPresti[m]> Yes, Framasoft created chatons.org that promotes little structures that hosts mostly federated services
+2022-W01-2 19:42:09 +0200  * @jaywink forgot to change topic for the minutes
+2022-W01-2 19:42:14 +0200 <@jaywink> TOPIC: Other free discussion and decision items put on the table
+2022-W01-2 19:42:35 +0200 <@jaywink> sounds like framasoft has some support, /me creates a vote
+2022-W01-2 19:42:44 +0200 <@jaywink> VOTE: Donate remaining funds of the association remaining in the bank account when finally officially terminating the association to Framasoft
+2022-W01-2 19:42:48 +0200 <@jaywink> +1
+2022-W01-2 19:42:57 +0200 <@Aminda-> +1
+2022-W01-2 19:42:59 +0200 <JaeLoPresti[m]> +1
+2022-W01-2 19:43:03 +0200 <Hank[m]12> +1
+2022-W01-2 19:43:16 +0200 <tuomas> +1
+2022-W01-2 19:43:38 +0200 <ThomasMCarlsson[> +1
+2022-W01-2 19:45:01 +0200 <@jaywink> I think that's the only remaining thing to actually decide upon, unless someone has things to raise. Any further items we can always call a meeting should any other resources need to be transferred to someone for example.
+2022-W01-2 19:45:48 +0200 <Noclip[m]> With 6 (+1) out of 9 votes it already passed.
+2022-W01-2 19:46:22 +0200 <JaeLoPresti[m]> 6 votes total; 6 for; 0 against; 0 blank
+2022-W01-2 19:47:43 +0200 <ThomasMCarlsson[> Of the 9 eligible voters 6 have voted Yes so far - so vote passes.
+2022-W01-2 19:47:51 +0200 <@jaywink> VOTE PASSED: Donate remaining funds of the association remaining in the bank account when finally officially terminating the association to Framasoft
+2022-W01-2 19:48:44 +0200 <ThomasMCarlsson[> Just as a quick clarification to my earlier assertion that Jason and Lukas could not vote on the feneas.org domain topic - I inaccurately stated that this was due to association rules - the disqualification was in fact due to the Finnish Associations Act https://www.prh.fi/en/yhdistysrekisteri/act.html section 26:
+2022-W01-2 19:48:44 +0200 <ThomasMCarlsson[> >Disqualification at meetings of associations
+2022-W01-2 19:48:44 +0200 <ThomasMCarlsson[> >
+2022-W01-2 19:48:44 +0200 <ThomasMCarlsson[> >At a meeting of an association, members shall neither vote nor propose any decision when a decision is to be taken on a contract between them and the association or on other matter where there is a conflict of interest between them and the association.
+2022-W01-2 19:48:46 +0200 -- Notice(R-66Y): Title: PRH - Associations Act
+2022-W01-2 19:48:50 +0200 <ThomasMCarlsson[> But even so the vote would have passed regardless, so it's a technicality. But noting for reference.
+2022-W01-2 19:49:03 +0200 <@jaywink> I guess that's it for this meeting? I'll upload logs tonight and start writing an announcement to post out. Thanks everyone for attending.
+2022-W01-2 19:50:48 +0200 <ThomasMCarlsson[> That probably wraps it up - thanks again everyone. 
+2022-W01-2 19:50:52 +0200 <@Aminda-> would you formally end the meeting also noting the time?
+2022-W01-2 19:51:21 +0200 <@jaywink> ==== MEETING ENDS =====
+2022-W01-2 19:51:43 +0200 <@jaywink> yep was waiting for final words from anyone :)
+2022-W01-2 19:52:06 +0200 <@jaywink> thanks all! I wish there could be a final party at fosdem or something, but yay pandemic :P
+2022-W01-2 19:52:35 +0200 <@jaywink> fosdem played a big role in feneas, pretty much creating it
+
