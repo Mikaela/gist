@@ -11,6 +11,7 @@ IRC labels begin with IRC for easier ignoring by bots.
 
 * ircErgo - ErgoChat - ircs://irc.ergo.chat:6697
 * ircEtro - IRC@Etro - ircs://etro.mikaela.info:6697
+* ircIn - IRCnet - irc://open.ircnet.net:6667
 * ircLc - LiberaChat - ircs://irc.libera.chat:6697
 * ircLca - LibertaCasa - ircs://irc.liberta.casa:6697
 * `[m]` - Matrix - https://matrix.org
@@ -68,3 +69,13 @@ TBD
 ### cz-feed
 
 TBD
+
+## skrolli
+
+* ircErgo
+* ircIn
+
+## borni
+
+* ircErgo
+* ircIn
