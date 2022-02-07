@@ -14,7 +14,6 @@ IRC labels begin with IRC for easier ignoring by bots.
 * ircLc - LiberaChat - ircs://irc.libera.chat:6697
 * ircLca - LibertaCasa - ircs://irc.liberta.casa:6697
 * `[m]` - Matrix - https://matrix.org
-* ircNn - NixNet - ircs://irc.nixnet.services:6697
 * ircPirate - PirateIRC - ircs://irc.pirateirc.net:6697
 * Tg - Telegram - https://telegram.org
 * Twitch - Twitch - https://twitch.tv
@@ -26,12 +25,10 @@ Sorted in order of popularity or likeliness to be asked about.
 
 ### Mikaela.info
 
-* ircErgo
 * ircEtro
 * ircLc
 * ircLca
 * `[m]`
-* ircNn
 * ircPirate
 * Tg
 * Twitch
@@ -39,7 +36,6 @@ Sorted in order of popularity or likeliness to be asked about.
 
 ### Tanukis (or "Pillow Fortress")
 
-* ircErgo
 * ircEtro
 * ircLc
 * ircLca
