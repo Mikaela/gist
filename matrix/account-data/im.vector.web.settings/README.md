@@ -5,8 +5,18 @@ having to do that manually on all my accounts clicking a lot in Element Web/Desk
 
 ```
 {
-	"Spaces.allRoomsInHome": true,
+	"theme": "dark",
+	"MessageComposer.showFormatting": false,
+	"MessageComposerInput.isRichTextEnabled": false,
+	"pinUnreadRooms": true,
+	"enableWidgetScreenshots": true,
+	"useCompactLayout": true,
+	"pinMentionedRooms": true,
+	"alwaysShowTimestamps": true,
+	"promptBeforeInviteUnknownUsers": false,
 	"breadcrumbs": true,
+	"Spaces.allRoomsInHome": true,
+	"developerMode": true,
 	"room_directory_servers": [
 		"fedoraproject.org",
 		"feneas.org",
@@ -21,14 +31,8 @@ having to do that manually on all my accounts clicking a lot in Element Web/Desk
 		"hacklab.fi",
 		"pikaviestin.fi",
 		"libera.chat",
-		"irc.snt.utwente.nl"
-	],
-	"developerMode": true,
-	"Spaces.enabledMetaSpaces": {
-		"home-space": true,
-		"favourites-space": true,
-		"people-space": true,
-		"orphans-space": true
-	}
+		"irc.snt.utwente.nl",
+		"fosdem.org"
+	]
 }
 ```
