@@ -163,12 +163,15 @@ enable="true"
 
     [[gateway.inout]]
     account="discord.discordexample"
+    # Get it by enabling developer mode from Discord settings and
+    # right-clicking the channel name
     channel="ID:121212123124618"
     [gateway.inout.options]
     WebhookURL="https://discordapp.com/api/webhooks/..."
 
     [[gateway.inout]]
     account="telegram.telegrambot"
+    # Get it by adding the bot to a group runtime and /chatId
     channel="-1001199999999"
 
     [[gateway.inout]]
@@ -177,7 +180,11 @@ enable="true"
 
     [[gateway.inout]]
     account="matrix.matrixexample"
-    channel="#whatever-local-alias:example.org"
+    # Invite the bot account to a room and it will accept invite on start,
+    # alternatively use a room alias (but the server it refers to will need
+    # to be online). If using internal ID, remember to update it when
+    # performing /upgraderoom
+    channel="!roomInternalIDFromAdvancedRoomSettings:example.org"
 
     [[gateway.inout]]
     account="xmpp.example"
