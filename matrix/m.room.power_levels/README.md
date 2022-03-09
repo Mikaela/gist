@@ -38,7 +38,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
 		"m.room.name": 50,
-		"m.room.power_levels": 99,
+		"m.room.power_levels": 50,
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
 		"m.room.tombstone": 100,
@@ -58,6 +58,11 @@ This is not the Element/Synapse default as that would be pointless to list.
 }
 ```
 
+* `m.room.power_levels` is set to `50` so moderators can raise others to moderators
+  for example matrix-appservice-irc, which I would then give PL51 for ops syncing.
+  On matrix side immune mods, could be PL52.
+* invite commonly defaults to `50`, but I haven't seen abuse through it
+
 ### Paranoid version
 
 ```json
@@ -65,12 +70,15 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"ban": 50,
 	"events": {
 		"im.vector.modular.widgets": 100,
+		"m.reaction": 0,
 		"m.room.avatar": 100,
 		"m.room.canonical_alias": 100,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 100,
 		"m.room.name": 100,
+		"m.room.pinned_events": 50,
 		"m.room.power_levels": 100,
+		"m.room.redaction": 0,
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
 		"m.room.tombstone": 100,
