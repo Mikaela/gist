@@ -57,3 +57,14 @@ config channel #CHAN plugins.web.checkignored False
 
 I may have the bot on multiple sides of relay or the user may be ignored due
 to abuse so this may result into spam.
+
+## Bonus: Fediverse
+
+If [the Fediverse plugin is configured with secure fetch](https://github.com/progval/Limnoria/tree/master/plugins/Fediverse),
+fetching Fediverse profiles/statuses/usernames can be enabled by:
+
+```
+channel #CHAN plugins.Fediverse.snarfers.profile true
+channel #CHAN plugins.Fediverse.snarfers.status true
+channel #CHAN plugins.Fediverse.snarfers.username true
+```
