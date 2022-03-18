@@ -70,12 +70,7 @@ TBD
 
 TBD
 
-## skrolli
-
-* ircErgo
-* ircIn
-
 ## borni
 
-* ircErgo
+* ircEtro
 * ircIn
