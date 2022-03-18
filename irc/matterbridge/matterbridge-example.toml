@@ -15,17 +15,22 @@ EditSuffix=" ✏️"
 MessageClipped="…"
 UseLocalAvatar=["irc"]
 
+# This refers to https://ergo.chat/about
 [irc.localergo]
 Nick="T4"
-NickServNick="T4@local"
+# Normal client would specify @freeformClientID, but with matterbridge that
+# could result to flood from integrated bouncer
+NickServNick="T4"
 NickServPassword=""
 Server="localhost:6667"
 UseTLS=false
 UseSASL=true
 Label="ircEtro"
 Charset="utf8"
+# sends join/quit/part from the integrated bouncer
 IgnoreNicks="HistServ"
 RunCommands=["OPER T4 MI-ne-DIRAS-do-AL-vin", "MODE T4 -iw+BET"]
+# Requires the bot to be chanop, spoofs sender
 UseRelayMsg=true
 RemoteNickFormat="{NICK}/{LABEL}"
 
