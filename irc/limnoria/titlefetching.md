@@ -22,7 +22,7 @@ config supybot.protocols.http.peekSize 1048576
     Twitter will only give you HTML `<title>`s if your user-agent contains
     `UrlPreviewBot`, [thanks Tulir's Synapse patch](https://mau.dev/maunium/synapse/-/commit/55d926999cffee893cb4951890a33985beaf70ba)
 * search for HTML titles from the first MEGABYTE of the webpage as modern
-  web is horrible (looking at you www.hs.fi & www.youtube.com)
+  web is horrible (looking at you [HS](https://hs.fi) & [YouTube](https://youtube.com))
 
 ## Actually enabling it
 
