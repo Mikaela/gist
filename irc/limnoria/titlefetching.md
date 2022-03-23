@@ -16,13 +16,13 @@ config supybot.protocols.http.peekSize 1048576
 * disables showing domain (small protection against multiple titlesfetcherrs
   entering a loop or simply not annoying users with clientside link previews
   (Matrix/Telegram bridges/relays included))
-* disables showing redirect target -||-
+* disables showing redirect target (see previous point)
 * sets user-agent to "Limnoria UrlPreviewBot" instead of ['Mozilla/5.0 (compatible; utils.web python module)' from 2005](https://github.com/ProgVal/Limnoria/blame/2990fcd302afdc6a3b741594017c3959fd5da2fd/src/utils/web.py#L120)
   * I have heard that it's bad to pretend to be something you aren't and
-    Twitter will only give you HTMl `<title>`s if your user-agent contains
-    `UrlPreviewBot` [thanks Tulir's Synapse patch](https://mau.dev/maunium/synapse/-/commit/55d926999cffee893cb4951890a33985beaf70ba)
-* search for html titles from the first MEGABYTE of the webpage as modern
-  web is horrible (looking at you hs.fi & youtube.com)
+    Twitter will only give you HTML `<title>`s if your user-agent contains
+    `UrlPreviewBot`, [thanks Tulir's Synapse patch](https://mau.dev/maunium/synapse/-/commit/55d926999cffee893cb4951890a33985beaf70ba)
+* search for HTML titles from the first MEGABYTE of the webpage as modern
+  web is horrible (looking at you www.hs.fi & www.youtube.com)
 
 ## Actually enabling it
 
@@ -34,7 +34,7 @@ config channel #CHAN plugins.web.titleSnarfer True
   (avoiding unwanted channels in case of botloop)
   * `"channel #CHAN"` could also be replaced with `network NETWORKNAME` for
     every channel on network or `config` (or omitted entirely) for
-    everywhere (channel takes priority over network which *probably takes*
+    everywhere (channel takes priority over network which *probably* takes
     priority over global)
 
 ## Excluding domains from titlefetching
