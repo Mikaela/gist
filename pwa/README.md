@@ -26,6 +26,10 @@ Chromium suggest "installing" them without manually "installing" them.
 
 * https://music.youtube.com/ - YouTube Music (Player)
 
+## Social media
+
+* Lemmy - federated social news aggregator (Reddit clone)
+
 ## Travel
 
 * https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site),
