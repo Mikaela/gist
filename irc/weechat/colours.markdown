@@ -32,3 +32,12 @@ This is copied from @tracphil's gist which you can find at https://gist.github.c
 /set buffers.color.current_bg 10
 /set buffers.color.hotlist_message_fg 7
 ```
+
+* * * * *
+
+2022-04-15: I am using Selenized Dark and highlights are a bit difficult to see
+considering they are yellow on magenta;
+
+```
+/set weechat.color.chat_highlight_bg blue
+```
