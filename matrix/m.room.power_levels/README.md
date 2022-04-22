@@ -63,6 +63,41 @@ This is not the Element/Synapse default as that would be pointless to list.
   On matrix side immune mods, could be PL52.
 * invite commonly defaults to `50`, but I haven't seen abuse through it
 
+### Medium version
+
+```json5
+{
+	"ban": 50,
+	"events": {
+		"im.vector.modular.widgets": 50,
+		"m.room.avatar": 50,
+		"m.room.canonical_alias": 50,
+		"m.room.encryption": 100,
+		"m.room.history_visibility": 99,
+		"m.room.name": 50,
+		"m.room.power_levels": 50,
+		"m.room.retention": 100,
+		"m.room.server_acl": 100,
+		"m.room.tombstone": 100,
+		"m.room.topic": 50,
+		"m.space.child": 50
+	},
+	"events_default": 0,
+	"historical": 100,
+	"invite": 50,
+	"kick": 50,
+	"redact": 50,
+	"state_default": 50,
+	"users": {
+		// READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
+	},
+	"users_default": 0
+}
+```
+
+* Otherwise "Reasonable version", but
+* Only moderators can invite
+
 ### Paranoid version
 
 ```json5
