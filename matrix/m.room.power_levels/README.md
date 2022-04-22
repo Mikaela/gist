@@ -28,7 +28,7 @@ This has the rest event in two forms, but doesn't duplicate the above.
 
 This is not the Element/Synapse default as that would be pointless to list.
 
-```json
+```json5
 {
 	"ban": 50,
 	"events": {
@@ -52,7 +52,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"redact": 50,
 	"state_default": 50,
 	"users": {
-		READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
+		// READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
 	},
 	"users_default": 0
 }
@@ -65,7 +65,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 
 ### Paranoid version
 
-```json
+```json5
 {
 	"ban": 50,
 	"events": {
@@ -92,7 +92,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"redact": 50,
 	"state_default": 100,
 	"users": {
-		READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
+		// READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
 	},
 	"users_default": 0
 }
