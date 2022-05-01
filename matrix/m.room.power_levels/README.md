@@ -42,13 +42,13 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
 		"m.room.tombstone": 100,
-		"m.room.topic": 50,
+		"m.room.topic": 25,
 		"m.space.child": 50
 	},
 	"events_default": 0,
 	"historical": 100,
 	"invite": 0,
-	"kick": 50,
+	"kick": 25,
 	"redact": 50,
 	"state_default": 50,
 	"users": {
@@ -62,6 +62,12 @@ This is not the Element/Synapse default as that would be pointless to list.
   for example matrix-appservice-irc, which I would then give PL51 for ops syncing.
   On matrix side immune mods, could be PL52.
 * invite commonly defaults to `50`, but I haven't seen abuse through it
+* PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with powers to:
+  change room topic and kick users (but not ban)
+  * In Ergo it would also allow joining the room when it's invite-only (but Matrix
+    has separate `m.room.join_rules` so maybe it could be used e.g. in an association
+    where a secretary/someone unwilling to be a full moderator wants to update
+    room topic for next meeting time or update a version number? :shrug:
 
 ### Medium version
 
@@ -79,13 +85,13 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
 		"m.room.tombstone": 100,
-		"m.room.topic": 50,
+		"m.room.topic": 25,
 		"m.space.child": 50
 	},
 	"events_default": 0,
 	"historical": 100,
 	"invite": 50,
-	"kick": 50,
+	"kick": 25,
 	"redact": 50,
 	"state_default": 50,
 	"users": {
