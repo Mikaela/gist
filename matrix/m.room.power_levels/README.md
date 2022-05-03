@@ -38,6 +38,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
 		"m.room.name": 50,
+		"m.room.pinned_events": 25,
 		"m.room.power_levels": 50,
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
@@ -66,7 +67,7 @@ This is not the Element/Synapse default as that would be pointless to list.
   On matrix side immune mods, could be PL52.
 * invite commonly defaults to `50`, but I haven't seen abuse through it
 * PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with powers to:
-  change room topic and kick users (but not ban)
+  change room topic, pinned messages and kick users (but not ban)
   * In Ergo it would also allow joining the room when it's invite-only (but Matrix
     has separate `m.room.join_rules` so maybe it could be used e.g. in an association
     where a secretary/someone unwilling to be a full moderator wants to update
@@ -91,6 +92,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
 		"m.room.name": 50,
+		"m.room.pinned_events": 25,
 		"m.room.power_levels": 50,
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
@@ -127,7 +129,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 100,
 		"m.room.name": 100,
-		"m.room.pinned_events": 50,
+		"m.room.pinned_events": 100,
 		"m.room.power_levels": 100,
 		"m.room.redaction": 0,
 		"m.room.retention": 100,
