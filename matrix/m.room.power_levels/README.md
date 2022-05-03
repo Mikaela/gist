@@ -36,7 +36,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.avatar": 50,
 		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
-		"m.room.history_visibility": 100,
+		"m.room.history_visibility": 99,
 		"m.room.name": 50,
 		"m.room.power_levels": 50,
 		"m.room.retention": 100,
@@ -58,6 +58,9 @@ This is not the Element/Synapse default as that would be pointless to list.
 }
 ```
 
+* `m.room.history_visibility` is lowered to 99 as it's a less permanent action than
+  many of the others. I am not sure on my initial logic, but it's documented in
+  PPFI repo as PL100 vs PL99.
 * `m.room.power_levels` is set to `50` so moderators can raise others to moderators
   for example matrix-appservice-irc, which I would then give PL51 for ops syncing.
   On matrix side immune mods, could be PL52.
@@ -86,7 +89,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.avatar": 50,
 		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
-		"m.room.history_visibility": 100,
+		"m.room.history_visibility": 99,
 		"m.room.name": 50,
 		"m.room.power_levels": 50,
 		"m.room.retention": 100,
