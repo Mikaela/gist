@@ -16,10 +16,11 @@ which can/is left empty as usual.
 	],
 	"allow_ip_literals": false,
 	"deny": [
+		"disroot.org",
+		"privacytools.io",
+		"feneas.org",
 		"glowers.club",
 		"*.glowers.club",
-		"pleasecuminside.me",
-		"*.pleasecuminside.me",
 		"midov.pl",
 		"*.midov.pl",
 		"kiwifarms.net",
@@ -28,3 +29,11 @@ which can/is left empty as usual.
 }
 ```
 
+Explanations:
+
+* Legacy servers that have discontinued, are in progress of discontinuing or
+  are just closed for public, that have PL100 in my rooms. They don't need subdomains
+  to be denylisted as the subdomain MXIDs wouldn't have power.
+  * `disroot.org`, `privacyguides.io`, `feneas.org`.
+* The rest are connected to abusive raids on communities that I am a part of,
+  sometimes even moderate.
