@@ -34,7 +34,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"events": {
 		"im.vector.modular.widgets": 50,
 		"m.room.avatar": 50,
-		"m.room.canonical_alias": 50,
+		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
 		"m.room.name": 50,
@@ -68,6 +68,13 @@ This is not the Element/Synapse default as that would be pointless to list.
     has separate `m.room.join_rules` so maybe it could be used e.g. in an association
     where a secretary/someone unwilling to be a full moderator wants to update
     room topic for next meeting time or update a version number? :shrug:
+* PL13 gets access to change main alias and add/remove published room aliases alongside
+  (at least on Synapse) [un/publish the room in the room directory](https://github.com/vector-im/element-web/issues/13835).
+  * This can be used with e.g. [altalias maubot plugin](https://matrix.org/blog/2020/06/19/this-week-in-matrix-2020-06-19#alt-alias-maubot-plugin).
+    I don't care about room directory or the main alias as it doesn't affect ctrl-k that much anyway,
+    rooms are generally discovered through Spaces and I use Matrix URI scheme
+    which takes room internal ID and servers to find it from instead of caring about
+    the alias. Most importantly **don't give permissions to entirely untrusted users.**
 
 ### Medium version
 
@@ -77,7 +84,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"events": {
 		"im.vector.modular.widgets": 50,
 		"m.room.avatar": 50,
-		"m.room.canonical_alias": 50,
+		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
 		"m.room.name": 50,
