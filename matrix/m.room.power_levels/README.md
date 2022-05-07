@@ -26,7 +26,10 @@ This has the rest event in two forms, but doesn't duplicate the above.
 
 Generic notes:
 
-* Don't have any state events specified as 0.
+* Don't have anything in `events {}` as `0` or otherwise users will be
+  able to send state events with that name including gigabytes of
+  data breaking the room.
+  * Refer to security considerations of MSC 3779.
 
 ### Reasonable version
 
