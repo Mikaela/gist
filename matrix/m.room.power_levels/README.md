@@ -24,6 +24,10 @@ The main point I do this for is users `users`
 
 This has the rest event in two forms, but doesn't duplicate the above.
 
+Generic notes:
+
+* Don't have any state events specified as 0.
+
 ### Reasonable version
 
 This is not the Element/Synapse default as that would be pointless to list.
@@ -37,6 +41,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
+		"m.room.join_rules": 50,
 		"m.room.name": 50,
 		"m.room.pinned_events": 25,
 		"m.room.power_levels": 50,
@@ -93,6 +98,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 		"m.room.canonical_alias": 13,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 99,
+		"m.room.join_rules": 50,
 		"m.room.name": 50,
 		"m.room.pinned_events": 25,
 		"m.room.power_levels": 50,
@@ -125,15 +131,14 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"ban": 50,
 	"events": {
 		"im.vector.modular.widgets": 100,
-		"m.reaction": 0,
 		"m.room.avatar": 100,
 		"m.room.canonical_alias": 100,
 		"m.room.encryption": 100,
 		"m.room.history_visibility": 100,
+		"m.room.join_rules": 100,
 		"m.room.name": 100,
 		"m.room.pinned_events": 100,
 		"m.room.power_levels": 100,
-		"m.room.redaction": 0,
 		"m.room.retention": 100,
 		"m.room.server_acl": 100,
 		"m.room.tombstone": 100,
