@@ -50,7 +50,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"historical": 100,
 	"invite": 0,
 	"kick": 25,
-	"redact": 50,
+	"redact": 25,
 	"state_default": 50,
 	"users": {
 		// READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
@@ -67,11 +67,13 @@ This is not the Element/Synapse default as that would be pointless to list.
   On matrix side immune mods, could be PL52.
 * invite commonly defaults to `50`, but I haven't seen abuse through it
 * PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with powers to:
-  change room topic, pinned messages and kick users (but not ban)
+  change room topic, pinned messages, remove messages and kick users (but not ban).
   * In Ergo it would also allow joining the room when it's invite-only (but Matrix
     has separate `m.room.join_rules` so maybe it could be used e.g. in an association
     where a secretary/someone unwilling to be a full moderator wants to update
     room topic for next meeting time or update a version number? :shrug:
+    Alternatively someone not wanting full moderator responsibility could remove
+    spam while not participating in banning discussions.
 * PL13 gets access to change main alias and add/remove published room aliases alongside
   (at least on Synapse) [un/publish the room in the room directory](https://github.com/vector-im/element-web/issues/13835).
   * This can be used with e.g. [altalias maubot plugin](https://matrix.org/blog/2020/06/19/this-week-in-matrix-2020-06-19#alt-alias-maubot-plugin).
@@ -104,7 +106,7 @@ This is not the Element/Synapse default as that would be pointless to list.
 	"historical": 100,
 	"invite": 50,
 	"kick": 25,
-	"redact": 50,
+	"redact": 25,
 	"state_default": 50,
 	"users": {
 		// READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
