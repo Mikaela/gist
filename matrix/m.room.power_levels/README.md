@@ -7,15 +7,15 @@ The main point I do this for is users `users`
     "users": {
       "@Ciblia:matrix.org": 100,
       "@aminda:matrix.org": 100,
-      "@mikaela:pirateriot.net": 100,
-      "@mikaela:liberta.casa": 100,
-      "@mikaela.suomalainen:matrix.org": 100,
-      "@mikaela:tchncs.de": 100,
-      "@aminda:tedomum.net": 100,
+      "@aminda:mozilla.org": 100,
       "@aminda:pikaviestin.fi": 100,
+      "@aminda:tedomum.net": 100,
+      "@mikaela:pirateriot.net": 100,
+      "@mikaela:tchncs.de": 100,
       "@mkaysi:fedora.im": 100,
-      "@mikaela.matterbridge:tedomum.net": 100,
+      "@mikaela.suomalainen:matrix.org": 100,
       "@mikaela.matterbridge:converser.eu": 100,
+      "@mikaela.matterbridge:tedomum.net": 100,
       "@leon:the-apothecary.club": 100
     }
 },
