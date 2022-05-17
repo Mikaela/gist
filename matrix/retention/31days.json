@@ -1,4 +1,5 @@
 {
       "min_lifetime": 86400000,
-      "max_lifetime": 2678400000
+      "max_lifetime": 2678400000,
+      "expire_on_clients": true
 }
