@@ -77,10 +77,9 @@ This is not the Element/Synapse default as that would be pointless to list.
 * invite commonly defaults to `50`, but I haven't seen abuse through it
 * PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with powers to:
   change room topic, pinned messages, remove messages and kick users (but not ban).
-  * In Ergo it would also allow joining the room when it's invite-only (but Matrix
-    has separate `m.room.join_rules` so maybe it could be used e.g. in an association
-    where a secretary/someone unwilling to be a full moderator wants to update
-    room topic for next meeting time or update a version number? :shrug:
+  * Maybe this could be used e.g. in an association where a secretary/someone
+    unwilling to be a full moderator wants to update room topic for next
+    meeting time or update a version number? :shrug:
     Alternatively someone not wanting full moderator responsibility could remove
     spam while not participating in banning discussions.
 * PL13 gets access to change main alias and add/remove published room aliases alongside
