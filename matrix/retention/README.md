@@ -6,6 +6,7 @@ Read that, it explains what is actually done etc.
 
 ## Notes
 
+* Not part of spec. https://github.com/matrix-org/matrix-spec-proposals/pull/1763
 * Matrix uses milliseconds, keep that in mind!
 * Everything requires every server involved to have rention support enabled,
   otherwise the messages go nowhere and are fetchable upon request.
