@@ -1,0 +1,3 @@
+[receive]
+    advertisePushOptions = true
+    certNonceSeed = "<uniquerandomstring>"
