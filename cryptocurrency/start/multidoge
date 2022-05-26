@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-cd /usr/local/MultiDoge-*
-(java -jar /usr/local/MultiDoge-*/multidoge-exe.jar $1&)
