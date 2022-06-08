@@ -1,7 +1,8 @@
 { "name": "y.jolly-roger.hel.piraattipuolue.internal",
 "type": "desktop",
 "contact": {
-"name": "Mikaela Suomalainen",
+"name": "Aminda Suomalainen",
 "xmpp": "mikaela@blesmrt.net",
-"public keys": "https://mikaela.info/keys/"}
+"email-deltachat": "delta@aminda.eu",
+"public keys": "https://www.aminda.eu/keys/"}
 }
