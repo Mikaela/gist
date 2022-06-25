@@ -17,6 +17,7 @@ Chromium suggest "installing" them without manually "installing" them.
 
 * https://fluffychat.im/web/ - Matrix client
 * https://glowing-bear.org/ - WeeChat Relay (protocol) client
+* https://hydrogen.element.io/ - very basic Matrix client for lowend devices
 
 ## Localization
 
