@@ -18,6 +18,7 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 ## Food
 
 * https://menu.unicafe.fi/ - menu for UniCafes
+* https://resq-club.com/app/ - waste food pickup ordering app
 
 ## Instant messaging
 
@@ -46,6 +47,10 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 ## Music
 
 * https://music.youtube.com/ - YouTube Music (Player)
+
+## Shopping
+
+* https://www.verkkokauppa.com/ - Finnish online retailer
 
 ## Social media
 
