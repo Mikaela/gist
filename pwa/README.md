@@ -10,6 +10,13 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 * https://caniuse.com/web-app-manifest
 * https://developer.mozilla.org/docs/Web/Manifest
 
+It looks like `about:apps` on Edge (or all Chromiums?) has a
+`Show applications menu on toolbar` button which then when pressed on a tab
+has more details for PWAs. "App whatever is available" with logo and "Publisher:"
+fields.
+
+***TODO: Some of these may be miscategorized while not fullfilling the criteria of PWA.***
+
 ## Events
 
 * Mobilizon - all instances of the federated event & group site function as
