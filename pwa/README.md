@@ -14,6 +14,7 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 
 * Mobilizon - all instances of the federated event & group site function as
   PWAs.
+* https://calendar.google.com/ - Google's Calendar app
 
 ## Food
 
