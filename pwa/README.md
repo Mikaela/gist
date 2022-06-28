@@ -19,6 +19,7 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 
 * https://menu.unicafe.fi/ - menu for UniCafes
 * https://resq-club.com/app/ - waste food pickup ordering app
+* https://www.fiksuruoka.fi/ - Finnish waste/expiring grocery store
 
 ## Instant messaging
 
@@ -39,6 +40,10 @@ Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
 ### Misc
 
 * https://glowing-bear.org/ - WeeChat Relay (protocol) client
+
+## Learning
+
+* https://www.duolingo.com/ - language learning website
 
 ## Localization
 
