@@ -15,9 +15,23 @@ Chromium suggest "installing" them without manually "installing" them.
 
 ## Instant messaging
 
-* https://fluffychat.im/web/ - Matrix client
-* https://glowing-bear.org/ - WeeChat Relay (protocol) client
+### Matrix
+
+* https://fluffychat.im/web/ - Matrix client with multiaccount support
 * https://hydrogen.element.io/ - very basic Matrix client for lowend devices
+* Element Web - Matrix web client with most features such as /devtools, essential for modding
+  * https://app.element.io/ - stable
+  * https://staging.element.io/ - rc/beta?
+  * https://develop.element.io/ - bleeding edge
+
+### Telegram
+
+* https://web.telegram.org/z/
+* https://web.telegram.org/k/
+
+### Misc
+
+* https://glowing-bear.org/ - WeeChat Relay (protocol) client
 
 ## Localization
 
