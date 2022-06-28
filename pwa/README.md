@@ -4,6 +4,12 @@ Method for distinguishing PWAs from normal websites: adding them to
 iOS homescreen and seeing which open as "their own apps" *or* having
 Chromium suggest "installing" them without manually "installing" them.
 
+Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
+`manifest` e.g. `<link rel="manifest" href="/manifest.webmanifest">` in `<head>`.
+
+* https://caniuse.com/web-app-manifest
+* https://developer.mozilla.org/docs/Web/Manifest
+
 ## Events
 
 * Mobilizon - all instances of the federated event & group site function as
