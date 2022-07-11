@@ -21,6 +21,7 @@ fields.
 
 * Mobilizon - all instances of the federated event & group site function as
   PWAs.
+  * https://events.nixnet.services/ - the only still alive instance I registered on
 * https://calendar.google.com/ - Google's Calendar app
 
 ## Food
@@ -81,6 +82,7 @@ Continuing the previous method, these open in Safari.
 * http://http.badssl.com - essential captive portal trigger
 * https://1.1.1.1/help - Cloudflare DNS debug
 * https://mullvad.net/check - Mullvad leak test
+* https://www.junat.net/ - Finnish train staton information displays (including arrivals)
 * https://perille.fi - Finnish long distance transport comparison site
 * https://pikavuorot.fi - Finnish long distance transport comparison site
 * https://sanakirja.org - Finnish dictionary for translating languages
