@@ -4,12 +4,15 @@
 % I am unsure on this being mandatory, but explicit is probably better than
 % implicit?
 %\usepackage[T1]{fontenc}
-% Definitely reduntant, this library book spoke of latin1
-\usepackage[utf8]{inputenc}
+% Definitely reduntant, this library book spoke of latin1. Don't uncomment
+% with cmap
+%\usepackage[utf8]{inputenc}
 % I can specify multiple languages for hyphenation! texlive-babel
 \usepackage[english,finnish]{babel}
 % Noto Serif font. Remember to install texlive-fontaxes, texlive-noto
 \usepackage{noto-serif}
+% texlive-cmap makes pdflatex copy-pasteable
+\usepackage{cmap}
 
 % Text begins here
 \begin{document}
