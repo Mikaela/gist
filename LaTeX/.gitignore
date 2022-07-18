@@ -1,0 +1,5 @@
+# I think I don't need the compiled versions, thanks
+*.aux
+*.dvi
+*.log
+*.pdf

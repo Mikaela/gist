@@ -1,0 +1,23 @@
+% I think this was mandatory, paper size, font size and type
+% artikel1 is NL, but more pleasant to European than article
+\documentclass[a4paper,12pt]{artikel1}
+% I am unsure on this being mandatory, but explicit is probably better than
+% implicit?
+%\usepackage[T1]{fontenc}
+% Definitely reduntant, this library book spoke of latin1
+\usepackage[utf8]{inputenc}
+% I can specify multiple languages for hyphenation! texlive-babel
+\usepackage[english,finnish]{babel}
+% Noto Serif font. Remember to install texlive-fontaxes, texlive-noto
+\usepackage{noto-serif}
+
+% Text begins here
+\begin{document}
+Hello Wörld! This is a simple \LaTeX\ template file or similar where I can
+cheat how does this work again. Possibly with even comments!
+
+Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni
+ääkkösten käyttöä!
+
+% And ends here
+\end{document}
