@@ -1,0 +1,61 @@
+% https://github.com/datakurre/vakioasiakirja
+% ~/texmf/tex/latex/local (`kpsewhich -var-value=TEXMFHOME`)
+\documentclass[a4paper,10pt]{vakioasiakirja}
+% Last language is the document main language!
+\usepackage[english,finnish]{babel}
+% Noto Serif everywhere
+\usepackage{noto-serif}
+% So the end-result has copypaste
+\usepackage{cmap}
+
+
+\author{Mikaela \underline{Aminda} H. M. Suomalainen}
+
+\address{
+  Address details\\
+  Belong here
+}
+% Optional \recepient
+%\recipient{
+%  Recepient Name\\
+%  Oy Bisness AB \\
+%  Streetaddr \\
+%  00000 City\\
+%% Suomi
+%}
+
+\type{DOCUMENT TYPE}
+\date{\today}
+\lead{REFERRING TO PRIOR CORRESPONDENCE?}
+\title{DOCUMENT SUBJECT HERE}
+
+
+\begin{document}
+\maketitle
+
+\section*{SUBJECT}
+
+\align Here storying is definitely allowed.
+
+\subsection*{SUBSECTIONING?}
+
+\align About storying being allowed, that means story should be written.
+
+\section*{TRUTH OF SUBSECTION}
+
+
+\align The middle looks the same as this, so probably not allowed.
+
+\signature{IN CITY}\today
+
+\vfill
+
+\section{ATTACHMENTS?}
+\align
+ATTACHMENT X. SUBJECT \\
+ATTACHMENT Y. SUBJECT
+
+% For single page documents
+%\nopagenum
+
+\end{document}
