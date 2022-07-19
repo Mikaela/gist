@@ -1,5 +1,10 @@
 # Notes on using LaTeX
 
+To possibly save your self from headache:
+
+* Fedora: `sudo dnf install texlive-scheme-full -y`
+* Debian: `sudo apt install texlive-full -y`
+
 ## Simple boilerplate
 
 Refer to `hello.tex`
