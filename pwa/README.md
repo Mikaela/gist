@@ -69,6 +69,7 @@ fields.
 ## Social media
 
 * Lemmy - federated social news aggregator (Reddit clone)
+  * https://lemmy.tedomum.net/ - the instance my account is on.
 
 ## Travel
 
