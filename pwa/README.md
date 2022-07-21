@@ -48,7 +48,7 @@ fields.
 
 ### Misc
 
-* https://glowing-bear.org/ - WeeChat Relay (protocol) client
+* https://latest.glowing-bear.org/ - WeeChat Relay (protocol) client
 
 ## Learning
 
