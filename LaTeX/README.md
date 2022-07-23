@@ -9,6 +9,9 @@ To possibly save your self from headache:
 
 Refer to `hello.tex`
 
+For leaflets or flyers, https://tex.stackexchange.com/q/16355/274626 has nice
+answers.
+
 ## Package management
 
 ***Don't do this, use `YOURFAVOURITEPACKAGEMANAGER search texlive-moderncv`
