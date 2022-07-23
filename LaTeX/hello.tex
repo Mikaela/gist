@@ -13,14 +13,35 @@
 \usepackage{noto-serif}
 % texlive-cmap makes pdflatex copy-pasteable
 \usepackage{cmap}
+% This package is great and I want to be reminded of it whenever I use \LaTeX
+\usepackage{censor}
+
+% Uncomment to uncensor in output
+%\StopCensoring
 
 % Text begins here
 \begin{document}
+
+\section*{Hello World!}
+
 Hello Wörld! This is a simple \LaTeX\ template file or similar where I can
 cheat how does this work again. Possibly with even comments!
 
+\section*{Samahko suomeksi!}
+
 Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni
 ääkkösten käyttöä!
+
+\section*{Playing with censor}
+
+\xblackout{If the source is private, this is a secret!
+
+So don't go talking about it!}
+
+\def \Password{\censor*{8}}
+\def \Huippusalainen{\censor*{14}}
+
+Salasana on \Password. Älä unohda salasanan olevan \Password. Tämä tieto on \Huippusalainen.
 
 % And ends here
 \end{document}
