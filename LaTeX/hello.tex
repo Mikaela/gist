@@ -11,7 +11,8 @@
 % with cmap
 %\usepackage[utf8]{inputenc}
 % I can specify multiple languages for hyphenation! texlive-babel
-\usepackage[esperanto,english,finnish]{babel}
+% The last is main document language
+\usepackage[english,finnish,esperanto]{babel}
 % Noto Serif font. Remember to install texlive-fontaxes, texlive-noto
 \usepackage{noto-serif}
 % texlive-cmap makes pdflatex copy-pasteable
@@ -31,15 +32,21 @@
 \begin{document}
 \maketitle
 
+\selectlanguage{english}
+
 \section*{Hello World!}
 
 Hello Wörld! This is a simple \LaTeX\ template file or similar where I can
 cheat how does this work again. Possibly with even comments!
 
+\selectlanguage{finnish}
+
 \section*{Samahko suomeksi!}
 
 Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni
 ääkkösten käyttöä!
+
+\selectlanguage{english}
 
 \section*{Playing with censor}
 
@@ -48,9 +55,16 @@ Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni
 So don't go talking about it!}
 
 \def \Password{\censor*{8}}
+\selectlanguage{finnish}
 \def \Huippusalainen{\censor*{14}}
 
 Salasana on \Password. Älä unohda salasanan olevan \Password. Tämä tieto on \Huippusalainen.
+
+\selectlanguage{english}
+
+\section*{Remember!}
+
+To have a non-breaking space use \textasciitilde\ (a tilde). A backslash would be \textbackslash. A forced linechange is \textbackslash\textbackslash.
 
 % And ends here
 \end{document}
