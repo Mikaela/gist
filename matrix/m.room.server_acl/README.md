@@ -37,3 +37,26 @@ Explanations:
   * `disroot.org`, `privacyguides.io`, `feneas.org`.
 * The rest are connected to abusive raids on communities that I am a part of,
   sometimes even moderate.
+
+## Allowlist
+
+This configuration only lets servers I have accounts on in.
+
+```json
+{
+	"allow": [
+		"pikaviestin.fi",
+		"matrix.org",
+		"mozilla.org",
+		"tedomum.net",
+		"pirateriot.net",
+		"tchncs.de",
+		"fedora.im",
+		"jae.fi",
+		"converser.eu",
+		"artemislena.eu"
+	],
+	"allow_ip_literals": false,
+	"deny": []
+}
+```
