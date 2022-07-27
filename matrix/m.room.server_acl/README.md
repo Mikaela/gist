@@ -54,9 +54,22 @@ This configuration only lets servers I have accounts on in.
 		"fedora.im",
 		"jae.fi",
 		"converser.eu",
-		"artemislena.eu"
+		"artemislena.eu",
+		"the-apothecary.club"
 	],
 	"allow_ip_literals": false,
 	"deny": []
+}
+```
+
+## Nuke
+
+Bricks the room. :tada::tada::tada:
+
+```json
+{
+	"deny": [
+		*
+	]
 }
 ```
