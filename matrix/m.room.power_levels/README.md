@@ -17,7 +17,8 @@ The main point I do this for is users `users`
       "@mikaela.matterbridge:converser.eu": 100,
       "@mikaela.matterbridge:tedomum.net": 100,
       "@aminda.matterbridge:jae.fi": 100,
-      "@leon:the-apothecary.club": 100
+      "@leon:the-apothecary.club": 100,
+      "@fidino:artemislena.eu": 100
     }
 },
 ```
