@@ -62,14 +62,3 @@ This configuration only lets servers I have accounts on in.
 }
 ```
 
-## Nuke
-
-Bricks the room. :tada::tada::tada:
-
-```json
-{
-	"deny": [
-		*
-	]
-}
-```
