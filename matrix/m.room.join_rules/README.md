@@ -90,6 +90,14 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 		{
 			"room_id": "!TtWVeGGDmpLieTGJss:pirateriot.net",
 			"type": "m.room_membership"
+		},
+		{
+			"room_id": "!xwkzwkGafsaYJOFWoj:the-apothecary.club",
+			"type": "m.room_membership"
+		},
+		{
+			"room_id": "!WDaMZSVinTZRLOTajM:hacklab.fi",
+			"type": "m.room_membership"
 		}
 	],
 	"join_rule": "knock_restricted"
@@ -111,3 +119,5 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 * `!rCWNvpCTZHQkiRYUDE:matrix.org` - Matrix.fi v5
 * `!AUKUBkWpbVaNhXJhuD:vi.fi` - Olohuone v6
 * `!TtWVeGGDmpLieTGJss:pirateriot.net` - GlobalPirates v9
+* `!xwkzwkGafsaYJOFWoj:the-apothecary.club` - Apothecary Homeserver default/welcome room (v5)
+* `!WDaMZSVinTZRLOTajM:hacklab.fi` - Matrix Suomi (Space) v6
