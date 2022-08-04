@@ -10,4 +10,7 @@ Flatpak: `~/.var/app/im.riot.Riot/config/Riot/config.json`
   * failing that it appears to read `~/.config/Riot/*` should that exist.
 * Windows: `%APPDATA%\Element\config.json`
 
-Labs features: https://github.com/vector-im/element-web/blob/develop/docs/labs.md
+Labs features:
+
+* https://github.com/vector-im/element-web/blob/develop/docs/labs.md
+* https://github.com/matrix-org/matrix-react-sdk/blob/develop/src/settings/Settings.tsx
