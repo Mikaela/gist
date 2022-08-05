@@ -11,6 +11,7 @@
   "features": {
 	"feature_report_to_moderators": "enable",
 	"feature_latex_maths": "enable",
+	"feature_mjolnir": "enable",
 	"feature_custom_status": "enable",
 	"feature_presence_in_room_list": "enable",
 	"feature_roomlist_preview_reactions_all": "enable",
@@ -21,6 +22,7 @@
 	"feature_new_layout_switcher": "enable",
 	"feature_spaces_metaspaces": "enable",
 	"feature_thread": "enable",
+	"feature_message_right_click_context_menu": "enable",
 	"feature_hidden_read_receipts": "labs",
 	"feature_custom_themes": "labs",
 	"feature_pinning": "enable",
@@ -31,7 +33,8 @@
 	"feature_bridge_state": "enable",
 	"feature_presence_in_room_list": "enable",
 	"feature_ftue_notifications": "enable",
-	"feature_polls": "enable"
+	"feature_polls": "enable",
+	"feature_exploring_public_spaces": "enable"
   },
       "jitsi": {
         "preferredDomain": "jitsi.effi.org"
