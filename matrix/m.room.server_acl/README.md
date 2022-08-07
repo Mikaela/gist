@@ -26,7 +26,14 @@ which can/is left empty as usual.
 		"kiwifarms.net",
 		"*.kiwifarms.net",
 		"liberta.casa",
-		"*.liberta.casa"
+		"nitro.chat",
+		"*.nitro.chat",
+		"nerdsin.space",
+		"*.nerdsin.space",
+		"thisisjoes.site",
+		"*.thisisjoes.site",
+		"pp13.space",
+		"*.pp13.space"
 	]
 }
 ```
