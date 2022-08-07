@@ -24,7 +24,9 @@ which can/is left empty as usual.
 		"midov.pl",
 		"*.midov.pl",
 		"kiwifarms.net",
-		"*.kiwifarms.net"
+		"*.kiwifarms.net",
+		"liberta.casa",
+		"*.liberta.casa"
 	]
 }
 ```
