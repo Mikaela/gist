@@ -44,15 +44,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!SxRXoLGlraVfdhZBYy:matrix.org",
-			"type": "m.room_membership"
-		},
-		{
 			"room_id": "!fGtopoZuCySnTsSdsU:matrix.org",
-			"type": "m.room_membership"
-		},
-		{
-			"room_id": "!xFKkXCpcnEwgBEQBFt:matrix.org",
 			"type": "m.room_membership"
 		},
 		{
@@ -64,7 +56,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!watercooler-v9:maunium.net",
+			"room_id": "!watercooler-v10:maunium.net",
 			"type": "m.room_membership"
 		},
 		{
@@ -88,7 +80,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!TtWVeGGDmpLieTGJss:pirateriot.net",
+			"room_id": "!MHqztrxnQriEOyNLjW:pirateriot.net",
 			"type": "m.room_membership"
 		},
 		{
@@ -110,19 +102,16 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 
 ## Note to self
 
-* `!psumPMeAfzgAeQpXMG:feneas.org` - Mikaela.info (space) - room version 6
-* `!SxRXoLGlraVfdhZBYy:matrix.org` - eu.aminda.space v9
 * `!fGtopoZuCySnTsSdsU:matrix.org` - eu.aminda.space v10
-* `!xFKkXCpcnEwgBEQBFt:matrix.org` - aminda.eu v9
 * `!ruWhXaXgrPjaSSecvb:matrix.org` - aminda.eu v10
 * `!zYPetrOdqxxQYoWCTb:the-apothecary.club` - The Apothecary Community v6
-* `!watercooler-v9:maunium.net` - WaterDuck v9
+* `!watercooler-v10:maunium.net` - WaterDuck v10
 * `!etDMqntYVqugEClPcE:artemislena.eu` - Community Moderation Effort v9
 * `!sOLQNHloevPHIEWcYN:matrix.org` - Secure Messaging Apps v6
 * `!KMbEUhVQHLwZHmwzKX:matrix.org` - Matrix Haters v9
 * `!rCWNvpCTZHQkiRYUDE:matrix.org` - Matrix.fi v5
 * `!AUKUBkWpbVaNhXJhuD:vi.fi` - Olohuone v6
-* `!TtWVeGGDmpLieTGJss:pirateriot.net` - GlobalPirates v9
+* `!MHqztrxnQriEOyNLjW:pirateriot.net` - GlobalPirates v10
 * `!xwkzwkGafsaYJOFWoj:the-apothecary.club` - Apothecary Homeserver default/welcome room (v5)
 * `!WDaMZSVinTZRLOTajM:hacklab.fi` - Matrix Suomi (Space) v6
 * `!IwPxifXSjBLghpVEMh:matrix.org` - FluffyChat v5
