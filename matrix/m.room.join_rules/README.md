@@ -48,6 +48,10 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
+			"room_id": "!IVRSynLjDUQRVOHnbE:pikaviestin.fi",
+			"type": "m.room_membership"
+		},
+		{
 			"room_id": "!ruWhXaXgrPjaSSecvb:matrix.org",
 			"type": "m.room_membership"
 		},
@@ -94,6 +98,18 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 		{
 			"room_id": "!IwPxifXSjBLghpVEMh:matrix.org",
 			"type": "m.room_membership"
+		},
+		{
+			"room_id": "!iQaStEQNwaqxQfyhZi:sorunome.de",
+			"type": "m.room_membership"
+		},
+		{
+			"room_id": "!ElEgwlkMvKtpLTcPXQ:matrix.org",
+			"type": "m.room_membership"
+		},
+		{
+			"room_id": "!azROMLeGEMPdbdWnbk:matrix.org",
+			"type": "m.room_membership"
 		}
 	],
 	"join_rule": "knock_restricted"
@@ -104,6 +120,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 
 * `!fGtopoZuCySnTsSdsU:matrix.org` - eu.aminda.space v10
 * `!ruWhXaXgrPjaSSecvb:matrix.org` - aminda.eu v10
+* `!IVRSynLjDUQRVOHnbE:pikaviestin.fi` - Nova Fervoro v10
 * `!zYPetrOdqxxQYoWCTb:the-apothecary.club` - The Apothecary Community v6
 * `!watercooler-v10:maunium.net` - WaterDuck v10
 * `!etDMqntYVqugEClPcE:artemislena.eu` - Community Moderation Effort v9
@@ -114,4 +131,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 * `!MHqztrxnQriEOyNLjW:pirateriot.net` - GlobalPirates v10
 * `!xwkzwkGafsaYJOFWoj:the-apothecary.club` - Apothecary Homeserver default/welcome room (v5)
 * `!WDaMZSVinTZRLOTajM:hacklab.fi` - Matrix Suomi (Space) v6
-* `!IwPxifXSjBLghpVEMh:matrix.org` - FluffyChat v5
+* `!IwPxifXSjBLghpVEMh:matrix.org` - FluffyChat (room) v5
+* `!iQaStEQNwaqxQfyhZi:sorunome.de` - FluffyChat Space v6
+* `!ElEgwlkMvKtpLTcPXQ:matrix.org` - Piraattipuolue v9
+* `!azROMLeGEMPdbdWnbk:matrix.org` - Piraattipuolueen työrauha v9
