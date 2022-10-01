@@ -8,6 +8,7 @@ when looking at options.
   * WPA2/WPA3 Transitional mode
   * WiFi Enhanced Open (OWE) transition mode would be nice
 * Multiple SSIDs (including OWE/transition)
+  * Option to have lower priority for the guest network
 * Transmit power control to set it to low
 * 2.4 GHz / 5 GHz dualband (should be obvious in 2022)
   * Ability to set same SSID for both (looking at you Huawei)
