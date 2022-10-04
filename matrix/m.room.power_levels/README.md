@@ -6,6 +6,7 @@ The main point I do this for is users `users`
 {
     "users": {
       "@Ciblia:matrix.org": 100,
+      "@aminda:dendrite.matrix.org": 100,
       "@aminda:matrix.org": 100,
       "@aminda:mozilla.org": 100,
       "@aminda:pikaviestin.fi": 100,
