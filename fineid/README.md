@@ -60,6 +60,24 @@ Next Apply or OK and restart Okular, open *Tools* menu and select
 *Digitally sign...*, draw an area for the signature (which FINEID wants to be big),
 select where to save the signed .pdf and enter the signing PIN a few times.
 
+These signed documents can then be verified at [English](https://dvv.fi/en/validate-pdf-document),
+[Finnish](https://dvv.fi/tarkasta-pdf-asiakirja) or [Swedish](https://dvv.fi/sv/granska-pdf-dokument)
+or other EIDAS/European signing verification capable services or applications.
+
+```txt
+✔️ PDF document validated. The following signatures were found:
+1 valid signatures with EU qualified certificate issuers and signature keys stored in a qualified signature creation device.
+
+Signature 1/1: [...]
+✔️ The electronic signature is valid and has not been modified or forged after signature. Signature level is PKCS7_B (basic).
+✔️ The signature is made by a party trusted by DVV.
+✔️ The signature is made with an EU qualified certificate.
+✔️ The signature key is stored in an EU qualified signature creation device (QSCD).
+Signed by: ...
+Issuer of certificate and root certificate: VRK Gov. CA for Citizen Certificates - G3 | VRK Gov. Root CA - G2 (Trusted)
+Time of signature: ... (Time stamp not validated by a time stamp authority (TSA))
+```
+
 ## Root certificates
 
 While I don't think the user necessarily needs them, my notes mention `DVV Gov. Root CA`.
