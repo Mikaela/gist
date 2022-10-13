@@ -43,6 +43,23 @@ In Settings, Advanced, Security devices load the module from (DVV app) `/usr/lib
 `onepin` is a workaround to not ask for PIN2 which is only used for legal agreements,
 email signing also uses PIN1.
 
+## Okular
+
+Okular is the KDE document viewer and supports signing PDF files using FINEID!
+
+There are three ways to go, they all begin with *Settings* menu, *Configure backends*
+and *PDF*.
+
+Set the certificate database to one of the three:
+
+* `/etc/nssdb` with password that I don't know.
+* `~/.pki/nssdb` which password theoretically reads in `~/.digisign/Seed.txt` assuming the official DigiSignApplication is used.
+* `~/.mozilla/firefox/<randomString>.<ProfileName>` - when Firefox is used (may require the configuration above), didn't ask me for a password, which may be the main password and directly offers the certificates from FINEID.
+
+Next Apply or OK and restart Okular, open *Tools* menu and select
+*Digitally sign...*, draw an area for the signature (which FINEID wants to be big),
+select where to save the signed .pdf and enter the signing PIN a few times.
+
 ## Root certificates
 
 While I don't think the user necessarily needs them, my notes mention `DVV Gov. Root CA`.
