@@ -1,15 +1,12 @@
-% I think this was mandatory, paper size, font size and type
-% artikel3 is NL, but more pleasant to European than article
+% Zeroth rule: when using git and \LaTeX, one paragraph equals one line, forget staying pretty in plaintext editor
+%
+% I think this was mandatory, paper size, font size and type artikel3 is NL, but more pleasant to European than article
+%
 % Potentially interesting options:
 % * onecolumn (default) or twocolumn
 % * final (default) or draft
-\documentclass[a4paper,12pt]{artikel3}
-% I am unsure on this being mandatory, but explicit is probably better than
-% implicit?
-%\usepackage[T1]{fontenc}
-% Definitely reduntant, this library book spoke of latin1. Don't uncomment
-% with cmap
-%\usepackage[utf8]{inputenc}
+% * font size can be defined here after a4paper e.g. 12pt
+\documentclass[a4paper]{artikel3}
 % I can specify multiple languages for hyphenation! texlive-babel
 % The last is main document language
 \usepackage[english,finnish,esperanto]{babel}
@@ -36,15 +33,13 @@
 
 \section*{Hello World!}
 
-Hello Wörld! This is a simple \LaTeX\ template file or similar where I can
-cheat how does this work again. Possibly with even comments!
+Hello Wörld! This is a simple \LaTeX\ template file or similar where I can cheat how does this work again. Possibly with even comments!
 
 \selectlanguage{finnish}
 
 \section*{Samahko suomeksi!}
 
-Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni
-ääkkösten käyttöä!
+Hei maailma, heitän hiukan suomenkieltäkin tähän asiakirjaan perustellakseni ääkkösten käyttöä!
 
 \selectlanguage{english}
 
@@ -69,6 +64,7 @@ To have a non-breaking space use \textasciitilde\ (a tilde). A backslash would b
 If you were to censor things using \textbackslash xblackout containing unicode, the unicode chars would need to be within curly brackets.
 
 \selectlanguage{finnish}
+
 \xblackout{T{ä}h{ä}n tapaan!} Kiva suomenkielinen sana on \xblackout{h{ää}y{ö}aie}!
 
 % And ends here
