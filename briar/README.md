@@ -7,6 +7,10 @@ for multiple devices. They possibly should be in aminda.eu, but I don't
 know what would be a good way to show them as browser integrated CSV
 viewers are rare and I don't think these would be in so much demand.
 
+*Note that as per the FAQ, the connection request needs to be accepted
+within 48 hours by entering your Briar address. However after that
+introductions can be made without timeout concerns.*
+
 Briar doesn't hold as big place in my heart as IRC or Matrix to have a
 dedicated page either and my HTML table tendency is effort even if the page
 wasn't given a navigation menu entry.
@@ -30,3 +34,11 @@ this scheme or updating these files.
 I install it from Flathub and at the time of writing it doesn't support
 groups (where only creator can add users), forums (groups where everyone can
 add new users) or blogs.
+
+## Further reading and quotes
+
+* https://briarproject.org/quick-start/
+  * > Please note that Briar will only synchronize messages with your contacts, not with nearby strangers who are running Briar. And it will only sync the messages you’ve chosen to share with each contact. For example, if you invite your contacts X and Y to join a forum, and they accept, then messages in that forum will be synced with X or Y whenever they’re within range. So you can receive forum messages from X in one location, travel to another location, and deliver those messages to Y.
+  * > But this doesn’t work for private messages: they’re only synchronized directly between the sender and recipient.
+* https://code.briarproject.org/briar/briar/-/wikis/FAQ
+  * > No. Unlike with adding contacts at a distance and its 48 hours timeout, there's no such thing for introductions.
