@@ -42,3 +42,5 @@ add new users) or blogs.
   * > But this doesn’t work for private messages: they’re only synchronized directly between the sender and recipient.
 * https://code.briarproject.org/briar/briar/-/wikis/FAQ
   * > No. Unlike with adding contacts at a distance and its 48 hours timeout, there's no such thing for introductions.
+* https://code.briarproject.org/briar/briar-desktop/-/wikis/Changelog
+  * > \[0.2.0-beta 2022-02-22\] Synchronize messages via local LAN
