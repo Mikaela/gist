@@ -29,7 +29,7 @@ this scheme or updating these files.
 
 ## Briar desktop
 
-* TODO: what ports does it want opened in firewall for LAN peering?
+Port: [it will pick one and try to stick with it](https://matrix.to/#/%23briar_desktop%3Atchncs.de/%24FKJk80vFnp2Fqnyov8g2S1QGJuY8SrJBlPjjqGSaW5M?via=pikaviestin.fi&via=matrix.org&via=dendrite.matrix.org&via=tchncs.de), so `sudo netstat -plnt` is your friend, look for `java`. It should be on LAN and link-local interfaces.
 
 I install it from Flathub and at the time of writing it doesn't support
 groups (where only creator can add users), forums (groups where everyone can
