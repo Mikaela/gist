@@ -5,3 +5,4 @@ Ergo IRCd,etro.mikaela.info,6697,in borgbackup,public,"IRCd, webchat at https://
 Limnoria,limnoria.etro.mikaela.info,443,in borgbackup,Public / open-registration,"IRC bot, see https://limnoria.net/ for details. Mostly known as R-66Y"
 WeeChat,etro.mikaela.info,8626,in borgbackup,"private, only-me","https://weechat.org/ (not to be confused with single e), my IRC client of choice for WeeChat Relay Protocol Clients"
 Yggdrasil,etro.mikaela.info,2577,in borgbackup,Semi-public,https://yggdrasil.network.github.io/ Graynet/mixnet/meshnet. Could also be called as public VPN anyone can join?
+Syncplay,etro.mikaela.info,8999,in shell-things,"Shared password, ask me","https://syncplay.pl/ - synchronises playback position between multiple instances as long as they have the same file (which is not itself shared). Also has basic chat, I recommend using Mumble or similar for simultaneous VoIP."
