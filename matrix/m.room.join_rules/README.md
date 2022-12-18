@@ -56,19 +56,11 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!zYPetrOdqxxQYoWCTb:the-apothecary.club",
-			"type": "m.room_membership"
-		},
-		{
 			"room_id": "!watercooler-v10:maunium.net",
 			"type": "m.room_membership"
 		},
 		{
 			"room_id": "!etDMqntYVqugEClPcE:artemislena.eu",
-			"type": "m.room_membership"
-		},
-		{
-			"room_id": "!sOLQNHloevPHIEWcYN:matrix.org",
 			"type": "m.room_membership"
 		},
 		{
@@ -88,10 +80,6 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!xwkzwkGafsaYJOFWoj:the-apothecary.club",
-			"type": "m.room_membership"
-		},
-		{
 			"room_id": "!WDaMZSVinTZRLOTajM:hacklab.fi",
 			"type": "m.room_membership"
 		},
@@ -104,7 +92,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 			"type": "m.room_membership"
 		},
 		{
-			"room_id": "!ElEgwlkMvKtpLTcPXQ:matrix.org",
+			"room_id": "!ESKEvwumMpSRZTnJOI:pikaviestin.fi",
 			"type": "m.room_membership"
 		},
 		{
@@ -121,17 +109,14 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 * `!fGtopoZuCySnTsSdsU:matrix.org` - eu.aminda.space v10
 * `!ruWhXaXgrPjaSSecvb:matrix.org` - aminda.eu v10
 * `!IVRSynLjDUQRVOHnbE:pikaviestin.fi` - Nova Fervoro v10
-* `!zYPetrOdqxxQYoWCTb:the-apothecary.club` - The Apothecary Community v6
 * `!watercooler-v10:maunium.net` - WaterDuck v10
 * `!etDMqntYVqugEClPcE:artemislena.eu` - Community Moderation Effort v9
-* `!sOLQNHloevPHIEWcYN:matrix.org` - Secure Messaging Apps v6
 * `!KMbEUhVQHLwZHmwzKX:matrix.org` - Matrix Haters v9
 * `!rCWNvpCTZHQkiRYUDE:matrix.org` - Matrix.fi v5
 * `!AUKUBkWpbVaNhXJhuD:vi.fi` - Olohuone v6
 * `!MHqztrxnQriEOyNLjW:pirateriot.net` - GlobalPirates v10
-* `!xwkzwkGafsaYJOFWoj:the-apothecary.club` - Apothecary Homeserver default/welcome room (v5)
 * `!WDaMZSVinTZRLOTajM:hacklab.fi` - Matrix Suomi (Space) v6
 * `!IwPxifXSjBLghpVEMh:matrix.org` - FluffyChat (room) v5
 * `!iQaStEQNwaqxQfyhZi:sorunome.de` - FluffyChat Space v6
-* `!ElEgwlkMvKtpLTcPXQ:matrix.org` - Piraattipuolue v9
+* `!ESKEvwumMpSRZTnJOI:pikaviestin.fi` - Piraattipuolue v10
 * `!azROMLeGEMPdbdWnbk:matrix.org` - Piraattipuolueen työrauha v9
