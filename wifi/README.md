@@ -11,7 +11,11 @@ when looking at options.
   * Option to have lower priority for the guest network
 * Transmit power control to set it to low
 * 2.4 GHz / 5 GHz dualband (should be obvious in 2022)
-  * Ability to set same SSID for both (looking at you Huawei)
+  * ***Ability to set same SSID for both*** (looking at you Huawei)
+    * If the SSIDs differ, devices won't be able to decide between frequency
+      and either 2.4 or 5 GHz must be chosen. 5 GHz is mostly subject to
+      *Dynamic Frequency Selection* which means no WiFi for 10 minutes
+      on boot.
 * Quality of Service (QoS)
 
 ## See also
