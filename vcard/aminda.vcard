@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Aminda Suomalainen
+GENDER:F
+EMAIL:suomalainen+git@mikaela.info
+EMAIL;TYPE=deltachat:delta@aminda.eu
+KEY;MEDIATYPE=application/pgp-keys:https://www.aminda.eu/PGP/0xBAE30723.txt
+KIND:individual
+PHOTO;MEDIATYPE=image/jpeg:https://media.githubusercontent.com/media/Mikaela/mikaela.github.io/lfs-media/avatar/250.jpeg
+URL:https://www.aminda.eu
+IMPP:xmpp:mikaela@blesmrt.net
+IMPP:matrix:u/_xmpp_mikaela=40blesmrt.net:matrix.org
+IMPP:matrix:u/aminda:pikaviestin.fi
+IMPP:xmpp:aminda_pikaviestin.fi@matrix.org
+IMPP:matrix:u/mikaela.suomalainen:matrix.org
+IMPP:xmpp:mikaela.suomalainen_matrix.org@matrix.org
+END:VCARD
