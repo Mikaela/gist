@@ -2,7 +2,7 @@ BEGIN:VCARD
 VERSION:4.0
 FN:Aminda Suomalainen
 GENDER:F
-EMAIL:suomalainen+git@mikaela.info
+EMAIL:suomalainen@mikaela.info
 EMAIL;TYPE=deltachat:delta@aminda.eu
 KEY;MEDIATYPE=application/pgp-keys:https://www.aminda.eu/PGP/0xBAE30723.txt
 KIND:individual
