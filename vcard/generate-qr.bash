@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # Turn vcards into QR codes
 
-
-
 # loop through all vcard files
 for vcard in *.vcard; do 
     if [ -f "$vcard" ]; then 
