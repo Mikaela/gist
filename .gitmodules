@@ -1,0 +1,3 @@
+[submodule "LaTeX/piraattitesti"]
+	path = LaTeX/piraattitesti
+	url = https://git.piraattipuolue.fi/mikaela/testi.git
