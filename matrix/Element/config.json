@@ -18,7 +18,7 @@
 	"feature_extensible_events": "enable",
 	"feature_threadstable": "enable",
 	"feature_message_right_click_context_menu": "enable",
-	"feature_hidden_read_receipts": "labs",
+	"feature_hidden_read_receipts": "enable",
 	"feature_custom_themes": "labs",
 	"feature_pinning": "enable",
 	"feature_state_counters": "labs",
