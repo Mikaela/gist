@@ -1,0 +1,135 @@
+\documentclass[a4paper,colorlinks,linkcolor=blue]{rapport3}
+\usepackage[english]{babel}
+\usepackage{noto-serif}
+\usepackage{cmap}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{csquotes}
+
+\title{MikroTik configuration}
+\author{Aminda Suomalainen}
+\date{2023-01-29}
+
+\begin{document}
+\hypersetup{urlcolor=blue}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+
+This file documents how I want my MikroTik devices to be configured.
+It doesn't necessarily have to be written in \LaTeX, but I want to practice it.
+
+My wishlist for WiFi APs, that MikroTik doesn't fully comform either, is at:
+\url{https://gitea.blesmrt.net/mikaela/gist/src/branch/master/wifi/README.md}
+
+My configuration is mostly based on \url{https://support.apple.com/HT202068} although I disable legacy protocols which it advices keeping enabled for maximum compatibility.
+
+As this document is primarily for my personal use, some sections won't go to further detail.
+
+\chapter{winbox}
+
+WinBox is the MikroTik configuration tool.
+It works directly with WINE and can be dropped to \texttt{\$PATH} with \texttt{chmod +rx WinBox64.exe}
+
+\chapter{Quíck set}
+
+\begin{itemize}
+    \item Network name: same for both, for me ends with \_nomap
+    \item Frequency: auto
+    \item Band: 2GHz-only-N, 5GHz-only-AC
+    \item Guest network: openwireless.org\_nomap
+    \item Guest WiFi password: empty
+    \item Limit Download Speed: 8M
+\end{itemize}
+
+Limit Download Speed appears to use bits per second or something similar as an unit.
+
+%
+An expert has this to say on WiFi bands:
+
+\begin{displayquote}
+The problem with enabling the lower spec networks are the broadcasts. Those you shout out with the lowerst spec you have available for the clients.
+Those beacons are reserved airtime not only for you, but everyone who hears them too.
+\end{displayquote}
+
+This is where Apple disagrees, but they most likely want the most compatibility for end users regardless of their devices, while I don't have active devices that don't support n.
+
+\chapter{IPv6}
+
+To enable IPv6, simply
+Select LTE APNs.
+
+\begin{enumerate}
+    \item navigate to Interfaces $\rightarrow$ LTE (it's a tab) $\rightarrow$ LTE APNs (a button below the tab bar).
+    \item Doubleclick or add a new APN from the plus symbol.
+    \item Set \texttt{IPv6 Interface: bridge}
+\end{enumerate}
+
+DNS could be canged here too, but "Use Peer DNS" is probably fine when using DoH anyway.
+Referr to a later section.
+
+For reference the full configuration here is:
+
+\begin{lstlisting}
+Name: Moi
+APN: data.moimobile.fi
+IP Type: Auto
+[x] Use Peer DNS
+[ ] Use Network APN
+[x] Add Default Route
+Default route distance: 2
+IPv6 Interface: bridge
+Authentication: none
+Passthrough Interface: none
+\end{lstlisting}
+
+\chapter{DNS over HTTPS}
+
+IP $\rightarrow$ DNS $\rightarrow$ Use DoH server.
+
+WinBox has a Files button where .pem can be uploaded (previously downloaded with Firefox security details, CA tab), that can then be imported from System $\rightarrow$ Certificates.
+
+In Firefox it's best to load the chain and then check that the 90 days certificate doesn't get included.
+
+\chapter{2.4 GHz band}
+
+Doubleclick Interface WLAN1 (and WLAN2) and select the appropiate box (20 MHz).
+
+\chapter{DHCP Lease time}
+
+IP $\rightarrow$ DHCP Server  $\rightarrow$ doubleclick defconf (short for default configuration).
+
+\begin{itemize}
+    \item Default: 00:10:00.
+     I hope this means 10 hours, but I fear it's HH:MM:SS...
+    \item New value for SOHO: 08:00:00
+    \item New value for open: 01:00:00
+\end{itemize}
+
+\chapter{5G}
+
+In iOS MikroTik app settings I have navigated to 5G, pressed the cog symbol and set NR bands to 78.
+This closes out 28 which is present, I am under impression that it's similar in experience to 4G.
+
+\chapter{DFS}
+
+I have detected that most of my clients refuse to use DFS channels for 5 GHz.
+The solution is to disable them.
+
+On MikroTik iOS app:
+
+\begin{enumerate}
+    \item Select WLAN2 on the main menu.
+    \item Press the three dots on top.
+    \item Select advanced mode.
+    \item Wireless
+    \item Skip DFS channels
+    \item All
+\end{enumerate}
+
+Note: Skip DFS channels is set to "disabled", my clients avoid 5 GHz.
+If it's "10 min CAC", my clients still avoid it.
+So it must be disabled, even if those three non-DFS channels are going to be the most busy.
+
+\end{document}
