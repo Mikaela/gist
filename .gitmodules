@@ -1,3 +1,6 @@
 [submodule "LaTeX/piraattitesti"]
 	path = LaTeX/piraattitesti
 	url = https://git.piraattipuolue.fi/mikaela/testi.git
+[submodule "gayming/fixcontroller.py"]
+	path = gayming/fixcontroller.py
+	url = https://gist.github.com/de2df973323b7c6acf45f40dc66e8db3.git
