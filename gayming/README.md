@@ -17,7 +17,11 @@ Reload Sway in-game, `$Mod+Shift+C` and it should stop.
 Run the game with `gamescope`.
 
 Steam? Edit launch options for the game (second click, properties, general,
-launch options): `gamescope --steam --borderless -- %command%`
+launch options):
+
+```
+gamescope --steam --borderless -- %command%
+```
 
 See also `gamescope --help`
 
