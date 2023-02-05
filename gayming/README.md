@@ -29,6 +29,17 @@ See also `gamescope --help`
 * `--borderless` borderless full-screen mode (that Sway may be making
   windowed though)
 
+##### Graphics corruption such as display full of black dots
+
+When the previous launch options cause this,
+
+```
+INTEL_DEBUG=norbc gamescope --steam --borderless -- %command%
+```
+
+I saw this advice at [gamescope#356](https://github.com/Plagman/gamescope/issues/356)
+which says it's tracked at [freedesktop.org/mesa/mesa#6029](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6029).
+
 #### Steam client itself is laggy
 
 Close/logoff friends window/network or disable its animations.
