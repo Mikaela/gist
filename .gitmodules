@@ -4,3 +4,6 @@
 [submodule "gayming/fixcontroller.py"]
 	path = gayming/fixcontroller.py
 	url = https://gist.github.com/de2df973323b7c6acf45f40dc66e8db3.git
+[submodule "briar/forums/PandaCoderPL"]
+	path = briar/forums/PandaCoderPL
+	url = https://codeberg.org/PandaCoderPL/Briar-Forums.git
