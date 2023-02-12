@@ -7,3 +7,6 @@
 [submodule "briar/forums/PandaCoderPL"]
 	path = briar/forums/PandaCoderPL
 	url = https://codeberg.org/PandaCoderPL/Briar-Forums.git
+[submodule "associations/piraattinuoret/meeting-notes/official"]
+	path = associations/piraattinuoret/meeting-notes/official
+	url = https://github.com/Piraattinuoret/Poytakirjat.git
