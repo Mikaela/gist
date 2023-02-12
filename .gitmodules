@@ -13,3 +13,9 @@
 [submodule "submodules/PPFI-IM"]
 	path = submodules/PPFI-IM
 	url = https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet.git
+[submodule "language-resources"]
+	path = language-resources
+	url = https://gitea.blesmrt.net/mikaela/language-resources.git
+[submodule "food"]
+	path = food
+	url = https://gitea.blesmrt.net/mikaela/ruokajutut
