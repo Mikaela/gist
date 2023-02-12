@@ -1,0 +1,13 @@
+root = true
+
+[*]
+# Future: https://github.com/editorconfig/editorconfig/issues/89
+# Handled by git when not set
+#end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+# Accessibility reasons. Vim: :%retab! (note also :set ts=4)
+indent_style = tab
+indent_size = tab
+#tab_width =
