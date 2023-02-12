@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Remove cstemplate and return to network level
 echo "/cs template $1 founder -*"
 echo "/cs template $1 successor -*"
