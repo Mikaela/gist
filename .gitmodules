@@ -10,3 +10,6 @@
 [submodule "associations/piraattinuoret/meeting-notes/official"]
 	path = associations/piraattinuoret/meeting-notes/official
 	url = https://github.com/Piraattinuoret/Poytakirjat.git
+[submodule "submodules/PPFI-IM"]
+	path = submodules/PPFI-IM
+	url = https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet.git
