@@ -11,3 +11,11 @@ charset = utf-8
 indent_style = tab
 indent_size = tab
 #tab_width =
+
+[*.{markdown,md}]
+trim_trailing_whitespace = false
+
+[*.{tsv,tab}]
+indent_style = tab
+indent_size = tab
+trim_trailing_whitespace = false
