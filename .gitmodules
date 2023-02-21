@@ -19,3 +19,6 @@
 [submodule "food"]
 	path = food
 	url = https://gitea.blesmrt.net/mikaela/ruokajutut
+[submodule "fineid/pyllyukko-fineid.md"]
+	path = fineid/pyllyukko-fineid.md
+	url = https://gist.github.com/a1ed6baa6b638b805a30b16960399e94.git
