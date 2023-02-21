@@ -24,7 +24,8 @@ The main point I do this for is users `users`
 		"@leon:the-apothecary.club": 99,
 		"@leon:masfloss.net": 99,
 		"@fidino:artemislena.eu": 99,
-		"@mjolnir_3671ee5a-cd2a-47c0-97da-e5662f3324d9:mjolnir.matrix.org": 99
+		"@mjolnir_3671ee5a-cd2a-47c0-97da-e5662f3324d9:mjolnir.matrix.org": 99,
+		"@aminda.git:pirateriot.net": 13
 	}
 },
 ```
