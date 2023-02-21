@@ -1,19 +1,19 @@
 # Normalize line endings for text files
 # https://www.git-scm.com/docs/gitattributes#_end_of_line_conversion
-* text=auto linguist-detectable
+*	text=auto linguist-detectable
 
 # Unlikely to be ran under Windows, Linux line endings
-*.bash text eol=lf
+*.bash	text eol=lf
 
 # While this repository doesn't currently have anything for Windows, I may
 # use this for reference
 # https://rehansaeed.com/gitattributes-best-practices/#line-endings
-*.{reg,[rR][eE][gG]} text eol=crlf
-*.{bat,[bB][aA][tT]} text eol=crlf
-*.{ahk,[aA][hH][kK]} text eol=crlf
+*.{reg,[rR][eE][gG]}	text eol=crlf
+*.{bat,[bB][aA][tT]}	text eol=crlf
+*.{ahk,[aA][hH][kK]}	text eol=crlf
 
 # LFS with(/out) locking https://github.com/git-lfs/git-lfs/wiki/File-Locking
-*.png filter=lfs diff=lfs merge=lfs -text lockable
-*.pdf filter=lfs diff=lfs merge=lfs -text lockable
-*.jpg filter=lfs diff=lfs merge=lfs -text lockable
-*.jpeg filter=lfs diff=lfs merge=lfs -text lockable
+*.png	filter=lfs diff=lfs merge=lfs -text lockable
+*.pdf	filter=lfs diff=lfs merge=lfs -text lockable
+*.jpg	filter=lfs diff=lfs merge=lfs -text lockable
+*.jpeg	filter=lfs diff=lfs merge=lfs -text lockable
