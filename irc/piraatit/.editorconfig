@@ -1,0 +1,4 @@
+root = false
+
+[*.conf]
+trim_trailing_whitespace = false
