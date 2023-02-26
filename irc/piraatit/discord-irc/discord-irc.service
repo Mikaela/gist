@@ -9,4 +9,3 @@ User=discord-irc
 
 [Install]
 WantedBy=default.target
-

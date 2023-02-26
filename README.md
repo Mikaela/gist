@@ -9,7 +9,7 @@ their relationship with the
 
 # LICENSING
 
-`3ea1645f746abf8de4683aadf07202bce38480f5` (*Tue Feb 21 14:15:46 2023 +0200*) switches from BSD-3 clause to
+`3ea1645f746abf8de4683aadf07202bce38480f5` (_Tue Feb 21 14:15:46 2023 +0200_) switches from BSD-3 clause to
 CC0. I don't think anything here qualifies as original work or licensable
 in general.
 

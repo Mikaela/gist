@@ -1,4 +1,3 @@
-
 {
   "showLabsSettings": true,
   "defaultDeviceDisplayName": "HostnameOS-Client-YYYY-WXX-D",
@@ -9,24 +8,24 @@
     }
   },
   "features": {
-	"feature_report_to_moderators": "enable",
-	"feature_latex_maths": "enable",
-	"feature_mjolnir": "enable",
-	"feature_roomlist_preview_reactions_all": "enable",
-	"feature_roomlist_preview_reactions_dms": "enable",
-	"feature_dehydration": "enable",
-	"feature_extensible_events": "enable",
-	"feature_threadstable": "enable",
-	"feature_message_right_click_context_menu": "enable",
-	"feature_hidden_read_receipts": "enable",
-	"feature_custom_themes": "labs",
-	"feature_pinning": "enable",
-	"feature_state_counters": "labs",
-	"feature_mjolnir": "labs",
-	"feature_bridge_state": "enable",
-	"feature_exploring_public_spaces": "enable"
+    "feature_report_to_moderators": "enable",
+    "feature_latex_maths": "enable",
+    "feature_mjolnir": "enable",
+    "feature_roomlist_preview_reactions_all": "enable",
+    "feature_roomlist_preview_reactions_dms": "enable",
+    "feature_dehydration": "enable",
+    "feature_extensible_events": "enable",
+    "feature_threadstable": "enable",
+    "feature_message_right_click_context_menu": "enable",
+    "feature_hidden_read_receipts": "enable",
+    "feature_custom_themes": "labs",
+    "feature_pinning": "enable",
+    "feature_state_counters": "labs",
+    "feature_mjolnir": "labs",
+    "feature_bridge_state": "enable",
+    "feature_exploring_public_spaces": "enable"
   },
-      "jitsi": {
-        "preferredDomain": "jitsi.effi.org"
-    }
+  "jitsi": {
+    "preferredDomain": "jitsi.effi.org"
+  }
 }

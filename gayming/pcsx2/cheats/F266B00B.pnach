@@ -18,7 +18,7 @@ patch=1,EE,20166CD8,extended,0C03F800
 //patch=1,EE,201D5F84,extended,3C0F0009
 //patch=1,EE,201D5F88,extended,240F0009
 
-// Drive without party members 
+// Drive without party members
 patch=1,EE,201C9A80,extended,0000102D
 // Party don't disappear when driving
 patch=1,EE,201C99A0,extended,0000102D

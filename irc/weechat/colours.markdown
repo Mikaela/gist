@@ -1,6 +1,6 @@
-I use `/set irc.look.nick_color_hash djb2` (*"hash algorithm used to find
+I use `/set irc.look.nick_color_hash djb2` (_"hash algorithm used to find
 the color for a nick: djb2 = variant of djb2 (position of letters matters:
-anagrams of a nick have different color), sum = sum of letters"*)
+anagrams of a nick have different color), sum = sum of letters"_)
 
 ## WeeChat colours for dark background
 
@@ -33,7 +33,7 @@ This is copied from @tracphil's gist which you can find at https://gist.github.c
 /set buffers.color.hotlist_message_fg 7
 ```
 
-* * * * *
+---
 
 2022-04-15: I am using Selenized Dark and highlights are a bit difficult to see
 considering they are yellow on magenta;

@@ -84,7 +84,7 @@ echo "/cs flags $1 *!*@* +A"
 ## How GroupServ is configured
 # We have group !piraatti-opit (as revealed earlier) that is closed
 # (/msg GroupServ set !piraatti-opit open off).
-# 
+#
 # The founder currently has flags +FfscmviA and normal ops are given
 # +cmvA. There are also $oper and bot with +cA and $registered with +A.
 

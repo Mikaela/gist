@@ -16,6 +16,6 @@ discordpirateirc.service - Discord IRC at PirateIRC (D6)
 telefreenode.service - TBD
 limnoria.service - TBD
 
-Automatic restart at cron as ugly hack for things being broken: 
+Automatic restart at cron as ugly hack for things being broken:
 telepirateirc discordpirateirc
 Also see "crontab -l"

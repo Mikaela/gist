@@ -1,6 +1,6 @@
 # Normalize line endings for text files
 # https://www.git-scm.com/docs/gitattributes#_end_of_line_conversion
-*	text=auto linguist-detectable
+*	text=auto eol=lf linguist-detectable
 
 # Unlikely to be ran under Windows, Linux line endings
 *.bash	text eol=lf

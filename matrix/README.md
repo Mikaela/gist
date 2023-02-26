@@ -12,8 +12,8 @@ on terminal. `account-data` is an exception for appearing that way in `/devtools
 
 ### Account migration
 
-* [EMS Matrix account migration tool](https://ems.element.io/tools/matrix-migration)
-  * Centralized, propietary, service, works less well since Synapse 1.11.0rc1
+- [EMS Matrix account migration tool](https://ems.element.io/tools/matrix-migration)
+  - Centralized, propietary, service, works less well since Synapse 1.11.0rc1
     made PL50 requirement for inviting users to new rooms.
-* [Variate](https://github.com/ShadowJonathan/variate) is planning to be
-  a tool for *migrating between different Matrix server implementations*.
+- [Variate](https://github.com/ShadowJonathan/variate) is planning to be
+  a tool for _migrating between different Matrix server implementations_.

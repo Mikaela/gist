@@ -1,8 +1,10 @@
-{ "name": "y.jolly-roger.hel.piraattipuolue.internal",
-"type": "desktop",
-"contact": {
-"name": "Aminda Suomalainen",
-"xmpp": "mikaela@blesmrt.net",
-"email-deltachat": "delta@aminda.eu",
-"public keys": "https://www.aminda.eu/keys/"}
+{
+  "name": "y.jolly-roger.hel.piraattipuolue.internal",
+  "type": "desktop",
+  "contact": {
+    "name": "Aminda Suomalainen",
+    "xmpp": "mikaela@blesmrt.net",
+    "email-deltachat": "delta@aminda.eu",
+    "public keys": "https://www.aminda.eu/keys/"
+  }
 }

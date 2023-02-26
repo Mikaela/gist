@@ -22,8 +22,10 @@ once space is pressed after the prefix char.
 6. Search for and select `im.fluffychat.account_bundles`
 7. Above (or below, doesn't matter) the `"bundles": [` line, add `"prefix": "M",` where `M` is your
    prefix to quickly switch to this account.
-  * If this is confusing, see the example of finalized event in the bottom
-    of this file.
+
+- If this is confusing, see the example of finalized event in the bottom
+  of this file.
+
 8. Optionally if you wish to sort your account, add a `,` to the line where
    your bundle is named and to the next line: `"priority": 0`
 9. Start/restart FluffyChat
@@ -32,13 +34,13 @@ once space is pressed after the prefix char.
 
 General notes:
 
-* 0.4.1 had a bug where using automatic server discovery through well-known
+- 0.4.1 had a bug where using automatic server discovery through well-known
   causes all accounts to get logged out. Use server name instead, e.g. `https://matrix-client.matrix.org` (discovered from https://matrix.org/.well-known/matrix/client)
-  * This is fixed in 0.4.2.
-* Quick account switching will only work within a bundle, which by default is implied to be the MXID, so by default it's disabled
-* Note the avatar next to the input bar showing which account you are using. It can also be used for switching accounts.
-  * Tapping it to change account will also change which account will send any other events like media/reaction etc.
-* Long tapping a message and editing a message send as another account will
+  - This is fixed in 0.4.2.
+- Quick account switching will only work within a bundle, which by default is implied to be the MXID, so by default it's disabled
+- Note the avatar next to the input bar showing which account you are using. It can also be used for switching accounts.
+  - Tapping it to change account will also change which account will send any other events like media/reaction etc.
+- Long tapping a message and editing a message send as another account will
   auto-set the indicator and action-sender as your roleplay character.
 
 Big thank you to FluffyChat contributors who made this feature and Sorunome
@@ -66,17 +68,17 @@ on account `@mikaela:feneas.org`
 
 ```json
 {
-	"prefix": "P",
-	"priority": 5,
-	"bundles": [
-		{
-			"name": "💼",
-			"priority": 5
-		},
-		{
-			"name": "😺"
-		}
-	]
+  "prefix": "P",
+  "priority": 5,
+  "bundles": [
+    {
+      "name": "💼",
+      "priority": 5
+    },
+    {
+      "name": "😺"
+    }
+  ]
 }
 ```
 

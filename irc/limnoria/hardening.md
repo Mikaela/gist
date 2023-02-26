@@ -1,10 +1,10 @@
 # Hardening Limnoria
 
-* Upstream documentation: https://docs.limnoria.net/use/security.html
+- Upstream documentation: https://docs.limnoria.net/use/security.html
 
 ## Passwordless users
 
-*This is subject to moving to the upstream documentation, see [Limnoria/Limnoria-doc#91](https://github.com/Limnoria/Limnoria-doc/issues/91)*
+_This is subject to moving to the upstream documentation, see [Limnoria/Limnoria-doc#91](https://github.com/Limnoria/Limnoria-doc/issues/91)_
 
 Passwordless user accounts have been supported since version 2021-05-27.
 They must login by some other mechanism such as NickAuth, GPG or hostmasks.

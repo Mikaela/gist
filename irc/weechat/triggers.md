@@ -1,7 +1,7 @@
 # WeeChat Triggers
 
-* [WeeChat Trigger plugin documentation](https://weechat.org/files/doc/stable/weechat_user.en.html#trigger)
-* [Triggers at WeeChat GitHub Wiki](https://github.com/weechat/weechat/wiki/Triggers)
+- [WeeChat Trigger plugin documentation](https://weechat.org/files/doc/stable/weechat_user.en.html#trigger)
+- [Triggers at WeeChat GitHub Wiki](https://github.com/weechat/weechat/wiki/Triggers)
 
 ## msgid visibility
 

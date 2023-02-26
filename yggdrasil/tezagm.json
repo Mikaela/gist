@@ -1,10 +1,12 @@
-{ "name": "y.tezagm.mikaela.info",
-"type": "RaspberryPiB+",
-"location": "Kotka, Finland",
-"peering": "socks://127.0.0.1:9050/xvkw4rj7wzy7t75kkanr54zftudlbtpjbavxcsri5irkavclynaw3xqd.onion:1234",
-"note": "Behind CGN and unreliable IPv6 (4G router problem), Tor has HiddenServiceSingleHopMode & HiddenServiceNonAnonymousMode enabled.",
-"contact": {
-"name": "Mikaela Suomalainen",
-"xmpp": "mikaela@blesmrt.net",
-"public keys": "https://mikaela.info/keys/"}
+{
+  "name": "y.tezagm.mikaela.info",
+  "type": "RaspberryPiB+",
+  "location": "Kotka, Finland",
+  "peering": "socks://127.0.0.1:9050/xvkw4rj7wzy7t75kkanr54zftudlbtpjbavxcsri5irkavclynaw3xqd.onion:1234",
+  "note": "Behind CGN and unreliable IPv6 (4G router problem), Tor has HiddenServiceSingleHopMode & HiddenServiceNonAnonymousMode enabled.",
+  "contact": {
+    "name": "Mikaela Suomalainen",
+    "xmpp": "mikaela@blesmrt.net",
+    "public keys": "https://mikaela.info/keys/"
+  }
 }

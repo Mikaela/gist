@@ -25,8 +25,8 @@ gamescope --steam --borderless -- %command%
 
 See also `gamescope --help`
 
-* `--steam` - enables Steam integration, whatever that is
-* `--borderless` borderless full-screen mode (that Sway may be making
+- `--steam` - enables Steam integration, whatever that is
+- `--borderless` borderless full-screen mode (that Sway may be making
   windowed though)
 
 ##### Graphics corruption such as display full of black dots
@@ -44,4 +44,4 @@ which says it's tracked at [freedesktop.org/mesa/mesa#6029](https://gitlab.freed
 
 Close/logoff friends window/network or disable its animations.
 
-* https://github.com/ValveSoftware/steam-for-linux/issues/7245#issuecomment-897417115
+- https://github.com/ValveSoftware/steam-for-linux/issues/7245#issuecomment-897417115

@@ -7,9 +7,9 @@ for multiple devices. They possibly should be in aminda.eu, but I don't
 know what would be a good way to show them as browser integrated CSV
 viewers are rare and I don't think these would be in so much demand.
 
-*Note that as per the FAQ, the connection request needs to be accepted
+_Note that as per the FAQ, the connection request needs to be accepted
 within 48 hours by entering your Briar address. However after that
-introductions can be made without timeout concerns.*
+introductions can be made without timeout concerns._
 
 Briar doesn't hold as big place in my heart as IRC or Matrix to have a
 dedicated page either and my HTML table tendency is effort even if the page
@@ -37,12 +37,12 @@ add new users)</s> or blogs.
 
 ## Further reading and quotes
 
-* https://briarproject.org/quick-start/
-  * > Please note that Briar will only synchronize messages with your contacts, not with nearby strangers who are running Briar. And it will only sync the messages you’ve chosen to share with each contact. For example, if you invite your contacts X and Y to join a forum, and they accept, then messages in that forum will be synced with X or Y whenever they’re within range. So you can receive forum messages from X in one location, travel to another location, and deliver those messages to Y.
-  * > But this doesn’t work for private messages: they’re only synchronized directly between the sender and recipient.
-* https://code.briarproject.org/briar/briar/-/wikis/FAQ
-  * > Your Briar link contains a public key and it is safe to publish in the same way as a PGP public key. If you want to contact someone via Briar, both of you need to add each other's links.
-  * > No, your online status isn't exposed by publishing your `briar://` link. Only your contacts can tell whether you're online.
-  * > No. Unlike with adding contacts at a distance and its 48 hours timeout, there's no such thing for introductions.
-* https://code.briarproject.org/briar/briar-desktop/-/wikis/Changelog
-  * > \[0.2.0-beta 2022-02-22\] Synchronize messages via local LAN
+- https://briarproject.org/quick-start/
+  - > Please note that Briar will only synchronize messages with your contacts, not with nearby strangers who are running Briar. And it will only sync the messages you’ve chosen to share with each contact. For example, if you invite your contacts X and Y to join a forum, and they accept, then messages in that forum will be synced with X or Y whenever they’re within range. So you can receive forum messages from X in one location, travel to another location, and deliver those messages to Y.
+  - > But this doesn’t work for private messages: they’re only synchronized directly between the sender and recipient.
+- https://code.briarproject.org/briar/briar/-/wikis/FAQ
+  - > Your Briar link contains a public key and it is safe to publish in the same way as a PGP public key. If you want to contact someone via Briar, both of you need to add each other's links.
+  - > No, your online status isn't exposed by publishing your `briar://` link. Only your contacts can tell whether you're online.
+  - > No. Unlike with adding contacts at a distance and its 48 hours timeout, there's no such thing for introductions.
+- https://code.briarproject.org/briar/briar-desktop/-/wikis/Changelog
+  - > \[0.2.0-beta 2022-02-22\] Synchronize messages via local LAN

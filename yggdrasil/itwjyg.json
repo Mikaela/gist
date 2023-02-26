@@ -1,7 +1,9 @@
-{ "name": "y.itwjyg.mikaela.info",
-"type": "laptop",
-"contact": {
-"name": "Mikaela Suomalainen",
-"xmpp": "mikaela@blesmrt.net",
-"public keys": "https://mikaela.info/keys/"}
+{
+  "name": "y.itwjyg.mikaela.info",
+  "type": "laptop",
+  "contact": {
+    "name": "Mikaela Suomalainen",
+    "xmpp": "mikaela@blesmrt.net",
+    "public keys": "https://mikaela.info/keys/"
+  }
 }

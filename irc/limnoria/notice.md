@@ -20,7 +20,7 @@ channel-specific
 config channel #CHAN supybot.plugins.RSS.notice False
 ```
 
-* RSS announces as NOTICEs
+- RSS announces as NOTICEs
 
 ### Reverting
 

@@ -7,7 +7,7 @@ Description=teleirc
 # Ex. /usr/local/bin/teleirc
 # ExecStart=/usr/bin/env node /usr/local/bin/teleirc
 #ExecStart=/usr/local/bin/node /usr/local/bin/teleirc
-ExecStart=/usr/local/bin/node /home/teleirc-freenode/teleirc/bin/teleirc 
+ExecStart=/usr/local/bin/node /home/teleirc-freenode/teleirc/bin/teleirc
 -vvv
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=on-failure
@@ -15,4 +15,3 @@ User=teleirc-freenode
 
 [Install]
 WantedBy=default.target
-
