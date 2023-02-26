@@ -1,0 +1,4 @@
+root = false
+
+[*]
+trim_trailing_whitespace = false

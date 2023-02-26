@@ -272,4 +272,3 @@
 2022-W01-2 19:51:43 +0200 <@jaywink> yep was waiting for final words from anyone :)
 2022-W01-2 19:52:06 +0200 <@jaywink> thanks all! I wish there could be a final party at fosdem or something, but yay pandemic :P
 2022-W01-2 19:52:35 +0200 <@jaywink> fosdem played a big role in feneas, pretty much creating it
-
