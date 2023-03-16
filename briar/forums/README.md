@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Lists of Briar forums](#lists-of-briar-forums)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Lists of Briar forums
 
 Briar Forums are groups where anyone can add anyone. They have no further

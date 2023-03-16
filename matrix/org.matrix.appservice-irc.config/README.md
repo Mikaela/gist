@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [`org.matrix.appservice-irc.config`](#orgmatrixappservice-ircconfig)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # `org.matrix.appservice-irc.config`
 
 Also known as IRC bridge configuration, [upstream documentation](https://github.com/matrix-org/matrix-appservice-irc/blob/develop/docs/room_configuration.md)

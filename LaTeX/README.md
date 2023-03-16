@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Notes on using LaTeX](#notes-on-using-latex)
+  - [Simple boilerplate](#simple-boilerplate)
+  - [Package management](#package-management)
+  - [Installing custom templates](#installing-custom-templates)
+    - [Noteworthy templates](#noteworthy-templates)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Notes on using LaTeX
 
 To possibly save your self from headache:

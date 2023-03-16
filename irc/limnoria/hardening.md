@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Hardening Limnoria](#hardening-limnoria)
+  - [Passwordless users](#passwordless-users)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Hardening Limnoria
 
 - Upstream documentation: https://docs.limnoria.net/use/security.html

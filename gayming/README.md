@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Notes related to gaming](#notes-related-to-gaming)
+  - [Wayland / Sway](#wayland--sway)
+    - [Issues and solutions](#issues-and-solutions)
+      - [Constant camera rotation](#constant-camera-rotation)
+      - [Cursor doesn't stick to game window](#cursor-doesnt-stick-to-game-window)
+        - [Graphics corruption such as display full of black dots](#graphics-corruption-such-as-display-full-of-black-dots)
+      - [Steam client itself is laggy](#steam-client-itself-is-laggy)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Notes related to gaming
 
 A lot of older files that I haven't touched recently were moved to this

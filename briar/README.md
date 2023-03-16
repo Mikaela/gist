@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Briar notes](#briar-notes)
+  - [Naming](#naming)
+  - [Briar desktop](#briar-desktop)
+  - [Further reading and quotes](#further-reading-and-quotes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Briar notes
 
 Briar is a P2P over Tor messenger that can also peer over LAN and Bluetooth.

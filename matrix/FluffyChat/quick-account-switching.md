@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Quick account switching in FluffyChat](#quick-account-switching-in-fluffychat)
+  - [Appendix: example `im.fluffychat.account_bundles` account event](#appendix-example-imfluffychataccount_bundles-account-event)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Quick account switching in FluffyChat
 
 FluffyChat 0.41.0 brings support for using multiple accounts and has an early

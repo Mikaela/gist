@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [WeeChat colours for dark background](#weechat-colours-for-dark-background)
+- [Making colors look good with solarized terminals](#making-colors-look-good-with-solarized-terminals)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 I use `/set irc.look.nick_color_hash djb2` (_"hash algorithm used to find
 the color for a nick: djb2 = variant of djb2 (position of letters matters:
 anagrams of a nick have different color), sum = sum of letters"_)

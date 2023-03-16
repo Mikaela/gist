@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Notes regarding Matrix, a decentralised conversation store](#notes-regarding-matrix-a-decentralised-conversation-store)
+  - [Other notes not needing their own directories](#other-notes-not-needing-their-own-directories)
+    - [Account migration](#account-migration)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Notes regarding Matrix, a decentralised conversation store
 
 As a lot of things require playing around with `/devtools` and raw state

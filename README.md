@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [LICENSING](#licensing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This repository is a random assortment of files. In the beginning, I had
 some of them at gist.github.com, but as it doesn't provide any way for me
 to sort files, a separate repository is easier to handle.

@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Matterbridging list](#matterbridging-list)
+  - [Definitions](#definitions)
+  - [Gateways](#gateways)
+    - [Mikaela.info](#mikaelainfo)
+    - [Tanukis (or "Pillow Fortress")](#tanukis-or-pillow-fortress)
+    - [ABGILPQT+](#abgilpqt)
+    - [Test](#test)
+    - [Antikupla](#antikupla)
+    - [Syötteet](#sy%C3%B6tteet)
+    - [cz-feed](#cz-feed)
+  - [borni](#borni)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Matterbridging list
 
 This is a list of Matterbridge gateways that I am maintaining or those of

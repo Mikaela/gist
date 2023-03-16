@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Potentially useful progressive web apps](#potentially-useful-progressive-web-apps)
+  - [Events](#events)
+  - [Food](#food)
+  - [Instant messaging](#instant-messaging)
+    - [Matrix](#matrix)
+      - [Instant messaging](#instant-messaging-1)
+      - [Social media](#social-media)
+    - [Telegram](#telegram)
+    - [Misc](#misc)
+  - [Learning](#learning)
+  - [Localization](#localization)
+  - [Music](#music)
+  - [Shopping](#shopping)
+  - [Social media](#social-media-1)
+  - [Travel](#travel)
+  - [Not PWAs but still possibly useful for homescreens](#not-pwas-but-still-possibly-useful-for-homescreens)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Potentially useful progressive web apps
 
 Method for distinguishing PWAs from normal websites: adding them to

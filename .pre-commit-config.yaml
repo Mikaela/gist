@@ -19,3 +19,8 @@ repos:
     hooks:
       - id: editorconfig-checker
         alias: ec
+repos:
+-   repo: https://github.com/thlorenz/doctoc
+    rev: v2.2.0
+    hooks:
+    -   id: doctoc

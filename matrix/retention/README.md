@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Room history retention settings / state event `m.room.retention`](#room-history-retention-settings--state-event-mroomretention)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Room history retention settings / state event `m.room.retention`
 
 - https://brendan.abolivier.bzh/matrix-retention-policies/

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Using NOTICEs instead of PRIVMSGs](#using-notices-instead-of-privmsgs)
+  - [Other options](#other-options)
+  - [Other plugins](#other-plugins)
+    - [Reverting](#reverting)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Using NOTICEs instead of PRIVMSGs
 
 Like https://tools.ietf.org/html/rfc1459#section-4.4.2 & https://tools.ietf.org/html/rfc2812#section-3.3.2 say should be used.

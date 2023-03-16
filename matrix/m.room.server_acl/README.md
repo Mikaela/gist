@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [m.room.server_acl](#mroomserver_acl)
+  - [Allowlist](#allowlist)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # m.room.server_acl
 
 This event type controls which servers can access the room at all. Be very careful

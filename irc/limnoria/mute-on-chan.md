@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Muting on channel](#muting-on-channel)
+  - [Reverting](#reverting)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Muting on channel
 
 There is `channel lobotomy add [<channel>]`, but it may have unexpected

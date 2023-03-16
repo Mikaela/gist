@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Call forwarding, relevant commands edition](#call-forwarding-relevant-commands-edition)
+  - [Commands](#commands)
+  - [Status check](#status-check)
+  - [GUI](#gui)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Call forwarding, relevant commands edition
 
 _This is widely documented around the internet, but everything has a lot

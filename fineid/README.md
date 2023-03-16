@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Finnish Electronic Identity](#finnish-electronic-identity)
+  - [Requirements for everything](#requirements-for-everything)
+  - [Chromium](#chromium)
+  - [Firefox and Thunderbird](#firefox-and-thunderbird)
+  - [Okular](#okular)
+  - [Root certificates](#root-certificates)
+  - [Testing](#testing)
+  - [FINEID as SSH key](#fineid-as-ssh-key)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Finnish Electronic Identity
 
 Finnish identity cards have been electronic for ages and as I tend to forget

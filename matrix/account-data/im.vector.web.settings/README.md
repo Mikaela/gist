@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [im.vector.web.settings](#imvectorwebsettings)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # im.vector.web.settings
 
 The main point here is the `room_directory_servers` as this is a more pleasant way to copy it around than
