@@ -3,4 +3,4 @@
 # uses lf though, but maybe that doesn't matter in source code.
 * text=auto eol=crlf
 # Not for PS2 consumption
-*.{sh,bash} text eol=lf
+*.bash text eol=lf
