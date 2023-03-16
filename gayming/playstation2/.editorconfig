@@ -1,0 +1,9 @@
+root = false
+
+[*]
+# See .gitattributes
+end_of_line = crlf
+
+[*.{sh,bash}]
+# Not for PS2 consumption
+end_of_line = lf

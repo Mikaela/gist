@@ -1,0 +1,6 @@
+# Everything in SMB/OpenPS2Loader has crlf line endings and while I am unsure
+# on whether it actually requires that, better safe than sorry. Their git
+# uses lf though, but maybe that doesn't matter in source code.
+* text=auto eol=crlf
+# Not for PS2 consumption
+*.{sh,bash} text eol=lf
