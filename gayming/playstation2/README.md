@@ -95,7 +95,9 @@ Start (menu), settings. This is mostly personal opinions too.
   - Some games allow progressive scanning by holding Triangle and Cross when the logo appears, so seeing them is easier.
 - Write Operations `On`
   - Required for using same VMC across multiple games. [ps2homebrew/Open-PS2-Loader#654 (Comment)](https://github.com/ps2homebrew/Open-PS2-Loader/issues/654#issuecomment-1140989005)
-- Remember Last Played Game `On` Auto Start `9`
+- <s>Remember Last Played Game `On` Auto Start `9`</s>
+  - actually not that good idea as it seems to cause every time game is
+    switched to memory card.
 - ETH Device Start Mode `auto`
 - Default Menu `ETH Games`
 
