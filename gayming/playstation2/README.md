@@ -18,7 +18,7 @@
 
 I have a ProCaster TV which isn't anything special unless it not being smart
 counts. PS2 is connected through
-[RCA HDMI adapter/signal converter](https://infshop.fi/hdmi/92919-rca-hdmi-sovitin-signaalimuunnin-7314280105281.html)
+[RCA HDMI adapter/signal converter](https://infshop.fi/hdmi/92919-rca-hdmi-sovitin-signaalimuunnin-7314280105281.html) ([archived](https://archive.is/J9AeJ))
 
 NOTE! This directory contains `.editorconfig` and `.gitattributes` as for
 some reason everything related to PS2 is using `crlf` (aka "Windows style")
@@ -84,7 +84,7 @@ _FreeMCBoot Configurator_ is the seventh option for me and I set the following s
   - Skip Disc Boot: `OFF`
   - Skip Sony LOGO: `OFF`
   - RETURN
-- Save CMF to MC<0|1>
+- `Save CNF to MC<0|1>`
 - EXIT
 
 ## Open PS2 Loader configuration
