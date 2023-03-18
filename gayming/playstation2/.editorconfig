@@ -7,3 +7,7 @@ end_of_line = crlf
 [*.{sh,bash}]
 # Not for PS2 consumption
 end_of_line = lf
+
+[*.md]
+# https://github.com/thlorenz/doctoc/issues/161
+end_of_line = lf

@@ -4,3 +4,5 @@
 * text=auto eol=crlf
 # Not for PS2 consumption
 *.bash text eol=lf
+# https://github.com/thlorenz/doctoc/issues/161
+*.md text eol=lf
