@@ -12,6 +12,10 @@ mkdir -p $BACKUPDIR
 # playing or running this script during the problem hours
 cp -rv "$VMCDIR" "$BACKUPDIR/$(date +%Y-%jT%H%M)"
 
+# Samba is fun with permissions
+chmod -R 777 $VMCDIR
+chmod -R 777 $BACKUPDIR
+
 # Curiosity, show the space used
 du -hc --time $BACKUPDIR
 
