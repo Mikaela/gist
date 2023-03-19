@@ -17,6 +17,6 @@ chmod -R 777 $VMCDIR
 chmod -R 777 $BACKUPDIR
 
 # Curiosity, show the space used
-du -hc --time $BACKUPDIR
+du -hca --time $BACKUPDIR
 
 set +x
