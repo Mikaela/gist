@@ -2,6 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [PlayStation 2 notes](#playstation-2-notes)
+  - [Subdirectories](#subdirectories)
   - [PlayStation 2 System Configuration](#playstation-2-system-configuration)
   - [TV configuration](#tv-configuration)
   - [Samba](#samba)
@@ -30,6 +31,13 @@ The `file` command may be helpful e.g.
 % file SCES_509.16.cfg
 SCES_509.16.cfg: ASCII text, with CRLF line terminators
 ```
+
+## Subdirectories
+
+- `CHT/` - OpenPS2Loader `CHT/` directory
+- `etc/` - `/etc/` directory, for the samba configuration file
+- FreeMCB/ - `mass:/` or whatever device/directory contains FreeMCBoot
+  installer
 
 ## PlayStation 2 System Configuration
 
