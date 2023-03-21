@@ -25,3 +25,6 @@
 [submodule "submodules/shell-things"]
 	path = submodules/shell-things
 	url = https://gitea.blesmrt.net/Mikaela/shell-things.git
+[submodule "LaTeX/vakioasiakirja"]
+	path = LaTeX/vakioasiakirja
+	url = https://github.com/datakurre/vakioasiakirja.git
