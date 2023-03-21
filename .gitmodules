@@ -28,3 +28,6 @@
 [submodule "LaTeX/vakioasiakirja"]
 	path = LaTeX/vakioasiakirja
 	url = https://github.com/datakurre/vakioasiakirja.git
+[submodule "LaTeX/kirja"]
+	path = LaTeX/kirja
+	url = https://git.piraattipuolue.fi/mikaela/kirja.git
