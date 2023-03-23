@@ -18,6 +18,12 @@ existence of the wall climbing glitch of first person mode.
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_509.16.cht
 - `SCES_516.07.cht` - Ratchet & Clank 2: Locked and Loaded (EU)
   - This is direct copy from [PS2-Home by GoggleBug](https://www.ps2-home.com/forum/viewtopic.php?f=55&t=11703&p=47639&hilit=SCES_516.07#p47639)
+- `SCES_516.08.cht` - Jak II: Renegade (EU)
+  - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_516.08.cht
+- `SCES_524.56.cht` - Ratchet & Clank 3 (EU)
+  - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_524.56.cht
+- `SLES_528.32.cht` - Megaman X: Command Mission (EU)
+  - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SLES_528.32.cht
 - `SLPM_666.75.cht` - Kingdom Hearts II Final Mix
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SLPM_666.75.cht
 - `SLPM_667.50.cht` - Final Fantasy XII Zodiac Age
