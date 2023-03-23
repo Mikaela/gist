@@ -13,6 +13,7 @@ mkdir -p $BACKUPDIR
 cp -arv "$VMCDIR" "$BACKUPDIR/$(date +%Y-%jT%H%M)"
 
 # Samba is fun with permissions
+chmod -R 777 $VMCDIR/..
 chmod -R 777 $VMCDIR
 chmod -R 777 $BACKUPDIR
 
