@@ -16,14 +16,19 @@ existence of the wall climbing glitch of first person mode.
 
 - `SCES_509.16.cht` - Ratchet & Clank 1 (EU)
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_509.16.cht
+- `SCES_509.17.cht` - Sly Raccoon (EU)
 - `SCES_516.07.cht` - Ratchet & Clank 2: Locked and Loaded (EU)
   - This is direct copy from [PS2-Home by GoggleBug](https://www.ps2-home.com/forum/viewtopic.php?f=55&t=11703&p=47639&hilit=SCES_516.07#p47639)
 - `SCES_516.08.cht` - Jak II: Renegade (EU)
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_516.08.cht
 - `SCES_524.56.cht` - Ratchet & Clank 3 (EU)
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_524.56.cht
+- `SLES_520.55.cht` - Harry Potter and the Philosopher's Stone (EU)
+- `SCES_525.29.cht` - Sly 2: Band of Thieves (EU)
 - `SLES_528.32.cht` - Megaman X: Command Mission (EU)
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SLES_528.32.cht
+- `SCES_532.85.cht` - Ratchet: Gladiator (EU)
+- `SCES_534.09.cht` - Sly 3: Honor Among Thieves
 - `SLPM_666.75.cht` - Kingdom Hearts II Final Mix
   - currently a symlink to https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SLPM_666.75.cht
 - `SLPM_667.50.cht` - Final Fantasy XII Zodiac Age
