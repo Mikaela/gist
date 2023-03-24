@@ -3,6 +3,7 @@
 
 - [Random git files](#random-git-files)
   - [Tracking GitHub pull requests with `git`](#tracking-github-pull-requests-with-git)
+  - [Debugging git](#debugging-git)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -23,3 +24,13 @@ dead `git.io` link.
 - TODO: Figure out if this also works for GitLab or what is the GitLab version?
   Gitea too.
   - https://gitea.blesmrt.net/mikaela/gist/issues/39
+
+## Debugging git
+
+Git obeys some environment variables that may be helpful for troubleshooting
+
+- `GIT_CURL_VERBOSE=1` results to more information what git is doing e.g.
+  during cloning.
+  - [Verbose Output from git](https://wrightturn.wordpress.com/2016/08/16/verbose-output-from-git/)
+- `GIT_TRACE=1` & `GIT_TRACE2=1` give very deep debug information
+  - [StackOverflow](https://stackoverflow.com/a/47561300)
