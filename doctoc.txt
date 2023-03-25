@@ -1,0 +1,12 @@
+# A quick note on doctoc where I can find it
+
+- https://github.com/thlorenz/doctoc
+
+For pre-commit configuration see `./.pre-commit-config.yaml`
+
+To enable it at a specific position, throw in:
+
+<!-- START doctoc -->
+<!-- END doctoc -->
+
+# vim: filetype=markdown
