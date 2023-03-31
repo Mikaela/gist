@@ -14,6 +14,7 @@ perform two state installations/directories/whatever:
 
 - [feed](#feed)
 - [installation](#installation)
+- [Usage without integration manager](#usage-without-integration-manager)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -44,3 +45,12 @@ This probably has or should be left for the integration manager.
   "widgetIds": []
 }
 ```
+
+## Usage without integration manager
+
+Hookshot appears to answer `/invite @feeds:integrations.ems.host` and
+`!feeds help` so it will hopefully work without having to touch an
+integration manager for benefit of Element iOS users.
+
+Note that the bot will likely require power level to touch room state so
+it will in most cases require power level 50.
