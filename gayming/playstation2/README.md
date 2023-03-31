@@ -12,6 +12,7 @@
   - [Open PS2 Loader configuration](#open-ps2-loader-configuration)
     - [VMC configuration](#vmc-configuration)
       - [Why share VMC?](#why-share-vmc)
+    - [OPS2L Version](#ops2l-version)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -137,3 +138,17 @@ However there are games that give some benefit for having played other games e.g
   - Ratchet & Clank 3 provides skin and employee discount in vendors.
 - If you have a Ratchet & Clank 2 save on your memory card
   - Ratchet & Clank 3 provides the weapons returing from 2 for free.
+
+### OPS2L Version
+
+My backup memory card is on [v1.1.0](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0),
+but due to it getting a bit aged, I had to upgrade the main to daily builds
+(`d26da79c59d03c3d42dbbdb5c190760cc41f9444`).
+
+Potentially helpful links:
+
+- [Previous stable to current daily diff](https://github.com/ps2homebrew/Open-PS2-Loader/compare/v1.1.0...latest)
+- [Previous stable to my build version](https://github.com/ps2homebrew/Open-PS2-Loader/compare/v1.1.0...d26da79)
+
+Note to self:my file name doesn't match the version as I am lazy and don't
+want to edit the config file.
