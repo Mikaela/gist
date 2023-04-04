@@ -6,7 +6,11 @@ For pre-commit configuration see `./.pre-commit-config.yaml`
 
 To enable it at a specific position, throw in:
 
+```markdown
 <!-- START doctoc -->
 <!-- END doctoc -->
+```
 
-# vim: filetype=markdown
+<!--
+vim: filetype=markdown textwidth=78
+-->
