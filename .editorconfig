@@ -10,6 +10,7 @@ charset = utf-8
 # Accessibility reasons. Vim: :%retab! (note also :set ts=4)
 indent_style = space
 #tab_width =
+max_line_length = 78
 
 [*.{markdown,md}]
 trim_trailing_whitespace = false
@@ -18,3 +19,4 @@ trim_trailing_whitespace = false
 indent_style = tab
 indent_size = tab
 trim_trailing_whitespace = false
+max_line_length =
