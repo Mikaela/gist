@@ -10,6 +10,11 @@ repos:
       - id: detect-private-key
       - id: end-of-file-fixer
       - id: fix-byte-order-marker
+  - repo: https://github.com/thlorenz/doctoc
+    rev: v2.2.0
+    hooks:
+      - id: doctoc
+        args: [--update-only]
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v3.0.0-alpha.6"
     hooks:
@@ -20,8 +25,3 @@ repos:
       - id: editorconfig-checker
         alias: ec
         args: [-disable-max-line-length]
-  - repo: https://github.com/thlorenz/doctoc
-    rev: v2.2.0
-    hooks:
-      - id: doctoc
-        args: [--update-only]
