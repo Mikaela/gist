@@ -54,3 +54,11 @@ integration manager for benefit of Element iOS users.
 
 Note that the bot will likely require power level to touch room state so
 it will in most cases require power level 50.
+
+For reference the list of commands:
+
+- `!feeds feed <url> [label]` - Bridge an RSS/Atom feed to the room.
+- `!feeds feed list` - Show feeds currently subscribed to.
+- `!feeds feed remove <url>` - Unsubscribe from an RSS/Atom feed.
+- `!feeds setup-widget` - Open the setup widget in the room
+- `!feeds help` - This help text
