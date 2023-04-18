@@ -37,3 +37,6 @@
 [submodule "submodules/playstation2/OpenPS2Loader_Widescreen_Cheats"]
 	path = submodules/playstation2/OpenPS2Loader_Widescreen_Cheats
 	url = https://github.com/madmodder123/OpenPS2Loader_Widescreen_Cheats.git
+[submodule "briar/forums/retiolus"]
+	path = briar/forums/retiolus
+	url = https://codeberg.org/retiolus/Briar-Forums.git
