@@ -40,3 +40,6 @@
 [submodule "briar/forums/retiolus"]
 	path = briar/forums/retiolus
 	url = https://codeberg.org/retiolus/Briar-Forums.git
+[submodule "LaTeX/european-union-flags"]
+	path = LaTeX/european-union-flags
+	url = https://gitea.blesmrt.net/Mikaela/eu-lippuprojekti.git
