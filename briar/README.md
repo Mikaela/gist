@@ -20,13 +20,13 @@ wasn't given a navigation menu entry.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Naming](#naming)
+- [My account naming](#my-account-naming)
 - [Briar desktop](#briar-desktop)
 - [Further reading and quotes](#further-reading-and-quotes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Naming
+## My account naming
 
 I tend to name my accounts `Aminda-HOSTNAME (%Y-%j)` e.g.
 `Aminda-Lumina (2022-153)` where `%Y` is year in 4 digits and `%j` the day
