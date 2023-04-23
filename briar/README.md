@@ -21,6 +21,7 @@ wasn't given a navigation menu entry.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [My account naming](#my-account-naming)
+  - [Which accounts of mine you should care about?](#which-accounts-of-mine-you-should-care-about)
 - [Briar desktop](#briar-desktop)
 - [Further reading and quotes](#further-reading-and-quotes)
 
@@ -37,6 +38,40 @@ This is by no means a security feature, anyone can name their device like
 that, it's more of convenience should there be older and newer me on same
 device in contacts lists. This doesn't either mean that I will remember
 this scheme or updating these files.
+
+### Which accounts of mine you should care about?
+
+For more details such as the Briar links, refer to `my-accounts.tsv`.
+
+- My Briar desktops serve my phones that only connect to network when charging
+  - `Aminda-Lumina (2022-153)` has recently been more active and travels with
+    me.
+  - `Aminda (SedricFlatpak-2022-075)` home device that also runs Samba for
+    PlayStation 2
+- My phones are
+  - `Aminda-Janus (2023-061)` - actually tertiary phone, but native Android
+    and which I mostly use to post to forums to (via WLAN)
+  - `Mikaela` - my main phone predating the naming scheme discussed earlier,
+    but as it's SailfishOS Android AppSupport important Briar features are not
+    implemented and I don't use it that much.
+- My family devices that are seldom online don't need to be cared about that
+  much, but they have all the forums that my other devices if I have been
+  sharing them.
+  - `Aminda-Zaldaryn (2022-161)` - mostly seen when I am at family.
+  - `Aminda-Rbtpzn (2023-034)` - 2006 desktop PC that really shouldn't have
+    Briar.
+- Then there are deprecated accounts/devices that occassionally come online
+  but are not a priority.
+  - `A` replaced by `Aminda-Janus`
+- And dead accounts.
+  - `Aminda-Janus (2022-311)`
+    - factory reset on 2023-061. Note changed date number.
+
+And to repeat one more time:
+
+> `%j     The day of the year as a decimal number (range 001 to 366).  (Calculated from tm_yday.)`
+
+-- `Manual page strftime(3)`
 
 ## Briar desktop
 
