@@ -1,6 +1,6 @@
 [submodule "LaTeX/piraattitesti"]
 	path = LaTeX/piraattitesti
-	url = https://git.piraattipuolue.fi/mikaela/testi.git
+	url = https://git.piraattipuolue.fi/mikaela.suomalainen/testi.git
 [submodule "gayming/fixcontroller.py"]
 	path = gayming/fixcontroller.py
 	url = https://gist.github.com/de2df973323b7c6acf45f40dc66e8db3.git
@@ -30,7 +30,7 @@
 	url = https://github.com/datakurre/vakioasiakirja.git
 [submodule "LaTeX/kirja"]
 	path = LaTeX/kirja
-	url = https://git.piraattipuolue.fi/mikaela/kirja.git
+	url = https://git.piraattipuolue.fi/mikaela.suomalainen/kirja.git
 [submodule "submodules/playstation2/OPL-Widescreen-Cheats"]
 	path = submodules/playstation2/OPL-Widescreen-Cheats
 	url = https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats.git
