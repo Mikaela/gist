@@ -1,13 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Briar notes](#briar-notes)
-  - [Naming](#naming)
-  - [Briar desktop](#briar-desktop)
-  - [Further reading and quotes](#further-reading-and-quotes)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Briar notes
 
 Briar is a P2P over Tor messenger that can also peer over LAN and Bluetooth.
@@ -24,6 +14,17 @@ introductions can be made without timeout concerns._
 Briar doesn't hold as big place in my heart as IRC or Matrix to have a
 dedicated page either and my HTML table tendency is effort even if the page
 wasn't given a navigation menu entry.
+
+## Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Naming](#naming)
+- [Briar desktop](#briar-desktop)
+- [Further reading and quotes](#further-reading-and-quotes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Naming
 
