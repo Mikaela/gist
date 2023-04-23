@@ -1,9 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [LICENSING](#licensing)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Mikaela/gist/master.svg)](https://results.pre-commit.ci/latest/github/Mikaela/gist/master)
 
 This repository is a random assortment of files. In the beginning, I had
 some of them at gist.github.com, but as it doesn't provide any way for me
