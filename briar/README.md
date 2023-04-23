@@ -63,6 +63,8 @@ For more details such as the Briar links, refer to `my-accounts.tsv`.
 - Then there are deprecated accounts/devices that occassionally come online
   but are not a priority.
   - `A` replaced by `Aminda-Janus`
+  - `Aminda-Lumina-UserTest-2023-045` is a Briar test build instance as a
+    result of attempting to contribute and test Briar flatpak.
 - And dead accounts.
   - `Aminda-Janus (2022-311)`
     - factory reset on 2023-061. Note changed date number.
