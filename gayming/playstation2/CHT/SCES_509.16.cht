@@ -1,1 +1,986 @@
-../../../submodules/playstation2/OPL-Widescreen-Cheats/CHT/SCES_509.16.cht
+"Ratchet & Clank /ID SCES_509.16"
+
+// From https://gamehacking.org/game/102366
+// "Ratchet & Clank (PAL-M5)"
+// (M) Must Be On
+DEADFACE 04030209
+F01DA2D2 589BEF9D
+// (M) Must Be On
+//DEADFACE 04030209
+//F01DA512 589BEA9D
+// 002 Mask
+// C01C9EA4 58B5D467
+// 002 Mask
+// C01CA19C 58B5D467
+// 002 Mask
+// 0013D5CE 00000001
+// 002 Mask
+// 0013D4C6 00000001
+// Accuracy Counts
+// 0013D414 00000001
+// Alien Invasion
+// 0013D41A 00000001
+// All Skills Complete
+// 2013D408 01010101
+// 2013D40C 01010101
+// 2013D410 01010101
+// 2013D414 01010101
+// 2013D418 01010101
+// 2013D41C 01010101
+// 2013D420 01010101
+// 1013D424 00000101
+// Any Ten
+// 0013D40E 00000001
+// Aridia
+// 2013D514 00000002
+// Batalia
+// 2013D52C 00000008
+// Blast 'em
+// 0013D420 00000001
+// Blimpy
+// 0013D40C 00000001
+// Bolt Grabber
+// C01C9EB8 58B5D467
+// Bolt Grabber
+// C01CA1B0 58B5D467
+// Bolt Grabber
+// 0013D5EA 00000001
+// Bolt Grabber
+// 0013D4E2 00000001
+// Bomb Glove
+// C01C9EA0 58B5D467
+// Bomb Glove
+// C01CA198 58B5D467
+// Bomb Glove
+// 0013D5D2 00000001
+// Bomb Glove
+// 0013D4CA 00000001
+// Buried Treasure
+// 0013D41B 00000001
+// Careful Cruise
+// 0013D424 00000001
+// Cluck, Cluck
+// 0013D410 00000001
+// Decoy Glove
+// C01C9EB1 58B5D467
+// Decoy Glove
+// C01CA1A9 58B5D467
+// Decoy Glove
+// 0013D5E1 00000001
+// Decoy Glove
+// 0013D4D9 00000001
+// Destroyed
+// 0013D416 00000001
+// Devastator
+// C01C9EA7 58B5D467
+// Devastator
+// C01CA19F 58B5D467
+// Devastator
+// 0013D5D3 00000001
+// Devastator
+// 0013D4CB 00000001
+// Drone Device
+// C01C9EBA 58B5D467
+// Drone Device
+// C01CA1B2 58B5D467
+// Drone Device
+// 0013D5E0 00000001
+// Drone Device
+// 0013D4D8 00000001
+// Eat Lead
+// 0013D415 00000001
+// Eudora
+// 2013D51C 00000004
+// Gadgetron PDA
+// 0013D5E8 00000001
+// Gadgetron Pda
+// C01C9EC2 58B5D467
+// Gadgetron Pda
+// C01CA1BA 58B5D467
+// Gadgetron Pda
+// 0013D4E0 00000001
+// Gaspar
+// 2013D530 00000009
+// Girl Trouble
+// 0013D412 00000001
+// Going Commando
+// 0013D425 00000001
+// Goodies Option
+0015EE20 00000001
+// Grind Boots
+// 0013D5E5 00000001
+// Grindboots
+// C01C9EBD 58B5D467
+// Grindboots
+// C01CA1B5 58B5D467
+// Grindboots
+// 0013D4DD 00000001
+// Gunner
+// 0013D417 00000001
+// Have Blaster
+// C01C9EB3 58B5D467
+// Have Blaster
+// C01CA1AB 58B5D467
+// Have Blaster
+// 0013D5D7 00000001
+// Have Blaster
+// 0013D4CF 00000001
+// Have Glove Of Doom
+// C01C9EAE 58B5D467
+// Have Glove Of Doom
+// C01CA1A6 58B5D467
+// Have Glove Of Doom
+// 0013D5DC 00000001
+// Have Glove Of Doom
+// 0013D4D4 00000001
+// Have Hydro Displacer
+// 0013D5DE 00000001
+// Have Hydrodisplacer
+// C01C9EB4 58B5D467
+// Have Hydrodisplacer
+// C01CA1AC 58B5D467
+// Have Hydrodisplacer
+// 0013D4D6 00000001
+// Have Metal Detector
+// C01C9EB7 58B5D467
+// Have Metal Detector
+// C01CA1AF 58B5D467
+// Have Metal Detector
+// 0013D5E3 00000001
+// Have Metal Detector
+// 0013D4DB 00000001
+// Have Mine Gloves
+// C01C9EA9 58B5D467
+// Have Mine Gloves
+// C01CA1A1 58B5D467
+// Have Mine Gloves
+// 0013D5D9 00000001
+// Have Mine Gloves
+// 0013D4D1 00000001
+// Have Morph-o-Ray
+// C01C9EB5 58B5D467
+// Have Morph-o-Ray
+// C01CA1AD 58B5D467
+// Have Morph-o-Ray
+// 0013D5DD 00000001
+// Have Morph-o-Ray
+// 0013D4D5 00000001
+// Have Pyrocitor
+// C01C9EB2 58B5D467
+// Have Pyrocitor
+// C01CA1AA 58B5D467
+// Have Pyrocitor
+// 0013D5D8 00000001
+// Have Pyrocitor
+// 0013D4D0 00000001
+// Have R.Y.N.O
+// C01C9EBB 58B5D467
+// Have R.Y.N.O
+// C01CA1B3 58B5D467
+// Have R.Y.N.O.
+// 0013D5DF 00000001
+// Have R.Y.N.O.
+// 0013D4D7 00000001
+// Have Tesla Claw
+// C01C9EAF 58B5D467
+// Have Tesla Claw
+// C01CA1A7 58B5D467
+// Have Tesla Claw
+// 0013D5DB 00000001
+// Have Tesla Claw
+// 0013D4D3 00000001
+// Have Trespasser
+// C01C9EB0 58B5D467
+// Have Trespasser
+// C01CA1A8 58B5D467
+// Have Trespasser
+// 0013D5E2 00000001
+// Have Trespasser
+// 0013D4DA 00000001
+// Have Visibomb Gun
+// C01C9EAD 58B5D467
+// Have Visibomb Gun
+// C01CA1A5 58B5D467
+// Have Visibomb Gun
+// 0013D5D5 00000001
+// Have Visibomb Gun
+// 0013D4CD 00000001
+// Have Walloper
+// C01C9EA8 58B5D467
+// Have Walloper
+// C01CA1A0 58B5D467
+// Have Walloper
+// 0013D5DA 00000001
+// Have Walloper
+// 0013D4D2 00000001
+// Heavy Traffic
+// 0013D421 00000001
+// Heli Pack
+// C01C9E98 58B5D467
+// Heli Pack
+// C01CA110 58B5D467
+// Heli Pack
+// 0013D5CA 00000001
+// Heli Pack
+// 0013D4C2 00000001
+// Hey, Over Here!
+// 0013D419 00000001
+// Hologuise
+// C01C9EC3 58B5D467
+// Hologuise
+// C01CA1BB 58B5D467
+// Hologuise
+// 0013D5E7 00000001
+// Hologuise
+// 0013D4DF 00000001
+// Hoven
+// 2013D53C 0000000C
+// Hoverboard
+// C01C9EBC 58B5D467
+// Hoverboard
+// C01CA1B4 58B5D467
+// Hoverboard
+// 0013D5E6 00000001
+// Hoverboard
+// 0013D4DE 00000001
+// Hydro Pack
+// C01C9E9E 58B5D467
+// Hydro Pack
+// C01CA116 58B5D467
+// Hydro Pack
+// 0013D5CC 00000001
+// Hydro Pack
+// 0013D4C4 00000001
+// Infinite Blaster Ammo
+// C01C9E42 58B5D467
+// Infinite Blaster Ammo
+// C01CA136 58B5D467
+// Infinite Blaster Ammo
+// 0013D568 00000001
+// Infinite Blaster Ammo
+// 0013D464 00000001
+// Infinite Bolts
+// EE1E87F2 5145C599
+// Infinite Bolts
+// EE1E86F2 31B5C599
+// Infinite Bolts
+// 2015EE98 05F00FAB
+// Infinite Bolts
+// 2015ED98 5F000FAB
+// Infinite Bomb Glove
+// C01C9E32 58B5D41E
+// Infinite Bomb Glove
+// C01CA12A 58B5D41E
+// Infinite Bomb Glove
+// 0013D558 00000028
+// Infinite Bomb Glove
+// 0013D450 00000028
+// Infinite Decoy Glove
+// C01C9EE6 58B5D478
+// Infinite Decoy Glove
+// C01CA1DE 58B5D478
+// Infinite Decoy Glove
+// 0013D594 0000000A
+// Infinite Decoy Glove
+// 0013D48C 0000000A
+// Infinite Devastator Ammo
+// C01C9E32 58B5D472
+// Infinite Devastator Ammo
+// C01CA126 58B5D472
+// Infinite Devastator Ammo
+// 0013D558 00000014
+// Infinite Devastator Ammo
+// 0013D454 00000014
+// Infinite Drone Dev
+// C01C9EEA 58B5D478
+// Infinite Drone Dev
+// C01CA1E2 58B5D478
+// Infinite Drone Dev
+// 0013D590 0000000A
+// Infinite Drone Dev
+// 0013D488 0000000A
+// Infinite Glove Of Doom Ammo
+// C01C9E5A 58B5D478
+// Infinite Glove Of Doom Ammo
+// C01CA152 58B5D478
+// Infinite Glove Of Doom Ammo
+// 0013D580 0000000A
+// Infinite Glove Of Doom Ammo
+// 0013D478 0000000A
+// Infinite Life
+// EE1F5FD2 50B5D462
+// Infinite Life
+// C01F5ED2 58B5D462
+// Infinite Life
+// 201416F8 00000004
+// Infinite Lives
+// 001415F8 00000004
+// Infinite Mine Glove Ammo
+// C01C9E46 58B5D410
+// Infinite Mine Glove Ammo
+// C01CA13E 58B5D410
+// Infinite Mine Glove Ammo
+// 0013D574 00000032
+// Infinite Mine Glove Ammo
+// 0013D46C 00000032
+// Infinite Pyrocitor Ammo
+// C01C9E4A 58B5D456
+// Infinite Pyrocitor Ammo
+// C01CA142 58B5D456
+// Infinite Pyrocitor Ammo
+// 0013D570 000000F0
+// Infinite Pyrocitor Ammo
+// 0013D468 000000F0
+// Infinite R.Y.N.O Ammo
+// C01C9EDE 58B5D467
+// Infinite R.Y.N.O Ammo
+// C01CA156 58B5D467
+// Infinite R.Y.N.O. Ammo
+// 0013D58C 00000001
+// Infinite R.Y.N.O. Ammo
+// 0013D484 00000001
+// Infinite Tesla Claw Ammo
+// C01C9E52 58B5D456
+// Infinite Tesla Claw Ammo
+// C01CA146 58B5D456
+// Infinite Tesla Claw Ammo
+// 0013D578 000000F0
+// Infinite Tesla Claw Ammo
+// 0013D474 000000F0
+// Infinite Visibomb Ammo
+// C01C9E36 58B5D472
+// Infinite Visibomb Ammo
+// C01CA12E 58B5D472
+// Infinite Visibomb Ammo
+// 0013D564 00000014
+// Infinite Visibomb Ammo
+// 0013D45C 00000014
+// Jumper
+// 0013D413 00000001
+// Kalebo Iii
+// 2013D54C 00000010
+// Kerwan
+// 2013D518 00000003
+// Magician
+// 0013D422 00000001
+// Magne Boots
+// 0013D5E4 00000001
+// Magneboots
+// C01C9EB6 58B5D467
+// Magneboots
+// C01CA1AE 58B5D467
+// Magneboots
+// 0013D4DC 00000001
+// Map-o-Matic
+// C01C9EB9 58B5D467
+// Map-o-Matic
+// 0013D5E9 00000001
+// Map-o-Matic
+// 0013D4E1 00000001
+// Map-o-matic
+// C01CA1B1 58B5D467
+// Moon Jump
+// EE187CDA 60ABD472
+// EE187CD6 D0EB82CA
+// EE187C62 70B49565
+// EE187C5E 40F4D462
+// EE187C66 60ABD472
+// EE187C72 60B41666
+// EE187C6E F0F4DF2E
+// EE187C76 5155D47E
+// EE1AE762 50AAD5A6
+// Moon Jump
+// EE187CDA 60ABD472
+// EE187CD6 D0EB83CA
+// EE187C62 70B49565
+// EE187C5E 40F4D462
+// EE187C66 60ABD472
+// EE187C72 60B41666
+// EE187C6E F0F4D82E
+// EE187C76 5155D47E
+// EE1AE862 50AAD5A6
+// Moon Jump
+// 200FFF00 3C020014
+// 200FFF04 8442CA5C
+// 200FFF08 2401BFFF
+// 200FFF0C 14410004
+// 200FFF14 3C020014
+// 200FFF18 3C013E00
+// 200FFF1C AC41F538
+// 200FFF24 03E00008
+// 20118E08 0803FFC0
+// Moon Jump
+// 200FFF00 3C020014
+// 200FFF04 8442C95C
+// 200FFF08 2401BFFF
+// 200FFF0C 14410004
+// 200FFF14 3C020014
+// 200FFF18 3C013E00
+// 200FFF1C AC41F438
+// 200FFF24 03E00008
+// 20118B08 0803FFC0
+// Nebula G34
+// 2013D524 00000006
+// Never More Than 1 Life
+// D01415F8 00500001
+// 001415F8 00000001
+// Never More Than 2 Lives
+// D01415F8 00500002
+// 001415F8 00000002
+// Never More Than 3 Lives
+// D01415F8 00500003
+// 001415F8 00000003
+// Novalis
+// 2013D510 00000001
+// Oltanis
+// 2013D544 0000000E
+// Oltanis Orbit
+// 2013D540 0000000D
+// Orxon
+// 2013D534 0000000A
+// Persuader
+// C01C9EBF 58B5D467
+// Persuader
+// C01CA1B7 58B5D467
+// Persuader
+// 0013D5EB 00000001
+// Persuader
+// 0013D4E3 00000001
+// Pest Control
+// 0013D41C 00000001
+// Pilot Helmet
+// C01C9EAB 58B5D467
+// Pilot Helmet
+// C01CA1A3 58B5D467
+// Pilot Helmet
+// 0013D5CF 00000001
+// Pilot Helmet
+// 0013D4C7 00000001
+// Pokitaru
+// 2013D538 0000000B
+// Pots Of Gold Bolts
+// EE1FBC16 51B4CB67
+// EE1FBCA2 51B4CB67
+// EE1FBC9E 51B4CB67
+// EE1FBCAA 51B4CB67
+// EE1FBCA6 51B4CB67
+// EE1FBCB2 51B4CB67
+// EE1FBCAE 51B4CB67
+// EE1FBCBA 51B4CB67
+// EE1FBCB6 51B4CB67
+// EE1FBCC2 51B4CB67
+// Pots Of Gold Bolts
+// EE1FB716 51B4CB67
+// EE1FB7A2 51B4CB67
+// EE1FB79E 51B4CB67
+// EE1FB7AA 51B4CB67
+// EE1FB7A6 51B4CB67
+// EE1FB7B2 51B4CB67
+// EE1FB7AE 51B4CB67
+// EE1FB7BA 51B4CB67
+// EE1FB7B6 51B4CB67
+// EE1FB7C2 51B4CB67
+// Pots Of Gold Bolts
+// 2014BFC4 01010101
+// 2014BFC8 01010101
+// 2014BFCC 01010101
+// 2014BFD0 01010101
+// 2014BFD4 01010101
+// 2014BFD8 01010101
+// 2014BFDC 01010101
+// 2014BFE0 01010101
+// 2014BFE4 01010101
+// 2014BFE8 01010101
+// Pots Of Gold Bolts
+// 2014BEC4 01010101
+// 2014BEC8 01010101
+// 2014BECC 01010101
+// 2014BED0 01010101
+// 2014BED4 01010101
+// 2014BED8 01010101
+// 2014BEDC 01010101
+// 2014BEE0 01010101
+// 2014BEE4 01010101
+// 2014BEE8 01010101
+// Quartu
+// 2013D548 0000000F
+// Qwarktastic
+// 0013D40D 00000001
+// Rilgar
+// 2013D520 00000005
+// Shattered Glass
+// 0013D41F 00000001
+// Sitting Ducks
+// 0013D41E 00000001
+// Sneaky
+// 0013D423 00000001
+// Sniper
+// 0013D418 00000001
+// Sonic Summoner
+// C01C9EA5 58B5D467
+// Sonic Summoner
+// C01CA19D 58B5D467
+// Sonic Summoner
+// 0013D5CD 00000001
+// Sonic Summoner
+// 0013D4C5 00000001
+// Speedy
+// 0013D411 00000001
+// Strike A Pose
+// 0013D40B 00000001
+// Suck Cannon
+// C01C9EA1 58B5D467
+// Suck Cannon
+// C01CA199 58B5D467
+// Suck Cannon
+// 0013D5D1 00000001
+// Suck Cannon
+// 0013D4C9 00000001
+// Swing It
+// 0013D409 00000001
+// Swingshot
+// C01C9EA6 58B5D467
+// Swingshot
+// C01CA19E 58B5D467
+// Swingshot
+// 0013D5D4 00000001
+// Swingshot
+// 0013D4CC 00000001
+// Take Aim
+// 0013D408 00000001
+// Taunter
+// C01C9EAC 58B5D467
+// Taunter
+// C01CA1A4 58B5D467
+// Taunter
+// 0013D5D6 00000001
+// Taunter
+// 0013D4CE 00000001
+// Thruster Pack
+// C01C9E9F 58B5D467
+// Thruster Pack
+// C01CA117 58B5D467
+// Thruster Pack
+// 0013D5CB 00000001
+// Thruster Pack
+// 0013D4C3 00000001
+// Transported
+// 0013D40A 00000001
+// Tricky
+// 0013D40F 00000001
+// Umbris
+// 2013D528 00000007
+// Veldin
+// 2013D554 00000012
+// Veldin Orbit
+// 2013D550 00000011
+// Whirleybirds
+// 0013D41D 00000001
+
+// Widescreen patches from
+// https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats/blob/main/CHT/SCES_509.16.cht
+
+Mastercode
+9011abf0 0c046aa4
+
+// 16:9 code-inject function
+e0220000 00100000
+200ffef4 3c013f40
+200ffef8 34210001
+200ffefc 4481f000
+200fff00 3c013f21
+200fff04 342147af
+200fff08 8c7900b0
+200fff0c 14390007
+200fff10 00000000
+200fff14 4481f800
+200fff18 e47f00b0
+200fff1c 461e0843
+200fff20 c46000b0
+200fff24 46010003
+200fff28 e46000b4
+200fff2c 3c013f21
+200fff30 342147ae
+200fff34 8c7900b0
+200fff38 14390004
+200fff3c 00000000
+200fff40 4481f800
+200fff44 461effc3
+200fff48 e47f00b0
+200fff4c 3c013ed4
+200fff50 34210674
+200fff54 8c7900b0
+200fff58 14390004
+200fff5c 00000000
+200fff60 4481f800
+200fff64 461effc3
+200fff68 e47f00b0
+200fff6c 461e0842
+200fff70 c46000b0
+200fff74 46010002
+200fff78 e46000b4
+
+e0050000 00100000
+200fff84 3c013421
+200fff88 342147af
+200fff8c 4481f000
+200fff98 ae220054
+200fff9c ae200058
+
+e0050000 00100000
+200fffb0 3c013421
+200fffb4 342147ae
+200fffb8 4481f000
+200fffc4 24050001
+200fffc8 8c46001c
+
+
+// Main Menu
+e003caff 001f3168
+201f31a8 0803ffbd
+201f31ac 00000000
+200fff7c 0807cc6b
+
+
+// Planet Veldin - Kyzil Plateau
+e00ecaff 001f7d28
+201f7d68 0803ffbd
+201f7d6c 00000000
+200fff7c 0807df5b
+20277404 342147af
+2029bb20 0803ffe1
+2029bb24 00000000
+200fff90 3c01001f
+200fff94 e43e7c10
+200fffa0 080a6ec9
+2029e7d8 0803ffec
+2029e7dc 00000000
+200fffbc 3c01001f
+200fffc0 e43e7c10
+200fffcc 080a79f7
+
+
+// Planet Novalis - Tobruk Crater
+e00ecaff 002198a8
+202198e8 0803ffbd
+202198ec 00000000
+200fff7c 0808663b
+2028d0ec 342147af
+202af538 0803ffe1
+202af53c 00000000
+200fff90 3c010022
+200fff94 e43e9790
+200fffa0 080abd4f
+202b2470 0803ffec
+202b2474 00000000
+200fffbc 3c010022
+200fffc0 e43e9790
+200fffcc 080ac91d
+
+
+// Planet Kerwan - Metropolis
+e00ecaff 001f1610
+201f1650 0803ffbd
+201f1654 00000000
+200fff7c 0807c595
+20265f8c 342147af
+20288380 0803ffe1
+20288384 00000000
+200fff90 3c01001f
+200fff94 e43e14f8
+200fffa0 080a20e1
+2028b038 0803ffec
+2028b03c 00000000
+200fffbc 3c01001f
+200fffc0 e43e14f8
+200fffcc 080a2c0f
+
+
+// Planet Aridia - Outpost XII
+e00ecaff 00208b90
+20208bd0 0803ffbd
+20208bd4 00000000
+200fff7c 080822f5
+2027886c 342147af
+2029b278 0803ffe1
+2029b27c 00000000
+200fff90 3c010021
+200fff94 e43e8a78
+200fffa0 080a6c9f
+2029df30 0803ffec
+2029df34 00000000
+200fffbc 3c010021
+200fffc0 e43e8a78
+200fffcc 080a77cd
+
+
+// Planet Eudora - Logging Site
+e00ecaff 001ea610
+201ea650 0803ffbd
+201ea654 00000000
+200fff7c 0807a995
+2026a664 342147af
+2028c948 0803ffe1
+2028c94c 00000000
+200fff90 3c01001f
+200fff94 e43ea4f8
+200fffa0 080a3253
+2028f600 0803ffec
+2028f604 00000000
+200fffbc 3c01001f
+200fffc0 e43ea4f8
+200fffcc 080a3d81
+
+
+// Nebula G34 - Blarg Station
+e00ecaff 0020f910
+2020f950 0803ffbd
+2020f954 00000000
+200fff7c 08083e55
+20286164 342147af
+202a8b98 0803ffe1
+202a8b9c 00000000
+200fff90 3c010021
+200fff94 e43ef7f8
+200fffa0 080aa2e7
+202ab850 0803ffec
+202ab854 00000000
+200fffbc 3c010021
+200fffc0 e43ef7f8
+200fffcc 080aae15
+
+
+// Planet Rilgar - Blackwater City
+e00ecaff 00226990
+202269d0 0803ffbd
+202269d4 00000000
+200fff7c 08089a75
+202a16b4 342147af
+202c4218 0803ffe1
+202c421c 00000000
+200fff90 3c010022
+200fff94 e43e6878
+200fffa0 080b1087
+202c6ed0 0803ffec
+202c6ed4 00000000
+200fffbc 3c010022
+200fffc0 e43e6878
+200fffcc 080b1bb5
+
+
+// Planet Umbris - Qwark's HQ
+e00ecaff 0021fa90
+2021fad0 0803ffbd
+2021fad4 00000000
+200fff7c 08087eb5
+2029fd54 342147af
+202c26f8 0803ffe1
+202c26fc 00000000
+200fff90 3c010022
+200fff94 e43ef978
+200fffa0 080b09bf
+202c53b0 0803ffec
+202c53b4 00000000
+200fffbc 3c010022
+200fffc0 e43ef978
+200fffcc 080b14ed
+
+
+// Planet Batalia - Fort Krontos
+e00ecaff 0020a6b8
+2020a6f8 0803ffbd
+2020a6fc 00000000
+200fff7c 080829bf
+20281a7c 342147af
+202a3e68 0803ffe1
+202a3e6c 00000000
+200fff90 3c010021
+200fff94 e43ea5a0
+200fffa0 080a8f9b
+202a6b20 0803ffec
+202a6b24 00000000
+200fffbc 3c010021
+200fffc0 e43ea5a0
+200fffcc 080a9ac9
+
+
+// Planet Gaspar - Blarg Depot
+e00ecaff 00216f90
+20216fd0 0803ffbd
+20216fd4 00000000
+200fff7c 08085bf5
+20296124 342147af
+202b8370 0803ffe1
+202b8374 00000000
+200fff90 3c010021
+200fff94 e43e6e78
+200fffa0 080ae0dd
+202bb028 0803ffec
+202bb02c 00000000
+200fffbc 3c010021
+200fffc0 e43e6e78
+200fffcc 080aec0b
+
+
+// Planet Orxon - Kogor Refinery
+e00ecaff 001eb310
+201eb350 0803ffbd
+201eb354 00000000
+200fff7c 0807acd5
+2026a234 342147af
+2028c530 0803ffe1
+2028c534 00000000
+200fff90 3c01001f
+200fff94 e43eb1f8
+200fffa0 080a314d
+2028f1e8 0803ffec
+2028f1ec 00000000
+200fffbc 3c01001f
+200fffc0 e43eb1f8
+200fffcc 080a3c7b
+
+
+// Planet Pokitaru - Jowai Resort
+e00ecaff 00229510
+20229550 0803ffbd
+20229554 00000000
+200fff7c 0808a555
+2029c6ac 342147af
+202be938 0803ffe1
+202be93c 00000000
+200fff90 3c010023
+200fff94 e43e93f8
+200fffa0 080afa4f
+202c15f0 0803ffec
+202c15f4 00000000
+200fffbc 3c010023
+200fffc0 e43e93f8
+200fffcc 080b057d
+
+
+// Planet Hoven - Bomb Factory
+e00ecaff 0021a718
+2021a758 0803ffbd
+2021a75c 00000000
+200fff7c 080869d7
+2028ffdc 342147af
+202b22d8 0803ffe1
+202b22dc 00000000
+200fff90 3c010022
+200fff94 e43ea600
+200fffa0 080ac8b7
+202b4f90 0803ffec
+202b4f94 00000000
+200fffbc 3c010022
+200fffc0 e43ea600
+200fffcc 080ad3e5
+
+
+// Oltanis Orbit - Gemlik Base
+// TODO: AMINDA experiences crash upon activating vendor. Is it related to this? INVESTIGATE!
+//e00ecaff 00203690
+//202036d0 0803ffbd
+////202036d4 00000000
+//200fff7c 08080db5
+//20283494 342147af
+//202a5e40 0803ffe1
+//202a5e44 00000000
+//200fff90 3c010020
+//200fff94 e43e3578
+//200fffa0 080a9791
+//202a8d78 0803ffec
+//202a8d7c 00000000
+//200fffbc 3c010020
+//200fffc0 e43e3578
+//200fffcc 080aa35f
+
+// Planet Oltanis - Gorda City Ruins
+e00ecaff 0020af18
+2020af58 0803ffbd
+2020af5c 00000000
+200fff7c 08082bd7
+2027fb44 342147af
+202a1e78 0803ffe1
+202a1e7c 00000000
+200fff90 3c010021
+200fff94 e43eae00
+200fffa0 080a879f
+202a4b30 0803ffec
+202a4b34 00000000
+200fffbc 3c010021
+200fffc0 e43eae00
+200fffcc 080a92cd
+
+
+// Planet Quartu - Robot Plant
+e00ecaff 001f1390
+201f13d0 0803ffbd
+201f13d4 00000000
+200fff7c 0807c4f5
+20266fec 342147af
+202899a8 0803ffe1
+202899ac 00000000
+200fff90 3c01001f
+200fff94 e43e1278
+200fffa0 080a266b
+2028c660 0803ffec
+2028c664 00000000
+200fffbc 3c01001f
+200fffc0 e43e1278
+200fffcc 080a3199
+
+
+// Planet Kalebo III - Gadgetron Site
+e00ecaff 001f6510
+201f6550 0803ffbd
+201f6554 00000000
+200fff7c 0807d955
+20272614 342147af
+202949a8 0803ffe1
+202949ac 00000000
+200fff90 3c01001f
+200fff94 e43e63f8
+200fffa0 080a526b
+20297660 0803ffec
+20297664 00000000
+200fffbc 3c01001f
+200fffc0 e43e63f8
+200fffcc 080a5d99
+
+
+// Veldin Orbit - Drek's Fleet
+e00ecaff 001f4e10
+201f4e50 0803ffbd
+201f4e54 00000000
+200fff7c 0807d395
+202714dc 342147af
+20293da8 0803ffe1
+20293dac 00000000
+200fff90 3c01001f
+200fff94 e43e4cf8
+200fffa0 080a4f6b
+20296a60 0803ffec
+20296a64 00000000
+200fffbc 3c01001f
+200fffc0 e43e4cf8
+200fffcc 080a5a99
+
+
+// Planet Veldin - Kyzil Plateau (Final Visit)
+e00ecaff 00200990
+202009d0 0803ffbd
+202009d4 00000000
+200fff7c 08080275
+202792cc 342147af
+2029b608 0803ffe1
+2029b60c 00000000
+200fff90 3c010020
+200fff94 e43e0878
+200fffa0 080a6d83
+2029e2c0 0803ffec
+2029e2c4 00000000
+200fffbc 3c010020
+200fffc0 e43e0878
+200fffcc 080a78b1
+
+//
