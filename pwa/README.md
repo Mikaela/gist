@@ -104,6 +104,7 @@ fields.
 
 - https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site),
   which is also a neighbourhood in Helsinki, Finland.
+- https://osmgo.com/ - OpenStreetMap PoI contribution app
 
 ## Not PWAs but still possibly useful for homescreens
 
