@@ -4,6 +4,7 @@
 - [Potentially useful progressive web apps](#potentially-useful-progressive-web-apps)
   - [Events](#events)
   - [Food](#food)
+  - [Forums](#forums)
   - [Instant messaging](#instant-messaging)
     - [Matrix](#matrix)
       - [Instant messaging](#instant-messaging-1)
@@ -51,6 +52,10 @@ fields.
 - https://menu.unicafe.fi/ - menu for UniCafes
 - https://resq-club.com/app/ - waste food pickup ordering app
 - https://www.fiksuruoka.fi/ - Finnish waste/expiring grocery store
+
+## Forums
+
+- https://keskustelu.suomi24.fi/ - Suomi24. No explanation required.
 
 ## Instant messaging
 
