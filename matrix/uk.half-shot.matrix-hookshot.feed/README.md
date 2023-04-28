@@ -29,12 +29,14 @@ contains:
 ```json
 {
   "label": "YLE News in English",
-  "template": "$FEEDTITLE: $AUTHOR $TITLE <$LINK> - $SUMMARY",
+  "template": "$FEEDTITLE: $AUTHOR $LINK \n $SUMMARY",
   "url": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
 }
 ```
 
 - `"template"` is optional and defaults to `New post in $FEEDNAME: $LINK`
+  - Note: `$LINK` actually means `[$TITLE](LINK)`.
+    [#731](https://github.com/matrix-org/matrix-hookshot/issues/731)
   - [Upstream documentation](https://matrix-org.github.io/matrix-hookshot/latest/setup/feeds.html#feed-templates)
 
 ## installation
