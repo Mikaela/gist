@@ -13,6 +13,7 @@ perform two state installations/directories/whatever:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [feed](#feed)
+  - [Template variations](#template-variations)
 - [installation](#installation)
 - [Usage without integration manager](#usage-without-integration-manager)
 
@@ -29,15 +30,22 @@ contains:
 ```json
 {
   "label": "YLE News in English",
-  "template": "$FEEDTITLE: $AUTHOR $LINK \n $SUMMARY",
+  "template": "$FEEDTITLE: $AUTHOR $LINK ($DATE) $SUMMARY",
   "url": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
 }
 ```
 
 - `"template"` is optional and defaults to `New post in $FEEDNAME: $LINK`
-  - Note: `$LINK` actually means `[$TITLE](LINK)`.
-    [#731](https://github.com/matrix-org/matrix-hookshot/issues/731)
+  - Note: `$LINK` actually means `[$TITLE](LINK)`. `$URL` is just the link.
   - [Upstream documentation](https://matrix-org.github.io/matrix-hookshot/latest/setup/feeds.html#feed-templates)
+
+### Template variations
+
+This contains the whole JSON line to easen copy-pasting as my events are missing it entirely.
+
+- default: `"template": "New post in $FEEDNAME: $LINK",`
+- Matrix: `"template": "$FEEDTITLE: $AUTHOR $LINK ($DATE) $SUMMARY",`
+- IRC: `"template": "$URL $FEEDTITLE: $AUTHOR ($DATE) $SUMMARY",`
 
 ## installation
 
