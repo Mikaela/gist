@@ -1,3 +1,5 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Mikaela/gist/master.svg)](https://results.pre-commit.ci/latest/github/Mikaela/gist/master)
 
 This repository is a random assortment of files. In the beginning, I had
