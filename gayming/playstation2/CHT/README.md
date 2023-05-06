@@ -21,7 +21,7 @@ where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
 
 ## Games
 
-- `SCES_503.61.cht` ﻿- Jak and Daxter: The Precursor Legacy
+- `SCES_503.61.cht` - Jak and Daxter: The Precursor Legacy
 - `SCES_504.90.cht` - Final Fantasy X
 - `SCES_509.16.cht` - Ratchet & Clank 1 (EU)
 - `SCES_509.17.cht` - Sly Raccoon (EU)
