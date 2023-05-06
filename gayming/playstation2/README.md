@@ -143,6 +143,8 @@ However there are games that give some benefit for having played other games e.g
 - If you have a Ratchet & Clank 2 save on your memory card
   - Ratchet & Clank 3 provides the weapons returing from 2 for free.
 
+See also [TvTropes: Old Save Bonus](https://tvtropes.org/pmwiki/pmwiki.php/Main/OldSaveBonus)
+
 ### OPS2L Version
 
 My backup memory card is on [v1.1.0](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0),
