@@ -23,6 +23,7 @@ where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
 
 - `SCES_503.61.cht` - Jak and Daxter: The Precursor Legacy
 - `SCES_504.90.cht` - Final Fantasy X
+- `SCES_507.60.cht` - ICO
 - `SCES_509.16.cht` - Ratchet & Clank 1 (EU)
 - `SCES_509.17.cht` - Sly Raccoon (EU)
 - `SCES_509.67.cht` - Kingdom Hearts
@@ -36,8 +37,11 @@ where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
 - `SLES_528.32.cht` - Megaman X: Command Mission (EU)
 - `SLES_541.35.cht` - Grand Theft Auto: Liberty City Stories
 - `SLES_542.21.cht` - Lego Star Wars II: The Original Trilogy
+- `SLES_544.39.cht` - Okami
 - `SCES_532.85.cht` - Ratchet: Gladiator (EU)
 - `SCES_534.09.cht` - Sly 3: Honor Among Thieves
 - `SLES_518.15.cht` - Final Fantasy X-2
 - `SLPM_666.75.cht` - Kingdom Hearts II Final Mix
 - `SLPM_667.50.cht` - Final Fantasy XII Zodiac Age
+- `SLUS_214.19.cht` - Dirge of Cerberus - Final Fantasy VII
+- `SLUS_214.52.cht` - Valkyrie Profile 2 - Silmeria
