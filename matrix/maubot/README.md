@@ -19,3 +19,5 @@ Replace X with the feed ID seen in `!rss subscriptions`:
 - IRC: `!rss template X $link $title ($date) $summary ~ $feed_title`
 
 Note: at the time of writing `$author` is not supported?
+
+Remember also that [matterbridge requires](https://github.com/42wim/matterbridge/issues/1393) `!rss notice X false`
