@@ -127,6 +127,10 @@ Network Settings don't have anything special to note. Remember to `save changes`
 - This should be clear without extra documentation
 - Remember to `Save Changes`
 
+Note: PCSX2 can use the same VMCs as OPS2L, so if OPS2L has just small
+segment of unplayable game, PCSX2 can be used to get past it before
+continuing on OPS2L.
+
 #### Why share VMC?
 
 Using VMC shares space on the physical memory card and makes backups easier (e.g. script in this directory). When all games have their own memory card, there is less to lose if something goes wrong.
