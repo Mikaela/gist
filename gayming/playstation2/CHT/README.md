@@ -16,6 +16,9 @@ Additionally most of the files are symlinks to submodule of widescreen patches.
 
 - https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats
 
+Some games also have cheats from [gamehacking.org](https://gamehacking.org/system/ps2)
+where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
+
 ## Games
 
 - `SCES_503.61.cht` ﻿- Jak and Daxter: The Precursor Legacy
