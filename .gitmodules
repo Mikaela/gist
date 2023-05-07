@@ -43,3 +43,6 @@
 [submodule "LaTeX/european-union-flags"]
 	path = LaTeX/european-union-flags
 	url = https://gitea.blesmrt.net/Mikaela/eu-lippuprojekti.git
+[submodule "briar/briar.wiki"]
+	path = briar/briar.wiki
+	url = https://code.briarproject.org/briar/briar.wiki.git
