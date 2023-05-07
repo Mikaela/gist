@@ -93,4 +93,5 @@ add new users)</s> or blogs.
   - > No, your online status isn't exposed by publishing your `briar://` link. Only your contacts can tell whether you're online.
   - > No. Unlike with adding contacts at a distance and its 48 hours timeout, there's no such thing for introductions.
 - https://code.briarproject.org/briar/briar-desktop/-/wikis/Changelog
-  - > \[0.2.0-beta 2022-02-22\] Synchronize messages via local LAN
+  - > `[0.2.0-beta 2022-02-22]` Synchronize messages via local LAN
+- [#2081: Add to FAQ most frequent reasons why Briar fails to connect to a contact](https://code.briarproject.org/briar/briar/-/issues/2081)
