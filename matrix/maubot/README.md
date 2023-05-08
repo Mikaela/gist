@@ -16,7 +16,7 @@ Replace X with the feed ID seen in `!rss subscriptions`:
 
 - default: `!rss template X New post in $feed_title: [$title]($link)`
 - Matrix: `!rss template X [$feed_title]($feed_link): [$title]($link) ($date) $summary`
-- IRC: `!rss template X $link $title ($date) $summary ~ $feed_title`
+- IRC: `!rss template X $link $feed_title: $title ($date) $summary`
 
 Note: at the time of writing `$author` is not supported?
 
