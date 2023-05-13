@@ -7,9 +7,16 @@ For pre-commit configuration see `./.pre-commit-config.yaml`
 To enable it at a specific position, throw in:
 
 ```markdown
+<!-- prettier-ignore-start -->
+
 <!-- START doctoc -->
 <!-- END doctoc -->
+
+<!-- prettier-ignore-end -->
 ```
+
+- https://github.com/thlorenz/doctoc/blob/master/README.md#specifying-location-of-toc
+- https://github.com/thlorenz/doctoc/wiki/Using-doctoc-in-projects-cleaned-by-prettier
 
 <!--
 vim: filetype=markdown textwidth=78
