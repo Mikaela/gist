@@ -25,6 +25,7 @@ fi
 
 # Curiosity, show the space used
 du -hcs --time $BACKUPDIR
+df -h $BACKUPDIR
 
 # When the script finished?
 date "+%Y-%jT%H%M%S"
