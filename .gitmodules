@@ -46,3 +46,18 @@
 [submodule "briar/briar.wiki"]
 	path = briar/briar.wiki
 	url = https://code.briarproject.org/briar/briar.wiki.git
+[submodule "git/github/activity/finland/2015-02-12"]
+	path = git/github/activity/finland/2015-02-12
+	url = https://gist.github.com/1d41a0045ab8e9f411ff.git
+[submodule "git/github/activity/finland/2016-04-19"]
+	path = git/github/activity/finland/2016-04-19
+	url = https://gist.github.com/4ebdda1952976b8cc0af.git
+[submodule "git/github/activity/finland/2014-12-13"]
+	path = git/github/activity/finland/2014-12-13
+	url = https://gist.github.com/b23b15d2859e6cf5386b.git
+[submodule "git/github/activity/finland/2015-04-19"]
+	path = git/github/activity/finland/2015-04-19
+	url = https://gist.github.com/4ebdda1952976b8cc0af.git
+[submodule "git/github/activity/gayanvoice-top-github-users"]
+	path = git/github/activity/gayanvoice-top-github-users
+	url = https://github.com/gayanvoice/top-github-users.git
