@@ -19,8 +19,8 @@ chmod -R 777 $BACKUPDIR
 
 # If duperemove is installed, perform FS based deduplication of backups
 if hash duperemove 2>/dev/null; then
-    # recursive, dedupe, human-readable, hashfile is like ddrescue mapfile
-    duperemove -rdh --hashfile=$BACKUPDIR/duperemove.hashfile $BACKUPDIR/
+        # recursive, dedupe, human-readable, hashfile is like ddrescue mapfile
+        duperemove -rdh --hashfile=$BACKUPDIR/duperemove.hashfile $BACKUPDIR/
 fi
 
 # Curiosity, show the space used
