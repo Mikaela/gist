@@ -1,9 +1,11 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.ci for more information
 ci:
   # Forĝejo/Gitea mirrors will autoclose pull requests. This should decrease
   # the frequency of unnecessary PRs.
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
-
+  skip: [latexmk]
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
@@ -43,3 +45,12 @@ repos:
       - id: editorconfig-checker
         alias: ec
         args: [-disable-max-line-length]
+  - repo: local
+    hooks:
+      - id: latexmk
+        name: latexmk
+        entry: latexmk -quiet
+        language: system
+        types: [text, tex]
+        # I have no idea where latexmk wants the template
+        exclude: LaTeX\/standardi-asiakirja.tex
