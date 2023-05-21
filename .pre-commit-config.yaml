@@ -34,6 +34,8 @@ repos:
     rev: "v3.0.0-alpha.9-for-vscode"
     hooks:
       - id: prettier
+        additional_dependencies:
+          ["prettier@2.8.8", "@prettier/plugin-xml@2.2.0"]
   - repo: https://github.com/scop/pre-commit-shfmt
     rev: v3.6.0-2
     hooks:

@@ -1,4 +1,37 @@
 <bookmarks>
 <group name="root">
-    <group name="YLE - ei toimi"><bookmark name="Puhe" url="http://www.yle.fi/livestream/puhe.asx"/><bookmark name="Radio 1" url="http://yle.fi/livestream/yleradio1.asx"/><bookmark name="Klassinen" url="http://mediau.yle.fi/liveklassinen"/><bookmark name="X" url="http://www.yle.fi/livestream/ylex.asx"/><bookmark name="Kymenlaakso" url="http://yle.fi/livestream/kymenlaakso.asx"/></group><bookmark name="Iskelmä" url="http://icelive0.43660-icelive0.cdn.qbrick.com/4912/43660_iskelma.mp3"/><bookmark name="Radio Aalto" url="http://rstream2.nelonenmedia.fi/RadioAalto.mp3.m3u"/><bookmark name="Radio Nostalgia" url="http://adwzg4.tdf-cdn.com/9201/nrj_113217.mp3"/><bookmark name="Radio Suomipop" url="http://rstream2.nelonenmedia.fi/RadioSuomiPop.mp3.m3u"/><bookmark name="The Voice" url="http://icelive0.43660-icelive0.cdn.qbrick.com/4914/43660_thevoice.mp3"/><bookmark name="Iskelmä Aikakone" url="http://icelive0.43660-icelive0.cdn.qbrick.com/4659/43660_iskelma_aikakone.mp3"/></group>
+    <group name="YLE - ei toimi"><bookmark
+        name="Puhe"
+        url="http://www.yle.fi/livestream/puhe.asx"
+      /><bookmark
+        name="Radio 1"
+        url="http://yle.fi/livestream/yleradio1.asx"
+      /><bookmark
+        name="Klassinen"
+        url="http://mediau.yle.fi/liveklassinen"
+      /><bookmark
+        name="X"
+        url="http://www.yle.fi/livestream/ylex.asx"
+      /><bookmark
+        name="Kymenlaakso"
+        url="http://yle.fi/livestream/kymenlaakso.asx"
+      /></group><bookmark
+      name="Iskelmä"
+      url="http://icelive0.43660-icelive0.cdn.qbrick.com/4912/43660_iskelma.mp3"
+    /><bookmark
+      name="Radio Aalto"
+      url="http://rstream2.nelonenmedia.fi/RadioAalto.mp3.m3u"
+    /><bookmark
+      name="Radio Nostalgia"
+      url="http://adwzg4.tdf-cdn.com/9201/nrj_113217.mp3"
+    /><bookmark
+      name="Radio Suomipop"
+      url="http://rstream2.nelonenmedia.fi/RadioSuomiPop.mp3.m3u"
+    /><bookmark
+      name="The Voice"
+      url="http://icelive0.43660-icelive0.cdn.qbrick.com/4914/43660_thevoice.mp3"
+    /><bookmark
+      name="Iskelmä Aikakone"
+      url="http://icelive0.43660-icelive0.cdn.qbrick.com/4659/43660_iskelma_aikakone.mp3"
+    /></group>
 </bookmarks>
