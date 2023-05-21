@@ -148,7 +148,7 @@ See also [TvTropes: Old Save Bonus](https://tvtropes.org/pmwiki/pmwiki.php/Main/
 ### OPS2L Version
 
 My backup memory card is on [v1.1.0](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/v1.1.0),
-but due to it getting a bit aged, I had to upgrade the main to daily builds
+but due to it getting a bit aged, I had to upgrade the main to [daily builds](https://github.com/ps2homebrew/Open-PS2-Loader/releases/tag/latest)
 (`d26da79c59d03c3d42dbbdb5c190760cc41f9444`).
 
 Potentially helpful links:
@@ -156,5 +156,5 @@ Potentially helpful links:
 - [Previous stable to current daily diff](https://github.com/ps2homebrew/Open-PS2-Loader/compare/v1.1.0...latest)
 - [Previous stable to my build version](https://github.com/ps2homebrew/Open-PS2-Loader/compare/v1.1.0...d26da79)
 
-Note to self:my file name doesn't match the version as I am lazy and don't
+Note to self: my file name doesn't match the version as I am lazy and don't
 want to edit the config file.
