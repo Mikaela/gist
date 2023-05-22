@@ -30,6 +30,13 @@ repos:
     hooks:
       - id: doctoc
         args: [--update-only, --notitle]
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.23.0
+    hooks:
+      #- id: check-dependabot
+      #- id: check-github-actions
+      #- id: check-github-workflows
+      - id: check-gitlab-ci
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v3.0.0-alpha.9-for-vscode"
     hooks:
