@@ -61,3 +61,9 @@
 [submodule "git/github/activity/gayanvoice-top-github-users"]
 	path = git/github/activity/gayanvoice-top-github-users
 	url = https://github.com/gayanvoice/top-github-users.git
+[submodule "briar/briar-mailbox.wiki"]
+	path = briar/briar-mailbox.wiki
+	url = https://code.briarproject.org/briar/briar-mailbox.wiki.git
+[submodule "briar/briar-desktop.wiki"]
+	path = briar/briar-desktop.wiki
+	url = https://code.briarproject.org/briar/briar-desktop.wiki.git
