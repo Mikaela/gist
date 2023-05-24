@@ -1,3 +1,5 @@
+# Forĝejo/Gitea: use [git.config] with `eceive.certNonceSeed` instead!
+
 [receive]
     advertisePushOptions = true
     certNonceSeed = "<uniquerandomstring>"
