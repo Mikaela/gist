@@ -1,8 +1,8 @@
 Device	Username	Address	Comment
-Axel	A	briar://abjyso5cxsbekswk3tlrtvfsscgolxts2xqlahhikvolvdtjr73vk	deprecated phone#3, see Janus
-Janus	Aminda-Janus (2023-061)	briar://acivmtyffkxv6wog4l4e6ddr363qzlqg6yr2sm3hnwpahy3aa7vqq	Phone#3 (native Android)
-Lumina	Aminda-Lumina (2022-153)	briar://abnu53qsieuhvzo5ji6qkjmzilkiw657w25ii6pbkcznp2v6545w6	Laptop#2, most likely to be online (and with me during shorter overnight travels)
+Axel	A	briar://abjyso5cxsbekswk3tlrtvfsscgolxts2xqlahhikvolvdtjr73vk	deprecated phone#3, see Janus, that later became phone#1 for ability to set ringtones and Android App Support on SailfishOS not being that great.
+Janus	Aminda-Janus (2023-061)	briar://acivmtyffkxv6wog4l4e6ddr363qzlqg6yr2sm3hnwpahy3aa7vqq	Phone#1 (native Android)
+Lumina	Aminda-Lumina (2022-153)	briar://abnu53qsieuhvzo5ji6qkjmzilkiw657w25ii6pbkcznp2v6545w6	Laptop#1, most likely to be online (and with me during shorter overnight travels)
 Rbtpzn	Aminda-Rbtpzn (2023-034)	briar://abjcdbu7gqnmz43y7wfai4bzzv7cc6qfs3jhw2bzx7tv275tizlug	Family desktop from 2006, unlikely to be online. This may/is be a mistake.
-Schala	Mikaela	briar://aazmlrqy3sw3xid6okjsezmygcmitgj4etmfscjx47bbbet4rz3e6	Phone#1, SailfishOS, seldom online, no BT peering, no charging detection, Android App Support drains battery, and Briar doesn’t autologin
-Sedric	Aminda (SedricFlatpak-2022-075)	briar://absmog25eotav76ijmmenl2xrce2mfdkcxxyloku4g7z64upjl2uy	Laptop#1, no battery, thus a bit less likely to be online
+Schala	Mikaela	briar://aazmlrqy3sw3xid6okjsezmygcmitgj4etmfscjx47bbbet4rz3e6	Phone#3, SailfishOS, seldom online, no BT peering, no charging detection, Android App Support drains battery, and Briar doesn’t autologin
+Sedric	Aminda (SedricFlatpak-2022-075)	briar://absmog25eotav76ijmmenl2xrce2mfdkcxxyloku4g7z64upjl2uy	Laptop#2, no battery, thus a bit less likely to be online
 Zaldaryn	Aminda-Zaldaryn (2022-161)	briar://adsrdltwo7v4ugclk33eblqbaewnjcoyjfoxzdmad3pqpw4opixbu	Family PC, online status depends on visiting family
