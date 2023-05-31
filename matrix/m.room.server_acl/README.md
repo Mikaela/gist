@@ -22,6 +22,8 @@ which can/is left empty as usual.
   "allow": ["*"],
   "allow_ip_literals": false,
   "deny": [
+    "matrix.org",
+    "*.matrix.org",
     "disroot.org",
     "privacytools.io",
     "feneas.org",
@@ -46,6 +48,9 @@ which can/is left empty as usual.
 
 Explanations:
 
+- Very big homeservers promoting centralisation of users and power. Also
+  big source of spam, poor moderation and abusive bot performing public
+  logging of members-only rooms.
 - Legacy servers that have discontinued, are in progress of discontinuing or
   are just closed for public, that have PL100 in my rooms. They don't need subdomains
   to be denylisted as the subdomain MXIDs wouldn't have power.
@@ -61,7 +66,6 @@ This configuration only lets servers I have accounts on in.
 {
   "allow": [
     "pikaviestin.fi",
-    "matrix.org",
     "mozilla.org",
     "tedomum.net",
     "pirateriot.net",
