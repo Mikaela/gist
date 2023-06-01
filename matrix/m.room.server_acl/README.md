@@ -24,6 +24,7 @@ which can/is left empty as usual.
   "deny": [
     "matrix.org",
     "*.matrix.org",
+    "mjolnir.matrix.org",
     "disroot.org",
     "privacytools.io",
     "feneas.org",
