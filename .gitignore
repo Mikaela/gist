@@ -1,6 +1,7 @@
 *~
 .~*#
 .cache/**
+*_original
 
 # ---> TeX
 ## Core latex/pdflatex auxiliary files:
