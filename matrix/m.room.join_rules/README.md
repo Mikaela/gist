@@ -6,6 +6,7 @@
   - [membership of another room](#membership-of-another-room)
     - [merging knocking and membership of another room](#merging-knocking-and-membership-of-another-room)
   - [Note to self](#note-to-self)
+  - [See also](#see-also)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -131,3 +132,7 @@ Practically the same, but requires room version 10 and new `join_rule` known as
 - `!iQaStEQNwaqxQfyhZi:sorunome.de` - FluffyChat Space v6
 - `!ESKEvwumMpSRZTnJOI:pikaviestin.fi` - Piraattipuolue v10
 - `!azROMLeGEMPdbdWnbk:matrix.org` - Piraattipuolueen työrauha v9
+
+## See also
+
+- `m.room.history_visibility`
