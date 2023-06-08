@@ -64,6 +64,7 @@ Explanations:
     ELSE. YOU HAVE BEEN WARNED.._**
 - `matrix.org`, `evulid.cc`
   - Run instances of [matrix-public-archive](https://github.com/matrix-org/matrix-public-archive/issues/47) which [misses proper ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47)
+  - `dendrite.matrix.org` is innocent :sweat_smile:
 - `the-apothecary.club`
   - _USA far left_ homeserver, confusing in Fenno-Scandia, may be banned from
     my public rooms to avoid fourth worse conflict.
