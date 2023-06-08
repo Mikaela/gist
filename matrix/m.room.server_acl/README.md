@@ -47,7 +47,9 @@ Note:
     "nerdsin.space",
     "thisisjoes.site",
     "pp13.space",
-    "evulid.cc"
+    "evulid.cc",
+    "lgbtqia.zone",
+    "freyachat.eu"
   ]
 }
 ```
@@ -70,7 +72,7 @@ Explanations:
 - `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
   - Legacy servers that have discontinued, are in progress of discontinuing or
     are just closed for public, that have PL100 in my rooms.
-- `glowers.club`, `midov.pl`, `kiwifarms.net`, `nerdsin.space`, `thisisjoes.site`, `pp13.space`
+- `glowers.club`, `midov.pl`, `kiwifarms.net`, `nerdsin.space`, `thisisjoes.site`, `pp13.space`, `[no.]lgbtqia.zone`, `freyachat.eu`
   - Connected to abusive raids on communities that I am a part of, sometimes even moderate.
 - Others
   - Most likely inherited from _Community Moderation Effort_.
