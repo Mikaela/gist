@@ -20,13 +20,22 @@ Note:
   which can/is left empty as usual.
 - Subdomains appear to be implied by specifying 2nd level domain. E.g.
   `matrix.org` appears to apply to `*.matrix.org` at least on Synapse.
+- See a later section for the allow list explanation
 
 ```json
 {
-  "allow": ["*", "mjolnir.matrix.org"],
+  "allow": [
+    "*",
+    "pikaviestin.fi",
+    "dendrite.matrix.org",
+    "tedomum.net",
+    "artemislena.eu"
+  ],
   "allow_ip_literals": false,
   "deny": [
     "matrix.org",
+    "mjolnir.matrix.org",
+    "the-apothecary.club",
     "disroot.org",
     "privacytools.io",
     "feneas.org",
@@ -49,8 +58,13 @@ Explanations:
   - Very big homeservers promoting centralisation of users and power. Also
     big source of spam, poor moderation and abusive bot performing public
     logging of members-only rooms.
+  - **_DEAR AMINDA FROM THE FUTURE, DO NOT UNBAN `mjolnir.matrix.org` OR IT WILL LIKELY ACL BAN EVERYONE
+    ELSE. YOU HAVE BEEN WARNED.._**
 - `matrix.org`, `evulid.cc`
   - Run instances of [matrix-public-archive](https://github.com/matrix-org/matrix-public-archive/issues/47) which [misses proper ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47)
+- `the-apothecary.club`
+  - _USA far left_ homeserver, confusing in Fenno-Scandia, may be banned from
+    my public rooms to avoid fourth worse conflict.
 - `nitro.chat`
   - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
 - `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
