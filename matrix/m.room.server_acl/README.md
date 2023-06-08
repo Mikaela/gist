@@ -45,15 +45,17 @@ Note:
 
 Explanations:
 
-- Very big homeservers promoting centralisation of users and power. Also
-  big source of spam, poor moderation and abusive bot performing public
-  logging of members-only rooms.
-- Legacy servers that have discontinued, are in progress of discontinuing or
-  are just closed for public, that have PL100 in my rooms. They don't need subdomains
-  to be denylisted as the subdomain MXIDs wouldn't have power.
-  - `disroot.org`, `privacyguides.io`, `feneas.org`.
-- The rest are connected to abusive raids on communities that I am a part of,
-  sometimes even moderate.
+- `matrix.org`, `*.matrix.org`
+  - Very big homeservers promoting centralisation of users and power. Also
+    big source of spam, poor moderation and abusive bot performing public
+    logging of members-only rooms.
+- `nitro.chat`
+  - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
+- `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
+  - Legacy servers that have discontinued, are in progress of discontinuing or
+    are just closed for public, that have PL100 in my rooms.
+- `glowers.club`, `midov.pl`, `kiwifarms.net`, `nerdsin.space`, `thisisjoes.site`, `pp13.space`
+  - Connected to abusive raids on communities that I am a part of, sometimes even moderate.
 
 ## Allowlist
 
