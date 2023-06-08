@@ -23,11 +23,10 @@ Note:
 
 ```json
 {
-  "allow": ["*"],
+  "allow": ["*", "mjolnir.matrix.org"],
   "allow_ip_literals": false,
   "deny": [
     "matrix.org",
-    "mjolnir.matrix.org",
     "disroot.org",
     "privacytools.io",
     "feneas.org",
@@ -59,6 +58,8 @@ Explanations:
     are just closed for public, that have PL100 in my rooms.
 - `glowers.club`, `midov.pl`, `kiwifarms.net`, `nerdsin.space`, `thisisjoes.site`, `pp13.space`
   - Connected to abusive raids on communities that I am a part of, sometimes even moderate.
+- Others
+  - Most likely inherited from _Community Moderation Effort_.
 
 ## Allowlist
 
