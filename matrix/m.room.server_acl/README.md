@@ -13,9 +13,13 @@ adjusting this.
 
 - https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls
 
-Note: when sending the custom event via `/devtools` for the first time, click
-the `Event` so it says `State Event` and asks for `State key` in addition to `type`,
-which can/is left empty as usual.
+Note:
+
+- When sending the custom event via `/devtools` for the first time, click
+  the `Event` so it says `State Event` and asks for `State key` in addition to `type`,
+  which can/is left empty as usual.
+- Subdomains appear to be implied by specifying 2nd level domain. E.g.
+  `matrix.org` appears to apply to `*.matrix.org` at least on Synapse.
 
 ```json
 {
@@ -23,26 +27,18 @@ which can/is left empty as usual.
   "allow_ip_literals": false,
   "deny": [
     "matrix.org",
-    "*.matrix.org",
     "mjolnir.matrix.org",
     "disroot.org",
     "privacytools.io",
     "feneas.org",
     "glowers.club",
-    "*.glowers.club",
     "midov.pl",
-    "*.midov.pl",
     "kiwifarms.net",
-    "*.kiwifarms.net",
     "liberta.casa",
     "nitro.chat",
-    "*.nitro.chat",
     "nerdsin.space",
-    "*.nerdsin.space",
     "thisisjoes.site",
-    "*.thisisjoes.site",
-    "pp13.space",
-    "*.pp13.space"
+    "pp13.space"
   ]
 }
 ```
