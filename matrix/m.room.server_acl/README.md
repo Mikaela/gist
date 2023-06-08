@@ -38,7 +38,8 @@ Note:
     "nitro.chat",
     "nerdsin.space",
     "thisisjoes.site",
-    "pp13.space"
+    "pp13.space",
+    "evulid.cc"
   ]
 }
 ```
@@ -49,6 +50,8 @@ Explanations:
   - Very big homeservers promoting centralisation of users and power. Also
     big source of spam, poor moderation and abusive bot performing public
     logging of members-only rooms.
+- `matrix.org`, `evulid.cc`
+  - Run instances of [matrix-public-archive](https://github.com/matrix-org/matrix-public-archive/issues/47) which [misses proper ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47)
 - `nitro.chat`
   - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
 - `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
