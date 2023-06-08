@@ -62,7 +62,7 @@ Explanations:
 
 ## Allowlist
 
-This configuration only lets servers I have accounts on in.
+This configuration only lets servers I or especially close friends have accounts on in.
 
 ```json
 {
@@ -75,8 +75,7 @@ This configuration only lets servers I have accounts on in.
     "fedora.im",
     "jae.fi",
     "converser.eu",
-    "artemislena.eu",
-    "the-apothecary.club"
+    "artemislena.eu"
   ],
   "allow_ip_literals": false,
   "deny": []
