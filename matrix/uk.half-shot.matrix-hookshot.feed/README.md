@@ -1,10 +1,10 @@
 # hookshot room state configuration
 
 When Hookshot is configured via the manage integrations menu, it appears to
-perform two state installations/directories/whatever:
+perform two state events with state keys:
 
 - `uk.half-shot.matrix-hookshot.feed`
-  - contains state events with the feed name
+  - state events with state keys that are the feed name
     - contains the json below
 - `io.element.integrations.installations`
   - contains uuid below
