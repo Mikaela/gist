@@ -55,10 +55,10 @@ Generic notes:
 
 This is not the Element/Synapse default as that would be pointless to list.
 
-```json5
+```jsonnet
 {
-  ban: 50,
-  events: {
+  "ban": 50,
+  "events": {
     "im.vector.modular.widgets": 50,
     "m.room.avatar": 50,
     "m.room.canonical_alias": 13,
@@ -74,16 +74,16 @@ This is not the Element/Synapse default as that would be pointless to list.
     "m.room.topic": 25,
     "m.space.child": 50,
   },
-  events_default: 0,
-  historical: 100,
-  invite: 0,
-  kick: 25,
-  redact: 25,
-  state_default: 50,
-  users: {
+  "events_default": 0,
+  "historical": 100,
+  "invite": 0,
+  "kick": 25,
+  "redact": 25,
+  "state_default": 50,
+  "users": {
     // READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
   },
-  users_default: 0,
+  "users_default": 0,
 }
 ```
 
@@ -111,10 +111,10 @@ This is not the Element/Synapse default as that would be pointless to list.
 
 ### Medium version
 
-```json5
+```jsonnet
 {
-  ban: 50,
-  events: {
+  "ban": 50,
+  "events": {
     "im.vector.modular.widgets": 50,
     "m.room.avatar": 50,
     "m.room.canonical_alias": 13,
@@ -130,16 +130,16 @@ This is not the Element/Synapse default as that would be pointless to list.
     "m.room.topic": 25,
     "m.space.child": 50,
   },
-  events_default: 0,
-  historical: 100,
-  invite: 50,
-  kick: 25,
-  redact: 25,
-  state_default: 50,
-  users: {
+  "events_default": 0,
+  "historical": 100,
+  "invite": 50,
+  "kick": 25,
+  "redact": 25,
+  "state_default": 50,
+  "users": {
     // READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
   },
-  users_default: 0,
+  "users_default": 0,
 }
 ```
 
@@ -148,10 +148,10 @@ This is not the Element/Synapse default as that would be pointless to list.
 
 ### Paranoid version
 
-```json5
+```jsonnet
 {
-  ban: 50,
-  events: {
+  "ban": 50,
+  "events": {
     "im.vector.modular.widgets": 100,
     "m.room.avatar": 100,
     "m.room.canonical_alias": 100,
@@ -167,15 +167,15 @@ This is not the Element/Synapse default as that would be pointless to list.
     "m.room.topic": 100,
     "m.space.child": 100,
   },
-  events_default: 0,
-  historical: 100,
-  invite: 100,
-  kick: 50,
-  redact: 50,
-  state_default: 100,
-  users: {
+  "events_default": 0,
+  "historical": 100,
+  "invite": 100,
+  "kick": 50,
+  "redact": 50,
+  "state_default": 100,
+  "users": {
     // READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
   },
-  users_default: 0,
+  "users_default": 0,
 }
 ```
