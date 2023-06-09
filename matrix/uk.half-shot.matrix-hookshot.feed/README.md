@@ -46,6 +46,9 @@ This contains the whole JSON line to easen copy-pasting as my events are missing
 - default: `"template": "New post in $FEEDNAME: $LINK",`
 - Matrix: `"template": "$FEEDTITLE: $AUTHOR $LINK ($DATE) $SUMMARY",`
 - IRC: `"template": "$URL $FEEDTITLE: $TITLE $AUTHOR ($DATE) $SUMMARY",`
+  - Line length is limited so if the URL is long, it's the most important thing.
+- IRCish: `"template": "$TITLE $URL $SUMMARY $AUTHOR $DATE $FEEDTITLE",`
+  - Still compatibleish with IRC, but in case the client has preview, it may be more useful now.
 
 ## installation
 
