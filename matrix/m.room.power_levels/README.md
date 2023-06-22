@@ -35,7 +35,8 @@ The main point I do this for is users `users`
 		"@leon:the-apothecary.club": 99,
 		"@leon:masfloss.net": 99,
 		"@fidino:artemislena.eu": 99,
-		"@aminda.git:pirateriot.net": 13
+		"@aminda.git:pirateriot.net": 13,
+        "@mjolnir_3a78dd65-60a4-4c3a-9a60-01e214a5d6f6:draupnir.midnightthoughts.space": 99
 	}
 },
 ```
