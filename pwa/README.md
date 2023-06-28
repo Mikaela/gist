@@ -36,6 +36,7 @@ fields.
 - [Music](#music)
 - [Shopping](#shopping)
 - [Social media](#social-media-1)
+  - [Federated social news aggregators](#federated-social-news-aggregators)
 - [Travel](#travel)
 - [Not PWAs but still possibly useful for homescreens](#not-pwas-but-still-possibly-useful-for-homescreens)
 
@@ -46,8 +47,8 @@ fields.
 ## Events
 
 - Mobilizon - all instances of the federated event & group site function as
-  PWAs.
-  - https://events.nixnet.services/ - the only still alive instance I registered on
+  PWAs. TODO: Do they really nowadays?
+  - https://jarkkaa.fi - Finnish instance
 - https://calendar.google.com/ - Google's Calendar app
 
 ## Food
@@ -55,6 +56,7 @@ fields.
 - https://menu.unicafe.fi/ - menu for UniCafes
 - https://resq-club.com/app/ - waste food pickup ordering app
 - https://www.fiksuruoka.fi/ - Finnish waste/expiring grocery store
+- https://www.kotipizza.fi - Finnish pizzeria
 
 ## Forums
 
@@ -90,6 +92,7 @@ fields.
 ## Learning
 
 - https://www.duolingo.com/ - language learning website
+  - https://preview.duolingo.com/ - testing
 
 ## Localization
 
@@ -105,8 +108,13 @@ fields.
 
 ## Social media
 
-- Lemmy - federated social news aggregator (Reddit clone)
-  - https://lemmy.tedomum.net/ - the instance my account is on.
+### Federated social news aggregators
+
+- Lemmy
+  - https://lemmy.tedomum.net/
+  - https://latte.isnot.coffee
+- Kbin
+  - https://fedia.io
 
 ## Travel
 
@@ -121,7 +129,8 @@ Continuing the previous method, these open in Safari.
 - http://http.badssl.com - essential captive portal trigger
 - https://1.1.1.1/help - Cloudflare DNS debug
 - https://mullvad.net/check - Mullvad leak test
-- https://www.junat.net/ - Finnish train staton information displays (including arrivals)
+- https://junalahdot.fi - Official Finnish train station information
+- https://www.junat.net/ - Finnish train station information displays (including arrivals)
 - https://perille.fi - Finnish long distance transport comparison site
 - https://pikavuorot.fi - Finnish long distance transport comparison site
 - https://sanakirja.org - Finnish dictionary for translating languages
