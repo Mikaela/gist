@@ -1,26 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Potentially useful progressive web apps](#potentially-useful-progressive-web-apps)
-  - [Events](#events)
-  - [Food](#food)
-  - [Forums](#forums)
-  - [Instant messaging](#instant-messaging)
-    - [Matrix](#matrix)
-      - [Instant messaging](#instant-messaging-1)
-      - [Social media](#social-media)
-    - [Telegram](#telegram)
-    - [Misc](#misc)
-  - [Learning](#learning)
-  - [Localization](#localization)
-  - [Music](#music)
-  - [Shopping](#shopping)
-  - [Social media](#social-media-1)
-  - [Travel](#travel)
-  - [Not PWAs but still possibly useful for homescreens](#not-pwas-but-still-possibly-useful-for-homescreens)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Potentially useful progressive web apps
 
 Method for distinguishing PWAs from normal websites: adding them to
@@ -39,6 +16,32 @@ has more details for PWAs. "App whatever is available" with logo and "Publisher:
 fields.
 
 **_TODO: Some of these may be miscategorized while not fullfilling the criteria of PWA._**
+
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Events](#events)
+- [Food](#food)
+- [Forums](#forums)
+- [Instant messaging](#instant-messaging)
+  - [Matrix](#matrix)
+    - [Instant messaging](#instant-messaging-1)
+    - [Social media](#social-media)
+  - [Telegram](#telegram)
+  - [Misc](#misc)
+- [Learning](#learning)
+- [Localization](#localization)
+- [Music](#music)
+- [Shopping](#shopping)
+- [Social media](#social-media-1)
+- [Travel](#travel)
+- [Not PWAs but still possibly useful for homescreens](#not-pwas-but-still-possibly-useful-for-homescreens)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
 
 ## Events
 
