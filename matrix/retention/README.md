@@ -1,10 +1,19 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [WARNING](#warning)
 - [Room history retention settings / state event `m.room.retention`](#room-history-retention-settings--state-event-mroomretention)
   - [Notes](#notes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# WARNING
+
+**_Don't do this!_**
+
+- [You may corrupt your Synapse database!](https://github.com/matrix-org/matrix-spec-proposals/pull/1763)
+- If a Synapse homeserver leaves your room for long enough time,
+  [t will never be able to rejoin!](https://github.com/matrix-org/synapse/issues/11448)
 
 # Room history retention settings / state event `m.room.retention`
 
