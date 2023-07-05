@@ -11,7 +11,7 @@
 
 **_Don't do this!_**
 
-- [You may corrupt your Synapse database!](https://github.com/matrix-org/matrix-spec-proposals/pull/1763)
+- [You may corrupt your Synapse database!](https://github.com/matrix-org/synapse/issues/13476)
 - If a Synapse homeserver leaves your room for long enough time,
   [it will never be able to rejoin!](https://github.com/matrix-org/synapse/issues/11448)
 
