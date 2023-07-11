@@ -1,0 +1,5 @@
+# They are all symlinks
+resolv.conf
+resolved.conf.d
+resolv.tsv
+unbound.conf.d
