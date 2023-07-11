@@ -1,0 +1,13 @@
+# Version: 202307111415
+# Description: Aminda gist blocklist test
+# Title: Aminda gist
+# Last modified: 2023-07-11T14:15:00+0300
+# Expires: 24 hours
+# Syntax: Domains (wildcards)
+# License: CC-0
+
+google-analytics.com
+*.google-analytics.com
+*.ssl.google-analytics.com
+matrix.to
+graph.facebook.com
