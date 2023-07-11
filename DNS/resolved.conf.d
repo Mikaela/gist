@@ -1,0 +1,1 @@
+../submodules/shell-things/etc/systemd/resolved.conf.d
