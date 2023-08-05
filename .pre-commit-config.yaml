@@ -42,11 +42,11 @@ repos:
       - id: check-gitlab-ci
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.0"
+    rev: "v3.0.1"
     hooks:
       - id: prettier
         additional_dependencies:
-          ["prettier@3.0.0", "@prettier/plugin-xml@3.0.0"]
+          ["prettier@3.0.1", "@prettier/plugin-xml@3.0.0"]
 
   - repo: https://github.com/scop/pre-commit-shfmt
     rev: v3.7.0-1
