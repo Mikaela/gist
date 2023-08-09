@@ -46,7 +46,11 @@ repos:
     hooks:
       - id: prettier
         additional_dependencies:
-          ["prettier@3.0.1", "@prettier/plugin-xml@3.0.0"]
+          [
+            "prettier@3.0.1",
+            "@prettier/plugin-xml@3.0.0",
+            "prettier-plugin-toml@1.0.0",
+          ]
 
   - repo: https://github.com/scop/pre-commit-shfmt
     rev: v3.7.0-1
