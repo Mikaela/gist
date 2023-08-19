@@ -66,8 +66,9 @@ Explanations:
   - Run instances of [matrix-public-archive](https://github.com/matrix-org/matrix-public-archive/issues/47) which [misses proper ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47)
   - `dendrite.matrix.org` is innocent :sweat_smile:
 - `the-apothecary.club`
-  - _USA far left_ homeserver, confusing in Fenno-Scandia, may be banned from
-    my public rooms to avoid fourth worse conflict.
+  - _USA far left_ authoritarian homeserver, confusing in Fenno-Scandia, may be banned from
+    my public rooms to avoid fourth worse conflict. I have also deactivated
+    my accounts on it so the homeserver may accidentally have power there.
 - `nitro.chat`
   - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
 - `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
