@@ -7,12 +7,14 @@ For pre-commit configuration see `./.pre-commit-config.yaml`
 To enable it at a specific position, throw in:
 
 ```markdown
+<!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
 
 <!-- START doctoc -->
 <!-- END doctoc -->
 
 <!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 ```
 
 - https://github.com/thlorenz/doctoc/blob/master/README.md#specifying-location-of-toc
