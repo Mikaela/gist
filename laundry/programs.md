@@ -13,3 +13,5 @@ of finding these faster the next time, I am git committing it.
 - Bedsheets & other bed things, 60 C (cotton)
   - Day cover (big blue) 40 C, (cotton)
 - Clothes: 40 C (mixed)
+- White clothes & things: 40 C, apparently the same mixed as above, but
+  with just whites.
