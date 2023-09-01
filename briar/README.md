@@ -43,17 +43,17 @@ this scheme or updating these files.
 
 For more details such as the Briar links, refer to `my-accounts.tsv`.
 
-- My Briar desktops serve my phones that only connect to network when charging
-  - `Aminda-Lumina (2022-153)` has recently been more active and travels with
-    me.
+- My Briar desktops serve my phones that only connect to network when charging,
+  although the bundled `tor` taking 100 % of CPU has reduced their online time.
+  - `Aminda-Lumina (2022-153)` has became more active and travels with
+    me. ThinkPad T470 so focus on productivity.
   - `Aminda (SedricFlatpak-2022-075)` home device that also runs Samba for
-    PlayStation 2
+    PlayStation 2 and in general is more gayming focused.
 - My phones are
-  - `Aminda-Janus (2023-061)` - actually tertiary phone, but native Android
-    and which I mostly use to post to forums to (via WLAN)
-  - `Mikaela` - my main phone predating the naming scheme discussed earlier,
+  - `Aminda-Janus (2023-061)` - my primary phone due to the killer feature of being able to `adb push` whatever ringtones I want unlike iOS which is very picky on what to accept as ringtones. As noted before, I mostly use it from WLAN with help from Briar Desktops unless charging.
+  - `Mikaela` - my tertiary phone predating the naming scheme discussed earlier,
     but as it's SailfishOS Android AppSupport important Briar features are not
-    implemented and I don't use it that much.
+    implemented and I don't use it that much. Since the decommissioning of Axel (aka. "A") also my oldest Briar account that can be seen around on forums.
 - My family devices that are seldom online don't need to be cared about that
   much, but they have all the forums that my other devices if I have been
   sharing them.
@@ -62,12 +62,14 @@ For more details such as the Briar links, refer to `my-accounts.tsv`.
     Briar.
 - Then there are deprecated accounts/devices that occassionally come online
   but are not a priority.
-  - `A` replaced by `Aminda-Janus`
   - `Aminda-Lumina-UserTest-2023-045` is a Briar test build instance as a
     result of attempting to contribute and test Briar flatpak.
 - And dead accounts.
   - `Aminda-Janus (2022-311)`
     - factory reset on 2023-061. Note changed date number.
+  - `A`
+    - factory reset on 2023-244. The name `A` will not be reused, if this phone
+      ever returns to Briar, which is unlikely for lack of resources, it would be `Aminda-Axel (%Y-%j)`
 
 And to repeat one more time:
 
@@ -79,9 +81,7 @@ And to repeat one more time:
 
 Port: [it will pick one and try to stick with it](https://matrix.to/#/%23briar_desktop%3Atchncs.de/%24FKJk80vFnp2Fqnyov8g2S1QGJuY8SrJBlPjjqGSaW5M?via=pikaviestin.fi&via=matrix.org&via=dendrite.matrix.org&via=tchncs.de), so `sudo netstat -plnt` is your friend, look for `java`. It should be on LAN and link-local interfaces.
 
-I install it from Flathub and at the time of writing it doesn't support
-groups (where only creator can add users)<s>, forums (groups where everyone can
-add new users)</s> or blogs.
+I install it from Flathub and at the time of writing it seems to roughly have feature parity with the Android version meaning all private messages, forums, private groups, mailbox and forums are supported in that order.
 
 ## Further reading and quotes
 
