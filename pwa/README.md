@@ -64,6 +64,9 @@ fields.
 
 ## Instant messaging
 
+- https://messages.google.com/web/ - Google SMS app web version
+- https://web.whatsapp.com/ - WhatsApp Web
+
 ### Matrix
 
 #### Instant messaging
