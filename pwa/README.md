@@ -1,5 +1,10 @@
 # Potentially useful progressive web apps
 
+PWAs are especially useful for iOS users, since PWAs added to homescreen
+from Safari are able to request notifications permission resulting
+nativeish experience outside of App Store without even having to
+install anything.
+
 Method for distinguishing PWAs from normal websites: adding them to
 iOS homescreen and seeing which open as "their own apps" _or_ having
 Chromium suggest "installing" them without manually "installing" them.
