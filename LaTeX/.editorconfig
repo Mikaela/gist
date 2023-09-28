@@ -1,0 +1,10 @@
+root = true
+
+# This directory should only contain LaTeX files so no need to include line length limit. Remember the rule, one sentence per line.
+[*]
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+max_line_length = unset
