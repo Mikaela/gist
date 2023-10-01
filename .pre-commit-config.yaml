@@ -7,9 +7,9 @@ ci:
   autoupdate_schedule: quarterly
   skip: [latexmk, exiftool]
 
-# Fedora 39 Beta's 3.12 is not supported by hooks yet
+# Use pypy3 for python hooks instead of system default
 default_language_version:
-  python: python3.11
+  python: pypy3
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
