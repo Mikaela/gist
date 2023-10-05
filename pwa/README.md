@@ -39,6 +39,8 @@ fields.
 - [Learning](#learning)
 - [Localization](#localization)
 - [Music](#music)
+- [News](#news)
+- [Parcel tracking](#parcel-tracking)
 - [Shopping](#shopping)
 - [Social media](#social-media-1)
   - [Federated social news aggregators](#federated-social-news-aggregators)
@@ -109,6 +111,15 @@ fields.
 ## Music
 
 - https://music.youtube.com/ - YouTube Music (Player)
+
+## News
+
+- https://iltalehti.fi - big Finnish newspaper
+
+## Parcel tracking
+
+- https://oma.posti.fi - Finnish postal services tracking and online mail
+  (not to be confused with email)
 
 ## Shopping
 
