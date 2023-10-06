@@ -115,6 +115,7 @@ fields.
 ## News
 
 - https://iltalehti.fi - big Finnish newspaper
+- https://www.helsinginuutiset.fi/ - Helsinki area newspaper
 
 ## Parcel tracking
 
