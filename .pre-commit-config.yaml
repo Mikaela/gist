@@ -13,7 +13,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -29,7 +29,25 @@ repos:
         # configuration exports.
         exclude: ^LICENSES\/.*|LICENSE|associations\/.*|.*\.conf$$
         # File types depending on trailing whitespace. Use identify-cli
-        exclude_types: [tsv, markdown]
+        exclude_types:
+          [tsv, markdown]
+          #- id: check-docstring-first
+        #- id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-xml
+        #- id: debug-statements
+        #- id: fix-encoding-pragma
+        #args: [--remove]
+      - id: mixed-line-ending
+        args:
+          [--fix=auto]
+          #- id: pretty-format-json
+          #- id: requirements-txt-fixer
+  - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
+    rev: v1.6.1
+    hooks:
+      - id: check-pre-commit-ci-config
 
   - repo: https://github.com/thlorenz/doctoc
     rev: v2.2.0
