@@ -93,7 +93,7 @@ repos:
     hooks:
       - id: latexmk
         name: latexmk
-        entry: latexmk -quiet
+        entry: latexmk -quiet -f
         language: system
         types: [text, tex]
         # I have no idea where latexmk wants the template
