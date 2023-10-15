@@ -1,10 +1,16 @@
 # Normalize line endings for text files
 # https://www.git-scm.com/docs/gitattributes#_end_of_line_conversion
 *	text=auto eol=lf linguist-detectable
-doctoc.txt  text eol=lf linguist-detectable linguist-language=markdown
+doctoc.txt  text diff=markdown eol=lf linguist-detectable linguist-language=markdown
 
 # Unlikely to be ran under Windows, Linux line endings
-*.bash	text eol=lf
+*.{sh,bash,zsh} text diff=bash eol=lf
+
+*.bibtex	text diff=bibtex eol=lf
+*.css	text diff=css eol=lf
+*.html	text diff=html eol=lf
+*.{md,markdown}	text diff=markdown eol=lf
+*.tex	text diff=tex eol=lf
 
 # While this repository doesn't currently have anything for Windows, I may
 # use this for reference
