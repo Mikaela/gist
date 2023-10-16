@@ -25,12 +25,13 @@ repos:
       - id: end-of-file-fixer
       - id: fix-byte-order-marker
       - id: trailing-whitespace
+        args: ["--markdown-linebreak-ext", "md,markdown"]
         # I don't want to touch licenses or past association logs or Limnoria
         # configuration exports.
         exclude: ^LICENSES\/.*|LICENSE|associations\/.*|.*\.conf$$
         # File types depending on trailing whitespace. Use identify-cli
         exclude_types:
-          [tsv, markdown]
+          [svg, tsv]
           #- id: check-docstring-first
         #- id: check-json
       - id: check-merge-conflict
