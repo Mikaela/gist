@@ -1,0 +1,112 @@
+\documentclass[a4paper]{rapport3}
+\usepackage[english]{babel}
+\usepackage{noto-serif}
+\usepackage{cmap}
+%\usepackage{hyperref}
+%\usepackage{listings}
+\usepackage{csquotes}
+
+\title{Secrets of sleep}
+\author{Aminda Suomalainen}
+\date{2023-10-16}
+
+\begin{document}
+%\hypersetup{urlcolor=blue}
+\maketitle
+\tableofcontents
+
+\chapter{Introduction}
+
+It has been a while since I last did anything fun with \LaTeX and sometimes sleep just comes up and I thought it might be fun to write about it in \LaTeX...
+
+\chapter{Smartbulbs}
+
+I have WiZ Smartbulbs.
+I don't know whether they are the most secure option, they depend on WiFi and their app (optionally remote control), but they have the circadian rhytm feature which has even let me stop using melatonin, so I think they are worth it.
+
+I bought them entirely with the circadian rhytm feature in mind (that no one else seems to advertise that much) and I am very open and interested in hearing of other manufacturers with the feature, preferably those using zigbee or matter and not requiring third party tools such as Home Assistant which would require additional hardware running 24/7 and energy to get familiar with it.
+
+WiZ circadian rhytm configuration:
+
+\begin{itemize}
+    \item Schedule: start the lights at 06.45 (they should get progressively brighter if...)
+    \item Rhytm: Wake-up: 07:00
+    \item Bedtime: 22:00
+\end{itemize}
+
+
+The lights will get dimmer and softer coloured towards the evening and especially bedtime.
+
+\chapter{Avoid caffeine for six hours before bed!}
+
+Caffeine tends to be bad for sleeping at least for me and it generally has halving time of six hours.
+
+Note that caffeine is also in other drinks than coffee such as:
+
+\begin{itemize}
+    \item Tea (Including green and white, not just black. Look into herbal infusions (that technically don't contain the tea plant) such as rooibos, peppermint, chamomile (I tend to have it before sleep))
+    \item Chocolate (dark has it the most, white the least)
+    \item Cola drinks
+\end{itemize}
+
+\chapter{Colour filters}
+
+Blue light is bad for sleeping, good for waking up.Luckily there are tools, sometimes integrated to the OS, for that, they should be set as as red as possible.
+
+\begin{itemize}
+    \item Wayland: \texttt{wlsunset -l latitude -L longitude -t 1000}
+    \item Android: try Twilight with colour temperature 1000K (Relaxing), also intensity 100 %
+    \item iOS: Settings $\rightarrow$ Accessibility $\rightarrow$ Screen and text size $\rightarrow$ Colour filters $\rightarrow$ Toning $\rightarrow$ Drag both sliders to as right as they go.
+\end{itemize}
+
+On iOS setting accessibility shortcut may also be a good idea.
+
+And as a side effect these may let you retain dark vision at night when outdoors after sunset, except that (street) light pollution will probably take it away.
+
+\chapter{Mood light}
+
+I have a smart/zigbee mood light from Lidl. I don't know how much it affects my sleep, but red light is supposed to be good for you at evening and morning (even if blue wakes you up).
+I tend to keep it red and the sliders at 1 \% and 100 \% whatever those mean.
+
+\begin{itemize}
+    \item Schedule: Turn on at 06:59
+    \item Schedule: Turn off at 07:30
+    \item Schedule: Turn on at 19:30
+    \item Schedule: Turn off at 22:15
+\end{itemize}
+
+I don't always manage to get to bed exactly at 22, while I try to get the around 9 hours in bed as suggested in the book \textit{The Highly Sensitive Person}, so the lights turn of at 22:15.
+The 06:59 comes from radio news at 07:00 when I happen to have radio alarm at that time.
+
+\chapter{Bathroom}
+
+Bathroom lights tend to be horribly white and bright, and thus bathroom visit at night is almost guaranteed waking up. I have two tools in mine:
+
+\begin{itemize}
+    \item Mirror closet has a switch with bright enough green light and when pressed, it's enough to see in.
+    \item Cheap market flashlight which has been coloured red. I don't recommend, but it brings a bit more light if needed and hopefully isn't that distruptive.
+\end{itemize}
+
+While green light is worse than red in terms of night vision, it will still allow faster night vision recovery than white (and blue) and I think it isn't as bad for sleep.
+
+Flashlight recommendations? I don't know, but I would suggest looking into reviews of RGB ones (Red Green Blue) in your favourite search engine.
+
+Red being good for night vision was already mentioned, green additionally allows better seeing of depth and blue is useful for finding fluids (think of looking into boat or car engine for a leak?).
+
+Anyway \textbf{everyone should have a flashlight or headlight}, the latter will also help with woofwalking when street lights are too bright and the woof is in shadow.
+
+Regardless of the RGB modes being dimmer than white which they generally include as a fourth option, the darkness is not your enemy and \textit{less is more}.
+
+\chapter{Attitude}
+
+A book about light pollution, that name I sadly don't have written down, has this quote from \textit{Healing Night: The Science and Spirit of Sleeping Dreaming, and Awakening} by \textit{Rubin Naiman, PhD} that I found interesting and which is on my to-read sometime list:
+
+\begin{displayquote}
+The truth, he explains, is that there is dream material; there's a level of surrendering that we don't understand. "If you just consider
+the possibility that there's something there, then it's really interesting to let go and to sleep. But most people when they descend into the waters of sleep, instead of aiming at the depth of that, they've got their sights set on the morning shore of waking. They really aren't going to sleep. It's as if this were an overnight mystery tour, but they are already thinking about where they're going to be the next day."
+Naiman says that when he talks with people about this, they begin to consider that maybe sleep isn't just eight hours of being turned off, and to consider instead that they can have a relationship with night, "with all of the demons and angels, all of the qualities that lurk there.?"
+\end{displayquote}
+
+So I think one's attitude will also affect their sleeping.
+
+\end{document}
