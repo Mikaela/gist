@@ -41,9 +41,10 @@ repos:
         #- id: fix-encoding-pragma
         #args: [--remove]
       - id: mixed-line-ending
+        args: [--fix=auto]
+      - id: pretty-format-json
         args:
-          [--fix=auto]
-          #- id: pretty-format-json
+          [--autofix, --no-ensure-ascii, --no-sort-keys]
           #- id: requirements-txt-fixer
   - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
     rev: v1.6.1
