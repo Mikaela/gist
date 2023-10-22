@@ -33,7 +33,7 @@ repos:
         exclude_types:
           [svg, tsv]
           #- id: check-docstring-first
-        #- id: check-json
+      - id: check-json
       - id: check-merge-conflict
       - id: check-toml
       - id: check-xml
