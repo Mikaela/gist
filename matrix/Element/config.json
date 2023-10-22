@@ -21,7 +21,6 @@
     "feature_custom_themes": "labs",
     "feature_pinning": "enable",
     "feature_state_counters": "labs",
-    "feature_mjolnir": "labs",
     "feature_bridge_state": "enable",
     "feature_exploring_public_spaces": "enable"
   },
