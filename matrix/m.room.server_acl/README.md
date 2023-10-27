@@ -49,9 +49,12 @@ Explanations:
 - `evulid.cc`
   - Runs instance of [matrix-public-archive](https://github.com/matrix-org/matrix-public-archive/issues/47) which [misses proper ability to opt-out](https://github.com/matrix-org/matrix-public-archive/issues/47)
 - `the-apothecary.club`
-  - _USA far left_ authoritarian homeserver, confusing in Fenno-Scandia, may be banned from
-    my public rooms to avoid fourth worse conflict. I have also deactivated
-    my accounts on it so the homeserver may accidentally have power there.
+  - Totalitarian homeserver USA far-left style (confusing to Fennoscandian
+    eyes). Involved at least in smearcampaigning, making minority X an
+    authority on matters regarding minority Y, blocking rooms based on admin
+    being AFK for a moment, etc.  
+    All my accounts there are deactivated, if you see them around, they are
+    fake or connected to administrator abuse.
 - `nitro.chat`
   - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
 - `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`,
