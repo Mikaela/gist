@@ -8,7 +8,15 @@
 
 # On Matrix tombstones
 
-I am not putting the events here as I have [scripts for that separately](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash).
+```json
+{
+  "body": "This room has been replaced",
+  "replacement_room": "!NewRoomID:example.net"
+}
+```
+
+Note [my scripts for tombstoning](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash),
+`matrix-{tombstone,upgrade}-room.bash`.
 
 ## PL50 tombstoning
 
