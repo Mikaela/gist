@@ -28,6 +28,7 @@ Note:
     "disroot.org",
     "privacytools.io",
     "feneas.org",
+    "pirateriot.net",
     "glowers.club",
     "midov.pl",
     "kiwifarms.net",
@@ -53,7 +54,8 @@ Explanations:
     my accounts on it so the homeserver may accidentally have power there.
 - `nitro.chat`
   - Poorly protected from abuse, abuse contact joins room that their users are raiding and leaves immediately without doing anything.
-- `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`
+- `disroot.org`, `privacytools.io`, `feneas.org`, `liberta.casa`,
+  `pirateriot.net`
   - Legacy servers that have discontinued, are in progress of discontinuing or
     are just closed for public, that have PL100 in my rooms.
 - `glowers.club`, `midov.pl`, `kiwifarms.net`, `nerdsin.space`, `thisisjoes.site`, `pp13.space`, `[no.]lgbtqia.zone`, `freyachat.eu`
@@ -71,7 +73,6 @@ This configuration only lets servers I or especially close friends have accounts
     "pikaviestin.fi",
     "mozilla.org",
     "tedomum.net",
-    "pirateriot.net",
     "tchncs.de",
     "fedora.im",
     "jae.fi",
