@@ -49,6 +49,12 @@ For more details such as the Briar links, refer to `my-accounts.tsv`.
     me. ThinkPad T470 so focus on productivity.
   - `Aminda (SedricFlatpak-2022-075)` home device that also runs Samba for
     PlayStation 2 and in general is more gayming focused.
+  - `Aminda-Lavenza (2023-281)` is my Steam Deck on SteamOS, preview channel
+    and it might be unstable and get removed suddenly if the OS fails on me,
+    but I seldom open Briar on it due to the effort. It's just so much more
+    pleasant to use with dock connected to TV with BT controller and
+    neckspeaker and just for gaming and when I do need terminal, SSH exists. I
+    am rambling now...
 - My phones are
   - `Aminda-Janus (2023-061)` - my primary phone due to the killer feature of being able to `adb push` whatever ringtones I want unlike iOS which is very picky on what to accept as ringtones. As noted before, I mostly use it from WLAN with help from Briar Desktops unless charging.
   - `Mikaela` - my tertiary phone predating the naming scheme discussed earlier,
