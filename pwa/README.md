@@ -42,6 +42,7 @@ fields.
 - [News](#news)
 - [Parcel tracking](#parcel-tracking)
 - [Shopping](#shopping)
+  - [Shopping centres](#shopping-centres)
 - [Social media](#social-media-1)
   - [Federated social news aggregators](#federated-social-news-aggregators)
 - [Travel](#travel)
@@ -125,6 +126,11 @@ fields.
 ## Shopping
 
 - https://www.verkkokauppa.com/ - Finnish online retailer
+
+### Shopping centres
+
+- https://www.redi.fi/ - Kalasatama/Fiskehamnen, Helsinki
+- https://www.isoomena.fi/ - Matinkylä/Mattsby, Espoo
 
 ## Social media
 
