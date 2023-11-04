@@ -16,6 +16,7 @@
 
 ```json
 {
+  "exclude_state_events": true,
   "expire_after_ms": 2678400000
 }
 ```
@@ -24,6 +25,7 @@
 
 ```json
 {
+  "exclude_state_events": true,
   "expire_after_ms": 31536000000
 }
 ```
