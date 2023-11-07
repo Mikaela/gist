@@ -35,6 +35,7 @@ fields.
     - [Instant messaging](#instant-messaging-1)
     - [Social media](#social-media)
   - [Telegram](#telegram)
+  - [XMPP](#xmpp)
   - [Misc](#misc)
 - [Learning](#learning)
 - [Localization](#localization)
@@ -95,6 +96,10 @@ fields.
 
 - https://web.telegram.org/z/
 - https://web.telegram.org/k/
+
+### XMPP
+
+- https://webchat.disroot.org
 
 ### Misc
 
