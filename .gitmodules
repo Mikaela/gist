@@ -67,3 +67,6 @@
 [submodule "briar/briar-desktop.wiki"]
 	path = briar/briar-desktop.wiki
 	url = https://code.briarproject.org/briar/briar-desktop.wiki.git
+[submodule "submodules/language-resources"]
+	path = submodules/language-resources
+	url = https://gitea.blesmrt.net/Mikaela/language-resources.git
