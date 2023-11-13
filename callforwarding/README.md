@@ -17,7 +17,7 @@ specific._
 
 1. Open dialer
 2. Enter command. +358 is Finnish international format, remove leading 0 from
-   phone number's local format. (040… → +3584…)
+   phone number's local format. (040… → +35840…)
 3. Call there
 
 ## Commands
