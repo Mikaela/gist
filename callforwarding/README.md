@@ -49,7 +49,7 @@ Copy-paste template for text editor:
 
 - Apple: has no proper GUI for the cases above, only on/off toggle on forwarding
   every call. https://support.apple.com/guide/iphone/iphe9bdd027a/ios
-- Android: likely OEM-dependent and I don't have an Android with a SIM.
+- Android: Dialer → Settings → Calling Accounts → SIM → Call forwarding. Has options for Always, Busy, Not answered (no word on time) and Out of network.
 - SailfishOS: Settings → Applications → Phone → Call forwarding. Case forward when
   not answered in X time has no option how long to wait and I am not going to try
   whether it forwards in 5 or 30 seconds.
