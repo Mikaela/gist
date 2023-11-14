@@ -56,10 +56,11 @@ For more details such as the Briar links, refer to `my-accounts.tsv`.
     neckspeaker and just for gaming and when I do need terminal, SSH exists. I
     am rambling now...
 - My phones are
-  - `Aminda-Janus (2023-061)` - my primary phone due to the killer feature of being able to `adb push` whatever ringtones I want unlike iOS which is very picky on what to accept as ringtones. As noted before, I mostly use it from WLAN with help from Briar Desktops unless charging.
+  - `Aminda-Yeul (2023-318)` - my primary phone, Fairphone 5 so hopefully around for a long time. Replaced `Aminda-Janus (2023-061)` due to charging port accident.
   - `Mikaela` - my tertiary phone predating the naming scheme discussed earlier,
     but as it's SailfishOS Android AppSupport important Briar features are not
     implemented and I don't use it that much. Since the decommissioning of Axel (aka. "A") also my oldest Briar account that can be seen around on forums.
+  - `Aminda-Janus (2023-061)` - my previous main phone. 10 000 mAh battery is nice, but slow charging taking days to full charge isn't, it will go away at some point.
 - My family devices that are seldom online don't need to be cared about that
   much, but they have all the forums that my other devices if I have been
   sharing them.
