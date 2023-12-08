@@ -5,7 +5,7 @@
   - [Definitions](#definitions)
   - [Gateways](#gateways)
     - [Mikaela.info](#mikaelainfo)
-    - [Tanukis (or "Pillow Fortress")](#tanukis-or-pillow-fortress)
+    - [Fluffing, Tanukis (or "Pillow Fortress")](#fluffing-tanukis-or-pillow-fortress)
     - [ABGILPQT+](#abgilpqt)
     - [Test](#test)
     - [Antikupla](#antikupla)
@@ -43,6 +43,8 @@ Sorted in order of popularity or likeliness to be asked about.
 
 ### Mikaela.info
 
+[Aminda.eu/discuss#rules apply!](https://aminda.eu/discuss#rules)
+
 - ircEtro
 - ircLc
 - ircLca
@@ -52,7 +54,9 @@ Sorted in order of popularity or likeliness to be asked about.
 - Twitch
 - XMPP
 
-### Tanukis (or "Pillow Fortress")
+### Fluffing, Tanukis (or "Pillow Fortress")
+
+[Aminda.eu/discuss#rules apply!](https://aminda.eu/discuss#rules)
 
 - ircEtro
 - ircLc
