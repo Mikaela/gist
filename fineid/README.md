@@ -69,6 +69,8 @@ Set the certificate database to one of the three:
 - `/etc/nssdb` with password that I don't know.
 - `~/.pki/nssdb` which password theoretically reads in `~/.digisign/Seed.txt` assuming the official DigiSignApplication is used.
 - `~/.mozilla/firefox/<randomString>.<ProfileName>` - when Firefox is used (may require the configuration above), didn't ask me for a password, which may be the main password and directly offers the certificates from FINEID.
+  - This seems the most functional, refer to `about:profiles` within
+    Firefox/LibreWolf.
 
 Next Apply or OK and restart Okular, open _Tools_ menu and select
 _Digitally sign..._, draw an area for the signature (which FINEID wants to be big),
