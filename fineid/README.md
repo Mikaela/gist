@@ -6,6 +6,7 @@
   - [Chromium](#chromium)
   - [Firefox and Thunderbird](#firefox-and-thunderbird)
   - [Okular](#okular)
+    - [Validation](#validation)
   - [Root certificates](#root-certificates)
   - [Testing](#testing)
   - [FINEID as SSH key](#fineid-as-ssh-key)
@@ -76,9 +77,13 @@ Next Apply or OK and restart Okular, open _Tools_ menu and select
 _Digitally sign..._, draw an area for the signature (which FINEID wants to be big),
 select where to save the signed .pdf and enter the signing PIN a few times.
 
-These signed documents can then be verified at [English](https://dvv.fi/en/validate-pdf-document),
-[Finnish](https://dvv.fi/tarkasta-pdf-asiakirja) or [Swedish](https://dvv.fi/sv/granska-pdf-dokument)
-or other EIDAS/European signing verification capable services or applications.
+### Validation
+
+DVV provides a validator in three languages:
+
+- [suomeksi](https://dvv.fineid.fi/fi/validation)
+- [på svenska](https://dvv.fineid.fi/sv/validation)
+- [in English](https://dvv.fineid.fi/en/validation)
 
 ```txt
 ✔️ PDF document validated. The following signatures were found:
@@ -93,6 +98,9 @@ Signed by: ...
 Issuer of certificate and root certificate: VRK Gov. CA for Citizen Certificates - G3 | VRK Gov. Root CA - G2 (Trusted)
 Time of signature: ... (Time stamp not validated by a time stamp authority (TSA))
 ```
+
+Although other EIDAS/European signing verification capable services or
+applications should work too.
 
 ## Root certificates
 
