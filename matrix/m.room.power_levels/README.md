@@ -30,7 +30,7 @@ The main point I do this for is users `users`
         "@mikaela.matterbridge:tedomum.net": 100,
         "@aminda.matterbridge:jae.fi": 100,
         "@aminda:beeper.com": 100,
-        "@aminda:masfloss.net": 99,
+        "@aminda:masfloss.net": 100,
         "@leon:masfloss.net": 99,
         "@fidino:artemislena.eu": 99,
         "@mjolnir_3a78dd65-60a4-4c3a-9a60-01e214a5d6f6:draupnir.midnightthoughts.space": 99
