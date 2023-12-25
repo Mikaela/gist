@@ -28,7 +28,6 @@ The main point I do this for is users `users`
         "@mikaela.suomalainen:matrix.org": 100,
         "@mikaela.matterbridge:converser.eu": 100,
         "@mikaela.matterbridge:tedomum.net": 100,
-        "@aminda.matterbridge:jae.fi": 100,
         "@aminda:beeper.com": 100,
         "@aminda:masfloss.net": 100,
         "@leon:masfloss.net": 99,
