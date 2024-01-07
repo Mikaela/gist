@@ -1,20 +1,25 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Notes on using LaTeX](#notes-on-using-latex)
-  - [Simple boilerplate](#simple-boilerplate)
-  - [Package management](#package-management)
-  - [Installing custom templates](#installing-custom-templates)
-    - [Noteworthy templates](#noteworthy-templates)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Notes on using LaTeX
 
-To possibly save your self from headache:
+To possibly spare yourself from headache:
 
 - Fedora: `sudo dnf install texlive-scheme-full -y`
 - Debian: `sudo apt install texlive-full -y`
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Simple boilerplate](#simple-boilerplate)
+- [Package management](#package-management)
+- [Installing custom templates](#installing-custom-templates)
+  - [Noteworthy templates](#noteworthy-templates)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
 
 ## Simple boilerplate
 
