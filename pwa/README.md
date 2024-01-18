@@ -38,6 +38,7 @@ fields.
   - [XMPP](#xmpp)
   - [Misc](#misc)
 - [Learning](#learning)
+- [Libraries](#libraries)
 - [Localization](#localization)
 - [Music](#music)
 - [News](#news)
@@ -109,6 +110,11 @@ fields.
 
 - https://www.duolingo.com/ - language learning website
   - https://preview.duolingo.com/ - testing
+
+## Libraries
+
+- https://helmet.finna.fi - <em>Hel</em>sinki <em>Met</em>ropolitan area
+  libraries
 
 ## Localization
 
