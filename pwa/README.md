@@ -122,6 +122,7 @@ fields.
 
 - https://iltalehti.fi - big Finnish newspaper
 - https://www.helsinginuutiset.fi/ - Helsinki area newspaper
+- https://app.mtvuutiset.fi - another big Finnish media
 
 ## Parcel tracking
 
