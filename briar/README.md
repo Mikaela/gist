@@ -56,7 +56,7 @@ For more details such as the Briar links, refer to `my-accounts.tsv`.
     neckspeaker and just for gaming and when I do need terminal, SSH exists. I
     am rambling now...
 - My phones are
-  - `Aminda-Yeul (2023-318)` - my primary phone, Fairphone 5 so hopefully around for a long time. Replaced `Aminda-Janus (2023-061)` due to charging port accident.
+  - <del>`Aminda-Yeul (2023-318)` - my primary phone, Fairphone 5 so hopefully around for a long time. Replaced `Aminda-Janus (2023-061)` due to charging port accident.</del>
   - `Mikaela` - my tertiary phone predating the naming scheme discussed earlier,
     but as it's SailfishOS Android AppSupport important Briar features are not
     implemented and I don't use it that much. Since the decommissioning of Axel (aka. "A") also my oldest Briar account that can be seen around on forums.
