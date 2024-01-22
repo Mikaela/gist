@@ -46,7 +46,7 @@ Generic notes:
 - Don't have anything in `events {}` as `0` or otherwise users will be
   able to send state events with that name including gigabytes of
   data breaking the room.
-  - Refer to security considerations of MSC 3779.
+  - Refer to security considerations of [MSC3779](https://github.com/matrix-org/matrix-spec-proposals/pull/3779).
 
 ### Reasonable version
 
