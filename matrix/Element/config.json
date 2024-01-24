@@ -1,5 +1,6 @@
 {
   "showLabsSettings": true,
+  "brand": "Elemoment",
   "room_directory": {
     "servers": [
       "matrixrooms.info"
