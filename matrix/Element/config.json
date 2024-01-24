@@ -22,7 +22,8 @@
     "feature_pinning": "enable",
     "feature_state_counters": "labs",
     "feature_bridge_state": "enable",
-    "feature_exploring_public_spaces": "enable"
+    "feature_exploring_public_spaces": "enable",
+    "feature_ask_to_join": "enable"
   },
   "jitsi": {
     "preferredDomain": "jitsi.effi.org"
