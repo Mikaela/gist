@@ -1,5 +1,10 @@
 {
   "showLabsSettings": true,
+  "room_directory": {
+    "servers": [
+      "matrixrooms.info"
+    ]
+  },
   "defaultDeviceDisplayName": "HostnameOS-Client-YYYY-WXX-D",
   "default_server_config": {
     "m.homeserver": {
