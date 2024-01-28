@@ -1,3 +1,9 @@
+---
+layout: null
+permalink: /n/pwa.html
+sitemap: false
+---
+
 # Potentially useful progressive web apps
 
 PWAs are especially useful for iOS users, since PWAs added to homescreen
