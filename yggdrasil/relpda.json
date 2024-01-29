@@ -1,11 +1,11 @@
 {
-  "name": "y.relpda.mikaela.info",
-  "type": "server",
-  "location": "i-83.net, Gravelines, France",
-  "peering": "Ask me, AllowedEncryptionPublicKeys is set",
   "contact": {
     "name": "Mikaela Suomalainen",
-    "xmpp": "mikaela@blesmrt.net",
-    "public keys": "https://mikaela.info/keys/"
-  }
+    "public keys": "https://mikaela.info/keys/",
+    "xmpp": "mikaela@blesmrt.net"
+  },
+  "location": "i-83.net, Gravelines, France",
+  "name": "y.relpda.mikaela.info",
+  "peering": "Ask me, AllowedEncryptionPublicKeys is set",
+  "type": "server"
 }

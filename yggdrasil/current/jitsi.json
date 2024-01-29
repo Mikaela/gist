@@ -1,10 +1,10 @@
 {
-  "name": "y.jitsi.piraattipuolue.fi",
-  "type": "server",
-  "location": "OVH, Roubaix, France",
-  "peering": "Please contact us, if you are a Pirate Party activist",
   "contact": {
     "email": "pikaviestimet+JitsiYggdrasil@piraattipuolue.fi",
     "irc": "ircs://y.irc.pirateirc.net:6697/#verkkopalvelut"
-  }
+  },
+  "location": "OVH, Roubaix, France",
+  "name": "y.jitsi.piraattipuolue.fi",
+  "peering": "Please contact us, if you are a Pirate Party activist",
+  "type": "server"
 }

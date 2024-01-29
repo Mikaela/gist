@@ -40,7 +40,7 @@ repos:
         args: [--fix=auto]
       - id: pretty-format-json
         args:
-          [--autofix, --no-ensure-ascii, --no-sort-keys]
+          [--autofix, --no-ensure-ascii]
           #- id: requirements-txt-fixer
   - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
     rev: v1.6.1

@@ -1,8 +1,5 @@
 [
   {
-    "nickname": "D6",
-    "server": "fi.pirateirc.net",
-    "discordToken": "CENSORED",
     "autoSendCommands": [
       [
         "NICKSERV",
@@ -18,7 +15,6 @@
         "-i"
       ]
     ],
-    "webhooks": {},
     "channelMapping": {
       "374659905983873025": "#piraattinuoret",
       "374867585868496897": "#pinu_hallitus",
@@ -32,21 +28,21 @@
       "412258307647078401": "#ppfi",
       "412293076917288970": "#messi",
       "412511326766759936": "#keski-suomi",
-      "431034872333598720": "#uusimaa",
       "413041315270492160": "#likakaivo",
       "413247653015715840": "#verkkopalvelut",
       "414400615591051274": "#sivusto",
       "416285084912451595": "#grafiikka",
       "417031598685552640": "#akateemisetpiraatit",
+      "422390844612411402": "#suomiareena",
       "424514192113008650": "#hallituskokous",
       "426034481095376926": "#sateenkaaripiraatit",
       "426703063970086912": "#antikupla",
       "426703083574394881": "#syotteet",
+      "431034872333598720": "#uusimaa",
       "432465953293336579": "#puoluetoimisto",
       "444816560150937610": "#pirkanmaa",
       "449854986919084032": "#piraattivpn",
       "451295033488965652": "#hame",
-      "422390844612411402": "#suomiareena",
       "482982233649446926": "#satakunta",
       "504190490086998026": "#viestinta_markkinointi CENSORED",
       "511566906843463680": "#oulu",
@@ -56,21 +52,25 @@
       "511826019464904704": "#vaasa",
       "511827216397631490": "#lappi"
     },
+    "discordToken": "CENSORED",
+    "format": {
+      "discord": "<`{$author}`> {$withMentions}",
+      "ircText": "<{$displayUsername}> {$text}"
+    },
+    "ircNickColor": false,
     "ircOptions": {
-      "userName": "D6",
-      "realName": "mailto:pikaviestimet+DiscordRele@piraattipuolue.fi",
+      "debug": "false",
+      "encoding": null,
       "password": "CENSORED",
       "port": "6697",
-      "secure": "true",
+      "realName": "mailto:pikaviestimet+DiscordRele@piraattipuolue.fi",
       "sasl": "true",
+      "secure": "true",
       "stripColors": "true",
-      "debug": "false",
-      "encoding": null
+      "userName": "D6"
     },
-    "format": {
-      "ircText": "<{$displayUsername}> {$text}",
-      "discord": "<`{$author}`> {$withMentions}"
-    },
-    "ircNickColor": false
+    "nickname": "D6",
+    "server": "fi.pirateirc.net",
+    "webhooks": {}
   }
 ]

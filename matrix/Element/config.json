@@ -1,11 +1,5 @@
 {
-  "showLabsSettings": true,
   "brand": "Elemoment",
-  "room_directory": {
-    "servers": [
-      "matrixrooms.info"
-    ]
-  },
   "defaultDeviceDisplayName": "HostnameOS-Client-YYYY-WXX-D",
   "default_server_config": {
     "m.homeserver": {
@@ -14,24 +8,30 @@
     }
   },
   "features": {
-    "feature_report_to_moderators": "enable",
+    "feature_ask_to_join": "enable",
+    "feature_bridge_state": "enable",
+    "feature_custom_themes": "labs",
+    "feature_dehydration": "enable",
+    "feature_exploring_public_spaces": "enable",
+    "feature_extensible_events": "enable",
+    "feature_hidden_read_receipts": "enable",
     "feature_latex_maths": "enable",
+    "feature_message_right_click_context_menu": "enable",
     "feature_mjolnir": "enable",
+    "feature_pinning": "enable",
+    "feature_report_to_moderators": "enable",
     "feature_roomlist_preview_reactions_all": "enable",
     "feature_roomlist_preview_reactions_dms": "enable",
-    "feature_dehydration": "enable",
-    "feature_extensible_events": "enable",
-    "feature_threadstable": "enable",
-    "feature_message_right_click_context_menu": "enable",
-    "feature_hidden_read_receipts": "enable",
-    "feature_custom_themes": "labs",
-    "feature_pinning": "enable",
     "feature_state_counters": "labs",
-    "feature_bridge_state": "enable",
-    "feature_exploring_public_spaces": "enable",
-    "feature_ask_to_join": "enable"
+    "feature_threadstable": "enable"
   },
   "jitsi": {
     "preferredDomain": "jitsi.effi.org"
-  }
+  },
+  "room_directory": {
+    "servers": [
+      "matrixrooms.info"
+    ]
+  },
+  "showLabsSettings": true
 }

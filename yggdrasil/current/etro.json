@@ -1,12 +1,12 @@
 {
-  "name": "y.etro.mikaela.info",
-  "type": "server",
-  "location": "Hetzner, Tuusula, Finland",
-  "peering": "Ask me? I don't know yet",
   "contact": {
-    "name": "Aminda Suomalainen",
-    "xmpp": "mikaela@blesmrt.net",
     "email-deltachat": "delta@aminda.eu",
-    "public keys": "https://www.aminda.eu/keys/"
-  }
+    "name": "Aminda Suomalainen",
+    "public keys": "https://www.aminda.eu/keys/",
+    "xmpp": "mikaela@blesmrt.net"
+  },
+  "location": "Hetzner, Tuusula, Finland",
+  "name": "y.etro.mikaela.info",
+  "peering": "Ask me? I don't know yet",
+  "type": "server"
 }

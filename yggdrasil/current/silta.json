@@ -1,11 +1,11 @@
 {
-  "name": "y.silta.piraatit.fi",
-  "type": "server",
-  "location": "OVH, Roubaix, France",
-  "peering": "Please contact us, if you are a Pirate Party activist and a PirateIRC user",
   "IRC port": "6697, TLS required",
   "contact": {
     "email": "pikaviestimet+SiltaYggdrasil@piraattipuolue.fi",
     "irc": "ircs://y.irc.pirateirc.net:6697/#verkkopalvelut"
-  }
+  },
+  "location": "OVH, Roubaix, France",
+  "name": "y.silta.piraatit.fi",
+  "peering": "Please contact us, if you are a Pirate Party activist and a PirateIRC user",
+  "type": "server"
 }
