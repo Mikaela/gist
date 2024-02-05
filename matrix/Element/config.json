@@ -22,6 +22,7 @@
     "feature_report_to_moderators": "enable",
     "feature_roomlist_preview_reactions_all": "enable",
     "feature_roomlist_preview_reactions_dms": "enable",
+    "feature_rust_crypto": "enable",
     "feature_state_counters": "labs",
     "feature_threadstable": "enable",
     "feature_video_rooms": "enable"
@@ -33,6 +34,9 @@
     "servers": [
       "matrixrooms.info"
     ]
+  },
+  "setting_defaults": {
+    "RustCrypto.staged_rollout_percent": 100
   },
   "showLabsSettings": true
 }
