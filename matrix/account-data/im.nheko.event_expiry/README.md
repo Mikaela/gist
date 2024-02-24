@@ -1,5 +1,9 @@
 # `im.nheko.event_expiry`
 
+- Two unit conversion tools from `m.room.retention` notes:
+  - https://unitchefs.com/milliseconds/days/
+  - https://unitchefs.com/days/milliseconds/
+
 <!-- prettier-ignore-start -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
