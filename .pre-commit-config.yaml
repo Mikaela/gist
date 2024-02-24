@@ -42,6 +42,12 @@ repos:
         args:
           [--autofix, --no-ensure-ascii]
           #- id: requirements-txt-fixer
+
+  - repo: https://github.com/pre-commit/sync-pre-commit-deps
+    rev: v0.0.1
+    hooks:
+      - id: sync-pre-commit-deps
+
   - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
     rev: v1.6.1
     hooks:
