@@ -4,6 +4,8 @@
   - https://unitchefs.com/milliseconds/days/
   - https://unitchefs.com/days/milliseconds/
 
+---
+
 <!-- prettier-ignore-start -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -18,6 +20,8 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- prettier-ignore-end -->
+
+---
 
 ## Disable
 
