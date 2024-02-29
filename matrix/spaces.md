@@ -1,4 +1,25 @@
-## Proof of Concept curated list of spaces as opposed to room directory
+# Proof of Concept curated list of spaces as opposed to room directory
+
+## Table of Contents
+
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Foreword](#foreword)
+- [Spaces around a single individual](#spaces-around-a-single-individual)
+- [Matrix protocol](#matrix-protocol)
+- [Technology](#technology)
+- [Finnish](#finnish)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
+## Foreword
 
 Earlier on 2024-02-29 I called Matrix room directory as a mistake that sholdn't have been implemented and offered curated spaces or room lists as a solution instead.
 
@@ -15,22 +36,6 @@ If you are having issues with the links, please see issue tracker of your client
 > [Element Web](https://github.com/vector-im/element-web/issues/16875), [Element Android](https://github.com/vector-im/element-android/issues/3268) and [Element iOS](https://github.com/vector-im/element-ios/issues/4297)
 
 ---
-
-<!-- editorconfig-checker-disable -->
-<!-- prettier-ignore-start -->
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Spaces around a single individual](#spaces-around-a-single-individual)
-- [Matrix protocol](#matrix-protocol)
-- [Technology](#technology)
-- [Finnish](#finnish)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- prettier-ignore-end -->
-<!-- editorconfig-checker-enable -->
 
 ## Spaces around a single individual
 
