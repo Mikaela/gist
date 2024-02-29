@@ -40,7 +40,8 @@ If you are having issues with the links, please see issue tracker of your client
 
 - [`#community:matrix.org`](matrix:r/community:matrix.org?action=join) is your space for anything Matrix related, whether a homeserver, client, bot, anything. And as you are hearing of it now from my listing, I can highlight my favourites:
   - [`#fluffy-space:matrix.org`](matrix:r/fluffy-space:matrix.org?action=join) the fluffiest and cutest Matrix client you will find
-  - _This would be an advertisement for Nheko if it had a space._
+  - [`#community:nheko.im`](matrix:r/community:nheko.im?action=join) is the
+    most featured cross-platform desktop client I know of
 
 ## Technology
 
