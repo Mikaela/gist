@@ -1,0 +1,31 @@
+{
+  "MessageComposer.showFormatting": false,
+  "MessageComposerInput.isRichTextEnabled": false,
+  "Spaces.allRoomsInHome": true,
+  "alwaysShowTimestamps": true,
+  "breadcrumbs": true,
+  "developerMode": true,
+  "enableWidgetScreenshots": true,
+  "mjolnirRooms": [
+    "!ULRZFkcSPBMGysshcR:midnightthoughts.space",
+    "!GGuqmQVLNyWASNjVQw:envs.net",
+    "!fTjMjIzNKEsFlUIiru:neko.dev"
+  ],
+  "pinMentionedRooms": true,
+  "pinUnreadRooms": true,
+  "promptBeforeInviteUnknownUsers": false,
+  "room_directory_servers": [
+    "fedoraproject.org",
+    "matrix.org",
+    "tchncs.de",
+    "tedomum.net",
+    "converser.eu",
+    "kapsi.fi",
+    "hacklab.fi",
+    "pikaviestin.fi",
+    "irc.snt.utwente.nl",
+    "fosdem.org"
+  ],
+  "theme": "dark",
+  "useCompactLayout": true
+}
