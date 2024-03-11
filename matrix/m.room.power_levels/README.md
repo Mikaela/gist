@@ -4,7 +4,6 @@
 - [Template power levels event for quick copy-pasting](#template-power-levels-event-for-quick-copy-pasting)
   - [Completeish event](#completeish-event)
     - [Reasonable version](#reasonable-version)
-    - [Medium version](#medium-version)
     - [Paranoid version](#paranoid-version)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -67,14 +66,14 @@ This is not the Element/Synapse default as that would be pointless to list.
     "m.room.pinned_events": 25,
     "m.room.power_levels": 50,
     "m.room.retention": 100,
-    "m.room.server_acl": 100,
+    "m.room.server_acl": 99,
     "m.room.tombstone": 100,
     "m.room.topic": 25,
     "m.space.child": 50,
   },
   "events_default": 0,
   "historical": 100,
-  "invite": 0,
+  "invite": 13,
   "kick": 25,
   "redact": 25,
   "state_default": 50,
@@ -91,7 +90,10 @@ This is not the Element/Synapse default as that would be pointless to list.
 - `m.room.power_levels` is set to `50` so moderators can raise others to moderators
   for example matrix-appservice-irc, which I would then give PL51 for ops syncing.
   On matrix side immune mods, could be PL52.
-- invite commonly defaults to `50`, but I haven't seen abuse through it
+- `m.room.server_acl` is set to `99` so moderation bots can function and do mostly
+  everything while admins still have power over them.
+- invite commonly defaults to `50`, but I haven't seen abuse through it. However
+  as it changes state by introducing membership event, it goes to the minimum power of 13.
 - PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with powers to:
   change room topic, pinned messages, remove messages and kick users (but not ban).
   - Maybe this could be used e.g. in an association where a secretary/someone
@@ -100,49 +102,12 @@ This is not the Element/Synapse default as that would be pointless to list.
     Alternatively someone not wanting full moderator responsibility could remove
     spam while not participating in banning discussions.
 - PL13 gets access to change main alias and add/remove published room aliases alongside
-  (at least on Synapse) [un/publish the room in the room directory](https://github.com/vector-im/element-web/issues/13835).
+  (at least on Synapse) [un/publish the room in the room directory](https://github.com/vector-im/element-web/issues/13835). Additionally has it also affects state, they can invite others.
   - This can be used with e.g. [altalias maubot plugin](https://matrix.org/blog/2020/06/19/this-week-in-matrix-2020-06-19#alt-alias-maubot-plugin).
     I don't care about room directory or the main alias as it doesn't affect ctrl-k that much anyway,
     rooms are generally discovered through Spaces and I use Matrix URI scheme
     which takes room internal ID and servers to find it from instead of caring about
     the alias. Most importantly **don't give permissions to entirely untrusted users.**
-
-### Medium version
-
-```jsonnet
-{
-  "ban": 50,
-  "events": {
-    "im.vector.modular.widgets": 50,
-    "m.room.avatar": 50,
-    "m.room.canonical_alias": 13,
-    "m.room.encryption": 100,
-    "m.room.history_visibility": 99,
-    "m.room.join_rules": 50,
-    "m.room.name": 50,
-    "m.room.pinned_events": 25,
-    "m.room.power_levels": 50,
-    "m.room.retention": 100,
-    "m.room.server_acl": 100,
-    "m.room.tombstone": 100,
-    "m.room.topic": 25,
-    "m.space.child": 50,
-  },
-  "events_default": 0,
-  "historical": 100,
-  "invite": 50,
-  "kick": 25,
-  "redact": 25,
-  "state_default": 50,
-  "users": {
-    // READ THE BEGINNING OF THE FILE FOR THIS SECTION AND PROPER FORMAT! OR SEE YOUR CURRENT EVENT!
-  },
-  "users_default": 0,
-}
-```
-
-- Otherwise "Reasonable version", but
-- Only moderators can invite
 
 ### Paranoid version
 
@@ -160,7 +125,7 @@ This is not the Element/Synapse default as that would be pointless to list.
     "m.room.pinned_events": 100,
     "m.room.power_levels": 100,
     "m.room.retention": 100,
-    "m.room.server_acl": 100,
+    "m.room.server_acl": 99,
     "m.room.tombstone": 100,
     "m.room.topic": 100,
     "m.space.child": 100,
@@ -177,3 +142,6 @@ This is not the Element/Synapse default as that would be pointless to list.
   "users_default": 0,
 }
 ```
+
+- Almost everything requires PL100
+- `invite`, `kick`, `redact` and `state_default` are bumbed to `100`, `50`, `50` and `100` in that order.
