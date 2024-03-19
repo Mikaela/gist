@@ -9,10 +9,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Foreword](#foreword)
-- [Spaces around a single individual](#spaces-around-a-single-individual)
-- [Matrix protocol](#matrix-protocol)
-- [Technology](#technology)
-- [Finnish](#finnish)
+- [Spaces](#spaces)
+  - [Spaces around a single individual](#spaces-around-a-single-individual)
+  - [Matrix protocol](#matrix-protocol)
+  - [Technology](#technology)
+  - [Finnish](#finnish)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -37,22 +38,24 @@ If you are having issues with the links, please see issue tracker of your client
 
 ---
 
-## Spaces around a single individual
+## Spaces
+
+### Spaces around a single individual
 
 - [`#eu.aminda.space.10:pikaviestin.fi`](matrix:r/eu.aminda.space.10:pikaviestin.fi?action=join) is my own space, it may not yet host interesting or random discussions that much, but sometimes I find it motivating to see that I am doing things when I see git forge/commit activity. `!fGtopoZuCySnTsSdsU:matrix.org` (v10)
 
-## Matrix protocol
+### Matrix protocol
 
 - [`#community:matrix.org`](matrix:r/community:matrix.org?action=join) is your space for anything Matrix related, whether a homeserver, client, bot, anything. And as you are hearing of it now from my listing, I can highlight my favourites:
   - [`#fluffy-space:matrix.org`](matrix:r/fluffy-space:matrix.org?action=join) the fluffiest and cutest Matrix client you will find
   - [`#community:nheko.im`](matrix:r/community:nheko.im?action=join) is the
     most featured cross-platform desktop client I know of
 
-## Technology
+### Technology
 
 - [`#ftechspace:matrix.org`](matrix:r/ftechspace:matrix.org?action=join) furries and technology allowing non-tech subjects too and sign of furries on your platform is sign of your platform being alive! `!NHApwMwsFHfFrRMfrD:jae.fi` v6)
 
-## Finnish
+### Finnish
 
 - [`#matrix-suomi:kapsi.fi`](matrix:r/matrix-suomi:kapsi.fi?action=join) is a curated listing of Finnish language rooms about all subjects. `!WDaMZSVinTZRLOTajM:hacklab.fi` (v6)
 
