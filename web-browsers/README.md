@@ -11,6 +11,7 @@ and symlinked in this directory for reference._
 
 - [Abandoned ideas](#abandoned-ideas)
   - [AdNauseam managed policy](#adnauseam-managed-policy)
+  - [Blank New Tab](#blank-new-tab)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -36,6 +37,21 @@ This snipped is from Firefox, but the principle applies to Chromium.
           "advancedSettings": [["filterAuthorMode", "true"]]
         }
       }
+    }
+  }
+}
+```
+
+### Blank New Tab
+
+```json
+{
+  "ExtensionSettings": {
+    "pfbmpcgfjncjakgfpddijlbdpjnhnfem": {
+      "installation_mode": "force_installed",
+      "override_update_url": true,
+      "toolbar_pin": "default_unpinned",
+      "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
     }
   }
 }
