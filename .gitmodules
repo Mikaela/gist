@@ -73,3 +73,6 @@
 [submodule "submodules/curl.wiki"]
 	path = submodules/curl.wiki
 	url = https://github.com/curl/curl.wiki.git
+[submodule "submodules/yggdrasil-public-peers"]
+	path = submodules/yggdrasil-public-peers
+	url = https://github.com/yggdrasil-network/public-peers.git
