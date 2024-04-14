@@ -19,3 +19,5 @@ interested people.
 - YLE Vaaratiedotteet `https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET&concepts=18-82214`
 - YLE News `https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS`
 - Selkomedia `https://www.selkomedia.fi/feed/rss`
+- MTV `https://api.mtvuutiset.fi/mtvuutiset/api/feed/rss/mtv_uusimmat_20`
+- XKCD `https://m.xkcd.com/atom.xml`
