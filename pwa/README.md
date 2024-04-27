@@ -157,7 +157,7 @@ fields.
 - Lemmy
   - https://lemmy.tedomum.net/
   - https://latte.isnot.coffee
-- Kbin
+- Mbin
   - https://fedia.io
 
 ## Travel
