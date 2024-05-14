@@ -5,6 +5,7 @@
   - [Requirements for everything](#requirements-for-everything)
   - [Chromium](#chromium)
   - [Firefox and Thunderbird](#firefox-and-thunderbird)
+    - [Firefox policy](#firefox-policy)
   - [Okular](#okular)
     - [Validation](#validation)
   - [Root certificates](#root-certificates)
@@ -57,6 +58,27 @@ In Settings, Advanced, Security devices load the module from (DVV app) `/usr/lib
 
 `onepin` is a workaround to not ask for PIN2 which is only used for legal agreements,
 email signing also uses PIN1.
+
+### Firefox policy
+
+Firefox organizational policy can also be used for this, Thunderbird likely
+has one too. It will affect all users and instances of the application on the
+computer.
+
+In the file `/etc/firefox/policies/policies.json` which must be created if it
+doesn't exist:
+
+```json
+{
+  "policies": {
+    "SecurityDevices": {
+      "Add": {
+        "Fujitsu mPollux DigiSignApplication": "/usr/lib64/libcryptoki.so"
+      }
+    }
+  }
+}
+```
 
 ## Okular
 
