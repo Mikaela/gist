@@ -33,6 +33,7 @@ fields.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [DNS](#dns)
 - [Events](#events)
 - [Food](#food)
 - [Forums](#forums)
@@ -54,11 +55,19 @@ fields.
 - [Social media](#social-media-1)
   - [Federated social news aggregators](#federated-social-news-aggregators)
 - [Travel](#travel)
+- [Troubleshooting](#troubleshooting)
+  - [Network](#network)
 - [Not PWAs but still possibly useful for homescreens](#not-pwas-but-still-possibly-useful-for-homescreens)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 <!-- prettier-ignore-end -->
+
+## DNS
+
+- [Quad9.net](https://quad9.net) - I have no idea what is the point of this
+  being a PWA, but it is and suggests me to install it and as I like them, I
+  am including them here.
 
 ## Events
 
@@ -165,6 +174,18 @@ fields.
 - https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site),
   which is also a neighbourhood in Helsinki, Finland.
 - https://osmgo.com/ - OpenStreetMap PoI contribution app
+
+## Troubleshooting
+
+The below is the only not that spammy option, others would include
+`top10vpn.com` and `dnsadblock.com`, but they take a few clicks to navigate
+to useful content, so I opt to not link them directly as I cannot see myself
+ever installing them.
+
+### Network
+
+- [ipleak.net](https://ipleak.net) performs DNS leak test and says a lot of
+  what else your browser tells about itself.
 
 ## Not PWAs but still possibly useful for homescreens
 
