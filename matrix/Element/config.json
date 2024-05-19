@@ -31,9 +31,7 @@
     "preferredDomain": "jitsi.effi.org"
   },
   "room_directory": {
-    "servers": [
-      "matrixrooms.info"
-    ]
+    "servers": ["matrixrooms.info"]
   },
   "setting_defaults": {
     "RustCrypto.staged_rollout_percent": 100
