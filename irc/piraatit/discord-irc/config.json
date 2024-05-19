@@ -1,9 +1,19 @@
 [
   {
     "autoSendCommands": [
-      ["NICKSERV", "IDENTIFY D6 CENSORED"],
-      ["NICKSERV", "REGAIN D6 CENSORED"],
-      ["MODE", "D6", "-i"]
+      [
+        "NICKSERV",
+        "IDENTIFY D6 CENSORED"
+      ],
+      [
+        "NICKSERV",
+        "REGAIN D6 CENSORED"
+      ],
+      [
+        "MODE",
+        "D6",
+        "-i"
+      ]
     ],
     "channelMapping": {
       "374659905983873025": "#piraattinuoret",
