@@ -1,7 +1,7 @@
-# Version: 202405140842
+# Version: 202405191906
 # Description: Aminda gist blocklist test
 # Title: Aminda's small blocklist
-# Last modified: 2024-05-17T10:43:26+03:00
+# Last modified: 2024-05-19T19:06:56+03:00
 # Expires: 24 hours
 # Syntax: Domains (wildcards)
 # License: CC-0
@@ -10,7 +10,6 @@ google-analytics.com
 *.google-analytics.com
 *.ssl.google-analytics.com
 matrix.to
-graph.facebook.com
 fritz.box
 mywifiext.net
 tplinkrepeater.net
