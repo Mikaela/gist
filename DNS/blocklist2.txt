@@ -1,0 +1,2 @@
+# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+/detect-missing-adblocker@*

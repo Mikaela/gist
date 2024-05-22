@@ -6,6 +6,7 @@
 # Syntax: Domains (wildcards)
 # License: CC-0
 
+!#include blocklist2.txt
 google-analytics.com
 *.google-analytics.com
 *.ssl.google-analytics.com
