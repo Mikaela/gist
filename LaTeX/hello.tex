@@ -20,6 +20,8 @@
 \usepackage{cmap}
 % This package is great and I want to be reminded of it whenever I use \LaTeX
 \usepackage{censor}
+% This is fun
+\usepackage{lipsum}
 
 % Uncomment to uncensor in output
 %\StopCensoring
@@ -76,6 +78,12 @@ If you were to censor things using \textbackslash xblackout containing unicode, 
 
 \xblackout{T{ä}h{ä}n tapaan!}
 Kiva suomenkielinen sana on \xblackout{h{ää}y{ö}aie}!
+
+\selectlanguage{latin}
+
+\section*{Lorem Ipsum}
+
+\lipsum{1}
 
 % And ends here
 \end{document}
