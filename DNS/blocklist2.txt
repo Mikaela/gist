@@ -1,2 +1,4 @@
 # https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 #/detect-missing-adblocker@*.js*
+# https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-remote-fonts
+*$font,third-party
