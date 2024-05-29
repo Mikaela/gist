@@ -1,18 +1,11 @@
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 
-! Block third party fonts. Once I experience breakage, I will switch to the
-! second rule after which more breakage reports I will keep both commented.
-! However personally I am unlikely to see this as I keep changing font through
-! Dark Reader and OpenDyslexic extensions anyway...
-*$font
-
-! In case of issues add a custom filter `*$font,badfilter`
-
 ! This suggests disabling only third party fonts
 ! https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-remote-fonts
 ! NOTE that this doesn't seem to affect LocalCDN (which would mind first party
-! fonts being blocked though as it only cares about CDNs)
-!*$font,third-party
+! fonts being blocked though as it only cares about CDNs). Without the
+! third-party it would block all fonts and random things like Mastodon's
+! buttons would break.
+*$font,third-party
 
-! The above suggests `*$font,third-party,badfilter` possibly would override
-! this in custom rules.
+! `*$font,third-party,badfilter` possibly would override this in custom rules.
