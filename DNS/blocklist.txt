@@ -1,12 +1,12 @@
-# Version: 202405282034
-# Description: Aminda gist blocklist test
-# Title: Aminda's small blocklist
-# Last modified: 2024-05-28T20:34:42+03:00
-# Expires: 24 hours
-# Syntax: Domains (wildcards)
-# License: CC-0
+! Version: 202405290901
+! Description: Aminda gist blocklist test
+! Title: Aminda's small blocklist
+! Last modified: 2024-05-29T09:01:33+03:00
+! Expires: 24 hours
+! Syntax: Domains (wildcards)
+! License: CC-0
 
-!#include blocklist2.txt
+!#include blocklist.ublockorigin.txt
 google-analytics.com
 *.google-analytics.com
 *.ssl.google-analytics.com
