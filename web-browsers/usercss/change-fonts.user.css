@@ -10,6 +10,10 @@
 }
 ==/UserStyle== */
 
+:root {
+  --a-monospace-fonts: "Liberation Mono", "Cousine", "Courier New", monospace;
+}
+
 /* Use the variable from above. */
 * {
   font-family: var(--FontSet) !important;
@@ -22,8 +26,8 @@
 /* Code blocks preferably use monospace font, which is specified here then. */
 code,
 pre {
-  font-family: "Liberation Mono", "Cousine", "Courier New", monospace !important;
+  font-family: var(--a-monospace-fonts) !important;
   @font-face {
-    font-family: "Liberation Mono", "Cousine", "Courier New", monospace !important;
+    fomt-family: var(--a-monospace-fonts) !important;
   }
 }
