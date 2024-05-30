@@ -2,7 +2,7 @@
 @name        Change Fonts
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
 @namespace   eu.aminda
-@version     2024.22.5
+@version     2024.22.6
 @var select FontSet "Font Set" {
     "System": "system-ui",
     "Serif": "ui-serif, Liberation Serif, Tinos, Times New Roman, serif",
@@ -29,7 +29,7 @@ code,
 pre {
   font-family: var(--a-monospace-fonts) !important;
   @font-face {
-    fomt-family: var(--a-monospace-fonts) !important;
+    font-family: var(--a-monospace-fonts) !important;
   }
 }
 
