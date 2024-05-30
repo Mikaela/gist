@@ -2,7 +2,7 @@
 @name        Change Fonts
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
 @namespace   eu.aminda
-@version     2024.22.4
+@version     2024.22.5
 @var select FontSet "Font Set" {
     "System": "system-ui",
     "Serif": "ui-serif, Liberation Serif, Tinos, Times New Roman, serif",
@@ -31,4 +31,10 @@ pre {
   @font-face {
     fomt-family: var(--a-monospace-fonts) !important;
   }
+}
+
+/* I have Firefox always underlining links and not seeing it on Android etc.
+bothers me.*/
+a {
+  text-decoration: underline !important;
 }
