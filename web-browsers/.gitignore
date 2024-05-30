@@ -2,4 +2,4 @@ chromium
 firefox
 init-browser-policies.bash
 blocklist.txt
-blocklist2.txt
+blocklist.ublockorigin.txt

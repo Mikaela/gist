@@ -1,0 +1,1 @@
+../DNS/blocklist.ublockorigin.txt
