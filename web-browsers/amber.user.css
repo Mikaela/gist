@@ -2,9 +2,12 @@
 @name        Dark Amber
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/amber.user.css
 @namespace   eu.aminda
-@version     2024.22.1
+@version     2024.22.2
 @preprocessor stylus
-@var select "FontSet" [["Liberation Serif", "Tinos", "Times New Roman", serif],["Liberation Sans", "Arimo", "Arial", sans-serif]]
+@var select FontSet "Font Set" {
+    "Liberation Serif, Tinos, Times New Roman, serif": 'serif',
+    "Liberation Sans, Arimo, Arial, sans-serif": 'sans-serif'
+}
 ==/UserStyle== */
 
 :root {
