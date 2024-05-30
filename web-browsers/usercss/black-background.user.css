@@ -2,10 +2,9 @@
 @name        (AMOLED) Black Background
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/black-background.user.css
 @namespace   eu.aminda
-@version     2024.22.1
+@version     2024.22.2
 ==/UserStyle== */
 
-/* Either the Serif or Sans-Serif specified above. */
 body {
-  background-color: "#000000" !important;
+  background-color: #000000 !important;
 }
