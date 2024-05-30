@@ -5,13 +5,14 @@
 @version     2024.22.4
 @var select FontSet "Font Set" {
     "System": "system-ui",
-    "Serif": "Liberation Serif, Tinos, Times New Roman, serif",
-    "Sans Serif": "Liberation Sans, Arimo, Arial, sans-serif"
+    "Serif": "ui-serif, Liberation Serif, Tinos, Times New Roman, serif",
+    "Sans Serif": "ui-sans-serif, Liberation Sans, Arimo, Arial, sans-serif"
 }
 ==/UserStyle== */
 
 :root {
-  --a-monospace-fonts: "Liberation Mono", "Cousine", "Courier New", monospace;
+  --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",
+    "Courier New", monospace;
 }
 
 /* Use the variable from above. */
