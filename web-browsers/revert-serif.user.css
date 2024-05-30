@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name        Revert Serif
+@updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/revert-serif.user.css
+==/UserStyle== */
+
+:root {
+  color-scheme: dark light !important;
+}
+* {
+  font-family: "Liberation Serif", "Tinos", "Times New Roman", serif;
+  color: revert !important;
+  background-color: revert !important;
+}
+a {
+  text-decoration: underline !important;
+}
+code,
+pre {
+  font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
+}
