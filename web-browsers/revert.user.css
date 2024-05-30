@@ -1,15 +1,19 @@
 /* ==UserStyle==
-@name        Revert Serif
+@name        Revert
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/revert-serif.user.css
 @namespace   eu.aminda
 @version     2024.22.0
+@var select FontSet "Font Set" {
+    "Liberation Serif, Tinos, Times New Roman, serif": 'serif',
+    "Liberation Sans, Arimo, Arial, sans-serif": 'sans-serif'
+}
 ==/UserStyle== */
 
 :root {
   color-scheme: dark light !important;
 }
 * {
-  font-family: "Liberation Serif", "Tinos", "Times New Roman", serif;
+  font-family: FontSet !important;
   color: revert !important;
   border-color: revert !important;
   background-color: revert !important;
@@ -19,5 +23,5 @@ a {
 }
 code,
 pre {
-  font-family: "Liberation Mono", "Cousine", "Courier New", monospace;
+  font-family: "Liberation Mono", "Cousine", "Courier New", monospace !important;
 }
