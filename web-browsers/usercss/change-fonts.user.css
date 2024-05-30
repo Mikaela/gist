@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name        Change Fonts
+@updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/usercss/change-fonts.user.css
+@namespace   eu.aminda
+@version     2024.22.0
+@var select FontSet "Font Set" {
+    "Serif": "Liberation Serif, Tinos, Times New Roman, serif",
+    "Sans Serif": "Liberation Sans, Arimo, Arial, sans-serif"
+}
+==/UserStyle== */
+
+/* Either the Serif or Sans-Serif specified above. */
+* {
+  font-family: FontSet !important;
+}
+
+/* Code blocks preferably use monospace font, which is specified here then. */
+code,
+pre {
+  font-family: "Liberation Mono", "Cousine", "Courier New", monospace !important;
+}
