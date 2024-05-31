@@ -6,6 +6,8 @@
 ! fonts being blocked though as it only cares about CDNs). Without the
 ! third-party it would block all fonts and random things like Mastodon's
 ! buttons would break.
-*$font,third-party
+! Breaks {Google,Bing} webmaster tools
+!*$font,third-party
 
-! `*$font,third-party,badfilter` possibly would override this in custom rules.
+
+! HINT: Add `,badfilter` to end of any rule to override it.
