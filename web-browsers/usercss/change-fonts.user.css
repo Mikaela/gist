@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name        Change Fonts
+@name        System Fonts
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
 @namespace   eu.aminda
-@version     2024.22.6
-@var select FontSet "Font Set" {
-    "System": "system-ui",
-    "Serif": "ui-serif, Liberation Serif, Tinos, Times New Roman, serif",
-    "Sans Serif": "ui-sans-serif, Liberation Sans, Arimo, Arial, sans-serif"
+@version     2024.22.7
+@var select FontSet "Preferred font set" {
+    "System (no fallback)": "system-ui",
+    "Serif": "ui-serif, system-ui, Liberation Serif, Tinos, Times New Roman, serif",
+    "Sans Serif": "ui-sans-serif, system-ui, Liberation Sans, Arimo, Arial, sans-serif"
 }
 ==/UserStyle== */
 
