@@ -3,6 +3,7 @@
 .cache/**
 *_original
 browsers
+node_modules
 
 # ---> TeX
 ## Core latex/pdflatex auxiliary files:

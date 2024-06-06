@@ -68,13 +68,13 @@ repos:
       - id: check-gitlab-ci
 
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: "v3.2.5"
+    rev: "v3.3.0"
     hooks:
       - id: prettier
         exclude_types: [json]
         additional_dependencies: [
             # https://www.npmjs.com/package/prettier
-            "prettier@3.2.5",
+            "prettier@3.3.1",
             # https://www.npmjs.com/package/@prettier/plugin-xml
             "@prettier/plugin-xml@3.4.1",
             # https://www.npmjs.com/package/prettier-plugin-toml
