@@ -2,17 +2,17 @@
 @name        System Fonts
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
 @namespace   eu.aminda
-@version     2024.22.7
+@version     2024.23.0
 @var select FontSet "Preferred font set" {
-    "System (no fallback)": "system-ui",
-    "Serif": "ui-serif, system-ui, Liberation Serif, Tinos, Times New Roman, serif",
-    "Sans Serif": "ui-sans-serif, system-ui, Liberation Sans, Arimo, Arial, sans-serif"
+    "System (no fallback)": "system-ui, emoji",
+    "Serif": "ui-serif, system-ui, Liberation Serif, Tinos, Times New Roman, serif, emoji",
+    "Sans Serif": "ui-sans-serif, system-ui, Liberation Sans, Arimo, Arial, sans-serif, emoji"
 }
 ==/UserStyle== */
 
 :root {
   --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",
-    "Courier New", monospace;
+    "Courier New", monospace, emoji;
 }
 
 /* Use the variable from above. */
