@@ -2,13 +2,14 @@
 @name        OpenDyslexic with serif fallback
 @updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/od-serif.user.css
 @namespace   eu.aminda
-@version     2024.23.0
+@version     2024.23.1
 ==/UserStyle== */
 
 :root {
-  --FontSet: OpenDyslexic, ui-serif, system-ui, serif, emoji;
-  --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",
-    "Courier New", monospace, emoji;
+  --FontSet: OpenDyslexic, "Liberation Serif", Tinos, "Times New Roman",
+    ui-serif, system-ui, serif, emoji;
+  --a-monospace-fonts: "Liberation Mono", "Cousine", "Courier New",
+    ui-monospace, monospace, emoji;
 }
 
 /* Use the variable from above. */
