@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name        OpenDyslexic with serif fallback
+@updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/od-serif.user.css
+@namespace   eu.aminda
+@version     2024.23.0
+==/UserStyle== */
+
+:root {
+  --FontSet: OpenDyslexic, ui-serif, system-ui, serif, emoji;
+  --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",
+    "Courier New", monospace, emoji;
+}
+
+/* Use the variable from above. */
+* {
+  font-family: var(--FontSet) !important;
+}
+
+@font-face {
+  font-family: var(--FontSet) !important;
+}
+
+/* Code blocks preferably use monospace font, which is specified here then. */
+code,
+pre {
+  font-family: var(--a-monospace-fonts) !important;
+  @font-face {
+    font-family: var(--a-monospace-fonts) !important;
+  }
+}
+
+/* I have Firefox always underlining links and not seeing it on Android etc.
+bothers me.*/
+a {
+  text-decoration: underline !important;
+}
