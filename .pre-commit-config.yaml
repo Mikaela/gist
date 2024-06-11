@@ -75,12 +75,6 @@ repos:
         language: system
         exclude_types: [json]
 
-  - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.8.0-1
-    hooks:
-      - id: shfmt
-        #- id: shfmt-docker
-
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: "2.7.3"
     hooks:
