@@ -3,194 +3,194 @@
 # probably just confuses networks without RELAYMSG and at least Kiwi pings
 # on @nick. Labels can be shorter than protocol names (more descriptive in
 # case of IRC and are ircCamelCase for benefit of IRC bots)
-RemoteNickFormat="@{NOPINGNICK}/{LABEL}: "
-IgnoreFailureOnStart=true
-MessageSplit=true
-MediaDownloadPath="/var/www/html/matterbridge"
-MediaServerDownload="https://etro.mikaela.info/matterbridge"
-MediaDownloadSize=20000000
-MediaDownloadBlacklist=[".html$",".htm$"]
-replacemessages=[ ["@room","@rööm"], ["@online","@önline"] ]
-EditSuffix=" ✏️"
-MessageClipped="…"
-UseLocalAvatar=["irc"]
+RemoteNickFormat = "@{NOPINGNICK}/{LABEL}: "
+IgnoreFailureOnStart = true
+MessageSplit = true
+MediaDownloadPath = "/var/www/html/matterbridge"
+MediaServerDownload = "https://etro.mikaela.info/matterbridge"
+MediaDownloadSize = 20000000
+MediaDownloadBlacklist = [".html$", ".htm$"]
+replacemessages = [["@room", "@rööm"], ["@online", "@önline"]]
+EditSuffix = " ✏️"
+MessageClipped = "…"
+UseLocalAvatar = ["irc"]
 
 # This refers to https://ergo.chat/about
 [irc.localergo]
-Nick="T4"
+Nick = "T4"
 # Normal client would specify @freeformClientID, but with matterbridge that
 # could result to flood from integrated bouncer
-NickServNick="T4"
-NickServPassword=""
-Server="localhost:6667"
-UseTLS=false
-UseSASL=true
-Label="ircEtro"
-Charset="utf8"
+NickServNick = "T4"
+NickServPassword = ""
+Server = "localhost:6667"
+UseTLS = false
+UseSASL = true
+Label = "ircEtro"
+Charset = "utf8"
 # sends join/quit/part from the integrated bouncer
-IgnoreNicks="HistServ"
-RunCommands=["OPER T4 MI-ne-DIRAS-do-AL-vin", "MODE T4 -iw+BET"]
+IgnoreNicks = "HistServ"
+RunCommands = ["OPER T4 MI-ne-DIRAS-do-AL-vin", "MODE T4 -iw+BET"]
 # Requires the bot to be chanop, spoofs sender
-UseRelayMsg=true
-RemoteNickFormat="{NICK}/{LABEL}"
+UseRelayMsg = true
+RemoteNickFormat = "{NICK}/{LABEL}"
 
 [irc.freenode]
-Nick="T4"
-NickServNick="T4"
-NickServPassword=""
-Server="chat.ipv6.freenode.net:6697"
-UseTLS=true
-UseSASL=true
-SkipTLSVerify=false
-Label="ircFn"
-Charset="utf8"
-RunCommands=["MODE T4 -iw+gQR"]
+Nick = "T4"
+NickServNick = "T4"
+NickServPassword = ""
+Server = "chat.ipv6.freenode.net:6697"
+UseTLS = true
+UseSASL = true
+SkipTLSVerify = false
+Label = "ircFn"
+Charset = "utf8"
+RunCommands = ["MODE T4 -iw+gQR"]
 
 [irc.liberachat]
-Nick="T4"
-NickServNick="T4"
-NickServPassword=""
-Server="irc.libera.chat:6697"
-UseTLS=true
-UseSASL=true
-SkipTLSVerify=false
-Label="ircLc"
-Charset="utf8"
-RunCommands=["MODE T4 -iw+gQR"]
+Nick = "T4"
+NickServNick = "T4"
+NickServPassword = ""
+Server = "irc.libera.chat:6697"
+UseTLS = true
+UseSASL = true
+SkipTLSVerify = false
+Label = "ircLc"
+Charset = "utf8"
+RunCommands = ["MODE T4 -iw+gQR"]
 
 [matrix.matrixexample]
-Server="https://matrix.example.org"
-MxID="@yournick.matterbridge:example.org"
+Server = "https://matrix.example.org"
+MxID = "@yournick.matterbridge:example.org"
 # Above the clear cache & reload button. DON'T LOG OUT or it will be invalid.
 # If leaked, login and remove the session from "Infosec & Privacy"
-Token="MEOW-MEOW_CHOCO-CHOW"
+Token = "MEOW-MEOW_CHOCO-CHOW"
 # Otherwise collision risk with UseUserName=true
-NoHomeServerSuffix=false
+NoHomeServerSuffix = false
 # The Matrix logo "[m]" easens hitting up Discord maximum length so it's
 # better to only have a single char label with the full MXID
-Label="m"
+Label = "m"
 # Use Matrix ID instead of display name to avoid messages getting lost due
 # to Ergo and Matterbridge disagreeing on invalid characters (e.g. LGBT* flag)
 # https://github.com/ergochat/ergo/issues/1441
-UseUserName=true
+UseUserName = true
 # Send everything as is, don't "cleverly" convert into HTML/Markdown which
 # would break #channels (-> markdown h1 tag), mathematical equatons etc.
 # The IRC equivalent would be `StripMarkdown`, but I consider it as
 # more harmful than good
-HTMLDisable=true
+HTMLDisable = true
 
 [mattermost.mattermostexample]
-Server="mattermost.example.org:443"
-Team="awesometeam"
-Token="abcdef123456"
-PrefixMessagesWithNick=true
-Label="Mm"
+Server = "mattermost.example.org:443"
+Team = "awesometeam"
+Token = "abcdef123456"
+PrefixMessagesWithNick = true
+Label = "Mm"
 # mattermost.example.org is presumably behind a remote proxy that
 # suppresses non standards headers and thus breaks usual version check?
 # https://github.com/42wim/matterbridge/wiki/Settings#skipversioncheck
-SkipVersionCheck=true
+SkipVersionCheck = true
 
 [discord.discordexample]
-Token="nope"
-Server="123456789"
+Token = "nope"
+Server = "123456789"
 # When these are True, pinging from other platforms breaks
-UseUsername=false
-UseDiscriminator=false
-Label="D"
+UseUsername = false
+UseDiscriminator = false
+Label = "D"
 # Discord has webhooks so trailing space isn't required. Looks same as Ergo except has avatar
-RemoteNickFormat="{NICK}/{LABEL}"
+RemoteNickFormat = "{NICK}/{LABEL}"
 # Allow mentioning users and roles, not everyone etc.
-AllowMention=["user","role"]
+AllowMention = ["user", "role"]
 
 [telegram.telegrambot]
-Token="nopenopenope"
-Label="T"
-QuoteLengthLimit=60
-MediaConvertWebPToPNG=false
+Token = "nopenopenope"
+Label = "T"
+QuoteLengthLimit = 60
+MediaConvertWebPToPNG = false
 # Convert .tgs.webp (animated stickers) to webp
 #MediaConvertTgs="webp"
 # https://github.com/telegramdesktop/tdesktop/issues/6959 + Matrix homeservers become clickable links polluting links
-RemoteNickFormat="<code>@{NICK}/{LABEL}</code>: "
-MessageFormat="HTMLNick"
-DisableWebPagePreview=true
+RemoteNickFormat = "<code>@{NICK}/{LABEL}</code>: "
+MessageFormat = "HTMLNick"
+DisableWebPagePreview = true
 
 [xmpp.example]
-Server="example.net:5222"
-Jid="matterbridge@example.net"
-Password="nonono"
-Muc="conference.example.net"
-Nick="M"
-Label="xmpp"
+Server = "example.net:5222"
+Jid = "matterbridge@example.net"
+Password = "nonono"
+Muc = "conference.example.net"
+Nick = "M"
+Label = "xmpp"
 
 [[gateway]]
-name="redactedchanone"
-enable=false
+name = "redactedchanone"
+enable = false
 
-    [[gateway.inout]]
-    account="irc.freenode"
-    channel="#redactedchanone"
+[[gateway.inout]]
+account = "irc.freenode"
+channel = "#redactedchanone"
 
-    [[gateway.inout]]
-    account="irc.liberachat"
-    channel="#redactedchanone"
-
-[[gateway]]
-name="secretchan"
-enable=true
-
-    [[gateway.inout]]
-    account="irc.freenode"
-    channel="##secretchan+"
-
-    [[gateway.inout]]
-    account="irc.liberachat"
-    channel="##secretchan+"
-
-    [[gateway.inout]]
-    account="irc.localergo"
-    channel="#secretchan+"
+[[gateway.inout]]
+account = "irc.liberachat"
+channel = "#redactedchanone"
 
 [[gateway]]
-name="test"
-enable="true"
+name = "secretchan"
+enable = true
 
-    [[gateway.inout]]
-    account="irc.localergo"
-    channel="#test"
+[[gateway.inout]]
+account = "irc.freenode"
+channel = "##secretchan+"
 
-    [[gateway.inout]]
-    account="irc.liberachat"
-    channel="#test"
+[[gateway.inout]]
+account = "irc.liberachat"
+channel = "##secretchan+"
 
-    [[gateway.inout]]
-    account="irc.freenode"
-    channel="#test"
+[[gateway.inout]]
+account = "irc.localergo"
+channel = "#secretchan+"
 
-    [[gateway.inout]]
-    account="discord.discordexample"
-    # Get it by enabling developer mode from Discord settings and
-    # right-clicking the channel name
-    channel="ID:121212123124618"
-    [gateway.inout.options]
-    WebhookURL="https://discordapp.com/api/webhooks/..."
+[[gateway]]
+name = "test"
+enable = "true"
 
-    [[gateway.inout]]
-    account="telegram.telegrambot"
-    # Get it by adding the bot to a group runtime and /chatId
-    channel="-1001199999999"
+[[gateway.inout]]
+account = "irc.localergo"
+channel = "#test"
 
-    [[gateway.inout]]
-    account="mattermost.mattermostexample"
-    channel="test"
+[[gateway.inout]]
+account = "irc.liberachat"
+channel = "#test"
 
-    [[gateway.inout]]
-    account="matrix.matrixexample"
-    # Invite the bot account to a room and it will accept invite on start,
-    # alternatively use a room alias (but the server it refers to will need
-    # to be online). If using internal ID, remember to update it when
-    # performing /upgraderoom
-    channel="!roomInternalIDFromAdvancedRoomSettings:example.org"
+[[gateway.inout]]
+account = "irc.freenode"
+channel = "#test"
 
-    [[gateway.inout]]
-    account="xmpp.example"
-    channel="test"
+[[gateway.inout]]
+account = "discord.discordexample"
+# Get it by enabling developer mode from Discord settings and
+# right-clicking the channel name
+channel = "ID:121212123124618"
+[gateway.inout.options]
+WebhookURL = "https://discordapp.com/api/webhooks/..."
+
+[[gateway.inout]]
+account = "telegram.telegrambot"
+# Get it by adding the bot to a group runtime and /chatId
+channel = "-1001199999999"
+
+[[gateway.inout]]
+account = "mattermost.mattermostexample"
+channel = "test"
+
+[[gateway.inout]]
+account = "matrix.matrixexample"
+# Invite the bot account to a room and it will accept invite on start,
+# alternatively use a room alias (but the server it refers to will need
+# to be online). If using internal ID, remember to update it when
+# performing /upgraderoom
+channel = "!roomInternalIDFromAdvancedRoomSettings:example.org"
+
+[[gateway.inout]]
+account = "xmpp.example"
+channel = "test"

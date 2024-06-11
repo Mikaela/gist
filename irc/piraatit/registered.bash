@@ -6,14 +6,14 @@ declare -a arr=("#aaltopiraatit" "#grafiikka" "#hame" "#helsinki" "#hepihalko" "
 
 ## now loop through the above array
 for i in "${arr[@]}"; do
-        echo "/msg ChanServ flags $i \$registered +VA"
-        # or do whatever with individual element of the array
+  echo "/msg ChanServ flags $i \$registered +VA"
+  # or do whatever with individual element of the array
 done
 
 ## now loop through the above array
 for i in "${arr[@]}"; do
-        echo "/msg ChanServ flags $i *!*@gateway/bridge/matrix/diasp.in +VA"
-        # or do whatever with individual element of the array
+  echo "/msg ChanServ flags $i *!*@gateway/bridge/matrix/diasp.in +VA"
+  # or do whatever with individual element of the array
 done
 
 # You can access them using echo "${arr[0]}", "${arr[1]}" also

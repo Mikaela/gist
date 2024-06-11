@@ -6,8 +6,8 @@ declare -a arr=("#aaltopiraatit" "#grafiikka" "#hallituskokous" "#hame" "#helsin
 
 ## now loop through the above array
 for i in "${arr[@]}"; do
-        echo "/msg ChanServ flags $i !piraattibotit VOP"
-        # or do whatever with individual element of the array
+  echo "/msg ChanServ flags $i !piraattibotit VOP"
+  # or do whatever with individual element of the array
 done
 
 # You can access them using echo "${arr[0]}", "${arr[1]}" also
