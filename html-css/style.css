@@ -32,7 +32,6 @@ Also variables will make things easier later on */
   margin-bottom: 2;
   max-width: 78ch;
   line-height: 1.5;
-  margin-bottom: 2;
   letter-spacing: 0.12;
   word-spacing: 0.16;
   font-family: var(--fonts-sans-serif);
