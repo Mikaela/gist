@@ -1,0 +1,89 @@
+/* Declare our style as capable of both styles, defaulting to the former if browser has no configuration. At this point we have a dark theme!
+Also variables will make things easier later on */
+:root {
+  /* FIXME TODO WARNING PROBABLY INACCESSIBLE BAD IN REAL CODE */
+  zoom: 100%;
+  /* see above */
+  color-scheme: dark light;
+  --fonts-sans-serif: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
+    sans-serif "Noto Emoji", "Noto Color Emoji", emoji;
+  --fonts-serif: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif,
+    "Noto Emoji", "Noto Color Emoji", emoji;
+  --fonts-mono: ui-monospace, "Liberation Mono", Cousine, "Courier New",
+    monospace, "Noto Emoji", "Noto Color Emoji", emoji;
+}
+
+/* Call the variables through `var(--varnamehere)` by the way */
+
+/* Magic we want for everything. Fonts, breaking words is allowed, but do try to hyphenate */
+* {
+  overflow-wrap: break-word;
+  /* begin https://clagnut.com/blog/2395/ */
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+  /* end https://clagnut.com/blog/2395/ */
+  /* Experimental, but neat to stop or force emojis (outside of the font list) */
+  font-variant-emoji: text;
+  /* Responsiveness/braille (max-width 78ch), WCAG (margin-bottom, line-height, letter-spacing, word-spacing*/
+  width: 100%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2;
+  max-width: 78ch;
+  line-height: 1.5;
+  margin-bottom: 2;
+  letter-spacing: 0.12;
+  word-spacing: 0.16;
+  font-family: var(--fonts-sans-serif);
+}
+
+/* We could have different font for headings for constrast and fanciness? */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fonts-serif);
+}
+
+/* I and my Firefox prefer underlined links and I want to subtly draw attention to homographs like l and I, O and 0, etc. */
+a {
+  text-decoration: underline;
+  font-family: var(--fonts-serif);
+}
+
+/* Monospace fonts for code, keeping code a bit smaller than normal so it will not be bigger */
+code,
+pre {
+  font-family: var(--fonts-mono);
+}
+
+code {
+  font-size: 0.9em;
+}
+
+/* Just a note to self on managing list-styles or specifying more of what list is edited */
+ul li {
+  list-style-type: none;
+}
+
+/* Magic for light and dark color schemes. I try to keep this on bottom for clarity and it having priority? */
+@media (prefers-color-scheme: light) {
+  *:not(a) {
+    border-color: #000000;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  *:not(a) {
+    color: #ffb700;
+    border-color: #ffb700;
+    background-color: #000000;
+  }
+}
+
+/* Aminda, type your changes above the media queries, please? */
