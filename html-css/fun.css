@@ -1,0 +1,16 @@
+:root {
+  --fonts-sans-serif: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
+    sans-serif "Noto Emoji", "Noto Color Emoji", emoji;
+  --fonts-serif: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif,
+    "Noto Emoji", "Noto Color Emoji", emoji;
+  --fonts-mono: ui-monospace, "Liberation Mono", Cousine, "Courier New",
+    monospace, "Noto Emoji", "Noto Color Emoji", emoji;
+}
+
+* {
+  font-variant-emoji: text;
+  margin: 25%;
+  font-family: var(--fonts-serif);
+  background-color: #000000;
+  color: #ffffff;
+}
