@@ -1,48 +1,61 @@
 [submodule "LaTeX/piraattitesti"]
 	path = LaTeX/piraattitesti
 	url = https://git.piraattipuolue.fi/mikaela.suomalainen/testi.git
+	branch = cxefa
 [submodule "gayming/fixcontroller.py"]
 	path = gayming/fixcontroller.py
 	url = https://gist.github.com/de2df973323b7c6acf45f40dc66e8db3.git
 [submodule "briar/forums/PandaCoderPL"]
 	path = briar/forums/PandaCoderPL
 	url = https://codeberg.org/PandaCoderPL/Briar-Forums.git
+	branch = main
 [submodule "associations/piraattinuoret/meeting-notes/official"]
 	path = associations/piraattinuoret/meeting-notes/official
 	url = https://github.com/Piraattinuoret/Poytakirjat.git
+	branch = captain
 [submodule "submodules/PPFI-IM"]
 	path = submodules/PPFI-IM
 	url = https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet.git
+	branch = master
 [submodule "language-resources"]
 	path = language-resources
 	url = https://gitea.blesmrt.net/mikaela/language-resources.git
+	branch = cxefa
 [submodule "food"]
 	path = food
 	url = https://gitea.blesmrt.net/mikaela/ruokajutut
+	branch = master
 [submodule "fineid/pyllyukko-fineid.md"]
 	path = fineid/pyllyukko-fineid.md
 	url = https://gist.github.com/a1ed6baa6b638b805a30b16960399e94.git
 [submodule "submodules/shell-things"]
 	path = submodules/shell-things
 	url = https://gitea.blesmrt.net/Mikaela/shell-things.git
+	branch = master
 [submodule "LaTeX/vakioasiakirja"]
 	path = LaTeX/vakioasiakirja
 	url = https://github.com/datakurre/vakioasiakirja.git
+	branch = master
 [submodule "LaTeX/kirja"]
 	path = LaTeX/kirja
 	url = https://git.piraattipuolue.fi/mikaela.suomalainen/kirja.git
+	branch = captain
 [submodule "submodules/playstation2/OPL-Widescreen-Cheats"]
 	path = submodules/playstation2/OPL-Widescreen-Cheats
 	url = https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats.git
+	branch = main
 [submodule "submodules/playstation2/OpenPS2Loader_Widescreen_Cheats"]
 	path = submodules/playstation2/OpenPS2Loader_Widescreen_Cheats
 	url = https://github.com/madmodder123/OpenPS2Loader_Widescreen_Cheats.git
+	branch = master
 [submodule "briar/forums/retiolus"]
 	path = briar/forums/retiolus
 	url = https://codeberg.org/retiolus/Briar-Forums.git
+	branch = main
 [submodule "LaTeX/european-union-flags"]
 	path = LaTeX/european-union-flags
 	url = https://gitea.blesmrt.net/Mikaela/eu-lippuprojekti.git
+	branch = cxefa
 [submodule "briar/briar.wiki"]
 	path = briar/briar.wiki
 	url = https://code.briarproject.org/briar/briar.wiki.git
@@ -61,6 +74,7 @@
 [submodule "git/github/activity/gayanvoice-top-github-users"]
 	path = git/github/activity/gayanvoice-top-github-users
 	url = https://github.com/gayanvoice/top-github-users.git
+	branch = main
 [submodule "briar/briar-mailbox.wiki"]
 	path = briar/briar-mailbox.wiki
 	url = https://code.briarproject.org/briar/briar-mailbox.wiki.git
@@ -70,9 +84,11 @@
 [submodule "submodules/language-resources"]
 	path = submodules/language-resources
 	url = https://gitea.blesmrt.net/Mikaela/language-resources.git
+	branch = cxefa
 [submodule "submodules/curl.wiki"]
 	path = submodules/curl.wiki
 	url = https://github.com/curl/curl.wiki.git
 [submodule "submodules/yggdrasil-public-peers"]
 	path = submodules/yggdrasil-public-peers
 	url = https://github.com/yggdrasil-network/public-peers.git
+	branch = master
