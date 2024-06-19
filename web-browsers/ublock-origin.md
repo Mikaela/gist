@@ -1,3 +1,5 @@
+<!-- @format -->
+
 ```json
           "filterLists": [
             "user-filters",

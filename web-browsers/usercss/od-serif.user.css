@@ -1,9 +1,13 @@
-/* ==UserStyle==
-@name        OpenDyslexic with serif fallback
-@updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/od-serif.user.css
-@namespace   eu.aminda
-@version     2024.23.1
-==/UserStyle== */
+/**
+ * ==UserStyle==
+ * ==/UserStyle==
+ *
+ * @format
+ * @name OpenDyslexic with serif fallback
+ * @updateURL https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/od-serif.user.css
+ * @namespace eu.aminda
+ * @version 2024.23.1
+ */
 
 :root {
   --FontSet: OpenDyslexic, "Liberation Serif", Tinos, "Times New Roman",

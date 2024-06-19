@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # HTML & CSS tricks for future reference
 
 <!-- editorconfig-checker-disable -->
@@ -17,7 +19,8 @@
 
 ## Emmet
 
-Emmet are nice shortcuts for HTML integrated in VSCod{e,ium}, just type them and press enter/return and code appears!
+Emmet are nice shortcuts for HTML integrated in VSCod{e,ium}, just type them
+and press enter/return and code appears!
 
 ### html
 
@@ -37,6 +40,8 @@ Emmet are nice shortcuts for HTML integrated in VSCod{e,ium}, just type them and
 
 ### css
 
-At the time of writing I didn't get anything that useful out of Emmet CSS so the `style.css` is work of prior copy-pasting to become where I copy-paste from!
+At the time of writing I didn't get anything that useful out of Emmet CSS so
+the `style.css` is work of prior copy-pasting to become where I copy-paste
+from!
 
 - https://github.com/emmetio/emmet/blob/v2.4.6/src/snippets/css.json

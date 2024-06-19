@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Web browser managed policy configuration
 
 _For actual configuration, refer to the shell-things repo which is submoduled
@@ -45,7 +47,9 @@ This snipped is from Firefox, but the principle applies to Chromium.
 
 ### Blank New Tab
 
-This is a Chromium extension and this was a Chromium policy due to Microsoft pushing itself a lot on the new tab page, which my search engine policies bypass.
+This is a Chromium extension and this was a Chromium policy due to Microsoft
+pushing itself a lot on the new tab page, which my search engine policies
+bypass.
 
 ```json
 {
@@ -62,7 +66,8 @@ This is a Chromium extension and this was a Chromium policy due to Microsoft pus
 
 ### [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/bkdgflcldnnnapblkhphbgpggdiikppg)
 
-Same as Blank New Page, this was to bypass Google being default, which didn't even work, and is unnecessary with the search engine policies.
+Same as Blank New Page, this was to bypass Google being default, which didn't
+even work, and is unnecessary with the search engine policies.
 
 ```json
 {

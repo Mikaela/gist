@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # hookshot room state configuration
 
 When Hookshot is configured via the manage integrations menu, it appears to
@@ -41,14 +43,17 @@ contains:
 
 ### Template variations
 
-This contains the whole JSON line to easen copy-pasting as my events are missing it entirely.
+This contains the whole JSON line to easen copy-pasting as my events are
+missing it entirely.
 
 - default: `"template": "New post in $FEEDNAME: $LINK",`
 - Matrix: `"template": "$FEEDTITLE: $AUTHOR $LINK ($DATE) $SUMMARY",`
 - IRC: `"template": "$URL $FEEDTITLE: $TITLE $AUTHOR ($DATE) $SUMMARY",`
-  - Line length is limited so if the URL is long, it's the most important thing.
+  - Line length is limited so if the URL is long, it's the most important
+    thing.
 - IRCish: `"template": "$TITLE $URL $SUMMARY $AUTHOR $DATE $FEEDTITLE",`
-  - Still compatibleish with IRC, but in case the client has preview, it may be more useful now.
+  - Still compatibleish with IRC, but in case the client has preview, it may
+    be more useful now.
 
 ## installation
 
@@ -66,11 +71,11 @@ This probably has or should be left for the integration manager.
 ## Usage without integration manager
 
 Hookshot appears to answer `/invite @feeds:integrations.ems.host` and
-`!feeds help` so it will hopefully work without having to touch an
-integration manager for benefit of Element iOS users.
+`!feeds help` so it will hopefully work without having to touch an integration
+manager for benefit of Element iOS users.
 
-Note that the bot will likely require power level to touch room state so
-it will in most cases require power level 50.
+Note that the bot will likely require power level to touch room state so it
+will in most cases require power level 50.
 
 For reference the list of commands:
 

@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # `m.room.history_visibility`
 
 `m.room.history_visibility` controls who can view the room history.

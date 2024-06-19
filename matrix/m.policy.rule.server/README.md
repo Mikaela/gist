@@ -1,6 +1,9 @@
+<!-- @format -->
+
 # `m.policy.rule.server`
 
-This event is the language of Draupnir/Mjolnir and experimental Mjolnir style ignore in Element Web labs when speaking of homeservers.
+This event is the language of Draupnir/Mjolnir and experimental Mjolnir style
+ignore in Element Web labs when speaking of homeservers.
 
 TL;DR
 
@@ -22,7 +25,8 @@ TL;DR
 
 ## Allowing all servers
 
-**_WARNING! This is poorly supported and [operations such as unban may unexpectedly remove this rule!](https://github.com/the-draupnir-project/Draupnir/issues/56)_**
+**_WARNING! This is poorly supported and
+[operations such as unban may unexpectedly remove this rule!](https://github.com/the-draupnir-project/Draupnir/issues/56)_**
 
 - Event type: `m.policy.rule.server`
 - State key: `*`

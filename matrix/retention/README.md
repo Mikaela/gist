@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -23,9 +25,11 @@ Read that, it explains what is actually done etc.
 
 ## Notes
 
-- Not part of spec. https://github.com/matrix-org/matrix-spec-proposals/pull/1763
+- Not part of spec.
+  https://github.com/matrix-org/matrix-spec-proposals/pull/1763
 - Matrix uses milliseconds, keep that in mind!
 - Everything requires every server involved to have rention support enabled,
   otherwise the messages go nowhere and are fetchable upon request.
 - 86400000 = 1 day (seen in min lifetimes)
-- Helpful: https://unitchefs.com/milliseconds/days/ / https://unitchefs.com/days/milliseconds/
+- Helpful: https://unitchefs.com/milliseconds/days/ /
+  https://unitchefs.com/days/milliseconds/

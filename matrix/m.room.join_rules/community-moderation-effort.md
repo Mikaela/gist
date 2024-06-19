@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Proposed `m.room.join_rules` for Community Moderation Effort
 
 For more information about `m.room.join_rules`, refer to `README.md` in this
@@ -24,14 +26,13 @@ directory.
 Whenever new moderators join us, they are generally invited to the main room
 and expected to find their way to the other rooms.
 
-However the other rooms will error at them for not being a member of the
-space first as that is how Element or Matrix has designed it.
+However the other rooms will error at them for not being a member of the space
+first as that is how Element or Matrix has designed it.
 
 ## The solution
 
-Allow moderators to join any room, including the space, as long as they are
-a member of another room, even if it was the room they were attempting to
-join.
+Allow moderators to join any room, including the space, as long as they are a
+member of another room, even if it was the room they were attempting to join.
 
 ```json
 {

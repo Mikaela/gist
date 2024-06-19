@@ -1,3 +1,5 @@
+<!-- @format -->
+
 ```json
 {
   "algorithm": "m.megolm.v1.aes-sha2",

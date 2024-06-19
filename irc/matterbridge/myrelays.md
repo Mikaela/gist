@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -17,14 +19,14 @@
 
 # Matterbridging list
 
-This is a list of Matterbridge gateways that I am maintaining or those of
-them that people are likely to ask after (there are a couple where everyone
-knows everyone and more people aren't likely to appear).
+This is a list of Matterbridge gateways that I am maintaining or those of them
+that people are likely to ask after (there are a couple where everyone knows
+everyone and more people aren't likely to appear).
 
 ## Definitions
 
-In format label (shown as source of the message), proper name and address.
-IRC labels begin with IRC for easier ignoring by bots.
+In format label (shown as source of the message), proper name and address. IRC
+labels begin with IRC for easier ignoring by bots.
 
 - ircErgo - ErgoChat - ircs://irc.ergo.chat:6697
 - ircEtro - IRC@Etro - ircs://etro.mikaela.info:6697
@@ -77,7 +79,8 @@ Sorted in order of popularity or likeliness to be asked about.
 Handled by different instance, please see its csv's
 
 - https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet/src/branch/master/kanavat.csv
-- mirror https://gitea.blesmrt.net/mikaela/public-ppfi-im/src/branch/master/kanavat.csv
+- mirror
+  https://gitea.blesmrt.net/mikaela/public-ppfi-im/src/branch/master/kanavat.csv
 
 ### Antikupla
 

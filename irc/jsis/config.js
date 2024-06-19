@@ -1,3 +1,5 @@
+/** @format */
+
 var realuserConfig = {
   Mikaela: {
     aliases: [

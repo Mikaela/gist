@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -17,10 +19,10 @@
 /trigger add msgid print "" "${tg_tag_irc_msgid}" "" "/print -buffer ${buffer.full_name} [msgid: ${tg_tag_irc_msgid} ]
 ```
 
-This adds a `[msgid: <message ID> ]` below all messages, which can then be entered
-to Ergo's `/msg HistServ delete`.
+This adds a `[msgid: <message ID> ]` below all messages, which can then be
+entered to Ergo's `/msg HistServ delete`.
 
-I improved this from `FiskFan1999` who had a `${channel}` instead of `${buffer.full_name}`
-which was suggested by `trygveaa` on `#weechat` at LiberaChat, after I figured
-out `${server}.${channel}` which was improper. I also added spaces to the last
-part.
+I improved this from `FiskFan1999` who had a `${channel}` instead of
+`${buffer.full_name}` which was suggested by `trygveaa` on `#weechat` at
+LiberaChat, after I figured out `${server}.${channel}` which was improper. I
+also added spaces to the last part.

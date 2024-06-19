@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -5,7 +7,8 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-**UNMAINTAINED, PLEASE READ https://mikaela.info/english/2015/03/12/stay-away-from-anope.html**
+**UNMAINTAINED, PLEASE READ
+https://mikaela.info/english/2015/03/12/stay-away-from-anope.html**
 
 This is unlike the Atheme cstemplate as Anope doesn't have similar template
 system, but these are the pre-defined ones on irc.anope.org

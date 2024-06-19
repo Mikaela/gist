@@ -1,3 +1,5 @@
+<!-- @format -->
+
 Directory where I attempt to sync my feeds and also give it to other
 interested people.
 
@@ -16,7 +18,8 @@ interested people.
 
 ## Noteworthy feeds
 
-- YLE Vaaratiedotteet `https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET&concepts=18-82214`
+- YLE Vaaratiedotteet
+  `https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET&concepts=18-82214`
 - YLE News `https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS`
 - Selkomedia `https://www.selkomedia.fi/feed/rss`
 - MTV `https://api.mtvuutiset.fi/mtvuutiset/api/feed/rss/mtv_uusimmat_20`

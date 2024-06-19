@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Element config.json
 
 Initially copied from https://develop.element.io/config.json, but it has
@@ -19,9 +21,10 @@ evolved.
 
 ## Placement
 
-- Flatpak: `~/.var/app/im.riot.Riot/config/Riot/config.json`
-  or `~/.var/app/im.riot.Riot/config/Element-PROFILENAMEHERE/config.json`
-- Linux outside of flatpak: `~/.config/Element/config.json` or `~/.config/Element-PROFILENAMEHERE/config.json`
+- Flatpak: `~/.var/app/im.riot.Riot/config/Riot/config.json` or
+  `~/.var/app/im.riot.Riot/config/Element-PROFILENAMEHERE/config.json`
+- Linux outside of flatpak: `~/.config/Element/config.json` or
+  `~/.config/Element-PROFILENAMEHERE/config.json`
   - failing that it appears to also read `~/.config/Riot/*` should that exist.
 - Windows: `%APPDATA%\Element\config.json` or youcan figure out the profile
   name if you use Windows.

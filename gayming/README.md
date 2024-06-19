@@ -1,8 +1,10 @@
+<!-- @format -->
+
 # Notes related to gaming
 
 _A lot of older files that I haven't touched recently were moved to this
-directory. I don't think anyone was using them, so I am not afraid of
-breaking links._
+directory. I don't think anyone was using them, so I am not afraid of breaking
+links._
 
 <!-- editorconfig-checker-disable -->
 <!-- prettier-ignore-start -->
@@ -44,8 +46,8 @@ gamescope --steam --borderless -- %command%
 See also `gamescope --help`
 
 - `--steam` - enables Steam integration, whatever that is
-- `--borderless` borderless full-screen mode (that Sway may be making
-  windowed though)
+- `--borderless` borderless full-screen mode (that Sway may be making windowed
+  though)
 
 ##### Graphics corruption such as display full of black dots
 
@@ -55,8 +57,10 @@ When the previous launch options cause this,
 INTEL_DEBUG=norbc gamescope --steam --borderless -- %command%
 ```
 
-I saw this advice at [gamescope#356](https://github.com/Plagman/gamescope/issues/356)
-which says it's tracked at [freedesktop.org/mesa/mesa#6029](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6029).
+I saw this advice at
+[gamescope#356](https://github.com/Plagman/gamescope/issues/356) which says
+it's tracked at
+[freedesktop.org/mesa/mesa#6029](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6029).
 
 #### Steam client itself is laggy
 

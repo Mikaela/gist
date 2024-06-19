@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Maubot notes
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -15,12 +17,17 @@ Like with Hookshot, RSS templates must be specified per feed.
 Replace X with the feed ID seen in `!rss subscriptions`:
 
 - default: `!rss template X New post in $feed_title: [$title]($link)`
-- Matrix: `!rss template X [$feed_title]($feed_link): [$title]($link) ($date) $summary`
+- Matrix:
+  `!rss template X [$feed_title]($feed_link): [$title]($link) ($date) $summary`
 - IRC: `!rss template X $link $feed_title: $title ($date) $summary`
-  - Line length is limited so if the URL is long, it's the most important thing.
+  - Line length is limited so if the URL is long, it's the most important
+    thing.
 - IRCish: `!rss template X $title $link $summary $date $feed_title`
-  - Still compatibleish with IRC, but in case the client has preview, it may be more useful now.
+  - Still compatibleish with IRC, but in case the client has preview, it may
+    be more useful now.
 
 Note: at the time of writing `$author` is not supported?
 
-Remember also that [matterbridge requires](https://github.com/42wim/matterbridge/issues/1393) `!rss notice X false`
+Remember also that
+[matterbridge requires](https://github.com/42wim/matterbridge/issues/1393)
+`!rss notice X false`

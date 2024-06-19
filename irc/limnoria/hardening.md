@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -12,13 +14,15 @@
 
 ## Passwordless users
 
-_This is subject to moving to the upstream documentation, see [Limnoria/Limnoria-doc#91](https://github.com/Limnoria/Limnoria-doc/issues/91)_
+_This is subject to moving to the upstream documentation, see
+[Limnoria/Limnoria-doc#91](https://github.com/Limnoria/Limnoria-doc/issues/91)_
 
-Passwordless user accounts have been supported since version 2021-05-27.
-They must login by some other mechanism such as NickAuth, GPG or hostmasks.
+Passwordless user accounts have been supported since version 2021-05-27. They
+must login by some other mechanism such as NickAuth, GPG or hostmasks.
 
-Registering a passwordless user happens by `/msg Limnoria user register <username> !`,
-and existing user may remove their password by `/msg Limnoria user set password <old password> !`
+Registering a passwordless user happens by
+`/msg Limnoria user register <username> !`, and existing user may remove their
+password by `/msg Limnoria user set password <old password> !`
 
 It's also possible (while not recommended) to edit `users.conf` by hand.
 

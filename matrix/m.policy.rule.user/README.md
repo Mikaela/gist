@@ -1,11 +1,15 @@
+<!-- @format -->
+
 # `m.policy.rule.user`
 
-This event is the language of Draupnir/Mjolnir and experimental Mjolnir style ignore in Element Web labs when speaking of individual users.
+This event is the language of Draupnir/Mjolnir and experimental Mjolnir style
+ignore in Element Web labs when speaking of individual users.
 
 TL;DR
 
 - Event type: `m.policy.rule.server`
-- State key: `_username:example.net` (The leading`@` is replaced with an underscore `_`)
+- State key: `_username:example.net` (The leading`@` is replaced with an
+  underscore `_`)
 
 <!-- prettier-ignore-start -->
 

@@ -1,14 +1,15 @@
-/* ==UserStyle==
-@name        System Fonts
-@updateURL   https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
-@namespace   eu.aminda
-@version     2024.23.0
-@var select FontSet "Preferred font set" {
-    "System (no fallback)": "system-ui, emoji",
-    "Serif": "ui-serif, system-ui, Liberation Serif, Tinos, Times New Roman, serif, emoji",
-    "Sans Serif": "ui-sans-serif, system-ui, Liberation Sans, Arimo, Arial, sans-serif, emoji"
-}
-==/UserStyle== */
+/**
+ * ==UserStyle==
+ * }
+ * ==/UserStyle==
+ *
+ * @format
+ * @name System Fonts
+ * @updateURL https://gitea.blesmrt.net/mikaela/gist/raw/branch/master/web-browsers/usercss/change-fonts.user.css
+ * @namespace eu.aminda
+ * @version 2024.23.0
+ * @var select FontSet "Preferred font set" { "System (no fallback)": "system-ui, emoji", "Serif": "ui-serif, system-ui, Liberation Serif, Tinos, Times New Roman, serif, emoji", "Sans Serif": "ui-sans-serif, system-ui, Liberation Sans, Arimo, Arial, sans-serif, emoji"
+ */
 
 :root {
   --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",

@@ -4,29 +4,32 @@ permalink: /n/pwa.html
 sitemap: false
 ---
 
+<!-- @format -->
+
 # Potentially useful progressive web apps
 
-PWAs are especially useful for iOS users, since PWAs added to homescreen
-from Safari are able to request notifications permission resulting
-nativeish experience outside of App Store without even having to
-install anything.
+PWAs are especially useful for iOS users, since PWAs added to homescreen from
+Safari are able to request notifications permission resulting nativeish
+experience outside of App Store without even having to install anything.
 
-Method for distinguishing PWAs from normal websites: adding them to
-iOS homescreen and seeing which open as "their own apps" _or_ having
-Chromium suggest "installing" them without manually "installing" them.
+Method for distinguishing PWAs from normal websites: adding them to iOS
+homescreen and seeing which open as "their own apps" _or_ having Chromium
+suggest "installing" them without manually "installing" them.
 
 Proper identification: `view-source` (`CTRL - U`) and `CTRL - F` for
-`manifest` e.g. `<link rel="manifest" href="/manifest.webmanifest">` in `<head>`.
+`manifest` e.g. `<link rel="manifest" href="/manifest.webmanifest">` in
+`<head>`.
 
 - https://caniuse.com/web-app-manifest
 - https://developer.mozilla.org/docs/Web/Manifest
 
 It looks like `about:apps` on Edge (or all Chromiums?) has a
 `Show applications menu on toolbar` button which then when pressed on a tab
-has more details for PWAs. "App whatever is available" with logo and "Publisher:"
-fields.
+has more details for PWAs. "App whatever is available" with logo and
+"Publisher:" fields.
 
-**_TODO: Some of these may be miscategorized while not fullfilling the criteria of PWA._**
+**_TODO: Some of these may be miscategorized while not fullfilling the
+criteria of PWA._**
 
 <!-- prettier-ignore-start -->
 
@@ -98,7 +101,8 @@ fields.
 
 - https://fluffychat.im/web/ - Matrix client with multiaccount support
 - https://hydrogen.element.io/ - very basic Matrix client for lowend devices
-- Element Web - Matrix web client with most features such as /devtools, essential for modding
+- Element Web - Matrix web client with most features such as /devtools,
+  essential for modding
   - https://app.element.io/ - stable
   - https://staging.element.io/ - rc/beta?
   - https://develop.element.io/ - bleeding edge
@@ -133,7 +137,8 @@ fields.
 
 ## Localization
 
-- https://hosted.weblate.org/ - Translation platform popular amongst FOSS projects
+- https://hosted.weblate.org/ - Translation platform popular amongst FOSS
+  projects
 
 ## Music
 
@@ -147,8 +152,8 @@ fields.
 
 ## Parcel tracking
 
-- https://oma.posti.fi - Finnish postal services tracking and online mail
-  (not to be confused with email)
+- https://oma.posti.fi - Finnish postal services tracking and online mail (not
+  to be confused with email)
 
 ## Shopping
 
@@ -171,16 +176,16 @@ fields.
 
 ## Travel
 
-- https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World Heritage site),
-  which is also a neighbourhood in Helsinki, Finland.
+- https://guide.suomenlinna.fi/ - mobile guide for Suomenlinna (UNESCO World
+  Heritage site), which is also a neighbourhood in Helsinki, Finland.
 - https://osmgo.com/ - OpenStreetMap PoI contribution app
 
 ## Troubleshooting
 
 The below is the only not that spammy option, others would include
-`top10vpn.com` and `dnsadblock.com`, but they take a few clicks to navigate
-to useful content, so I opt to not link them directly as I cannot see myself
-ever installing them.
+`top10vpn.com` and `dnsadblock.com`, but they take a few clicks to navigate to
+useful content, so I opt to not link them directly as I cannot see myself ever
+installing them.
 
 ### Network
 
@@ -195,7 +200,8 @@ Continuing the previous method, these open in Safari.
 - https://1.1.1.1/help - Cloudflare DNS debug
 - https://mullvad.net/check - Mullvad leak test
 - https://junalahdot.fi - Official Finnish train station information
-- https://www.junat.net/ - Finnish train station information displays (including arrivals)
+- https://www.junat.net/ - Finnish train station information displays
+  (including arrivals)
 - https://perille.fi - Finnish long distance transport comparison site
 - https://pikavuorot.fi - Finnish long distance transport comparison site
 - https://sanakirja.org - Finnish dictionary for translating languages

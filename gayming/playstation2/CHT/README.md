@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -9,15 +11,17 @@
 # OpenPS2Loader CHT/ directory
 
 This directory contains cheats for OpenPS2Loader. Like `../../pcsx2/cheats`
-this exists for that Dobbo nanotech boost which isn't helped even by
-existence of the wall climbing glitch of first person mode.
+this exists for that Dobbo nanotech boost which isn't helped even by existence
+of the wall climbing glitch of first person mode.
 
-Additionally most of the files are symlinks to submodule of widescreen patches.
+Additionally most of the files are symlinks to submodule of widescreen
+patches.
 
 - https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats
 
-Some games also have cheats from [gamehacking.org](https://gamehacking.org/system/ps2)
-where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
+Some games also have cheats from
+[gamehacking.org](https://gamehacking.org/system/ps2) where `ps2rd (.txt)` is
+what OPS2L uses for `.cht` files.
 
 ## Games
 
@@ -28,7 +32,8 @@ where `ps2rd (.txt)` is what OPS2L uses for `.cht` files.
 - `SCES_509.17.cht` - Sly Raccoon (EU)
 - `SCES_509.67.cht` - Kingdom Hearts
 - `SCES_516.07.cht` - Ratchet & Clank 2: Locked and Loaded (EU)
-  - This is direct copy from [PS2-Home by GoggleBug](https://www.ps2-home.com/forum/viewtopic.php?f=55&t=11703&p=47639&hilit=SCES_516.07#p47639)
+  - This is direct copy from
+    [PS2-Home by GoggleBug](https://www.ps2-home.com/forum/viewtopic.php?f=55&t=11703&p=47639&hilit=SCES_516.07#p47639)
 - `SCES_516.08.cht` - Jak II: Renegade (EU)
 - `SCES_524.56.cht` - Ratchet & Clank 3 (EU)
 - `SCES_524.60.cht` - Jak 3

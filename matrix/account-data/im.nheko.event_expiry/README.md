@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # `im.nheko.event_expiry`
 
 - Two unit conversion tools from `m.room.retention` notes:

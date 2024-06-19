@@ -1,3 +1,5 @@
+/** @format */
+
 var config = {};
 module.exports = config;
 

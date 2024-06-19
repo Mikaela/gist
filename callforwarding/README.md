@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -10,8 +12,8 @@
 
 # Call forwarding, relevant commands edition
 
-_This is widely documented around the internet, but everything has a lot
-of details irrelevant to my case of two phones and it's always effort to
+_This is widely documented around the internet, but everything has a lot of
+details irrelevant to my case of two phones and it's always effort to
 cherry-pick the relevant parts. This file may be unintentionally Finland
 specific._
 
@@ -40,8 +42,8 @@ Copy-paste template for text editor:
 
 - `*#002#` - Supposedly status for all forwards. Will respond with everything
   has failed.
-- `*#61#` - Status for forward while not answered. Doesn't show the amount
-  of seconds as that would likely make life too easy?
+- `*#61#` - Status for forward while not answered. Doesn't show the amount of
+  seconds as that would likely make life too easy?
 - `*#62#` - Status for forward when not connected to network.
 - `*#67#` - Status for when being in other calls.
 
@@ -50,9 +52,8 @@ Copy-paste template for text editor:
 - Apple: has no proper GUI for the cases above, only on/off toggle for
   forwarding every call.
   https://support.apple.com/guide/iphone/iphe9bdd027a/ios
-- Android: Dialer → Settings → Calling Accounts → SIM → Call forwarding.
-  Has options for Always, Busy, Not answered (no word on time) and Out of
-  network.
-- SailfishOS: Settings → Applications → Phone → Call forwarding. Case forward when
-  not answered in X time has no option how long to wait and I am not going to try
-  whether it forwards in 5 or 30 seconds.
+- Android: Dialer → Settings → Calling Accounts → SIM → Call forwarding. Has
+  options for Always, Busy, Not answered (no word on time) and Out of network.
+- SailfishOS: Settings → Applications → Phone → Call forwarding. Case forward
+  when not answered in X time has no option how long to wait and I am not
+  going to try whether it forwards in 5 or 30 seconds.

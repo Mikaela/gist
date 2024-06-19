@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -40,13 +42,13 @@ Requires room version <del>8</del> 9. Offers only Spaces in room settings
 }
 ```
 
-It can be assumed that multiple spaces is simply copying that more,
-see below (with exception of `join_rule`)
+It can be assumed that multiple spaces is simply copying that more, see below
+(with exception of `join_rule`)
 
 ### merging knocking and membership of another room
 
-Practically the same, but requires room version 10 and new `join_rule` known as
-`knock_restricted`
+Practically the same, but requires room version 10 and new `join_rule` known
+as `knock_restricted`
 
 ```json
 {

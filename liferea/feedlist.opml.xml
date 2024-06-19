@@ -4,7 +4,12 @@
     <title>Liferea Feed List Export</title>
   </head>
   <body>
-    <outline title="Aminda" text="Aminda" description="Aminda" type="folder">
+    <outline
+      title="Aminda"
+      text="Aminda"
+      description="Aminda"
+      type="folder"
+    >
       <outline
         title="Aminda Suomalainen ⚧"
         text="Aminda Suomalainen ⚧"
@@ -37,7 +42,12 @@
         htmlUrl="https://darksky.org"
       />
     </outline>
-    <outline title="BBC" text="BBC" description="BBC" type="folder">
+    <outline
+      title="BBC"
+      text="BBC"
+      description="BBC"
+      type="folder"
+    >
       <outline
         title="BBC News"
         text="BBC News"
@@ -378,7 +388,12 @@
           htmlUrl="https://github.com/element-hq/element-android/releases"
         />
       </outline>
-      <outline title="Blogs" text="Blogs" description="Blogs" type="folder">
+      <outline
+        title="Blogs"
+        text="Blogs"
+        description="Blogs"
+        type="folder"
+      >
         <outline
           title="News - Briar"
           text="News - Briar"
@@ -528,7 +543,12 @@
         htmlUrl="https://effi.org"
       />
     </outline>
-    <outline title="YLE" text="YLE" description="YLE" type="folder">
+    <outline
+      title="YLE"
+      text="YLE"
+      description="YLE"
+      type="folder"
+    >
       <outline
         title="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset"
         text="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset"

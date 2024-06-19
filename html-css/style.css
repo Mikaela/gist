@@ -1,5 +1,10 @@
-/* Declare our style as capable of both styles, defaulting to the former if browser has no configuration. At this point we have a dark theme!
-Also variables will make things easier later on */
+/**
+ * Declare our style as capable of both styles, defaulting to the former if browser has no configuration. At this point we have a dark theme!
+ * Also variables will make things easier later on
+ *
+ * @format
+ */
+
 :root {
   color-scheme: dark light;
   --fonts-sans-serif: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
