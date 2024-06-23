@@ -7,7 +7,7 @@ ci:
   # the frequency of unnecessary PRs.
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
-  skip: [latexmk, exiftool, prettier]
+  skip: [latexmk, exiftool, install-dev-deps, prettier]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -71,21 +71,18 @@ repos:
 
   - repo: local
     hooks:
+      - id: install-dev-deps
+        name: Install pnpm dev dependencies
+        entry: corepack pnpm install -D
+        language: system
+        always_run: true
+        verbose: true
+        pass_filenames: false
       - id: prettier
         name: prettier
-        entry: pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
         language: system
         exclude_types: [json]
-
-  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.3"
-    hooks:
-      - id: editorconfig-checker
-        alias: ec
-        args: [-disable-max-line-length]
-
-  - repo: local
-    hooks:
       - id: latexmk
         name: latexmk
         entry: latexmk -quiet -f
@@ -93,12 +90,16 @@ repos:
         types: [text, tex]
         # I have no idea where latexmk wants the template
         exclude: LaTeX\/standardi-asiakirja.tex
-
-  # Fedora: perl-Image-ExifTool
-  - repo: local
-    hooks:
+        # Fedora: perl-Image-ExifTool
       - id: exiftool
         name: Remove all EXIF metadata using exiftool
         entry: exiftool -all=
         language: system
         types: [image]
+
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: "2.7.3"
+    hooks:
+      - id: editorconfig-checker
+        alias: ec
+        args: [-disable-max-line-length]
