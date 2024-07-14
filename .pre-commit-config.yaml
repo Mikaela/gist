@@ -7,7 +7,7 @@ ci:
   # the frequency of unnecessary PRs.
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
-  skip: [latexmk, exiftool, install-dev-deps, prettier]
+  skip: [latexmk, exiftool, prettier]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -62,7 +62,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.6
+    rev: 0.29.0
     hooks:
       #- id: check-dependabot
       #- id: check-github-actions
@@ -71,16 +71,9 @@ repos:
 
   - repo: local
     hooks:
-      - id: install-dev-deps
-        name: Install pnpm dev dependencies
-        entry: corepack pnpm install -D
-        language: system
-        always_run: true
-        verbose: true
-        pass_filenames: false
       - id: prettier
         name: prettier
-        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpx prettier --cache --ignore-unknown --write
         language: system
         exclude_types: [json]
       - id: latexmk

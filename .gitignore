@@ -4,7 +4,6 @@
 *_original
 browsers
 node_modules
-pnpm-lock.yaml
 
 # ---> TeX
 ## Core latex/pdflatex auxiliary files:
@@ -44,9 +43,6 @@ pnpm-lock.yaml
 ## Build tool auxiliary files:
 *.fdb_latexmk
 *.synctex*
-#*.synctex(busy)
-#*.synctex.gz
-#*.synctex.gz(busy)
 *.pdfsync
 
 ## Build tool directories for auxiliary files
