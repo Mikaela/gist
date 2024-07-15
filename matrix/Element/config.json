@@ -23,6 +23,7 @@
     "feature_roomlist_preview_reactions_all": "enable",
     "feature_roomlist_preview_reactions_dms": "enable",
     "feature_rust_crypto": "enable",
+    "feature_sliding_sync": "enable",
     "feature_state_counters": "labs",
     "feature_threadstable": "enable",
     "feature_video_rooms": "enable"
