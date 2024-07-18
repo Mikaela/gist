@@ -1,7 +1,7 @@
-! Version: 2024.22.0
+! Version: 2024.29.0
 ! Description: Aminda gist blocklist test
 ! Title: Aminda's small blocklist
-! Last modified: 2024-05-30T15:43:50+03:00
+! Last modified: 2024-07-18T06:35:48+03:00
 ! Expires: 24 hours
 ! Syntax: Domains (wildcards)
 ! License: CC-0

@@ -9,5 +9,8 @@
 ! Breaks {Google,Bing} webmaster tools
 !*$font,third-party
 
+!It fallbacks to system fonts
+beacondb.net$font
+*.beacondb.net$font
 
 ! HINT: Add `,badfilter` to end of any rule to override it.
