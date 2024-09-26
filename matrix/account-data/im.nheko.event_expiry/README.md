@@ -14,6 +14,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Disable](#disable)
+- [7 days](#7-days)
 - [28 days](#28-days)
   - [Example with keep only x messages & always keep](#example-with-keep-only-x-messages--always-keep)
 - [31 days](#31-days)
@@ -34,6 +35,17 @@
 ```json
 {
   "exclude_state_events": true
+}
+```
+
+## 7 days
+
+_Also known as a week._
+
+```json
+{
+  "exclude_state_events": true,
+  "expire_after_ms": 604800000
 }
 ```
 
