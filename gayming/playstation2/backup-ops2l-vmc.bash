@@ -13,9 +13,9 @@ mkdir -p $BACKUPDIR
 cp -arv "$VMCDIR" "$BACKUPDIR/$(date +%Y-%jT%H%M%S)"
 
 # Samba is fun with permissions
-chmod -R 777 $VMCDIR/..
-chmod -R 777 $VMCDIR
-chmod -R 777 $BACKUPDIR
+chmod -Rv 777 $VMCDIR/..
+chmod -Rv 777 $VMCDIR
+chmod -Rv 777 $BACKUPDIR
 
 # If duperemove is installed, perform FS based deduplication of backups
 if hash duperemove 2> /dev/null; then
