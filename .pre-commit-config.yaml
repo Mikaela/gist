@@ -15,7 +15,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -48,6 +48,7 @@ repos:
         args:
           [--autofix, --no-ensure-ascii]
           #- id: requirements-txt-fixer
+      - id: check-illegal-windows-names
 
   - repo: https://github.com/pre-commit/sync-pre-commit-deps
     rev: v0.0.1
@@ -66,7 +67,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.29.2
+    rev: 0.29.3
     hooks:
       #- id: check-dependabot
       #- id: check-github-actions
