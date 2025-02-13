@@ -10,6 +10,24 @@ importers:
       "@aminda/global-prettier-config":
         specifier: 2025.1.0
         version: 2025.1.0
+      "@prettier/plugin-ruby":
+        specifier: 4.0.4
+        version: 4.0.4(prettier@3.5.1)
+      "@prettier/plugin-xml":
+        specifier: 3.4.1
+        version: 3.4.1(prettier@3.5.1)
+      prettier:
+        specifier: 3.5.1
+        version: 3.5.1
+      prettier-plugin-nginx:
+        specifier: 1.0.3
+        version: 1.0.3
+      prettier-plugin-sh:
+        specifier: 0.14.0
+        version: 0.14.0(prettier@3.5.1)
+      prettier-plugin-toml:
+        specifier: 2.0.1
+        version: 2.0.1(prettier@3.5.1)
 
 packages:
   "@aminda/global-prettier-config@2025.1.0":
@@ -96,6 +114,14 @@ packages:
     engines: { node: ">=14" }
     hasBin: true
 
+  prettier@3.5.1:
+    resolution:
+      {
+        integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==,
+      }
+    engines: { node: ">=14" }
+    hasBin: true
+
   regexp-to-ast@0.5.0:
     resolution:
       {
@@ -129,10 +155,19 @@ snapshots:
     dependencies:
       prettier: 3.4.2
 
+  "@prettier/plugin-ruby@4.0.4(prettier@3.5.1)":
+    dependencies:
+      prettier: 3.5.1
+
   "@prettier/plugin-xml@3.4.1(prettier@3.4.2)":
     dependencies:
       "@xml-tools/parser": 1.0.11
       prettier: 3.4.2
+
+  "@prettier/plugin-xml@3.4.1(prettier@3.5.1)":
+    dependencies:
+      "@xml-tools/parser": 1.0.11
+      prettier: 3.5.1
 
   "@taplo/core@0.1.1": {}
 
@@ -158,12 +193,25 @@ snapshots:
       prettier: 3.4.2
       sh-syntax: 0.4.2
 
+  prettier-plugin-sh@0.14.0(prettier@3.5.1):
+    dependencies:
+      mvdan-sh: 0.10.1
+      prettier: 3.5.1
+      sh-syntax: 0.4.2
+
   prettier-plugin-toml@2.0.1(prettier@3.4.2):
     dependencies:
       "@taplo/lib": 0.4.0-alpha.2
       prettier: 3.4.2
 
+  prettier-plugin-toml@2.0.1(prettier@3.5.1):
+    dependencies:
+      "@taplo/lib": 0.4.0-alpha.2
+      prettier: 3.5.1
+
   prettier@3.4.2: {}
+
+  prettier@3.5.1: {}
 
   regexp-to-ast@0.5.0: {}
 
