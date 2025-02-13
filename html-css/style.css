@@ -7,12 +7,15 @@
 
 :root {
   color-scheme: dark light;
-  --fonts-sans-serif: ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
+  --fonts-sans-serif:
+    ui-sans-serif, "Liberation Sans", "Arimo", "Arial",
     sans-serif "Noto Emoji", "Noto Color Emoji", emoji;
-  --fonts-serif: ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif,
+  --fonts-serif:
+    ui-serif, "Liberation Serif", Tinos, "Times New Roman", serif,
     "Noto Emoji", "Noto Color Emoji", emoji;
-  --fonts-mono: ui-monospace, "Liberation Mono", Cousine, "Courier New",
-    monospace, "Noto Emoji", "Noto Color Emoji", emoji;
+  --fonts-mono:
+    ui-monospace, "Liberation Mono", Cousine, "Courier New", monospace,
+    "Noto Emoji", "Noto Color Emoji", emoji;
 }
 
 /* Call the variables through `var(--varnamehere)` by the way */

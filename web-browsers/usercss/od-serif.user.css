@@ -10,10 +10,12 @@
  */
 
 :root {
-  --FontSet: OpenDyslexic, "Liberation Serif", Tinos, "Times New Roman",
-    ui-serif, system-ui, serif, emoji;
-  --a-monospace-fonts: "Liberation Mono", "Cousine", "Courier New",
-    ui-monospace, monospace, emoji;
+  --FontSet:
+    OpenDyslexic, "Liberation Serif", Tinos, "Times New Roman", ui-serif,
+    system-ui, serif, emoji;
+  --a-monospace-fonts:
+    "Liberation Mono", "Cousine", "Courier New", ui-monospace, monospace,
+    emoji;
 }
 
 /* Use the variable from above. */

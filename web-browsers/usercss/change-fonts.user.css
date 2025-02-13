@@ -12,8 +12,9 @@
  */
 
 :root {
-  --a-monospace-fonts: "ui-monospace, Liberation Mono", "Cousine",
-    "Courier New", monospace, emoji;
+  --a-monospace-fonts:
+    "ui-monospace, Liberation Mono", "Cousine", "Courier New", monospace,
+    emoji;
 }
 
 /* Use the variable from above. */
