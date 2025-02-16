@@ -10,6 +10,6 @@
 !*$font,third-party
 
 ! I mainly see this with beacondb.net which has fallbacks to system-ui
-||cdn.joel.net.au/fonts/$font,third-party
+!||cdn.joel.net.au/fonts/$font,third-party
 
 ! HINT: Add `,badfilter` to end of any rule to override it.

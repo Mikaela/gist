@@ -1,4 +1,4 @@
-! Version: 2024.29.2
+! Version: 2025.07.0
 ! Description: Aminda gist blocklist test
 ! Title: Aminda's small blocklist
 ! Expires: 24 hours
