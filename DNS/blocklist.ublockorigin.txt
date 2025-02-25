@@ -1,15 +1,6 @@
-! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+! Aminda.eu missing content blocker notice. I use ignoring generic cosmetic
+! filters so a dedicated rule is needed.
+aminda.eu##.message.aoa_overlay.ninja-recommend-block.adde_modal-overlay.adde_modal_detector.happy-under-player.adsbyrunactive.stream-item-widget.gallery-bns-bl.wps-player__happy-inside.player-bns-block.video-brs.vertbars.full-bns-block.full-ave-pl.fints-block__row.rps_player_ads.aan_fake__video-units.aan_fake.hor_banner.bloc-pub2.bloc-pub.imggif.amp-ad-inner.mdp-deblocker-wrapper.rkads.header-menu-bottom-ads.overlay-advertising-new.glx-watermark-container.wgAdBlockMessage.advboxemb.brs-block.bottom-hor-block.ave-pl.exo-horizontal.blocker-overlay.blocker-notice.happy-inside-player.preroll-blocker.dbanner.trafficjunky-float-right.in_stream_banner.inplayer_banners.inplayer-ad.ark-ad-message.aff-item-list.aff-inner-col.aff-content-col.yxd-jd.yxd-j.ytd-j.native-ad-1.native-ad.ad.ftf-dma-note
 
-! This suggests disabling only third party fonts
-! https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-remote-fonts
-! NOTE that this doesn't seem to affect LocalCDN (which would mind first party
-! fonts being blocked though as it only cares about CDNs). Without the
-! third-party it would block all fonts and random things like Mastodon's
-! buttons would break.
-! Breaks {Google,Bing} webmaster tools
-!*$font,third-party
-
-! I mainly see this with beacondb.net which has fallbacks to system-ui
-!||cdn.joel.net.au/fonts/$font,third-party
-
-! HINT: Add `,badfilter` to end of any rule to override it.
+! Same for soatok.blog
+soatok.blog##.message.aoa_overlay.ninja-recommend-block.adde_modal-overlay.adde_modal_detector.happy-under-player.adsbyrunactive.stream-item-widget.gallery-bns-bl.wps-player__happy-inside.player-bns-block.video-brs.vertbars.full-bns-block.full-ave-pl.fints-block__row.rps_player_ads.aan_fake__video-units.aan_fake.hor_banner.bloc-pub2.bloc-pub.imggif.amp-ad-inner.mdp-deblocker-wrapper.rkads.header-menu-bottom-ads.overlay-advertising-new.glx-watermark-container.wgAdBlockMessage.advboxemb.brs-block.bottom-hor-block.ave-pl.exo-horizontal.blocker-overlay.blocker-notice.happy-inside-player.preroll-blocker.dbanner.trafficjunky-float-right.in_stream_banner.inplayer_banners.inplayer-ad.ark-ad-message.aff-item-list.aff-inner-col.aff-content-col.yxd-jd.yxd-j.ytd-j.native-ad-1.native-ad.ad.ftf-dma-note

@@ -1,7 +1,7 @@
-! Version: 2025.07.0
-! Description: Aminda gist blocklist test
+! Version: 2025.09.0
+! Description: Aminda gist blocklist
 ! Title: Aminda's small blocklist
-! Expires: 24 hours
+! Expires: 7 days
 ! Syntax: Domains (wildcards)
 ! License: CC-0
 
