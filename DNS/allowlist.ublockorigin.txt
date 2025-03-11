@@ -4,6 +4,7 @@
 @@||fonts.googleapis.com^$third-party,domain=ecosia.org
 @@||google.com^$third-party,domain=ecosia.org
 @@||googlesyndication.com^$third-party,domain=ecosia.org
+@@||googleadservices.com^$third-party,domain=ecosia.org
 @@||googleusercontent.com^$third-party,domain=ecosia.org
 @@||gstatic.com^$third-party,domain=ecosia.org
 @@||org.cdn.cloudflare.net^$third-party,domain=ecosia.org
