@@ -1,4 +1,4 @@
-! Version: 2025.09.0
+! Version: 2025.11.0
 ! Description: Aminda gist blocklist
 ! Title: Aminda's small blocklist
 ! Expires: 7 days
