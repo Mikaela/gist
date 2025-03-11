@@ -1,10 +1,11 @@
-! Version: 2025.11.0
+! Version: 2025.11.1
 ! Description: Aminda gist blocklist
 ! Title: Aminda's small blocklist
 ! Expires: 7 days
 ! Syntax: Domains (wildcards)
 ! License: CC-0
 
+!#include allowlist.ublockorigin.txt
 !#include blocklist.ublockorigin.txt
 google-analytics.com
 *.google-analytics.com

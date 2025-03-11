@@ -1,0 +1,12 @@
+! I prioritize climate over privacy, thus allowlisting Ecosia who plants
+! trees with ad-revenue.
+@@||ecosia.org^$third-party
+@@||fonts.googleapis.com^$third-party,domain=ecosia.org
+@@||google.com^$third-party,domain=ecosia.org
+@@||googlesyndication.com^$third-party,domain=ecosia.org
+@@||googleusercontent.com^$third-party,domain=ecosia.org
+@@||gstatic.com^$third-party,domain=ecosia.org
+@@||org.cdn.cloudflare.net^$third-party,domain=ecosia.org
+@@||privacy-center.org^$third-party,domain=ecosia.org
+@@||syndicatedsearch.goog^$third-party,domain=ecosia.org
+@@||wikimedia.org^$third-party,domain=ecosia.org
