@@ -9,8 +9,6 @@ ci:
 
 default_language_version:
   node: "lts"
-  # Remember .python-version !
-  python: "3.13"
   ruby: ".ruby-version"
 
 repos:
@@ -67,7 +65,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.31.3
+    rev: 0.32.1
     hooks:
       #- id: check-dependabot
       #- id: check-github-actions
