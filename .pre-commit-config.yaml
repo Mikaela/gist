@@ -65,7 +65,7 @@ repos:
         args: [--update-only, --notitle]
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.32.1
+    rev: 0.33.0
     hooks:
       #- id: check-dependabot
       #- id: check-github-actions
@@ -94,7 +94,7 @@ repos:
         types: [image]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "3.2.0"
+    rev: "3.2.1"
     hooks:
       - id: editorconfig-checker
         alias: ec
