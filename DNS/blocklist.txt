@@ -1,6 +1,6 @@
-! Version: 2025.11.2
+! Version: 2025.16.0
 ! Description: Aminda gist blocklist
-! Title: Aminda's small blocklist
+! Title: Aminda's small uBlock Origin list
 ! Expires: 7 days
 ! Syntax: Domains (wildcards)
 ! License: CC-0

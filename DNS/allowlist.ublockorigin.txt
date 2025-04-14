@@ -1,5 +1,6 @@
 ! I prioritize climate over privacy, thus allowlisting Ecosia who plants
-! trees with ad-revenue.
+! trees with ad-revenue. I am not sure whether these rules work, since I
+! disable uBlock Origin for www.ecosia.org anyway.
 @@||ecosia.org^$third-party
 @@||fonts.googleapis.com^$third-party,domain=ecosia.org
 @@||google.com^$third-party,domain=ecosia.org
@@ -11,3 +12,10 @@
 @@||privacy-center.org^$third-party,domain=ecosia.org
 @@||syndicatedsearch.goog^$third-party,domain=ecosia.org
 @@||wikimedia.org^$third-party,domain=ecosia.org
+
+! I use Bitwarden and occassionally see the extension causing it to pop-up
+! in uBlock Origin filters. This is an attempt to have it work without
+! policies.
+@@||bitwarden.eu^$third-party
+! Just in case
+@@||bitwarden.com^$third-party
