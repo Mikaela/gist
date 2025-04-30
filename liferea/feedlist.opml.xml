@@ -1,17 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <opml version="1.0">
   <head>
     <title>Liferea Feed List Export</title>
   </head>
   <body>
-    <outline title="Suomi" text="Suomi" description="Suomi" type="folder">
-      <outline title="Hätäkeskuslaitos - Tiedotteet" text="Hätäkeskuslaitos - Tiedotteet" description="Hätäkeskuslaitos - Tiedotteet" type="rss" xmlUrl="https://112.fi/uutishuone/-/asset_publisher/XrYoIl7TpWvq/rss" htmlUrl="https://112.fi/uutishuone/-/asset_publisher/XrYoIl7TpWvq/rss"/>
-      <outline title="Fingrid" text="Fingrid" description="Fingrid" type="rss" xmlUrl="https://www.fingrid.fi/api/rss/news?language=fi" htmlUrl="http://www.fingrid.fi/api/rss/news?language=fi"/>
-      <outline title="Puolustusvoimat.fi - Uusimmat ampumatiedotteet" text="Puolustusvoimat.fi - Uusimmat ampumatiedotteet" description="Puolustusvoimat.fi - Uusimmat ampumatiedotteet" type="rss" xmlUrl="https://puolustusvoimat.fi/ajankohtaista/ampuma-ja-melutiedotteet/-/announcements/rss" htmlUrl="http://puolustusvoimat.fi"/>
-      <outline title="Energiavirasto - Ajankohtaista" text="Energiavirasto - Ajankohtaista" description="Energiavirasto - Ajankohtaista" type="atom" xmlUrl="https://energiavirasto.fi/etusivu/-/asset_publisher/mip7ZqWho2Ph/rss" htmlUrl="https://energiavirasto.fi/etusivu"/>
-      <outline title="Poliisi - Ajankohtaista" text="Poliisi - Ajankohtaista" description="Poliisi - Ajankohtaista" type="rss" xmlUrl="https://poliisi.fi/ajankohtaista/-/asset_publisher/yCqu73OvueAR/rss" htmlUrl="https://poliisi.fi/ajankohtaista/-/asset_publisher/yCqu73OvueAR/rss"/>
-      <outline title="Motiva -" text="Motiva -" description="Motiva -" type="rss" xmlUrl="https://www.motiva.fi/rss/ajankohtaista/uutiset" htmlUrl="https://www.motiva.fi/"/>
-      <outline title="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset" text="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset" description="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset" type="rss" xmlUrl="https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET&amp;amp;concepts=18-82214" htmlUrl="https://yle.fi/uutiset"/>
+    <outline
+      title="Suomi"
+      text="Suomi"
+      description="Suomi"
+      type="folder">
+      <outline
+        title="Hätäkeskuslaitos - Tiedotteet"
+        text="Hätäkeskuslaitos - Tiedotteet"
+        description="Hätäkeskuslaitos - Tiedotteet"
+        type="rss"
+        xmlUrl="https://112.fi/uutishuone/-/asset_publisher/XrYoIl7TpWvq/rss"
+        htmlUrl="https://112.fi/uutishuone/-/asset_publisher/XrYoIl7TpWvq/rss" />
+      <outline
+        title="Fingrid"
+        text="Fingrid"
+        description="Fingrid"
+        type="rss"
+        xmlUrl="https://www.fingrid.fi/api/rss/news?language=fi"
+        htmlUrl="http://www.fingrid.fi/api/rss/news?language=fi" />
+      <outline
+        title="Puolustusvoimat.fi - Uusimmat ampumatiedotteet"
+        text="Puolustusvoimat.fi - Uusimmat ampumatiedotteet"
+        description="Puolustusvoimat.fi - Uusimmat ampumatiedotteet"
+        type="rss"
+        xmlUrl="https://puolustusvoimat.fi/ajankohtaista/ampuma-ja-melutiedotteet/-/announcements/rss"
+        htmlUrl="http://puolustusvoimat.fi" />
+      <outline
+        title="Energiavirasto - Ajankohtaista"
+        text="Energiavirasto - Ajankohtaista"
+        description="Energiavirasto - Ajankohtaista"
+        type="atom"
+        xmlUrl="https://energiavirasto.fi/etusivu/-/asset_publisher/mip7ZqWho2Ph/rss"
+        htmlUrl="https://energiavirasto.fi/etusivu" />
+      <outline
+        title="Poliisi - Ajankohtaista"
+        text="Poliisi - Ajankohtaista"
+        description="Poliisi - Ajankohtaista"
+        type="rss"
+        xmlUrl="https://poliisi.fi/ajankohtaista/-/asset_publisher/yCqu73OvueAR/rss"
+        htmlUrl="https://poliisi.fi/ajankohtaista/-/asset_publisher/yCqu73OvueAR/rss" />
+      <outline
+        title="Motiva -"
+        text="Motiva -"
+        description="Motiva -"
+        type="rss"
+        xmlUrl="https://www.motiva.fi/rss/ajankohtaista/uutiset"
+        htmlUrl="https://www.motiva.fi/" />
+      <outline
+        title="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset"
+        text="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset"
+        description="Yle Uutiset | Vaaratiedotteet | Tuoreimmat uutiset"
+        type="rss"
+        xmlUrl="https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET&amp;amp;concepts=18-82214"
+        htmlUrl="https://yle.fi/uutiset" />
     </outline>
   </body>
 </opml>
