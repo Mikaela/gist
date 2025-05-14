@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -34,6 +32,7 @@ The main point I do this for is users `users`
         "@aminda:envs.net": 100,
         "@leon:masfloss.net": 13,
         "@fidino:artemislena.eu": 99,
+        "@twisted3484:beeper.com": 99,
         "@mjolnir_3a78dd65-60a4-4c3a-9a60-01e214a5d6f6:draupnir.midnightthoughts.space": 99
     }
 },
@@ -76,7 +75,7 @@ This is not the Element/Synapse default as that would be pointless to list.
   },
   "events_default": 0,
   "historical": 100,
-  "invite": 13,
+  "invite": 25,
   "kick": 25,
   "redact": 25,
   "state_default": 50,
@@ -95,12 +94,10 @@ This is not the Element/Synapse default as that would be pointless to list.
   for ops syncing. On matrix side immune mods, could be PL52.
 - `m.room.server_acl` is set to `99` so moderation bots can function and do
   mostly everything while admins still have power over them.
-- invite commonly defaults to `50`, but I haven't seen abuse through it.
-  However as it changes state by introducing membership event, it goes to the
-  minimum power of 13.
 - PL25, half-moderator is introduced (inspired from Ergo/IRC halfop), with
   powers to: change room topic, pinned messages, remove messages and kick
-  users (but not ban).
+  users (but not ban). As kick is also known as rejection of knocking and
+  invite is the approval, invite also becomes their power.
   - Maybe this could be used e.g. in an association where a secretary/someone
     unwilling to be a full moderator wants to update room topic for next
     meeting time or update a version number? :shrug: Alternatively someone not
