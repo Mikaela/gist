@@ -46,11 +46,14 @@ Steam? Edit launch options for the game (second click, properties, general,
 launch options):
 
 ```
-gamescope --steam --borderless -- %command%
+SteamDeck=1 gamescope --steam --borderless -- %command%
 ```
 
 See also `gamescope --help`
 
+- `SteamDeck=1` sends same variable as Steam Deck and magically fixes some
+  games. E.g. Kingdom Hearts: Birth by Sleep (part of KH 1.5 + 2.5 HD), except
+  that it has screen tearing which gamescope fixes.
 - `--steam` - enables Steam integration, whatever that is
 - `--borderless` borderless full-screen mode (that Sway may be making windowed
   though)
