@@ -46,7 +46,7 @@ Steam? Edit launch options for the game (second click, properties, general,
 launch options):
 
 ```
-SteamDeck=1 gamescope --steam --borderless -- %command%
+SteamDeck=1 MANGOHUD=0 gamemoderun gamescope --steam --borderless --mangoapp -- %command%
 ```
 
 See also `gamescope --help`
@@ -54,16 +54,19 @@ See also `gamescope --help`
 - `SteamDeck=1` sends same variable as Steam Deck and magically fixes some
   games. E.g. Kingdom Hearts: Birth by Sleep (part of KH 1.5 + 2.5 HD), except
   that it has screen tearing which gamescope fixes.
+- `MANGOHUD=0` disables mangohud so there won't be two of them
 - `--steam` - enables Steam integration, whatever that is
 - `--borderless` borderless full-screen mode (that Sway may be making windowed
   though)
+- `--mangoapp` enables mangohud (and without the previous disabling there are
+  two overlapping ones)
 
 ##### Graphics corruption such as display full of black dots
 
 When the previous launch options cause this,
 
 ```
-INTEL_DEBUG=norbc gamescope --steam --borderless -- %command%
+INTEL_DEBUG=norbc SteamDeck=1 MANGOHUD=0 gamemoderun gamescope --steam --borderless --mangoapp -- %command%
 ```
 
 I saw this advice at
