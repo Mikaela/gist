@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # Notes related to gayming
 
 _A lot of older files that I haven't touched recently were moved to this
@@ -34,6 +32,10 @@ links._
 
 ### Issues and solutions
 
+```bash
+sudo flatpak override --env=SteamDeck=1 --env=MANGOHUD=1
+```
+
 #### Constant camera rotation
 
 Reload Sway in-game, `$Mod+Shift+C` and it should stop.
@@ -55,6 +57,7 @@ See also `gamescope --help`
   games. E.g. Kingdom Hearts: Birth by Sleep (part of KH 1.5 + 2.5 HD), except
   that it has screen tearing which gamescope fixes.
 - `MANGOHUD=0` disables mangohud so there won't be two of them
+  (`sudo flatpak override --env=MANGOHUD=1`)
 - `--steam` - enables Steam integration, whatever that is
 - `--borderless` borderless full-screen mode (that Sway may be making windowed
   though)
@@ -92,13 +95,18 @@ may cross-reference here.
   `~/.var/app/com.valvesoftware.Steam/data/Steam`. The `data/Steam` confuses
   me too.
 - No input in Skyrim Special Edition GOG? Try quitting Steam. That may also
-  affect other games (KH:MoM didn't care whether Steam was running or not).
-- Gamescope and Mangohud installed, but not found? Pay attention to their
-  branch, at the time of writing they want branch `23.08`.
-  - Remember the dualslash shortpaw!
-    `sudo flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud//23.08 org.freedesktop.Platform.VulkanLayer.gamescope//23.08`
+  affect other games.
+- Don't enable mangohud within Heroic. It should enable itself through
+  `MANGOHUD=1` (`sudo flatpak override --env=MANGOHUD=1`)
+- <del>Gamescope and Mangohud installed, but not found? Pay attention to their
+  branch, at the time of writing they want branch `24.08`.</del>
+  - <del>Remember the dualslash shortpaw!</del>
+    `sudo flatpak install flathub org.freedesktop.Platform.VulkanLayer.MangoHud//24.08 org.freedesktop.Platform.VulkanLayer.gamescope//24.08`
 
 #### Actually using gamescope
+
+**_Hooking error that you can ignore and proceed by pressing OK? Disable
+gamescope. And mangohud, see above._**
 
 Having gamescope and mangohud installed and found? That is not enough to use
 it.
@@ -110,14 +118,23 @@ it.
   [How the heck do I get gamescope working with Heroic Games Launcher?](https://rimworld.gallery/m/linux_gaming@lemmy.world/t/2882/How-the-heck-do-I-get-gamescope-working-with-Heroic/comment/20433#entry-comment-20433)
 
 Same page may have hinted me on the branch version numbers, but I lost the
-source for that.
+source for that. And then they updated them anyway and I had to figure out by
+myself that I had to install the newer branch.
 
 ### Steam flatpak
 
 See also above and below. Remember to
 `sudo flatpak install flathub com.valvesoftware.Steam.CompatibilityTool.Proton-GE`
 and in Steam settings find the checkbox to make everything run with
-compatibility tool `Proton GE (flatpak)`.
+compatibility tool `Proton GE (flatpak)`. That however doesn't apply to Steam
+Deck/Play compatible games so you will have to edit the compatibility settings
+for them and force `Proton GE (flatpak)` (and the launch options) for
+everything by yourself.
+
+If you neglect changing the proton version, everything might just work, or you
+will get a hooking failure warning that lets you press ok to proceed anyway
+and everything might still be working, or you may have screen tearing and
+require gamescope far above in this document to fix it.
 
 ### Steam Deck
 
