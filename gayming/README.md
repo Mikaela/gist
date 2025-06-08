@@ -42,13 +42,14 @@ Reload Sway in-game, `$Mod+Shift+C` and it should stop.
 
 #### Cursor doesn't stick to game window
 
-Run the game with `gamescope`.
+Run the game with `gamescope` if it's a problem. Or you could somehow bypass
+the launcher or remember options if controller is used.
 
 Steam? Edit launch options for the game (second click, properties, general,
 launch options):
 
 ```
-SteamDeck=1 MANGOHUD=0 gamemoderun gamescope --steam --borderless --mangoapp -- %command%
+SteamDeck=1 MANGOHUD=0 gamescope --steam --borderless --mangoapp -- %command%
 ```
 
 See also `gamescope --help`
@@ -64,10 +65,9 @@ See also `gamescope --help`
 - `--mangoapp` enables mangohud (and without the previous disabling there are
   two overlapping ones)
 
-Don't forget that some games are allergic to gamescope and Steam Input
-requiring disabling those in the right click menu and just want
-`SteamDeck=1 %command%` for working. E.g. Final Fantasy XIII where exiting
-again is `ESC` and enter.
+It might be the best to run Steam with `gamemoderun` and have `SteamDeck=1` be
+part of the environment otherwise alongside `MANGOHUD=1` so only `gamescope`
+and Proton version would require game specific configuration.
 
 ##### Graphics corruption such as display full of black dots
 
