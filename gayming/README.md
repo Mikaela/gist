@@ -64,6 +64,11 @@ See also `gamescope --help`
 - `--mangoapp` enables mangohud (and without the previous disabling there are
   two overlapping ones)
 
+Don't forget that some games are allergic to gamescope and Steam Input
+requiring disabling those in the right click menu and just want
+`SteamDeck=1 %command%` for working. E.g. Final Fantasy XIII where exiting
+again is `ESC` and enter.
+
 ##### Graphics corruption such as display full of black dots
 
 When the previous launch options cause this,
