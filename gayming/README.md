@@ -22,6 +22,7 @@ links._
   - [Steam flatpak](#steam-flatpak)
   - [Steam Deck](#steam-deck)
   - [Other flatpak lifehacks](#other-flatpak-lifehacks)
+    - [Final Fantasy XIV](#final-fantasy-xiv)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -159,3 +160,15 @@ Launcher settings to start minimized.
 
 Don't forget
 [scripts/bash/flatpak-workarounds.bash](https://gitea.blesmrt.net/mikaela/scripts/src/branch/master/bash/flatpak-workarounds.bash)!
+
+#### Final Fantasy XIV
+
+- Use FFXIV Launcher for less bad login experience.
+- Audio crackling? pipewire delay msec is in flatpak-workarounds.bash
+- Activate free trial on Windows VM, trial/images are available from
+  Microsoft.
+- Wrong Local Time (LT) and Server Time (ST)? Edit launch parameters to
+  `TZ=UTC-3 %command%` for UTC+3 (Finland during DST) local time and server
+  time correctly appear as UTC. No idea why it doesn't recognise simple
+  `TZ=Europe/Helsinki`, but whatever, it has to be changed only twice a year
+  until DST is abolished (hopefully soon...)
