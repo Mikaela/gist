@@ -172,3 +172,7 @@ Don't forget
   time correctly appear as UTC. No idea why it doesn't recognise simple
   `TZ=Europe/Helsinki`, but whatever, it has to be changed only twice a year
   until DST is abolished (hopefully soon...)
+  - WARNING! The variable apparently means "create a new timezone definition
+    named UTC which is three hours ahead of UTC", which makes it fixing FFXIV
+    even weirder.
+    [Explanation](https://unix.stackexchange.com/questions/700623/is-my-zoneinfo-backwards-or-am-i-confused/700632#700632)
