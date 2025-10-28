@@ -163,13 +163,17 @@ Don't forget
 
 #### Final Fantasy XIV
 
-- Use FFXIV Launcher for less bad login experience.
-- Audio crackling? pipewire delay msec is in flatpak-workarounds.bash
-- Activate free trial on Windows VM, trial/images are available from
+- Use
+  [XIVLauncher](https://goatcorp.github.io/faq/steamdeck#install-xivlauncher-as-a-steam-compatibility-tool)
+  for less bad login experience.
+- Audio crackling? pipewire delay msec is in `flatpak-workarounds.bash`
+- Activate free trial on a Windows VM, trial/images are available from
   Microsoft.
+  - I was unable to check box and continue on accepting the free trial terms,
+    which was required for the account to get activated for login.
 - Wrong Local Time (LT) and Server Time (ST)? Edit launch parameters to
-  `TZ=UTC-3 %command%` for UTC+3 (Finland during DST) local time and server
-  time correctly appear as UTC. No idea why it doesn't recognise simple
+  `TZ=UTC-2 %command%` for UTC+2 (Finnish standard/winter time) local time and
+  server time correctly appear as UTC. No idea why it doesn't recognise simple
   `TZ=Europe/Helsinki`, but whatever, it has to be changed only twice a year
   until DST is abolished (hopefully soon...)
   - WARNING! The variable apparently means "create a new timezone definition
