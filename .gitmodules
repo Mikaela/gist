@@ -2,93 +2,119 @@
 	path = LaTeX/piraattitesti
 	url = https://git.piraattipuolue.fi/mikaela.suomalainen/testi.git
 	branch = cxefa
+	ignore = dirty
 [submodule "gayming/fixcontroller.py"]
 	path = gayming/fixcontroller.py
 	url = https://gist.github.com/de2df973323b7c6acf45f40dc66e8db3.git
+	ignore = dirty
 [submodule "briar/forums/PandaCoderPL"]
 	path = briar/forums/PandaCoderPL
 	url = https://codeberg.org/PandaCoderPL/Briar-Forums.git
 	branch = main
+	ignore = dirty
 [submodule "associations/piraattinuoret/meeting-notes/official"]
 	path = associations/piraattinuoret/meeting-notes/official
 	url = https://github.com/Piraattinuoret/Poytakirjat.git
 	branch = captain
+	ignore = dirty
 [submodule "submodules/PPFI-IM"]
 	path = submodules/PPFI-IM
 	url = https://git.piraattipuolue.fi/Pikaviestimet/Pikaviestimet.git
 	branch = master
+	ignore = dirty
 [submodule "language-resources"]
 	path = language-resources
 	url = https://gitea.blesmrt.net/mikaela/language-resources.git
 	branch = cxefa
+	ignore = dirty
 [submodule "food"]
 	path = food
 	url = https://gitea.blesmrt.net/mikaela/ruokajutut
 	branch = master
+	ignore = dirty
 [submodule "fineid/pyllyukko-fineid.md"]
 	path = fineid/pyllyukko-fineid.md
 	url = https://gist.github.com/a1ed6baa6b638b805a30b16960399e94.git
+	ignore = dirty
 [submodule "submodules/shell-things"]
 	path = submodules/shell-things
 	url = https://gitea.blesmrt.net/Mikaela/shell-things.git
-	branch = master
+	branch = cxefa
+	ignore = dirty
 [submodule "LaTeX/vakioasiakirja"]
 	path = LaTeX/vakioasiakirja
 	url = https://github.com/datakurre/vakioasiakirja.git
 	branch = master
+	ignore = dirty
 [submodule "LaTeX/kirja"]
 	path = LaTeX/kirja
 	url = https://git.piraattipuolue.fi/mikaela.suomalainen/kirja.git
 	branch = captain
+	ignore = dirty
 [submodule "submodules/playstation2/OPL-Widescreen-Cheats"]
 	path = submodules/playstation2/OPL-Widescreen-Cheats
 	url = https://github.com/PS2-Widescreen/OPL-Widescreen-Cheats.git
 	branch = main
+	ignore = dirty
 [submodule "submodules/playstation2/OpenPS2Loader_Widescreen_Cheats"]
 	path = submodules/playstation2/OpenPS2Loader_Widescreen_Cheats
 	url = https://github.com/madmodder123/OpenPS2Loader_Widescreen_Cheats.git
 	branch = master
+	ignore = dirty
 [submodule "briar/forums/retiolus"]
 	path = briar/forums/retiolus
 	url = https://codeberg.org/retiolus/Briar-Forums.git
 	branch = main
+	ignore = dirty
 [submodule "LaTeX/european-union-flags"]
 	path = LaTeX/european-union-flags
 	url = https://gitea.blesmrt.net/Mikaela/eu-lippuprojekti.git
 	branch = cxefa
+	ignore = dirty
 [submodule "briar/briar.wiki"]
 	path = briar/briar.wiki
 	url = https://code.briarproject.org/briar/briar.wiki.git
+	ignore = dirty
 [submodule "git/github/activity/finland/2015-02-12"]
 	path = git/github/activity/finland/2015-02-12
 	url = https://gist.github.com/1d41a0045ab8e9f411ff.git
+	ignore = dirty
 [submodule "git/github/activity/finland/2016-04-19"]
 	path = git/github/activity/finland/2016-04-19
 	url = https://gist.github.com/4ebdda1952976b8cc0af.git
+	ignore = dirty
 [submodule "git/github/activity/finland/2014-12-13"]
 	path = git/github/activity/finland/2014-12-13
 	url = https://gist.github.com/b23b15d2859e6cf5386b.git
+	ignore = dirty
 [submodule "git/github/activity/finland/2015-04-19"]
 	path = git/github/activity/finland/2015-04-19
 	url = https://gist.github.com/4ebdda1952976b8cc0af.git
+	ignore = dirty
 [submodule "git/github/activity/gayanvoice-top-github-users"]
 	path = git/github/activity/gayanvoice-top-github-users
 	url = https://github.com/gayanvoice/top-github-users.git
 	branch = main
+	ignore = dirty
 [submodule "briar/briar-mailbox.wiki"]
 	path = briar/briar-mailbox.wiki
 	url = https://code.briarproject.org/briar/briar-mailbox.wiki.git
+	ignore = dirty
 [submodule "briar/briar-desktop.wiki"]
 	path = briar/briar-desktop.wiki
 	url = https://code.briarproject.org/briar/briar-desktop.wiki.git
+	ignore = dirty
 [submodule "submodules/language-resources"]
 	path = submodules/language-resources
 	url = https://gitea.blesmrt.net/Mikaela/language-resources.git
 	branch = cxefa
+	ignore = dirty
 [submodule "submodules/curl.wiki"]
 	path = submodules/curl.wiki
 	url = https://github.com/curl/curl.wiki.git
+	ignore = dirty
 [submodule "submodules/yggdrasil-public-peers"]
 	path = submodules/yggdrasil-public-peers
 	url = https://github.com/yggdrasil-network/public-peers.git
 	branch = master
+	ignore = dirty
