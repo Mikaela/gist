@@ -16,6 +16,8 @@ links._
     - [Cursor doesn't stick to game window](#cursor-doesnt-stick-to-game-window)
       - [Graphics corruption such as display full of black dots](#graphics-corruption-such-as-display-full-of-black-dots)
     - [Steam client itself is laggy](#steam-client-itself-is-laggy)
+- [Problems unrelated to wayland](#problems-unrelated-to-wayland)
+  - [Misbehaving Bluetooth devices](#misbehaving-bluetooth-devices)
 - [Fedora Atomic](#fedora-atomic)
   - [Heroic Games flatpak](#heroic-games-flatpak)
     - [Actually using gamescope](#actually-using-gamescope)
@@ -88,6 +90,22 @@ it's tracked at
 Close/logoff friends window/network or disable its animations.
 
 - https://github.com/ValveSoftware/steam-for-linux/issues/7245#issuecomment-897417115
+
+## Problems unrelated to wayland
+
+Those exist.
+
+### Misbehaving Bluetooth devices
+
+Bluetooth or bluetooth devices turning themselves off after a few hours and
+recovering a system reboot to work again? Enter Bluetooth autosuspend on
+Linux. Alternatively it could be a case of device requiring a HID reset
+command on reboot. There are two solutions:
+
+- Configure the Bluetooth kernel module through kernel command line parameters
+  `btusb.enable_autosuspend=0 btusb.reset=1`
+- Or configure `/etc/modprobe.d/<whatever-you-want>.conf` with
+  `options btusb enable_autosuspend=0 reset=1`
 
 ## Fedora Atomic
 
