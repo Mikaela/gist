@@ -1,5 +1,7 @@
-! Remember copying rules and appending ,badrule or whatever it was
+! Remember copying rules and appending ,badfilter
+! https://github.com/gorhill/ublock/wiki/Static-filter-syntax#badfilter
+
 ! Distrust fonts
 *$font
-! Distrust only third party fonts (if above is commented or badruled)
+! Distrust only third party fonts (if above is commented or badfilter:ed)
 *$font,third-party
