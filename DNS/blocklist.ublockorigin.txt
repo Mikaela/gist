@@ -1,5 +1,5 @@
 ! Remember copying rules and appending ,badrule or whatever it was
 ! Distrust fonts
 *$font
-! Distrust only third party fonts
-!*$font,third-party
+! Distrust only third party fonts (if above is commented or badruled)
+*$font,third-party
