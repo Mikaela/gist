@@ -2,6 +2,6 @@
 ! https://github.com/gorhill/ublock/wiki/Static-filter-syntax#badfilter
 
 ! Distrust fonts
-*$font
+!*$font
 ! Distrust only third party fonts (if above is commented or badfilter:ed)
 *$font,third-party
