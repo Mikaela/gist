@@ -4,4 +4,4 @@
 ! Distrust fonts
 !*$font
 ! Distrust only third party fonts (if above is commented or badfilter:ed)
-*$font,third-party
+!*$font,third-party
