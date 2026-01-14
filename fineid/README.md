@@ -42,18 +42,30 @@ module: /usr/lib64/libcryptoki.so
 managed: no
 ```
 
+or with the 2026 application `/etc/pkcs11/modules/atostek.module`:
+
+```
+module: /usr/lib64/Atostek-ID-PKCS11.so
+managed: no
+```
+
 ## Chromium
 
-Should work as long as the `DigiSignApplication` from above was running before
-the browser was started.
+Should work as long as the `DigiSignApplication` XOR `atostekid` from above
+was running before the browser was started.
+
+In case of issues with `atostekid`, try closing the browser and running
+`atostekid-setup-user-browser.sh`.
 
 ## Firefox and Thunderbird
 
-**_This doesn't apply if the above libcryptoki.so is created and preferably
-`libcryptoki.so` would be loaded anyway_**
+**_This shouldn't apply if the above `libcryptoki.module` or `atostek.module`
+is created and preferably `libcryptoki.so` or Atostek-ID-PKCS11.so would be
+loaded anyway_**
 
-In Settings, Advanced, Security devices load the module from (DVV app)
-`/usr/lib64/libcryptoki.so` or (OpenSC):
+In Settings, Advanced, Security devices load the module from DVV app before
+2026 `/usr/lib64/libcryptoki.so` or `/usr/lib64/Atostek-ID-PKCS11.so` since
+2026 or OpenSC:
 
 - Debian: `/usr/lib/x86_64-linux-gnu/onepin-opensc-pkcs11.so`
   - Package: `opensc-pkcs11`
@@ -77,12 +89,23 @@ doesn't exist:
   "policies": {
     "SecurityDevices": {
       "Add": {
+        "Atostek ID": "/usr/lib64/Atostek-ID-PKCS11.so",
+        "Debian OpenSC onepin": "/usr/lib/x86_64-linux-gnu/onepin-opensc-pkcs11.so",
+        "Fedora OpenSC onepin": "/usr/lib64/onepin-opensc-pkcs11.so",
         "Fujitsu mPollux DigiSignApplication": "/usr/lib64/libcryptoki.so"
       }
     }
   }
 }
 ```
+
+Firefox will silently ignore missing security devices, unless the user
+explicitly navigates to `about:policies#errors` which will log
+
+> Unable to add security device Debian OpenSC onepin Unable to add security
+> device Fujitsu mPollux DigiSignApplication
+
+on _Fedora Linux 43.20260114.0 (Kinoite)_ when using Atostek ID.
 
 ## Okular
 
