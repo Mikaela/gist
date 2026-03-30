@@ -1,4 +1,4 @@
-! Version: 2026.02.0
+! Version: 2026.14.0
 ! Description: Aminda gist blocklist
 ! Title: Aminda's small uBlock Origin list
 ! Syntax: Domains (wildcards)
@@ -18,3 +18,19 @@ router.asus.com
 *.mywifiext.net
 *.tplinkrepeater.net
 *.router.asus.com
+
+! Infinite captcha loop used to DDoS
+archive.today
+archive.fo
+archive.is
+archive.li
+archive.md
+archive.ph
+archive.vn
+*.archive.today
+*.archive.fo
+*.archive.is
+*.archive.li
+*.archive.md
+*.archive.ph
+*.archive.vn
