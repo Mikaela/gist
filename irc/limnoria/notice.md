@@ -24,15 +24,22 @@ config channel #CHAN supybot.reply.error.withNotice True
 config channel #CHAN supybot.reply.withNotice True
 ```
 
+To do it globally, simply
+
+```
+config supybot.reply.error.withNotice True
+config supybot.reply.withNotice True
+```
+
 ## Other options
 
-`supybot.reply.withNoticeWhenPrivate` to have noticed used in private, not
-channel-specific
+`supybot.reply.withNoticeWhenPrivate` to have notices used in private. This is
+not channel-specific,
 
 ## Other plugins
 
 ```
-config channel #CHAN supybot.plugins.RSS.notice False
+config channel #CHAN supybot.plugins.RSS.notice True
 ```
 
 - RSS announces as NOTICEs
@@ -42,5 +49,5 @@ config channel #CHAN supybot.plugins.RSS.notice False
 ```
 config reset channel #CHAN supybot.reply.error.withNotice
 config reset channel #CHAN supybot.reply.withNotice
-config reset channel #CHAN supybot.plugins.RSS.notice False
+config reset channel #CHAN supybot.plugins.RSS.notice
 ```
