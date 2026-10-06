@@ -19,8 +19,13 @@ felt too awkward.
 The light is very helpful for woofwalking when the woof decides to go to spots
 that poor street light leaves invisible due to causing so many shadows and
 also helps with the nice areas that don't have streetlights. I always use the
-less bright option, since at dark the minimum light that allows you to see is
-the best and also saves battery.
+less bright option, which the manual says to be 50 % mode and thus _100
+lumens_, since at dark the minimum light that allows you to see is the best
+and also saves battery.
+
+The manual does reveal that when the 100%/200 lumen mode the rear light
+flashes green and in 50%/100 lumen mode it goes stroboscopic. That might
+bother me if I ever saw it from the behind.
 
 See also:
 
