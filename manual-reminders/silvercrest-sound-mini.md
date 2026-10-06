@@ -10,9 +10,26 @@
 _I am not the copyright holder and direct quotations from the manual linked
 above are quoted._
 
+<!-- editorconfig-checker-disable -->
+<!-- prettier-ignore-start -->
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [True Wireless Stereo (TWS)](#true-wireless-stereo-tws)
+  - [Button explanations: Bluetooth](#button-explanations-bluetooth)
+
+<!-- END doctoc -->
+
+<!-- prettier-ignore-end -->
+<!-- editorconfig-checker-enable -->
+
 ## True Wireless Stereo (TWS)
 
-On the Bluetooth button:
+When input device is connected by Bluetooth, the main/left speaker LED blinks
+slowly, while the secondary/right speaker LED stays on.
+
+### Button explanations: Bluetooth
 
 > - Press briefly to pair two units before they connect to an external
 >   Bluetooth® playback device. A signal tone will be heard if pairing has
@@ -23,7 +40,7 @@ On the Bluetooth button:
 
 Later on a dedicated section:
 
-> ## TWS pairing
+> ### TWS pairing
 
 > **NOTE:** The TWS (True Wireless Stereo) function is only available if two
 > of these products have been purchased and both have the same model number.
